@@ -373,7 +373,7 @@
     });
 </script>
 
-<script type="text/javascript">
+<script>
     $(window).on('scroll', function() {
         if ($(window).scrollTop() > 600) {
             $('.side-slide1,.side-slide').addClass('remove');
@@ -382,6 +382,21 @@
         }
     });    
 </script>
+
+<script>
+    if ( $(window).width() < 768 ){
+            $('.btn01,.btn01').click(function() {
+                $('.side-slide,.side-slide').animate({right: "0px"}, 200);
+            });
+            $('.nav01').click(function() {
+                $('.side-slide,.side-slide').animate({right: "-320px"}, 200);
+            });
+        }
+</script>
+
+
+
+
 
 </body>
 </html>

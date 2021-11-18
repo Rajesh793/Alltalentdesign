@@ -16,8 +16,19 @@
 
 }
 @media only screen and (max-width:767px) {
-
 .all_head { position: relative; top: 0;}
+.all_head_main{display: block;}
+.all_head_right{padding-right: 0;text-align: center;}
+.all_head_right ul li{color: #000;}
+.all_head_right ul li button{color: #000;}
+.side-slide1{width: 320px;padding: 20px;}
+.side-slide{width: 320px;padding: 20px;}
+
+
+
+
+
+
 
 
 }
