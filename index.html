@@ -373,12 +373,22 @@
     });
 </script>
 
-<script>
+<!-- <script>
     $(window).on('scroll', function() {
         if ($(window).scrollTop() > 600) {
             $('.side-slide1,.side-slide').addClass('remove');
         } else {
             $('.side-slide1,.side-slide').removeClass('remove');
+        }
+    });    
+</script> -->
+
+<script type="text/javascript">
+    $(window).on('scroll', function() {
+        if ($(window).scrollTop() > 100) {
+            $('.all_head').addClass('sticky_header animated fadeInDown');
+        } else {
+            $('.all_head').removeClass('sticky_header animated fadeInDown');
         }
     });    
 </script>
