@@ -14,7 +14,7 @@
 <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"> 
-<link rel="stylesheet" type="text/css" href="css/styles.min.css">
+<!-- <link rel="stylesheet" type="text/css" href="css/styles.min.css"> -->
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <link rel="stylesheet" type="text/css" href="css/responsive.css">  
 
@@ -41,7 +41,7 @@
                             <img src="images/logo.png" alt="" title="" />
                         </a>
                     </div>
-                    <div class="inner_head_list">
+                    <div class="inner_head_list desk_mode">
                         <ul>
                             <li>
                                 <a href="#">TALENT</a>
@@ -78,6 +78,54 @@
                             </li>   
                         </ul>
                     </div>
+                    <div class="all_head_right mob_mode">
+                        <ul>
+                            <li class=""><button class="btn02"><i class="fas fa-bars"></i></button></li>
+                        </ul>
+                    </div>
+                    <nav class="side-slide1 mob_mode">
+                        <div class="slide_logo" style="opacity: 0">
+                            <img src="images/logo.png" alt="" title="">
+                        </div>
+                        <ul class="catergory_tab">
+                            <li>
+                                <a href="#"><i class="fas fa-search"></i></a>
+                            </li>
+                             <li>
+                                <a href="#">TALENT</a>
+                            </li>
+                            <li>
+                                <a href="#">JOBS</a>
+                            </li>
+                            <li>
+                                <a href="#">SERVICES</a>
+                            </li>
+                            <li>
+                                <a href="#">SUCCESS</a>
+                            </li>
+                            <li>
+                                <a href="#">EVENTS</a>
+                            </li>
+                            <li>
+                                <a href="#">LOCATIONS</a>
+                            </li>
+                            <li>
+                                <a href="#">TALENT FANS</a>
+                            </li>
+                            <li>
+                                <a href="#">SHOP</a>
+                            </li>
+                            <li>
+                                <a href="#">SIGN IN</a>
+                            </li>
+                            <li>
+                                <a href="#">JOIN</a>
+                            </li>
+                               
+                        </ul>
+                        <h5 class="location">India, Mumbai<img src="images/Group-3546.svg" alt="" title="" /></h5>
+                        <h3 class="nav02"><i class="fas fa-times"></i></h3>
+                    </nav>
                 </div>
             </div>
         </div>
@@ -89,7 +137,7 @@
         <div class="row">
             <div class="col-lg-12 col-md-12 col-xl-12">
                 <div class="job_list_body_main">
-                    <div class="col-lg-4 col-md-4">
+                    <div class="col-lg-4 col-md-4 sticky">
                         <div class="job_list_body_left">
                             <div class="job_list_body_left_head">
                                 <span><i class="fas fa-filter"></i>Filters</span>
@@ -262,7 +310,31 @@
                                     <div class="col-lg-12 col-md-12">
                                         <div class="job_list_body_left_body_single">
                                             <label>Age Range: 25-30</label>
-                                            <h2></h2>
+                                            <div slider id="slider-distance">
+                                                <div>
+                                                    <div inverse-left style="width:70%;"></div>
+                                                    <div inverse-right style="width:70%;"></div>
+                                                    <div range style="left:30%;right:40%;"></div>
+                                                    <span thumb style="left:30%;"></span>
+                                                    <span thumb style="left:60%;"></span>
+                                                </div>
+                                                <input type="range" tabindex="0" value="30" max="100" min="0" step="1" oninput="
+                                                  this.value=Math.min(this.value,this.parentNode.childNodes[5].value-1);
+                                                  var value=(100/(parseInt(this.max)-parseInt(this.min)))*parseInt(this.value)-(100/(parseInt(this.max)-parseInt(this.min)))*parseInt(this.min);
+                                                  var children = this.parentNode.childNodes[1].childNodes;
+                                                  children[1].style.width=value+'%';
+                                                  children[5].style.left=value+'%';
+                                                  children[7].style.left=value+'%';children[11].style.left=value+'%';
+                                                  children[11].childNodes[1].innerHTML=this.value;" />
+                                                <input type="range" tabindex="0" value="60" max="100" min="0" step="1" oninput="
+                                                  this.value=Math.max(this.value,this.parentNode.childNodes[3].value-(-1));
+                                                  var value=(100/(parseInt(this.max)-parseInt(this.min)))*parseInt(this.value)-(100/(parseInt(this.max)-parseInt(this.min)))*parseInt(this.min);
+                                                  var children = this.parentNode.childNodes[1].childNodes;
+                                                  children[3].style.width=(100-value)+'%';
+                                                  children[5].style.right=(100-value)+'%';
+                                                  children[9].style.left=value+'%';children[13].style.left=value+'%';
+                                                  children[13].childNodes[1].innerHTML=this.value;" />
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -307,16 +379,216 @@
                                         </div>
                                     </div>
                                 </div>
+                                <div class="row">
+                                    <div class="col-lg-12 col-md-12">
+                                        <div class="job_list_body_left_body_btn">
+                                            <a href="#" class="btn_apply">Apply</a>
+                                            <a href="#" class="all_btn">Clear All</a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-8 col-md-8">
+                    <div class="col-lg-8 col-md-8 sticky">
                         <div class="job_list_body_right">
                             <div class="job_list_body_right_search_sec">
                                 <i class="fas fa-search"></i>
                                 <input type="search" name="" class="seach_box" placeholder="Search For Jobs">
                             </div>
-                            <div class="job_list_body_right_body">
+                            <div class="job_list_body_right_body new_right_body">
+                                <div class="job_list_body_right_body_single">
+                                    <div class="job_list_body_right_body_single_id">
+                                        <ul>
+                                            <li>Job ID :<span> 762183</span></li>
+                                            <li>Job Expiry Date :<span> 20th May 2021</span></li>
+                                            <li class="client_rating_sec">Client Rating :<span> <i class="fas fa-star"></i> <span>4.0</span>(20)</span></li>
+                                            <li class="featured_job"><span><img src="images/Group-7711.svg">FEATURED JOB</span></li>
+                                        </ul>
+                                    </div>
+                                    <h3 class="head_title">Male Actor for Web Series for Netflix</h3>
+                                    <div class="job_list_body_right_body_single_id">
+                                        <ul>
+                                            <li>Project Type :<span> Short Film</span></li>
+                                            <li>Job Type :<span> Remote Job</span></li>
+                                        </ul>
+                                    </div>
+                                    <div class="job_list_body_right_body_single_id">
+                                        <ul>
+                                            <li class="marker"><i class="fas fa-map-marker-alt"></i>Mumbai, Maharashtra,India</li>
+                                            <li>Required :<span> Actor | Movie</span></li>
+                                            <li>Gender :<span> Male</span></li>
+                                            <li><span>Age :</span> 20-25</li>
+                                        </ul>
+                                    </div>
+                                    <div class="job_list_body_right_body_single_id">
+                                        <ul>
+                                            <li class="payment_title">Talent Payment :<span> ₹10,000</span></li>
+                                        </ul>
+                                    </div>
+                                    <div class="job_list_body_right_body_single_id">
+                                        <ul>
+                                            <li>Job Dates :<span> 24th September, 2021 (Sunday),26th September, 2021 (Wednesday)</span></li>
+                                        </ul>
+                                    </div>
+                                    <div class="job_list_body_right_body_single_id">
+                                        <ul>
+                                            <li>Audition Required :<span> Yes</span></li>
+                                            <li>Audition Type :<span> Online</span></li>
+                                        </ul>
+                                    </div>
+                                    <div class="job_list_body_right_body_single_id">
+                                        <ul>
+                                            <li>Audition Dates :<span> 4th November, 2021 (Sunday),24th November, 2021 (Sunday)</span></li>
+                                        </ul>
+                                    </div>
+                                    <div class="job_list_body_right_body_single_vac">
+                                        <ul>
+                                            <li>Vacancies: 15</li>
+                                            <li>Applications: 50</li>
+                                            <li>Shortlisted: 12</li>
+                                            <li>Selected: 9/15</li>
+                                        </ul>
+                                    </div>
+                                    <div class="job_list_body_right_body_single_btn">
+                                        <ul>
+                                            <li>
+                                                <a href="#" class="view_details"><img src="images/view-details.svg" alt="" title="">View Details</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="apply_now"><img src="images/apply-now.svg" alt="" title="">Apply Now</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="job_list_body_right_body_single">
+                                    <div class="job_list_body_right_body_single_id">
+                                        <ul>
+                                            <li>Job ID :<span> 762183</span></li>
+                                            <li>Job Expiry Date :<span> 20th May 2021</span></li>
+                                            <li class="client_rating_sec">Client Rating :<span> <i class="fas fa-star"></i> <span>4.0</span>(20)</span></li>
+                                            <li class="featured_job"><span><img src="images/Group-7711.svg">FEATURED JOB</span></li>
+                                        </ul>
+                                    </div>
+                                    <h3 class="head_title">Male Actor for Web Series for Netflix</h3>
+                                    <div class="job_list_body_right_body_single_id">
+                                        <ul>
+                                            <li>Project Type :<span> Short Film</span></li>
+                                            <li>Job Type :<span> Remote Job</span></li>
+                                        </ul>
+                                    </div>
+                                    <div class="job_list_body_right_body_single_id">
+                                        <ul>
+                                            <li class="marker"><i class="fas fa-map-marker-alt"></i>Mumbai, Maharashtra,India</li>
+                                            <li>Required :<span> Actor | Movie</span></li>
+                                            <li>Gender :<span> Male</span></li>
+                                            <li><span>Age :</span> 20-25</li>
+                                        </ul>
+                                    </div>
+                                    <div class="job_list_body_right_body_single_id">
+                                        <ul>
+                                            <li class="payment_title">Talent Payment :<span> ₹10,000</span></li>
+                                        </ul>
+                                    </div>
+                                    <div class="job_list_body_right_body_single_id">
+                                        <ul>
+                                            <li>Job Dates :<span> 24th September, 2021 (Sunday),26th September, 2021 (Wednesday)</span></li>
+                                        </ul>
+                                    </div>
+                                    <div class="job_list_body_right_body_single_id">
+                                        <ul>
+                                            <li>Audition Required :<span> Yes</span></li>
+                                            <li>Audition Type :<span> Online</span></li>
+                                        </ul>
+                                    </div>
+                                    <div class="job_list_body_right_body_single_id">
+                                        <ul>
+                                            <li>Audition Dates :<span> 4th November, 2021 (Sunday),24th November, 2021 (Sunday)</span></li>
+                                        </ul>
+                                    </div>
+                                    <div class="job_list_body_right_body_single_vac">
+                                        <ul>
+                                            <li>Vacancies: 15</li>
+                                            <li>Applications: 50</li>
+                                            <li>Shortlisted: 12</li>
+                                            <li>Selected: 9/15</li>
+                                        </ul>
+                                    </div>
+                                    <div class="job_list_body_right_body_single_btn">
+                                        <ul>
+                                            <li>
+                                                <a href="#" class="view_details"><img src="images/view-details.svg" alt="" title="">View Details</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="apply_now"><img src="images/apply-now.svg" alt="" title="">Apply Now</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="job_list_body_right_body_single">
+                                    <div class="job_list_body_right_body_single_id">
+                                        <ul>
+                                            <li>Job ID :<span> 762183</span></li>
+                                            <li>Job Expiry Date :<span> 20th May 2021</span></li>
+                                            <li class="client_rating_sec">Client Rating :<span> <i class="fas fa-star"></i> <span>4.0</span>(20)</span></li>
+                                            <li class="featured_job"><span><img src="images/Group-7711.svg">FEATURED JOB</span></li>
+                                        </ul>
+                                    </div>
+                                    <h3 class="head_title">Male Actor for Web Series for Netflix</h3>
+                                    <div class="job_list_body_right_body_single_id">
+                                        <ul>
+                                            <li>Project Type :<span> Short Film</span></li>
+                                            <li>Job Type :<span> Remote Job</span></li>
+                                        </ul>
+                                    </div>
+                                    <div class="job_list_body_right_body_single_id">
+                                        <ul>
+                                            <li class="marker"><i class="fas fa-map-marker-alt"></i>Mumbai, Maharashtra,India</li>
+                                            <li>Required :<span> Actor | Movie</span></li>
+                                            <li>Gender :<span> Male</span></li>
+                                            <li><span>Age :</span> 20-25</li>
+                                        </ul>
+                                    </div>
+                                    <div class="job_list_body_right_body_single_id">
+                                        <ul>
+                                            <li class="payment_title">Talent Payment :<span> ₹10,000</span></li>
+                                        </ul>
+                                    </div>
+                                    <div class="job_list_body_right_body_single_id">
+                                        <ul>
+                                            <li>Job Dates :<span> 24th September, 2021 (Sunday),26th September, 2021 (Wednesday)</span></li>
+                                        </ul>
+                                    </div>
+                                    <div class="job_list_body_right_body_single_id">
+                                        <ul>
+                                            <li>Audition Required :<span> Yes</span></li>
+                                            <li>Audition Type :<span> Online</span></li>
+                                        </ul>
+                                    </div>
+                                    <div class="job_list_body_right_body_single_id">
+                                        <ul>
+                                            <li>Audition Dates :<span> 4th November, 2021 (Sunday),24th November, 2021 (Sunday)</span></li>
+                                        </ul>
+                                    </div>
+                                    <div class="job_list_body_right_body_single_vac">
+                                        <ul>
+                                            <li>Vacancies: 15</li>
+                                            <li>Applications: 50</li>
+                                            <li>Shortlisted: 12</li>
+                                            <li>Selected: 9/15</li>
+                                        </ul>
+                                    </div>
+                                    <div class="job_list_body_right_body_single_btn">
+                                        <ul>
+                                            <li>
+                                                <a href="#" class="view_details"><img src="images/view-details.svg" alt="" title="">View Details</a>
+                                            </li>
+                                            <li>
+                                                <a href="#" class="apply_now"><img src="images/apply-now.svg" alt="" title="">Apply Now</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
                                 <div class="job_list_body_right_body_single">
                                     <div class="job_list_body_right_body_single_id">
                                         <ul>
@@ -629,7 +901,7 @@
         </div>
     </div>
 </footer>
-
+<div class="overlay"></div>
 
 
 <script type="text/javascript">
@@ -642,6 +914,46 @@
   var sliderEl1 = document.querySelector('.first3 [data-rangeslider]')
   rangesliderJs.create(sliderEl1, {min: 0, max: 5, step: 0.2})
 </script>
+
+
+<script>
+    $('.btn02').click(function() {
+        $('.side-slide1').animate({right: "-15px"}, 200);
+        $('.overlay').addClass('open'); 
+    });
+      
+    $('.nav02').click(function() {
+        $('.side-slide1').animate({right: "-400px"}, 200);
+        $('.overlay').removeClass('open'); 
+    });
+    jQuery(function(){
+        $('.overlay').click(function(){
+          $('.nav02').trigger('click');
+          $('.overlay').removeClass('open'); 
+        });
+    });
+</script>
+
+<script>
+    if ( $(window).width() < 768 ){
+            $('.btn01,.btn01').click(function() {
+                $('.side-slide,.side-slide').animate({right: "0px"}, 200);
+                $('.overlay').addClass('open'); 
+            });
+            $('.nav01').click(function() {
+                $('.side-slide,.side-slide').animate({right: "-320px"}, 200);
+                $('.overlay').removeClass('open'); 
+            });
+            jQuery(function(){
+                $('.overlay').click(function(){
+                  $('.nav01').trigger('click');
+                  $('.overlay').removeClass('open'); 
+                });
+            });
+        }
+</script>
+
+
 
 
 

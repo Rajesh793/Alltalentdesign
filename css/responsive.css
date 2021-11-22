@@ -38,6 +38,7 @@
 
 
 
+
 }
 @media only screen and (min-width:1501px) and (max-width:1600px) {
 
@@ -76,6 +77,7 @@
 
 
 
+
 }
 @media only screen and (min-width:1401px) and (max-width:1500px) {
 
@@ -111,6 +113,8 @@
 .catergory_tab{padding-bottom: 60px;}
 .side-slide1{min-height: auto;}
 .catergory_tab li a{font-size: 16px;}
+
+
 }
 @media only screen and (min-width:1301px) and (max-width:1400px) {
 .head_sec_left_inner h1{font-size: 55px;}
@@ -144,6 +148,7 @@
 .catergory_tab{padding-bottom: 60px;}
 .side-slide1{min-height: auto;}
 .catergory_tab li a{font-size: 16px;}
+
 
 }
 @media only screen and (min-width:1200px) and (max-width:1300px) {
@@ -194,8 +199,9 @@
 
 }
 @media only screen and (min-width:992px) and (max-width:1199px) {
+.sticky_header {position: fixed !important;top: 0px !important; left: 0; width: 100%;background: #fff;z-index: 99;padding: 15px 0;}
 
-.all_head { position: relative; top: 0;}
+.all_head { position: relative; top: 10px;}
 .all_head_right{padding-right: 0;text-align: center;}
 .all_head_right ul li{color: #000;}
 .all_head_right ul li button{color: #000;}
@@ -203,7 +209,7 @@
 .side-slide{width: 320px;padding: 20px;}
 .head_sec_main{grid-template-columns: 1fr;}
 .head_sec_left{padding: 25px 15px 0;}
-.head_sec_left_inner h1 {font-size: 55px;text-align: center;}
+.head_sec_left_inner h1 {font-size: 55px;text-align: center;margin: 20px 0;}
 .head_sec_left_inner p {font-size: 22px;text-align: justify;margin: 0 0 30px 0;}
 .want_write_main { grid-template-columns: 1fr;}
 .want_write_right{padding: 0 15px;margin: 20px 0 0 0;}
@@ -239,7 +245,7 @@
 .ftr_links li {padding-bottom: 15px;}
 .ftr_links li a {font-size: 18px;}
 .ftr_rgt_logo {padding: 40px 0px 40px 0px;}
-.all_head_left {width: 70%;margin: 0 auto;}
+.all_head_left {width: 80%;*margin: 0 auto;}
 .ftr_main_sec .row .col-md-12 { -ms-flex: 0 0 100%;flex: 0 0 100%;max-width: 100%;}
 .fbars:before{background:#000;}
 .menu_sec_list {padding-top: 30px;padding-bottom: 15px;}
@@ -248,14 +254,15 @@
 .menu_sec_list2 li a{font-size: 18px;}
 .menu_sec_list2 li{padding-bottom: 10px;}
 .menu_sec_list2{padding-bottom: 100px;}
-.side-slide{min-height: auto;}
+.side-slide{min-height: auto;top: 0;}
 .catergory_tab li {padding-bottom: 15px;}
 .catergory_tab{padding-bottom: 70px;}
-.side-slide1{min-height: auto;}
+.side-slide1{min-height: auto;top: 0;}
 .catergory_tab li a{font-size: 16px;}
 
 }
 @media only screen and (min-width:768px) and (max-width:991px) {
+.sticky_header {position: fixed !important;top: 0px !important; left: 0; width: 100%;background: #fff;z-index: 99;padding: 15px 0;}
 
 .all_head { position: relative; top: 0;}
 .all_head_main{display: block;}
@@ -311,17 +318,17 @@
 .menu_sec_list2 li a{font-size: 18px;}
 .menu_sec_list2 li{padding-bottom: 10px;}
 .menu_sec_list2{padding-bottom: 100px;}
-.side-slide{min-height: auto;}
-
+.side-slide{min-height: auto;top: 0;}
+.nav01{top: 20px;}
 .catergory_tab li {padding-bottom: 15px;}
 .catergory_tab{padding-bottom: 70px;}
-.side-slide1{min-height: auto;}
+.side-slide1{min-height: auto;top: 0;}
 .catergory_tab li a{font-size: 16px;}
 
 
 }
 @media only screen and (max-width:767px) {
-
+.sticky_header {position: fixed !important;top: 0px !important; left: 0; width: 100%;background: #fff;z-index: 99;padding: 15px 0;}
 .all_head { position: relative; top: 0;}
 .all_head_main{display: block;}
 .all_head_right{padding-right: 0;text-align: center;}
@@ -343,23 +350,23 @@
 .talent_head h3{font-size: 30px;margin: 0 0 20px 0;}
 .talent_sec_cont{grid-template-columns: 1fr;grid-gap: 2px;}
 .talent_appear {padding: 40px 15px 20px;}
-.talent_appear_left_head h1 {font-size: 30px;margin: 0 0 40px 0;text-align: center;}
+.talent_appear_left_head h1 {font-size: 25px;margin: 0 0 30px 0;text-align: center;}
 .talent_appear_left_head p {font-size: 20px;margin: 0 0 20px 0;}
 .list_sec li {padding: 0 0 15px 0;font-size: 18px;}
 .talent_appear_right ul {padding-top: 50px;}
 .talent_appear_right ul li:nth-child(even){text-align: center;}
 .talent_appear_right ul li{text-align: center;}
-.talent_appear_right ul li h4{font-size: 60px;}
-.talent_appear_right ul li h4 span{font-size: 30px;}
+.talent_appear_right ul li h4{font-size: 50px;}
+.talent_appear_right ul li h4 span{font-size: 20px;}
 .talent_sec_cont_single_cont h5{font-size: 20px;}
 .talent_sec_cont_single_cont p{font-size: 16px;}
 .ftr_main_left{padding: 20px 15px 20px;min-height: auto;}
 .ftr_logo{margin-bottom: 15px;}
-.ftr_form_sec_main h4 {font-size: 50px;padding-bottom: 30px;}
+.ftr_form_sec_main h4 {font-size: 35px;padding-bottom: 30px;}
 .ftr_form_sec_single label {font-size: 16px;margin: 0 0 10px 0;}
-.ftr_form_sec_single input {width: 100%;font-size: 18px;}
-.ftr_form_sec_single {padding-bottom: 25px;}
-.ftr_form_sec_single textarea{width: 100%;font-size: 18px;}
+.ftr_form_sec_single input {width: 100%;font-size: 16px;}
+.ftr_form_sec_single {padding-bottom: 20px;}
+.ftr_form_sec_single textarea{width: 100%;font-size: 16px;}
 .ftr_form_sec_single button{font-size: 16px;}
 .form_sec{padding-bottom: 25px;}
 .copy_sec{font-size: 16px;}
@@ -369,19 +376,32 @@
 .ftr_links li a {font-size: 18px;}
 .ftr_rgt_logo {padding: 40px 0px 40px 0px;}
 .fbars:before{background:#000;}
-
 .menu_sec_list {padding-top: 20px;padding-bottom: 10px;}
 .menu_sec_list li {padding-bottom: 10px;}
 .menu_sec_list a{font-size: 20px;}
 .menu_sec_list2 li a{font-size: 16px;}
 .menu_sec_list2 li{padding-bottom: 10px;}
 .menu_sec_list2{padding-bottom: 100px;}
-.side-slide{min-height: auto;}
-
+.side-slide{min-height: auto;top: 0;}
 .catergory_tab li {padding-bottom: 15px;}
 .catergory_tab{padding-bottom: 70px;}
-.side-slide1{min-height: auto;}
+.side-slide1{min-height: auto;top: 0;}
 .catergory_tab li a{font-size: 16px;}
+.mob_mode{display: block;}
+.desk_mode{display: none;}
+.inner_body .container-fluid { padding-right: 15px;padding-left: 15px;}
+.inner_pages { padding: 15px 0px;}
+.inner_pages .all_head_main{display: flex;}
+.inner_pages .all_head_main .all_head_left{flex: 0 0 50%;}
+.inner_pages .all_head_right ul li button{font-size: 25px;}
+.inner_pages .nav02{top: 20px;}
+.inner_pages .side-slide1{top: -20px;}
+.sticky{position: relative;top: 0;}
+.job_list_body{padding: 30px 0;}
+
+
+
+
 
 
 
