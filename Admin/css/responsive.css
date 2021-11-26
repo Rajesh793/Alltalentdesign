@@ -1,0 +1,54 @@
+@media only screen and (min-width:1801px) and (max-width:3400px) {
+
+}
+@media only screen and (min-width:1801px) and (max-width:1900px) {
+
+}
+
+@media only screen and (min-width:1701px) and (max-width:1800px) {
+
+}
+
+@media only screen and (min-width:1601px) and (max-width:1700px) {
+
+}
+@media only screen and (min-width:1501px) and (max-width:1600px) {
+
+}
+@media only screen and (min-width:1401px) and (max-width:1500px) {
+
+}
+@media only screen and (min-width:1301px) and (max-width:1400px) {
+
+}
+@media only screen and (min-width:1200px) and (max-width:1300px) {
+
+}
+@media only screen and (min-width:992px) and (max-width:1199px) {
+.login_form_sec_inner_btn{display: block;}
+.login_form_sec_inner_btn .login_btn{width: 100%;margin-bottom: 15px;font-size: 18px;}
+.login_form_sec_inner_btn .frgt_btn{width: 100%;margin-bottom: 15px;font-size: 18px;}
+.login_page .row .col-md-9 {-ms-flex: 0 0 75%;flex: 0 0 75%;max-width: 75%;}
+
+}
+@media only screen and (min-width:768px) and (max-width:991px) {
+.login_form_sec_inner_btn{display: block;}
+.login_form_sec_inner_btn .login_btn{width: 100%;margin-bottom: 15px;font-size: 18px;}
+.login_form_sec_inner_btn .frgt_btn{width: 100%;margin-bottom: 15px;font-size: 18px;}
+}
+@media only screen and (max-width:767px) {
+
+.login_form_sec_inner_btn{display: block;}
+.login_form_sec_inner_btn .login_btn{width: 100%;margin-bottom: 15px;font-size: 18px;}
+.login_form_sec_inner_btn .frgt_btn{width: 100%;margin-bottom: 15px;font-size: 18px;}
+
+}
+
+
+
+
+
+
+input,textarea { -webkit-user-select:text;}
+select{-webkit-appearance: none;-moz-appearance: none;appearance: none;}
+

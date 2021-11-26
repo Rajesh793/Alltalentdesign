@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>All Talent : Unlock Bigger Oppertunities</title>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta name="format-detection" content="telephone=no">
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+<link href="css/fontawesome-all.css" rel="stylesheet">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<link rel="stylesheet" href="css/animate.min.css">
+<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"> 
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/responsive.css">  
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</head>
+<body class="">
+
+<section class="login_page">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-9 col-xl-6 mx-auto">
+                <div class="login_page_logo">
+                    <img src="images/logo.png" alt="" title="">
+                </div>
+                <div class="login_page_cont">
+                    <h4>Welcome back!</h4>
+                    <p>Please login to continue</p>
+                </div>
+                <div class="login_form_sec">
+                    <form>
+                        <div class="login_form_sec_inner">
+                            <div class="login_form_sec_inner_single">
+                                <div class="login_form_sec_inner_single_text"> 
+                                    <label>Email address</label>
+                                    <input type="text" name="" placeholder="rakeshjhujjhunwala@rocketmail.com">
+                                </div>
+                            </div>
+                            <div class="login_form_sec_inner_single">
+                                <div class="login_form_sec_inner_single_text pass_box"> 
+                                    <label>Password</label>
+                                    <div>
+                                        <input type="password" placeholder="★★★★★★★" />
+                                        <span id="dummy"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="login_form_sec_inner_btn">
+                                <button type="button" class="login_btn">Log in</button>
+                                <button type="button" class="frgt_btn">Forgot password?</button>
+                            </div>
+                            <div class="opt_sec">
+                                <a href="#">Log in with OTP</a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script type="text/javascript">
+    const inputEl = document.querySelector('.pass_box input');
+    const dummyEl = document.querySelector('#dummy');
+    inputEl.addEventListener('keyup', () => {
+      const dummyText = Array(inputEl.value.length).fill('★').join('');
+      dummyEl.innerHTML = dummyText;
+      resultEl.innerHTML = inputEl.value;
+    })
+</script>
+
+</body>
+</html>
