@@ -29,7 +29,7 @@
 <section class="login_page">
     <div class="container">
         <div class="row">
-            <div class="col-lg-7 col-md-10 col-xl-7 mx-auto">
+            <div class="col-lg-6 col-md-9 col-xl-6 mx-auto">
                 <div class="login_page_logo">
                     <img src="images/logo.png" alt="" title="">
                 </div>
@@ -39,23 +39,33 @@
                 <div class="login_form_sec">
                     <form>
                         <div class="login_form_sec_inner">
-                            <h3 class="login_head">Create New passoword</h3>
-                            <p class="text_para">Your New Password should be different from previous old password's</p>
+                            <h3 class="login_head">Two step verification</h3>
                             <div class="login_form_sec_inner_single">
-                                <div class="login_form_sec_inner_single_text pass_box"> 
-                                    <label>Password</label>
-                                    <div>
-                                        <input type="password" placeholder="★★★★★★★" />
-                                        <span id="dummy"></span>
-                                    </div>
+                                <div class="login_form_sec_inner_single_text"> 
+                                    <p>OTP sent on Mobile and E-mail address</p>
                                 </div>
                             </div>
-                            <div class="login_form_sec_inner_single">
-                                <div class="login_form_sec_inner_single_text pass_box_new"> 
-                                    <label>Confirm Password</label>
-                                    <div>
-                                        <input type="password" placeholder="★★★★★★★" />
-                                        <span id="dummy1"></span>
+                            <div class="row">
+                                <div class="col-lg-7 col-md-7 mx-auto">
+                                    <div class="otp_boxes">
+                                        <div class="otp_boxes_single">
+                                            <p></p>
+                                        </div>
+                                        <div class="otp_boxes_single">
+                                            <p></p>
+                                        </div>
+                                        <div class="otp_boxes_single">
+                                            <p></p>
+                                        </div>
+                                        <div class="otp_boxes_single">
+                                            <p></p>
+                                        </div>
+                                        <div class="otp_boxes_single">
+                                            <p></p>
+                                        </div>
+                                        <div class="otp_boxes_single">
+                                            <p></p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -72,25 +82,6 @@
 
 
 
-<script type="text/javascript">
-    const inputEl1 = document.querySelector('.pass_box_new input');
-    const dummyEl1 = document.querySelector('#dummy1');
-    inputEl1.addEventListener('keyup1', () => {
-      const dummyText1 = Array(inputEl1.value.length).fill('★').join('');
-      dummyEl1.innerHTML = dummyText1;
-      resultEl1.innerHTML = inputEl1.value;
-    });
-</script>
-
-<script type="text/javascript">
-    const inputEl = document.querySelector('.pass_box input');
-    const dummyEl = document.querySelector('#dummy');
-    inputEl.addEventListener('keyup', () => {
-      const dummyText = Array(inputEl.value.length).fill('★').join('');
-      dummyEl.innerHTML = dummyText;
-      resultEl.innerHTML = inputEl.value;
-    })
-</script>
 
 </body>
 </html>

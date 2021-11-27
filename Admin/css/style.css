@@ -121,8 +121,8 @@ a{outline:none; border:none;}
 .pass_box_new span#dummy1 {position: absolute;top: 50%; left: 3px;content: '\f005';font-family: FontAwesome;transform: translate(12px, 5px);color: #9da3a8;font-size: 18px;}
 .pass_box_new input[type="password"] { -webkit-text-security: none !important; padding: 0;color: transparent;}
 
-
-
+.login_form_sec_inner_single_text p{position: relative;font-size: 15px;font-family: 'Raleway', sans-serif;font-weight: bold;margin-bottom: 0;text-align: center;color: rgba(4 9 43 / 0.77);}
+.text_para{position: relative;font-size: 15px;font-family: 'Raleway', sans-serif;font-weight: bold;color: rgba(4 9 43 / 0.77);}
 
 
 input,textarea { -webkit-user-select:text;}
