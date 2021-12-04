@@ -149,7 +149,7 @@ a{outline:none; border:none;}
 .dashboard_left_panel ul li:last-child{padding-bottom: 0;}
 .sticky_header {position: fixed !important;top: 0px !important; left: 0; width: 100%;*background: #eff7ff; background: rgb(239 247 255 / 55%);z-index: 99;padding: 25px 0;}
 
-
+.view_details_pop{position: relative;}
 
 
 

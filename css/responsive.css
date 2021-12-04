@@ -674,7 +674,7 @@
 }
 @media only screen and (max-width:767px) {
 .sticky_header {position: fixed !important;top: 0px !important; left: 0; width: 100%;background: #fff;z-index: 99;padding: 15px 0;}
-.all_head { position: relative; top: 0;}
+.all_head_index { position: relative; top: 0;}
 .all_head_main{display: block;}
 .all_head_right{padding-right: 0;text-align: center;}
 .all_head_right ul li{color: #000;}

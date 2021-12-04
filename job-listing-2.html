@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
 <meta charset="utf-8">
 <title>All Talent : Unlock Bigger Oppertunities</title>
 <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
@@ -9,23 +8,25 @@
 <meta name="description" content="" />
 <meta name="format-detection" content="telephone=no">
 <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+
+<link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="css/fontawesome-all.css" rel="stylesheet">
 <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-<link rel="stylesheet" href="css/animate.min.css">
-<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"> 
-<!-- <link rel="stylesheet" type="text/css" href="css/styles.min.css"> -->
-<link href="css/intlTelInput.css" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="css/style.css">
-<link rel="stylesheet" type="text/css" href="css/responsive.css">  
 
+<link rel="stylesheet" href="css/owl.carousel.min.css">
+<link rel="stylesheet" href="css/animate.min.css">
+<!-- <link rel="stylesheet" type="text/css" href="css/styles.min.css"> -->
+ 
+<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+<link rel="stylesheet" href="css/responsive.css" type="text/css" media="screen">
+<link href="css/intlTelInput.css" rel="stylesheet"> 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/owl.carousel.js"></script>
 <script type="text/javascript" src="js/rangeslider-js.min.js"></script>
 <script src="js/intlTelInput.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
 
 
 </head>
@@ -521,7 +522,7 @@
                                                     <a href="#" class="view_details" data-toggle="modal" data-target="#record2"><img src="images/view-details.svg" alt="" title="">View Details</a>
                                                 </li>
                                                 <li>
-                                                    <a href="#" class="view_apply" data-toggle="modal" data-target="#"><img src="images/apply-now.svg" alt="" title="">Applied</a>
+                                                    <a href="#" class="view_apply" data-toggle="modal" data-target="#calender_pop"><img src="images/apply-now.svg" alt="" title="">Applied</a>
                                                 </li>
                                                 <li>
                                                     <a href="#" class="view_success" data-toggle="modal" data-target="#signin"><img src="images/play.png"> Success</a>
@@ -585,10 +586,10 @@
                                         <div class="job_list_body_right_body_single_btn">
                                             <ul>
                                                 <li>
-                                                    <a href="#" class="view_details" data-toggle="modal" data-target="#"><img src="images/view-details.svg" alt="" title="">View Details</a>
+                                                    <a href="#" class="view_details" data-toggle="modal" data-target="#submit_popup"><img src="images/view-details.svg" alt="" title="">View Details</a>
                                                 </li>
                                                 <li>
-                                                    <a href="#" class="apply_now" data-toggle="modal" data-target="#signin"><img src="images/apply-now.svg" alt="" title="">Apply Now</a>
+                                                    <a href="#" class="apply_now" data-toggle="modal" data-target="#good_luck"><img src="images/apply-now.svg" alt="" title="">Apply Now</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -950,14 +951,14 @@
                                                 </div>
                                             </div>
                                             <div class="">
-                                                <div class="col-lg-9 col-md-9">
+                                                <div class="col-lg-9 col-md-9 fl_w">
                                                     <div class="">
                                                         <div class="input-login sign_input">
                                                            <input type="tel" id="mobile_number" class="" name="mobile_number" value="" placeholder="Mobile Number" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" maxlength="10">
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-lg-3 col-md-3">
+                                                <div class="col-lg-3 col-md-3 fl_w">
                                                     <div class="sign_input">
                                                         <input type="text" name="" placeholder="_ _ _ _ _ _">
                                                     </div>
@@ -1167,6 +1168,211 @@
     </div>
 </div>
 
+
+
+<div class="calender_sec">
+    <div id="calender_pop" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!-- <button type="button" class="close" data-dismiss="modal">&times;</button> -->
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <div class="modal_base">
+                                <div class="card">
+                                    <div class="calendar-toolbar">
+                                        <button class="prev month-btn">
+                                            <i class="fas fa-chevron-left"></i>
+                                        </button>
+                                        <div class="current-month">
+                                        </div>
+                                        <button class="next month-btn">
+                                            <i class="fas fa-chevron-right"></i>
+                                        </button>
+                                    </div>
+                                    <div class="calendar">
+                                        <div class="weekdays">
+                                            <div class="weekday-name">Su</div>
+                                            <div class="weekday-name">Mo</div>
+                                            <div class="weekday-name">Tu</div>
+                                            <div class="weekday-name">We</div>
+                                            <div class="weekday-name">Th</div>
+                                            <div class="weekday-name">Fr</div>
+                                            <div class="weekday-name">Sa</div>
+                                        </div>
+                                        <div class="calendar-days"></div>
+                                    </div>
+                                </div>
+                                <!-- <div class="goto-buttons">
+                                <button type="button" class="btn prev-year">Prev Year</button>
+                                <button type="button" class="btn today">Today</button>
+                                <button type="button" class="btn next-year">Next Year</button>
+                                </div>
+                                </div> -->
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="modal_base">
+                                <div class="table_struct">
+                                    <table width="100%" cellpadding="0" cellspacing="0">
+                                        <thead>
+                                            <tr>
+                                                <td width="15%" class="text-center">Sr No</td>
+                                                <td width="35%">Batch Time</td>
+                                                <td width="30%" class="text-center">No Of People</td>
+                                                <td width="20%"></td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td class="text-center">1</td>
+                                                <td>10:30 AM - 11:30 AM</td>
+                                                <td class="text-center">10/10</td>
+                                                <td class="text-center"><a href="#" class="table_btn">Apply</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center">2</td>
+                                                <td>10:30 AM - 11:30 AM</td>
+                                                <td class="text-center">10/10</td>
+                                                <td class="text-center"><a href="#" class="table_btn">Apply</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center">3</td>
+                                                <td>10:30 AM - 11:30 AM</td>
+                                                <td class="text-center">10/10</td>
+                                                <td class="text-center"><a href="#" class="table_btn">Apply</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center">4</td>
+                                                <td>10:30 AM - 11:30 AM</td>
+                                                <td class="text-center">10/10</td>
+                                                <td class="text-center"><a href="#" class="table_btn">Apply</a></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="submit_popup_sec">
+    <div id="submit_popup" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <div class="modal-body">
+                    <div class="submit_pop_body">
+                        <div class="submit_pop_body_img">
+                            <img src="images/submit-img.svg" alt="" title="">
+                        </div>
+                        <div class="submit_pop_body_cont">
+                            <p>Your application has been submitted. Good Luck! You can check the status of your audition in jobs section of your profile.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="good_luck_popup">
+    <div id="good_luck" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <div class="modal-body">
+                    <div class="good_luck_body">
+                        <div class="good_luck_body_img">
+                            <img src="images/submit-img.svg" alt="" title="">
+                        </div>
+                        <div class="good_luck_body_cont">
+                            <p>Your application has been submitted. Good Luck! You can check the status of your audition in jobs section of your profile.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+$(document).ready(function(){
+    $("#table_pop").click(function(){
+        $("modal").addClass("show");
+    });
+});
+</script>
+
+
+<script type="text/javascript">
+    var currentMonth = document.querySelector(".current-month");
+var calendarDays = document.querySelector(".calendar-days");
+var today = new Date();
+var date = new Date();
+
+
+currentMonth.textContent = date.toLocaleDateString("en-US", {month:'long', year:'numeric'});
+today.setHours(0,0,0,0);
+renderCalendar();
+
+function renderCalendar(){
+    const prevLastDay = new Date(date.getFullYear(),date.getMonth(),0).getDate();
+    const totalMonthDay = new Date(date.getFullYear(),date.getMonth()+1,0).getDate();
+    const startWeekDay = new Date(date.getFullYear(),date.getMonth(),1).getDay();
+    
+    calendarDays.innerHTML = "";
+
+    let totalCalendarDay = 6 * 7;
+    for (let i = 0; i < totalCalendarDay; i++) {
+        let day = i-startWeekDay;
+
+        if(i <= startWeekDay){
+            // adding previous month days
+            calendarDays.innerHTML += `<div class='padding-day'>${prevLastDay-i}</div>`;
+        }else if(i <= startWeekDay+totalMonthDay){
+            // adding this month days
+            date.setDate(day);
+            date.setHours(0,0,0,0);
+            
+            let dayClass = date.getTime()===today.getTime() ? 'current-day' : 'month-day';
+            calendarDays.innerHTML += `<div class='${dayClass}'>${day}</div>`;
+        }else{
+            // adding next month days
+            calendarDays.innerHTML += `<div class='padding-day'>${day-totalMonthDay}</div>`;
+        }
+    }
+}
+
+document.querySelectorAll(".month-btn").forEach(function (element) {
+    element.addEventListener("click", function () {
+        date = new Date(currentMonth.textContent);
+        date.setMonth(date.getMonth() + (element.classList.contains("prev") ? -1 : 1));
+        currentMonth.textContent = date.toLocaleDateString("en-US", {month:'long', year:'numeric'});
+        renderCalendar();
+    });
+});
+
+document.querySelectorAll(".btn").forEach(function (element) {
+    element.addEventListener("click", function () {
+        let btnClass = element.classList;
+        date = new Date(currentMonth.textContent);
+        if(btnClass.contains("today"))
+            date = new Date();
+        else if(btnClass.contains("prev-year"))
+            date = new Date(date.getFullYear()-1, 0, 1);
+        else
+            date = new Date(date.getFullYear()+1, 0, 1);
+        
+        currentMonth.textContent = date.toLocaleDateString("en-US", {month:'long', year:'numeric'});
+        renderCalendar();
+    });
+});
+</script>
 
 
 <script type="text/javascript">
