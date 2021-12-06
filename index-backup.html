@@ -8,26 +8,25 @@
 <meta name="description" content="" />
 <meta name="format-detection" content="telephone=no">
 <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
-
-
-<link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="css/fontawesome-all.css" rel="stylesheet">
 <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-
-<link rel="stylesheet" href="css/owl.carousel.min.css">
 <link rel="stylesheet" href="css/animate.min.css">
-<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
-<link rel="stylesheet" href="css/responsive.css" type="text/css" media="screen">
+<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"> 
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/responsive.css">  
+
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="js/owl.carousel.js"></script>
-<script src="js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 </head>
 <body class="">
 
-<header class="all_head_index">
+<header class="all_head">
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-12 col-md-12">
@@ -393,30 +392,30 @@
 
 <script>
     if ( $(window).width() < 768 ){
-        $('.btn01,.btn01').click(function() {
-            $('.side-slide,.side-slide').animate({right: "0px"}, 200);
-            $('.overlay').addClass('open'); 
-        });
-        $('.nav01').click(function() {
-            $('.side-slide,.side-slide').animate({right: "-320px"}, 200);
-            $('.overlay').removeClass('open'); 
-        });
-        jQuery(function(){
-            $('.overlay').click(function(){
-              $('.nav01').trigger('click');
-              $('.overlay').removeClass('open'); 
+            $('.btn01,.btn01').click(function() {
+                $('.side-slide,.side-slide').animate({right: "0px"}, 200);
+                $('.overlay').addClass('open'); 
             });
-        });
-    }
+            $('.nav01').click(function() {
+                $('.side-slide,.side-slide').animate({right: "-320px"}, 200);
+                $('.overlay').removeClass('open'); 
+            });
+            jQuery(function(){
+                $('.overlay').click(function(){
+                  $('.nav01').trigger('click');
+                  $('.overlay').removeClass('open'); 
+                });
+            });
+        }
 </script>
 
 
 <script type="text/javascript">
     $(window).on('scroll', function() {
         if ($(window).scrollTop() > 100) {
-            $('.all_head_index').addClass('sticky_header animated fadeInDown');
+            $('.all_head').addClass('sticky_header animated fadeInDown');
         } else {
-            $('.all_head_index').removeClass('sticky_header animated fadeInDown');
+            $('.all_head').removeClass('sticky_header animated fadeInDown');
         }
     });    
 </script>

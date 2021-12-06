@@ -400,16 +400,16 @@ div[slider] > input[type=range]::-ms-tooltip { display: none;}
 
 
 .sing_in_pop .modal-dialog {max-width: 650px;margin: 10px auto !important;width: 650px;}
-.sing_in_pop .modal-content{box-shadow: 0px 3px 6px #00000029;border-radius: 41px;padding: 40px 25px;}
+.sing_in_pop .modal-content{box-shadow: 0px 3px 6px #00000029;border-radius: 41px;padding: 40px 25px;background: #fff;}
+.sing_in_pop .modal{z-index: 99999;}
 .sing_in_pop .modal-header {padding: 0;border-bottom: none;display: flex;align-items: center;justify-content: flex-start;
     width: 100%;padding-bottom: 0px;}
 .sing_in_pop .modal-header .close {top: 45px;position: absolute;right: 40px;opacity: 1;font-size: 40px;font-weight: 400 !important;padding: 0;}
 .nav_tabs {position: relative;padding: 10px 15px;border-radius: 50px;border: 0.5px solid #707070;}
 .nav_tabs li {margin-bottom: 0;position: relative; border: none;box-shadow: none;}
-.nav_tabs li.active a {border: 1px solid #0096C7 !important;background-color: #0096C7 !important;
+.nav_tabs li.active a.active {border: 1px solid #0096C7 !important;background-color: #0096C7 !important;
     color: #fff !important;font-size: 15px;font-weight: 600;border-radius: 50px;padding: 12px 20px;border-color: #0096C7 !important;}
-.nav_tabs li a.active {border: 1px solid #0096C7 !important;background-color: #0096C7 !important;color: #fff !important;
-    font-size: 15px;font-weight: 600;border-radius: 50px;padding: 12px 20px;border-color: #0096C7 !important;}
+.nav_tabs li a.active {border: 1px solid #0096C7 !important;background-color: #0096C7 !important;color: #fff !important;font-size: 15px;font-weight: 600;border-radius: 50px;padding: 12px 20px;border-color: #0096C7 !important;}
 .nav_tabs li a {border: 1px solid #fff !important;background: #fff !important;color: #C4C4C4;font-size: 15px;
     font-weight: 600; border-radius: 50px;padding: 12px 20px; }
 .nav_tabs li:hover a {border: 1px solid #fff !important;background: #fff;color: #C4C4C4;font-size: 15px;
@@ -460,11 +460,8 @@ div[slider] > input[type=range]::-ms-tooltip { display: none;}
 
 .view_details_pop .modal.right .modal-dialog {position: fixed;margin: auto;height: 100%;-webkit-transform: translate3d(0%, 0, 0); -ms-transform: translate3d(0%, 0, 0); -o-transform: translate3d(0%, 0, 0); transform: translate3d(0%, 0, 0);    max-width: 950px !important;width: 950px !important;}
 .view_details_pop .modal.right .modal-content {height: 100%;overflow-y: auto;*top: 93px;border:none;}
-.view_details_pop .modal.right .modal-body {padding: 70px 40px 20px;border: 1px solid #7070705c;border-radius: 0;}
-.view_details_pop .modal.right.fade .modal-dialog {right: -320px;-webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
--moz-transition: opacity 0.3s linear, right 0.3s ease-out;-o-transition: opacity 0.3s linear, right 0.3s ease-out;
-		        transition: opacity 0.3s linear, right 0.3s ease-out;}
-
+.view_details_pop .modal.right .modal-body {padding: 70px 40px 20px;border: 1px solid #7070705c;border-radius: 0;background: #fff;}
+.view_details_pop .modal.right.fade .modal-dialog {right: 0px;-webkit-transition: opacity 0.3s linear, right 0.3s ease-out;-moz-transition: opacity 0.3s linear, right 0.3s ease-out;-o-transition: opacity 0.3s linear, right 0.3s ease-out;transition: opacity 0.3s linear, right 0.3s ease-out;}
 .job_list_body_right_body_single_id_new{position: relative;padding-bottom: 10px;}
 .job_list_body_right_body_single_id_new ul{position: relative;display: block;}
 .job_list_body_right_body_single_id_new ul li{display: inline-block;padding-right: 15px;font-size: 17px;color: #000000;font-weight: 500;*padding-bottom: 10px;line-height: 30px;}
@@ -603,10 +600,10 @@ div[slider] > input[type=range]::-ms-tooltip { display: none;}
 .good_luck_popup .modal-dialog { max-width: 500px;margin: 70px auto 0;  *margin-left: 70px;*margin-top: 100px;}
 .good_luck_body{position: relative;}
 .good_luck_body_img{position: relative;text-align: center;}
-.good_luck_body_cont{position: relative;margin: 25px 0 10px 0;}
+.good_luck_body_cont{position: relative;margin: 5px 0 10px 0;}
 .good_luck_body_cont p{position: relative;font-size: 18px;font-weight: normal;text-align: center;color: #000000;margin: 0 0 15px 0;}
-.good_luck_body_cont h5{}
-.good_luck_popup .close{position: absolute;font-size: 30px;color: #000;opacity: 1;right: 15px;top: 15px;font-weight: normal;}
+.good_luck_body_cont h5{font-size: 30px;text-align: center;font-weight: 600;color: #000;}
+.good_luck_popup .close{position: absolute;font-size: 30px;color: #000;opacity: 1;right: 15px;top: 15px;font-weight: normal;z-index: 1;}
 
 
 
