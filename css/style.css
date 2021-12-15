@@ -83,7 +83,7 @@ a{outline:none; border:none;}
 .head_sec_left_inner p{position: relative;color: #7A7A7A;font-size: 24px;font-weight: 400;font-family: 'Poppins', sans-serif;}
 
 .all_head_index{position: absolute;top: 20px;width: 100%;z-index: 1;}
-.all_head_main{position: relative;display: flex; align-items: center;justify-content: space-between;}
+.all_head_main{position: relative;display: flex; align-items: center;justify-content: space-between;padding-right: 20px;}
 .all_head_left{position: relative;flex: 0 0 331px;}
 .all_head_left img{width: 100%;}
 .all_head_right{position: relative;padding-right: 15px;}
@@ -210,7 +210,7 @@ a{outline:none; border:none;}
 */
 
 /*Inner Pages*/
-
+.sticky_header_inner {position: fixed !important;top: 0px !important; left: 0; width: 100%;background: #fff;z-index: 99;padding: 15px 0;}
 .inner_body .container-fluid{padding-right: 50px;padding-left: 50px;}
 
 .inner_pages{position: relative;box-shadow: 0px 3px 10px #92929229;top: 0;padding: 40px 0px;}
@@ -262,13 +262,13 @@ a{outline:none; border:none;}
 .job_list_body_left_body{position: relative;}
 .job_list_body_left_body_single{position: relative;margin: 0 0 20px 0;}
 .job_list_body_left_body_single label{position: relative;font-size: 13px;font-weight: 500;color: #000;margin: 0 0 5px 0;display: block;font-family: 'Poppins', sans-serif;}
-.job_list_body_left_body_single input{position: relative;height: 25px;border: 1px solid #000;border-radius: 5px;padding-left: 10px;font-size: 11px;font-weight: 500;color: #AAAAAA;width: 100%;font-family: 'Poppins', sans-serif;}
+.job_list_body_left_body_single input{position: relative;height: 30px;border: 1px solid #000;border-radius: 5px;padding-left: 10px;font-size: 11px;font-weight: 500;color: #AAAAAA;width: 100%;font-family: 'Poppins', sans-serif;}
 .job_list_body_left_body_single input -webkit-input-placeholder {color: #AAAAAA !important; opacity:1 !important;font-family: 'Poppins', sans-serif;}
 .job_list_body_left_body_single input -moz-placeholder {color: #AAAAAA !important; opacity:1 !important;font-family: 'Poppins', sans-serif;}
 .job_list_body_left_body_single input -ms-input-placeholder {color: #AAAAAA !important; opacity:1 !important;font-family: 'Poppins', sans-serif;}
 .job_list_body_left_body_single input -moz-placeholder {color: #AAAAAA !important; opacity:1 !important;font-family: 'Poppins', sans-serif;}
 
-.job_list_body_left_body_single select {background: #fff url(../images/select-tag.png) no-repeat 96% center; position: relative;height: 25px;border: 1px solid #000;border-radius: 5px;padding-left: 10px;font-size: 11px;font-weight: 500;color: #AAAAAA;width: 100%;background-size: 10px;}
+.job_list_body_left_body_single select {background: #fff url(../images/select-tag.png) no-repeat 96% center; position: relative;height: 30px;border: 1px solid #000;border-radius: 5px;padding-left: 10px;font-size: 11px;font-weight: 500;color: #AAAAAA;width: 100%;background-size: 10px;}
 .job_list_body_left_body_single p{font-size: 11px;color: #9F9E9E;padding-top: 5px;margin: 0;}
 .calender i{position: absolute;right: 10px;color: #CECECE;font-size: 13px;top: 30px;font-weight: 500;}
 .min_max{position: relative;display: flex;align-items: center;justify-content: space-between;padding-top: 10px;}
@@ -404,7 +404,7 @@ div[slider] > input[type=range]::-ms-tooltip { display: none;}
 .sing_in_pop .modal{z-index: 99999;}
 .sing_in_pop .modal-header {padding: 0;border-bottom: none;display: flex;align-items: center;justify-content: flex-start;
     width: 100%;padding-bottom: 0px;}
-.sing_in_pop .modal-header .close {top: 45px;position: absolute;right: 40px;opacity: 1;font-size: 40px;font-weight: 400 !important;padding: 0;}
+.sing_in_pop .modal-header .close {top: 45px;position: absolute;right: 40px;opacity: 1;font-size: 40px;font-weight: 400 !important;padding: 0;z-index: 1;}
 .nav_tabs {position: relative;padding: 10px 15px;border-radius: 50px;border: 0.5px solid #707070;}
 .nav_tabs li {margin-bottom: 0;position: relative; border: none;box-shadow: none;}
 .nav_tabs li.active a.active {border: 1px solid #0096C7 !important;background-color: #0096C7 !important;
@@ -438,7 +438,7 @@ div[slider] > input[type=range]::-ms-tooltip { display: none;}
 .signup_other a img{margin-right: 10px;}
 .otp_btn {position: relative;font-size: 14px;font-weight: 500;color: #4E93D4;display: block;text-align: right;margin: 0 0 15px 0;}
 .field-icon{position: absolute;top: 15px;right: 30px;font-size: 20px;}
-.all_head{position: relative;font-size: 28px;color: #000;text-align: center;font-weight: 600;}
+.all_head{position: relative;font-size: 28px;color: #000;text-align: center;font-weight: 600;*margin: 10px 0;}
 .frgt_pass{position: relative;display: flex;align-items: center;justify-content: space-between;}
 .frgt_para{color: #000000;font-size: 18px;font-weight: 500;}
 .frgt_para_new{color: #4E93D4;font-size: 18px;font-weight: 500;}
@@ -502,7 +502,7 @@ div[slider] > input[type=range]::-ms-tooltip { display: none;}
 .audition_attach a i {font-weight: 600 !important; padding: 0 10px;font-size: 18px;}
 .view_details_pop .modal.right.fade.in .modal-dialog {right: 0;*top: 90px;}
 .view_details_pop.modal-backdrop{top: 93px;}
-.view_details_pop .close{position: absolute;top: 35px;right: 35px;opacity: 1;color: #000;font-size: 30px;font-weight: 400;}
+.view_details_pop .close{position: absolute;top: 35px;right: 35px;opacity: 1;color: #000;font-size: 30px;font-weight: 400;z-index: 1;}
 .modal-backdrop{*top: 93px;background-color: rgb(45 45 45 / 0.49);}
 
 .auditions_btn {position: relative;width: 190px; height: 50px;background: #0096C7;border-radius: 7px;box-shadow: 0px 3px 6px #00000029; font-size: 16px; color: #fff; font-weight: 500; display: flex; text-align: center;align-items: center;
@@ -526,7 +526,7 @@ div[slider] > input[type=range]::-ms-tooltip { display: none;}
 .record_popup .modal-content{box-shadow: 0px 3px 6px #00000029;border-radius: 5px;padding: 30px 20px;background: #fff;}
 .record_popup .modal-header {padding: 0;border-bottom: none;display: flex;align-items: center;justify-content: flex-start;
     width: 100%;padding-bottom: 0px;}
-.record_popup .modal-header .close {top: 25px;position: absolute;right: 20px;opacity: 1;font-size: 30px;font-weight: 400 !important;padding: 0;width: 40px;}
+.record_popup .modal-header .close {top: 25px;position: absolute;right: 20px;opacity: 1;font-size: 30px;font-weight: 400 !important;padding: 0;width: 40px;z-index: 1;}
 
 .record_main{position: relative;}
 .record_main_single{position: relative;}
@@ -592,7 +592,7 @@ div[slider] > input[type=range]::-ms-tooltip { display: none;}
 .submit_pop_body_img{position: relative;text-align: center;}
 .submit_pop_body_cont{position: relative;margin: 25px 0 10px 0;}
 .submit_pop_body_cont p{position: relative;font-size: 18px;font-weight: normal;text-align: center;color: #000000;}
-.submit_popup_sec .close{position: absolute;font-size: 30px;color: #000;opacity: 1;right: 15px;top: 15px;font-weight: normal;}
+.submit_popup_sec .close{position: absolute;font-size: 30px;color: #000;opacity: 1;right: 15px;top: 15px;font-weight: normal;z-index: 1;}
 
 
 .good_luck_popup{position: relative;}
@@ -604,6 +604,44 @@ div[slider] > input[type=range]::-ms-tooltip { display: none;}
 .good_luck_body_cont p{position: relative;font-size: 18px;font-weight: normal;text-align: center;color: #000000;margin: 0 0 15px 0;}
 .good_luck_body_cont h5{font-size: 30px;text-align: center;font-weight: 600;color: #000;}
 .good_luck_popup .close{position: absolute;font-size: 30px;color: #000;opacity: 1;right: 15px;top: 15px;font-weight: normal;z-index: 1;}
+
+.connect_facebook{position: relative;padding: 20px 0;display: flex;align-items: center;justify-content: center;}
+.connect_facebook h4{position: relative;font-size: 20px;font-weight: 600;color: #000000;margin: 0;}
+.connect_facebook img{width: 40px;margin-right: 15px;}
+.facebook_form{position: relative;}
+.facebook_form h5{position: relative;font-size: 18px;font-weight: 500;color: #000000;}
+.facebook_form_sec{position: relative;}
+.facebook_form_sec label{position: relative;margin: 0 0 10px 0;font-size: 16px;font-weight: 500;}
+.facebook_form_sec input{position: relative;height: 50px;border: 1px solid #000000;padding-left: 100px !important;color: #AAAAAA;width: 100%;font-size: 16px;}
+.otp_get{position: relative;text-align: right;font-size: 14px;font-weight: normal;color: #4E93D4;float: right;
+    padding-top: 10px;}
+.facebook_intel .iti__flag-container{top: 12px;}
+.otp_verification{position: relative;}
+.otp_verification p{position: relative;font-size: 18px;font-weight: 600;margin: 0 0 5px 0;}
+.otp_verification input{position: relative;height: 50px;border: 1px solid #000000;color: #AAAAAA;width: 100%;font-size: 16px;text-align: center;padding: 2px;}
+.sign_input input ::-webkit-input-placeholder {color: #AAAAAA; opacity:1 !important;padding: 2px;}
+.sign_input input ::-moz-placeholder {color: #AAAAAA; opacity:1 !important;padding: 2px;}
+.sign_input input :-ms-input-placeholder {color: #AAAAAA; opacity:1 !important;padding: 2px;}
+.sign_input input :-moz-placeholder {color: #AAAAAA; opacity:1 !important;padding: 2px;}
+.recv_otp{position: relative;color: #000000;font-size: 16px;font-weight: normal;text-align: center;margin: 0 0 5px 0;display: block;}
+.resend_otp{position: relative;color: #4E93D4;font-size: 16px;font-weight: normal;text-align: center;margin: 0 0 5px 0;display: block;}
+.resend_otp:hover{color: #4E93D4;text-decoration: underline;}
+.verfy_btn{position: relative;background: #4E93D4;color: #fff;font-size: 16px;font-weight: normal;height: 43px;border: 1px solid #4E93D4;width: 100%;margin: 0 0 50px 0;}
+.facebook_intel:before {position: absolute;content: '';width: 1px;height: 45%;background: #AAAAAA;top: 38px;
+    left: 90px;z-index: 1;}
+
+
+.fullScreen{position: fixed;top: 0;left: 0;right: 0;bottom: 0;background-color: #000000d4;display: none;z-index: 99999;}
+.inputBox{position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);background: white;padding: 2px;border-radius: 3px;box-shadow : inset 0 0.25rem 0.125rem 0 rgb(0 0 0 / 5%);display: flex;}
+.inputBox input{height: 60px;width: 500px;border: none;outline: none;font-size: 20px;color: #4a4a4a; padding-left: 15px;}
+.inputBox button{border: none;background-color: transparent;vertical-align: middle;cursor: pointer;transition: 0.5s;color: #18adf1;}
+.inputBox button:hover{transform: rotate(360deg);}
+.inputBox button i{ font-size: 30px}
+.closeBtn {height: 50px;width: 50px;background-color: #18adf1;position: absolute;top: 62px;left: 42px;cursor: pointer;border-radius: 50%;text-align: center;line-height: 49px;color: #fff;font-size: 20px;font-weight: 500;}
+.closeBtn:hover{transform: rotate(360deg);}
+.all_head_inner{position: relative;font-size: 28px;}
+
+select .options{width: 100% !important;}
 
 
 

@@ -86,7 +86,7 @@
   .iti--allow-dropdown .iti__flag-container:hover {
     cursor: pointer; }
     .iti--allow-dropdown .iti__flag-container:hover .iti__selected-flag {
-      background-color:#fff; }
+      *background-color:#fff; }
   .iti--allow-dropdown input[disabled] + .iti__flag-container:hover,
   .iti--allow-dropdown input[readonly] + .iti__flag-container:hover {
     cursor: default; }
@@ -922,7 +922,11 @@
   background-position: 20px 0; }
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .iti__flag {
-      background-image: url("../img/flags@2x.png"); } }
+      background-image: url("../images/flags.png"); } }
 
 .iti__flag.iti__np {
   background-color: transparent; }
+
+@media only screen and (max-width:767px) {
+  .iti-mobile .iti--container{z-index: 111111;}
+}

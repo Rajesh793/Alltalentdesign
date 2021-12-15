@@ -28,11 +28,11 @@
 <script src="js/intlTelInput.js"></script>
 
 
-
 </head>
+
 <body class="inner_body">
 
-<header class="all_head inner_pages">
+<header class="all_head_inner inner_pages">
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-12 col-md-12">
@@ -455,10 +455,10 @@
                                         <div class="job_list_body_right_body_single_btn">
                                             <ul>
                                                 <li>
-                                                    <a href="#" class="view_details" data-toggle="modal" data-target="#record"><img src="images/view-details.svg" alt="" title="">View Details</a>
+                                                    <a href="#" class="view_details" data-toggle="modal" data-target="#facebook"><img src="images/view-details.svg" alt="" title="">View Details</a>
                                                 </li>
                                                 <li>
-                                                    <a href="#" class="apply_now" data-toggle="modal" data-target="#record1"><img src="images/apply-now.svg" alt="" title="">Apply Now</a>
+                                                    <a href="#" class="apply_now" data-toggle="modal" data-target="#google"><img src="images/apply-now.svg" alt="" title="">Apply Now</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -908,146 +908,88 @@
 </footer>
 <div class="overlay"></div>
 
-
 <div class="sing_in_pop">
-    <div id="signin" class="modal fade" role="dialog">
+    <div id="facebook" class="modal fade" role="dialog">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
                     <ul class="nav nav-tabs nav_tabs" role="tablist">
                         <li class="nav-item active">
-                            <a class="nav-link active" data-toggle="tab" href="#tabs-1" role="tab">Sign Up</a>
+                            <a class="nav-link active" data-toggle="tab" href="#tabs-3" role="tab">Sign Up</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" data-toggle="tab" href="#tabs-2" role="tab">Sign In</a>
+                            <a class="nav-link" data-toggle="tab" href="#tabs-4" role="tab">Sign In</a>
                         </li>
                     </ul>
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                 </div>
                 <div class="modal-body">
                     <div class="tab-content">
-                        <div class="tab-pane active" id="tabs-1" role="tabpanel">
+                        <div class="tab-pane active" id="tabs-3" role="tabpanel">
                             <div class="row">
                                 <div class="col-lg-9 col-md-9 mx-auto">
                                     <div class="first_panel">
                                         <div class="panel_logo">
                                             <img src="images/logo.png" alt="" title="">
                                         </div>
-                                        <h4 class="sign_head">Create a FREE profile and apply for Talent Jobs!</h4>
-                                        <div class="row">
-                                            <div class="col-lg-6 col-md-6">
-                                                <div class="sign_input">
-                                                    <input type="text" name="" placeholder="First Name">
+                                        <div class="connect_facebook">
+                                            <img src="images/facebook.svg" alt="" title="">
+                                            <h4>Connected through Facebook</h4>
+                                        </div>
+                                        <div class="facebook_form">
+                                            <h5>Enter Mobile number to proceed</h5>
+                                            <div class="facebook_form_sec">
+                                                <label>10 digit mobile number</label>
+                                                <div class="facebook_intel">
+                                                   <input type="tel" id="mobile_number" class="" name="mobile_number" value="" placeholder="9668 ___" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" maxlength="10">
+                                                   <span class="otp_get">Get OTP</span>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-6 col-md-6">
-                                                <div class="sign_input">
-                                                    <input type="text" name="" placeholder="Last Name">
-                                                </div>
+                                            <hr class="spacer20px">
+                                            <div class="otp_verification">
+                                                <p>OTP Verification</p>
+                                                <input type="" name="" placeholder="_ _ _ _ _ _" maxlength="6">
                                             </div>
-                                            <div class="col-lg-12 col-md-12">
-                                                <div class="sign_input">
-                                                    <input type="text" name="" placeholder="Email">
-                                                </div>
-                                            </div>
-                                            <div class="">
-                                                <div class="col-lg-9 col-md-9 fl_w">
-                                                    <div class="">
-                                                        <div class="input-login sign_input">
-                                                           <input type="tel" id="mobile_number" class="" name="mobile_number" value="" placeholder="Mobile Number" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" maxlength="10">
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-lg-3 col-md-3 fl_w">
-                                                    <div class="sign_input">
-                                                        <input type="text" name="" placeholder="_ _ _ _ _ _">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-12 col-md-12">
-                                                <p class="otp_btn">GET OTP</p>
-                                            </div>
-                                            <div class="col-lg-12 col-md-12">
-                                                <div class="sign_input">
-                                                    <input id="password-field" type="password" name="password" value="Password">
-                                                    <span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-12 col-md-12">
-                                                <div class="sign_input">
-                                                    <input id="password-field1" type="password" name="password" value="Confirm Password">
-                                                    <span toggle="#password-field1" class="fa fa-fw fa-eye field-icon toggle-password1"></span>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-12 col-md-12">
-                                                <button type="button" class="register_btn">Register</button>
-                                            </div>
-                                            <div class="col-lg-12 col-md-12">
-                                                <div class="or_sign_up">
-                                                    <p>OR SIGN UP WITH</p>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-12 col-md-12">
-                                                <div class="signup_other">
-                                                    <a href="#"><img src="images/facebook.png">Facebook</a>
-                                                    <a href="#"><img src="images/g-img.svg"> Google</a>
-                                                </div>
-                                            </div>
+                                            <hr class="spacer20px">
+                                            <a href="#" class="recv_otp">Didn't receive OTP code?</a>
+                                            <a href="#" class="resend_otp">Resend Code</a>
+                                            <hr class="spacer20px">
+                                            <button type="button" class="verfy_btn">Verify & Proceed</button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="tab-pane" id="tabs-2" role="tabpanel">
+                        <div class="tab-pane" id="tabs-4" role="tabpanel">
                             <div class="row">
                                 <div class="col-lg-9 col-md-9 mx-auto">
                                     <div class="first_panel">
                                         <div class="panel_logo">
                                             <img src="images/logo.png" alt="" title="">
                                         </div>
-                                        <h4 class="all_head">Welcome to All Talent!</h4>
-                                        <h5 class="sign_head">Login to your account</h5>
-                                        <div class="row">
-                                            <div class="col-lg-12 col-md-12">
-                                                <div class="sign_input">
-                                                    <input type="text" name="" placeholder="Email">
+                                        <div class="connect_facebook">
+                                            <img src="images/facebook.svg" alt="" title="">
+                                            <h4>Connected through Facebook</h4>
+                                        </div>
+                                        <div class="facebook_form">
+                                            <h5>Enter Mobile number to proceed</h5>
+                                            <div class="facebook_form_sec">
+                                                <label>10 digit mobile number</label>
+                                                <div class="facebook_intel">
+                                                   <input type="tel" id="mobile_number1" class="" name="mobile_number" value="" placeholder="9668 ___" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" maxlength="10">
+                                                   <span class="otp_get">Get OTP</span>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-12 col-md-12">
-                                                <div class="sign_input">
-                                                    <input id="password-field2" type="password" name="password" value="Password">
-                                                    <span toggle="#password-field2" class="fa fa-fw fa-eye field-icon toggle-password2"></span>
-                                                </div>
+                                            <hr class="spacer20px">
+                                            <div class="otp_verification">
+                                                <p>OTP Verification</p>
+                                                <input type="" name="" placeholder="_ _ _ _ _ _" maxlength="6">
                                             </div>
-                                            <div class="col-lg-12 col-md-12 frgt_pass">
-                                                <p class="frgt_para">Forget Password ?</p>
-                                                <p class="frgt_para_new">Log In with OTP</p>
-                                            </div>
-                                            <div class="col-lg-12 col-md-12">
-                                                <div class="check_box_sec">
-                                                    <label class="container">Remember me
-                                                      <input type="checkbox" checked="checked">
-                                                      <span class="checkmark"></span>
-                                                    </label>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-12 col-md-12">
-                                                <button type="button" class="register_btn">Login</button>
-                                            </div>
-                                            <div class="col-lg-12 col-md-12">
-                                                <h6 class="terms_para">By signing in, you agree to All Talent <a href="#"> Terms and Conditions & Privacy Policy.</a></h6>
-                                            </div>
-                                            <div class="col-lg-12 col-md-12 mx-auto">
-                                                <div class="or_sign_up">
-                                                    <p>OR SIGN IN WITH</p>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-12 col-md-12">
-                                                <div class="signup_other">
-                                                    <a href="#"><img src="images/facebook.png">Facebook</a>
-                                                    <a href="#"><img src="images/g-img.svg"> Google</a>
-                                                </div>
-                                            </div>
+                                            <hr class="spacer20px">
+                                            <a href="#" class="recv_otp">Didn't receive OTP code?</a>
+                                            <a href="#" class="resend_otp">Resend Code</a>
+                                            <hr class="spacer20px">
+                                            <button type="button" class="verfy_btn">Verify & Proceed</button>
                                         </div>
                                     </div>
                                 </div>
@@ -1060,239 +1002,92 @@
     </div>
 </div>
 
-<div class="record_popup">
-    <div id="record" class="modal fade" role="dialog">
+<div class="sing_in_pop">
+    <div id="google" class="modal fade" role="dialog">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
+                    <ul class="nav nav-tabs nav_tabs" role="tablist">
+                        <li class="nav-item active">
+                            <a class="nav-link active" data-toggle="tab" href="#tabs-5" role="tab">Sign Up</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#tabs-6" role="tab">Sign In</a>
+                        </li>
+                    </ul>
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                 </div>
                 <div class="modal-body">
-                    <div class="row">
-                        <div class="col-lg-11 col-md-11 mx-auto">
-                            <div class="record_main">
-                                <div class="row">
-                                    <div class="col-lg-6 col-md-6">
-                                        <div class="record_main_single">
-                                            <div class="record_main_single_img">
-                                                <img src="images/record-img1.svg" alt="" title="">
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="tabs-5" role="tabpanel">
+                            <div class="row">
+                                <div class="col-lg-9 col-md-9 mx-auto">
+                                    <div class="first_panel">
+                                        <div class="panel_logo">
+                                            <img src="images/logo.png" alt="" title="">
+                                        </div>
+                                        <div class="connect_facebook">
+                                            <img src="images/google.svg" alt="" title="">
+                                            <h4>Connected through Google</h4>
+                                        </div>
+                                        <div class="facebook_form">
+                                            <h5>Enter Mobile number to proceed</h5>
+                                            <div class="facebook_form_sec">
+                                                <label>10 digit mobile number</label>
+                                                <div class="facebook_intel">
+                                                   <input type="tel" id="mobile_number3" class="" name="mobile_number" value="" placeholder="9668 ___" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" maxlength="10">
+                                                   <span class="otp_get">Get OTP</span>
+                                                </div>
                                             </div>
-                                            <div class="record_main_single_cont">
-                                                <p>Upload your Audition Video.</p>
+                                            <hr class="spacer20px">
+                                            <div class="otp_verification">
+                                                <p>OTP Verification</p>
+                                                <input type="" name="" placeholder="_ _ _ _ _ _" maxlength="6">
                                             </div>
+                                            <hr class="spacer20px">
+                                            <a href="#" class="recv_otp">Didn't receive OTP code?</a>
+                                            <a href="#" class="resend_otp">Resend Code</a>
+                                            <hr class="spacer20px">
+                                            <button type="button" class="verfy_btn">Verify & Proceed</button>
                                         </div>
                                     </div>
-                                    <div class="col-lg-6 col-md-6">
-                                        <div class="record_main_single">
-                                            <div class="record_main_single_img">
-                                                <img src="images/record-img.png" alt="" title="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane" id="tabs-6" role="tabpanel">
+                            <div class="row">
+                                <div class="col-lg-9 col-md-9 mx-auto">
+                                    <div class="first_panel">
+                                        <div class="panel_logo">
+                                            <img src="images/logo.png" alt="" title="">
+                                        </div>
+                                        <div class="connect_facebook">
+                                            <img src="images/google.svg" alt="" title="">
+                                            <h4>Connected through Facebook</h4>
+                                        </div>
+                                        <div class="facebook_form">
+                                            <h5>Connected through Google</h5>
+                                            <div class="facebook_form_sec">
+                                                <label>10 digit mobile number</label>
+                                                <div class="facebook_intel">
+                                                   <input type="tel" id="mobile_number4" class="" name="mobile_number" value="" placeholder="9668 ___" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" maxlength="10">
+                                                   <span class="otp_get">Get OTP</span>
+                                                </div>
                                             </div>
-                                            <div class="record_main_single_cont">
-                                                <p>Record your Audition Video.</p>
+                                            <hr class="spacer20px">
+                                            <div class="otp_verification">
+                                                <p>OTP Verification</p>
+                                                <input type="" name="" placeholder="_ _ _ _ _ _" maxlength="6">
                                             </div>
+                                            <hr class="spacer20px">
+                                            <a href="#" class="recv_otp">Didn't receive OTP code?</a>
+                                            <a href="#" class="resend_otp">Resend Code</a>
+                                            <hr class="spacer20px">
+                                            <button type="button" class="verfy_btn">Verify & Proceed</button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="record_popup">
-    <div id="record1" class="modal fade" role="dialog">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                </div>
-                <div class="modal-body">
-                    <div class="row">
-                        <div class="col-lg-11 col-md-11 mx-auto">
-                            <div class="record_sec">
-                                <div class="record_sec_top"></div>
-                                <div class="record_sec_middle">
-                                    <a href="#" class="cir">
-                                        <i class="fal fa-pause-circle"></i>
-                                    </a>
-                                    <a href="#" class="record_btn">
-                                        <span>
-                                            
-                                        </span>
-                                    </a>
-                                    <a href="#" class="cir">
-                                        <i class="far fa-circle"></i>
-                                    </a>
-                                </div>
-                                <p>Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Mauris A Nisi Et Mauris Sollicitudin Bibendum.</p>
-                                <div class="submit_btn">
-                                    <a href="#" class="apply_now">submit</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="record_popup">
-    <div id="record2" class="modal fade" role="dialog">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                </div>
-                <div class="modal-body">
-                    <div class="row">
-                        <div class="col-lg-12 col-md-12 mx-auto">
-                            <div class="video_sec_popup">
-                                <div class="video_sec_popup_img">
-                                    <img src="images/img-popup.jpg" alt="" title="">
-                                    <img src="images/play-button.png" class="play_btn">
-                                </div>
-                            </div>
-                            <hr class="spacer30px">
-                            <div class="submit_btn">
-                                <a href="#" class="apply_now">submit</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-
-<div class="calender_sec">
-    <div id="calender_pop" class="modal fade" role="dialog">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <!-- <button type="button" class="close" data-dismiss="modal">&times;</button> -->
-                <div class="modal-body">
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6">
-                            <div class="modal_base">
-                                <div class="card">
-                                    <div class="calendar-toolbar">
-                                        <button class="prev month-btn">
-                                            <i class="fas fa-chevron-left"></i>
-                                        </button>
-                                        <div class="current-month">
-                                        </div>
-                                        <button class="next month-btn">
-                                            <i class="fas fa-chevron-right"></i>
-                                        </button>
-                                    </div>
-                                    <div class="calendar">
-                                        <div class="weekdays">
-                                            <div class="weekday-name">Su</div>
-                                            <div class="weekday-name">Mo</div>
-                                            <div class="weekday-name">Tu</div>
-                                            <div class="weekday-name">We</div>
-                                            <div class="weekday-name">Th</div>
-                                            <div class="weekday-name">Fr</div>
-                                            <div class="weekday-name">Sa</div>
-                                        </div>
-                                        <div class="calendar-days"></div>
-                                    </div>
-                                </div>
-                                <!-- <div class="goto-buttons">
-                                <button type="button" class="btn prev-year">Prev Year</button>
-                                <button type="button" class="btn today">Today</button>
-                                <button type="button" class="btn next-year">Next Year</button>
-                                </div>
-                                </div> -->
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6">
-                            <div class="modal_base">
-                                <div class="table_struct">
-                                    <table width="100%" cellpadding="0" cellspacing="0">
-                                        <thead>
-                                            <tr>
-                                                <td width="15%" class="text-center">Sr No</td>
-                                                <td width="35%">Batch Time</td>
-                                                <td width="30%" class="text-center">No Of People</td>
-                                                <td width="20%"></td>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td class="text-center">1</td>
-                                                <td>10:30 AM - 11:30 AM</td>
-                                                <td class="text-center">10/10</td>
-                                                <td class="text-center"><a href="#" class="table_btn">Apply</a></td>
-                                            </tr>
-                                            <tr>
-                                                <td class="text-center">2</td>
-                                                <td>10:30 AM - 11:30 AM</td>
-                                                <td class="text-center">10/10</td>
-                                                <td class="text-center"><a href="#" class="table_btn">Apply</a></td>
-                                            </tr>
-                                            <tr>
-                                                <td class="text-center">3</td>
-                                                <td>10:30 AM - 11:30 AM</td>
-                                                <td class="text-center">10/10</td>
-                                                <td class="text-center"><a href="#" class="table_btn">Apply</a></td>
-                                            </tr>
-                                            <tr>
-                                                <td class="text-center">4</td>
-                                                <td>10:30 AM - 11:30 AM</td>
-                                                <td class="text-center">10/10</td>
-                                                <td class="text-center"><a href="#" class="table_btn">Apply</a></td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="submit_popup_sec">
-    <div id="submit_popup" class="modal fade" role="dialog">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <div class="modal-body">
-                    <div class="submit_pop_body">
-                        <div class="submit_pop_body_img">
-                            <img src="images/submit-img.svg" alt="" title="">
-                        </div>
-                        <div class="submit_pop_body_cont">
-                            <p>Your application has been submitted. Good Luck! You can check the status of your audition in jobs section of your profile.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="good_luck_popup">
-    <div id="good_luck" class="modal fade" role="dialog">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
-                <div class="modal-body">
-                    <div class="good_luck_body">
-                        <div class="good_luck_body_img">
-                            <img src="images/good-luck.jpg" alt="" title="">
-                        </div>
-                        <div class="good_luck_body_cont">
-                            <p>Your application has been submitted.</p>
-                            <h5>Good Luck!</h5>
                         </div>
                     </div>
                 </div>
@@ -1465,6 +1260,75 @@ e.preventDefault();
 }, false);
 })
 
+var inputEl = document.getElementById('mobile_number,#mobile_number4,#mobile_number2,#mobile_number1');
+var goodKey = '0123456789';
+
+var checkInputTel = function(e) {
+var key = (typeof e.which == "number") ? e.which : e.keyCode;
+var start = this.selectionStart,
+end = this.selectionEnd;
+
+var filtered = this.value.split('').filter(filterInput);
+this.value = filtered.join("");
+
+/* Prevents moving the pointer for a bad character */
+var move = (filterInput(String.fromCharCode(key)) || (key == 0 || key == 8)) ? 0 : 1;
+this.setSelectionRange(start - move, end - move);
+}
+
+var filterInput = function(val) {
+return (goodKey.indexOf(val) > -1);
+}
+
+inputEl.addEventListener('input', checkInputTel);
+
+function keyPressed(){
+var key = event.keyCode || event.charCode || event.which ;
+return key;
+}
+</script>
+
+
+<script>
+$(document).on('keypress', '#name', function (event) {
+var regex = new RegExp("^[a-zA-Z ]+$");
+var key = String.fromCharCode(!event.charCode ? event.which : event.charCode);
+if (!regex.test(key)) {
+event.preventDefault();
+return false;
+}
+});
+var phone_number = window.intlTelInput(document.querySelector("#mobile_number1"), {
+separateDialCode: true,
+hiddenInput: "full",
+utilsScript: "cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.3/js/utils.js"
+});
+
+var myInput = document.querySelectorAll("input[type=number]");
+function keyAllowed(key) {
+var keys = [8, 9, 13, 16, 17, 18, 19, 20, 27, 46, 48, 49, 50,
+51, 52, 53, 54, 55, 56, 57, 91, 92, 93
+];
+if (key && keys.indexOf(key) === -1)
+return false;
+else
+return true;
+}
+myInput.forEach(function(element) {
+element.addEventListener('keypress', function(e) {
+var key = !isNaN(e.charCode) ? e.charCode : e.keyCode;
+if (!keyAllowed(key))
+e.preventDefault();
+}, false);
+
+// Disable pasting of non-numbers
+element.addEventListener('paste', function(e) {
+var pasteData = e.clipboardData.getData('text/plain');
+if (pasteData.match(/[^0-9]/))
+e.preventDefault();
+}, false);
+})
+
 var inputEl = document.getElementById('mobile_number');
 var goodKey = '0123456789';
 
@@ -1494,6 +1358,188 @@ return key;
 </script>
 
 
+<script type="text/javascript">
+    $(".toggle-password").click(function() {
+      $(this).toggleClass("fa-eye fa-eye-slash");
+      var input = $($(this).attr("toggle"));
+      if (input.attr("type") == "password") {
+        input.attr("type", "text");
+      } else {
+        input.attr("type", "password");
+      }
+    });
+</script>
+
+<script type="text/javascript">
+    $(".toggle-password1").click(function() {
+      $(this).toggleClass("fa-eye fa-eye-slash");
+      var input = $($(this).attr("toggle"));
+      if (input.attr("type") == "password") {
+        input.attr("type", "text");
+      } else {
+        input.attr("type", "password");
+      }
+    });
+</script>
+
+<script type="text/javascript">
+    $(".toggle-password2").click(function() {
+      $(this).toggleClass("fa-eye fa-eye-slash");
+      var input = $($(this).attr("toggle"));
+      if (input.attr("type") == "password") {
+        input.attr("type", "text");
+      } else {
+        input.attr("type", "password");
+      }
+    });
+</script>
+
+<script type="text/javascript">
+    $(window).on('scroll', function() {
+        if ($(window).scrollTop() > 100) {
+            $('.all_head_inner').addClass('sticky_header_inner animated fadeInDown');
+        } else {
+            $('.all_head_inner').removeClass('sticky_header_inner animated fadeInDown');
+        }
+    });    
+</script>
+
+<script>
+$(document).on('keypress', '#name', function (event) {
+var regex = new RegExp("^[a-zA-Z ]+$");
+var key = String.fromCharCode(!event.charCode ? event.which : event.charCode);
+if (!regex.test(key)) {
+event.preventDefault();
+return false;
+}
+});
+var phone_number = window.intlTelInput(document.querySelector("#mobile_number3"), {
+separateDialCode: true,
+hiddenInput: "full",
+utilsScript: "cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.3/js/utils.js"
+});
+
+var myInput = document.querySelectorAll("input[type=number]");
+function keyAllowed(key) {
+var keys = [8, 9, 13, 16, 17, 18, 19, 20, 27, 46, 48, 49, 50,
+51, 52, 53, 54, 55, 56, 57, 91, 92, 93
+];
+if (key && keys.indexOf(key) === -1)
+return false;
+else
+return true;
+}
+myInput.forEach(function(element) {
+element.addEventListener('keypress', function(e) {
+var key = !isNaN(e.charCode) ? e.charCode : e.keyCode;
+if (!keyAllowed(key))
+e.preventDefault();
+}, false);
+
+// Disable pasting of non-numbers
+element.addEventListener('paste', function(e) {
+var pasteData = e.clipboardData.getData('text/plain');
+if (pasteData.match(/[^0-9]/))
+e.preventDefault();
+}, false);
+})
+
+var inputEl = document.getElementById('mobile_number');
+var goodKey = '0123456789';
+
+var checkInputTel = function(e) {
+var key = (typeof e.which == "number") ? e.which : e.keyCode;
+var start = this.selectionStart,
+end = this.selectionEnd;
+
+var filtered = this.value.split('').filter(filterInput);
+this.value = filtered.join("");
+
+/* Prevents moving the pointer for a bad character */
+var move = (filterInput(String.fromCharCode(key)) || (key == 0 || key == 8)) ? 0 : 1;
+this.setSelectionRange(start - move, end - move);
+}
+
+var filterInput = function(val) {
+return (goodKey.indexOf(val) > -1);
+}
+
+inputEl.addEventListener('input', checkInputTel);
+
+function keyPressed(){
+var key = event.keyCode || event.charCode || event.which ;
+return key;
+}
+</script>
+
+
+<script>
+$(document).on('keypress', '#name', function (event) {
+var regex = new RegExp("^[a-zA-Z ]+$");
+var key = String.fromCharCode(!event.charCode ? event.which : event.charCode);
+if (!regex.test(key)) {
+event.preventDefault();
+return false;
+}
+});
+var phone_number = window.intlTelInput(document.querySelector("#mobile_number4"), {
+separateDialCode: true,
+hiddenInput: "full",
+utilsScript: "cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.3/js/utils.js"
+});
+
+var myInput = document.querySelectorAll("input[type=number]");
+function keyAllowed(key) {
+var keys = [8, 9, 13, 16, 17, 18, 19, 20, 27, 46, 48, 49, 50,
+51, 52, 53, 54, 55, 56, 57, 91, 92, 93
+];
+if (key && keys.indexOf(key) === -1)
+return false;
+else
+return true;
+}
+myInput.forEach(function(element) {
+element.addEventListener('keypress', function(e) {
+var key = !isNaN(e.charCode) ? e.charCode : e.keyCode;
+if (!keyAllowed(key))
+e.preventDefault();
+}, false);
+
+// Disable pasting of non-numbers
+element.addEventListener('paste', function(e) {
+var pasteData = e.clipboardData.getData('text/plain');
+if (pasteData.match(/[^0-9]/))
+e.preventDefault();
+}, false);
+})
+
+var inputEl = document.getElementById('mobile_number');
+var goodKey = '0123456789';
+
+var checkInputTel = function(e) {
+var key = (typeof e.which == "number") ? e.which : e.keyCode;
+var start = this.selectionStart,
+end = this.selectionEnd;
+
+var filtered = this.value.split('').filter(filterInput);
+this.value = filtered.join("");
+
+/* Prevents moving the pointer for a bad character */
+var move = (filterInput(String.fromCharCode(key)) || (key == 0 || key == 8)) ? 0 : 1;
+this.setSelectionRange(start - move, end - move);
+}
+
+var filterInput = function(val) {
+return (goodKey.indexOf(val) > -1);
+}
+
+inputEl.addEventListener('input', checkInputTel);
+
+function keyPressed(){
+var key = event.keyCode || event.charCode || event.which ;
+return key;
+}
+</script>
 
 
 </body>
