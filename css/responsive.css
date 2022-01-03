@@ -321,6 +321,10 @@
 .inner_ftr_copy_sec_single ul li:last-child {padding-left: 20px;}
 
 
+/*PROFILE PAGE CSS*/
+.languages_sec{display: block;}
+
+
 }
 @media only screen and (min-width:1301px) and (max-width:1400px) {
 .head_sec_left_inner h1{font-size: 55px;}
@@ -381,6 +385,31 @@
 .inner_ftr_copy_sec_single ul li a {font-size: 17px;}
 .inner_ftr_copy_sec_single ul li {padding-left: 10px;}
 .inner_ftr_copy_sec_single ul li:last-child {padding-left: 20px;}
+
+
+/*PROFILE PAGE CSS*/
+
+.insta_sec {width: auto;}
+.profile_page_main_right_left h6{font-size: 16px;}
+.profile_page_main_right_left p{font-size: 14px;}
+.profile_gender {margin: 0 0 10px 0;padding: 12px;}
+.profile_gender_main table tr td{font-size: 14px;}
+.languages_sec{display: block;}
+.circle_sec p{font-size: 18px;}
+.insta_sec table tr td{font-size: 14px;}
+.talent_manager_head h4{font-size: 16px;}
+.talent_man_msg p{font-size: 12px;}
+.talent_man_msg span{font-size: 12px;}
+.talent_height_wig{grid-gap: 5px;}
+.talent_height_wig_single h6{font-size: 12px;}
+.talent_height_wig_single p{font-size: 10px;}
+.all_media_tabs_left{padding: 20px;}
+.all_media_tabs_left ul li {padding-bottom: 20px;}
+.all_media_tabs_left ul li a{font-size: 12px;}
+.new_nav{padding: 15px;}
+.new_nav .nav .nav-item.nav-link{font-size: 16px;}
+.languages_sec{display: block;}
+
 
 
 }

@@ -711,7 +711,7 @@ select .options{width: 100% !important;}
     top: 0;left: 0;right: 0;bottom: 0;display: flex;align-items: center;justify-content: center;}
 .circle_sec p span{font-size: 14px;}
 .analyse_btn{position: relative;font-size: 18px;font-weight: bold;color: rgba(0 85 212 / 0.81);}
-.insta_sec{position: relative;margin: 0 auto;width: 200px;}
+.insta_sec{position: relative;margin: 0 auto;*width: 200px;}
 .insta_sec img {width: 50px;margin: 0 auto 20px;text-align: center;display: block;}
 .insta_sec table tr td{padding-bottom: 5px;font-size: 16px;color: #001D3D;font-weight: bold;}
 .insta_sec table tr td:first-child {font-weight: normal;}
