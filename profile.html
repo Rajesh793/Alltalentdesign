@@ -566,7 +566,7 @@
                                                                 </div>
                                                             </div>
                                                             <div class="gallery_sec_single">
-                                                                <a href="videos/video-1.mp4" class="youtube gallery">
+                                                                <a href="#" class="" data-toggle="modal" data-target="#myvideo">
                                                                     <i class="fas fa-play"></i>
                                                                     <img src="images/pic-1.png" alt="" title="" />
                                                                 </a>
@@ -575,10 +575,11 @@
                                                         <div class="tab_img_sec_single">
                                                             <div class="dropdown">
                                                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                                                    <i class="fas fa-ellipsis-h"></i>
+                                                                <i class="fas fa-ellipsis-h"></i>
                                                                 </a>
                                                                 <div class="dropdown-menu drop_sec">
                                                                     <div class="drop_sec_all_btn">
+                                                                        <a href="#"  class="profile_btn"><i class="far fa-image"></i>Set Profile Picture</a>
                                                                         <a href="#" class="delete_btn"><i class="far fa-trash-alt"></i>Delete</a>
                                                                         <a href="#" class="report_btn"><i class="fas fa-info-circle"></i>Report</a>
                                                                     </div>
@@ -590,40 +591,6 @@
                                                                     <img src="images/pic-2.png" alt="" title="" />
                                                                 </a>
                                                             </div>
-                                                        </div>
-                                                        <div class="tab_img_sec_single">
-                                                            <div class="dropdown">
-                                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                                                    <i class="fas fa-ellipsis-h"></i>
-                                                                </a>
-                                                                <div class="dropdown-menu drop_sec">
-                                                                    <div class="drop_sec_all_btn">
-                                                                        <a href="#" class="delete_btn"><i class="far fa-trash-alt"></i>Delete</a>
-                                                                        <a href="#" class="report_btn"><i class="fas fa-info-circle"></i>Report</a>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <ul id="lightGallery2">
-                                                                <li data-src="images/pic-3.png">
-                                                                   <div class="gallery_sec_single">
-                                                                        <a href="#">
-                                                                            <i class="fas fa-play"></i>
-                                                                            <img src="images/pic-3.png" alt="" title="" />
-                                                                        </a>
-                                                                    </div>
-                                                                </li>
-                                                                <li style="display:none" data-src="images/pic-2.png"><img src="images/pic-2.png" alt="" /></li>
-                                                                <li style="display:none" data-src="images/pic-1.png"><img src="images/pic-1.png" alt="" /></li>
-                                                                <li style="display:none" data-src="images/pic-4.png"><img src="images/pic-4.png" alt="" /></li>
-                                                                <li style="display:none" data-src="images/pic-5.png"><img src="images/pic-5.png" alt="" /></li>
-                                                                <li style="display:none" data-src="images/pic-6.png"><img src="images/pic-6.png" alt="" /></li>
-                                                                <li style="display:none" data-src="images/pic-7.png"><img src="images/pic-7.png" alt="" /></li>
-                                                                <li style="display:none" data-src="images/pic-8.png"><img src="images/pic-8.png" alt="" /></li>
-                                                                <li style="display:none" data-src="images/pic-9.png"><img src="images/pic-9.png" alt="" /></li>
-                                                                <li style="display:none" data-src="images/pic-10.png"><img src="images/pic-10.png" alt="" /></li>
-                                                                <li style="display:none" data-src="images/pic-11.png"><img src="images/pic-11.png" alt="" /></li>
-                                                                <li style="display:none" data-src="images/pic-12.png"><img src="images/pic-12.png" alt="" /></li>
-                                                            </ul>
                                                         </div>
                                                         <div class="tab_img_sec_single">
                                                             <div class="dropdown">
@@ -4158,6 +4125,80 @@
     </div>
 </div>
 
+<div class="video_popup_modal">
+    <div id="myvideo" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <div class="modalvid_sec_main owl-carousel" id="video_slider">
+                        <div class="modalvid_sec"> 
+                            <a href="#">    
+                                <i class="fas fa-play"></i>
+                                <img src="images/pic-1.png" alt="" title="">
+                            </a>
+                        </div>
+                        <div class="modalvid_sec">
+                            <i class="fas fa-play"></i>   
+                            <img src="images/pic-2.png" alt="" title="">
+                        </div>
+                        <div class="modalvid_sec">  
+                            <i class="fas fa-play"></i> 
+                            <img src="images/pic-3.png" alt="" title="">
+                        </div>
+                        <div class="modalvid_sec">   
+                            <i class="fas fa-play"></i>
+                            <img src="images/pic-4.png" alt="" title="">
+                        </div>
+                        <div class="modalvid_sec">   
+                            <i class="fas fa-play"></i>
+                            <img src="images/pic-5.png" alt="" title="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    jQuery("#video_slider").owlCarousel({
+        lazyLoad: true,
+        loop: true,
+        margin:0,
+        responsiveClass: true,
+        // animateOut: 'fadeOut',
+        // animateIn: 'fadeIn',
+        autoplay:false,
+        autoplayTimeout:3500,
+        autoplayHoverPause:false,
+        autoHeight: true,
+        mouseDrag: true,
+        touchDrag: true,
+        smartSpeed: 3500,
+        nav: true,
+        dots:false,
+        responsive: {
+            0: {
+                items: 1
+            },
+
+            600: {
+                items: 1
+            },
+
+            1024: {
+                items: 1
+            },
+
+            1366: {
+                items: 1
+            }
+        }
+    });
+</script>
+
+
 <div class="msg_popup">
     <div id="myModalmsg" class="modal fade" role="dialog">
         <div class="modal-dialog">
@@ -5493,7 +5534,6 @@
     </div>
 </div>
 
-
 <div class="record_popup">
     <div id="record2" class="modal fade" role="dialog">
         <div class="modal-dialog">
@@ -5532,8 +5572,6 @@
         });
     });
 </script>
-
-
 
 <script>
     jQuery("#media_slider").owlCarousel({
@@ -5657,8 +5695,6 @@ $(document).ready(function() {
     });
 });
 </script>
-
-
 
 
 <script type="text/javascript">
