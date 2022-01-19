@@ -586,7 +586,7 @@
                                                                 </div>
                                                             </div>
                                                             <div class="gallery_sec_single">
-                                                                <a href="videos/video1.mp4" class="youtube gallery">
+                                                                <a href="videos/video-1.mp4" class="youtube gallery">
                                                                     <i class="fas fa-play"></i>
                                                                     <img src="images/pic-2.png" alt="" title="" />
                                                                 </a>
@@ -605,11 +605,11 @@
                                                                 </div>
                                                             </div>
                                                             <ul id="lightGallery3">
-                                                                <li data-src="images/pic-4.png">
+                                                                <li data-src="videos/video-1.mp4">
                                                                    <div class="gallery_sec_single">
                                                                         <a href="#">
                                                                             <i class="fas fa-play"></i>
-                                                                            <img src="images/pic-4.png" alt="" title="" />
+                                                                            <img src="images/pic-2.png" alt="" title="" />
                                                                         </a>
                                                                     </div>
                                                                 </li>
@@ -4000,6 +4000,7 @@
 </section>
 <hr class="spacer50px">
 
+
 <footer class="inner_ftr">
     <div class="container">
         <div class="row">
@@ -4131,35 +4132,75 @@
             <div class="modal-content">
                 <div class="modal-body">
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <div class="modalvid_sec_main owl-carousel" id="video_slider">
+                    
+                    <!-- <div class="modalvid_sec_main owl-carousel" id="video_slider">
                         <div class="modalvid_sec"> 
-                            <a href="#">    
+                            <div class="item-video" data-merge="3"><a class="owl-video" href="videos/video-1.mp4"></a></div>
+                            <div class="item-video" data-merge="3"><a class="owl-video" href="videos/video-1.mp4"></a></div>
+                            <div class="item-video" data-merge="3"><a class="owl-video" href="videos/video-1.mp4"></a></div>
+                        </div>
+                        <div class="modalvid_sec">
+                            <a href="#"> 
+                                <i class="fas fa-play"></i>   
+                                <img src="images/pic-2.png" alt="" title="">
+                            </a>
+                        </div>
+                        <div class="modalvid_sec"> 
+                            <a href="#">  
+                                <i class="fas fa-play"></i> 
+                                <img src="images/pic-3.png" alt="" title="">
+                            </a>
+                        </div>
+                        <div class="modalvid_sec">  
+                            <a href="#">  
                                 <i class="fas fa-play"></i>
-                                <img src="images/pic-1.png" alt="" title="">
+                                <img src="images/pic-4.png" alt="" title="">
                             </a>
                         </div>
                         <div class="modalvid_sec">
-                            <i class="fas fa-play"></i>   
-                            <img src="images/pic-2.png" alt="" title="">
+                            <a href="#"> 
+                                <i class="fas fa-play"></i>
+                                <img src="images/pic-5.png" alt="" title="">
+                            </a>
                         </div>
-                        <div class="modalvid_sec">  
-                            <i class="fas fa-play"></i> 
-                            <img src="images/pic-3.png" alt="" title="">
-                        </div>
-                        <div class="modalvid_sec">   
-                            <i class="fas fa-play"></i>
-                            <img src="images/pic-4.png" alt="" title="">
-                        </div>
-                        <div class="modalvid_sec">   
-                            <i class="fas fa-play"></i>
-                            <img src="images/pic-5.png" alt="" title="">
-                        </div>
+                    </div> -->
+                    <div class="owl-carousel owl-theme">
+                        <div class="item-video" data-merge="3"><a class="owl-video" href="https://youtu.be/KGkiIBTq0y0"></a></div>
+                        <div class="item-video" data-merge="1"><a class="owl-video" href="https://youtu.be/KGkiIBTq0y0"></a></div>
+                        <div class="item-video" data-merge="2"><a class="owl-video" href="https://youtu.be/KGkiIBTq0y0"></a></div>
+                        <div class="item-video" data-merge="1"><a class="owl-video" href="https://youtu.be/KGkiIBTq0y0"></a></div>
+                        <div class="item-video" data-merge="2"><a class="owl-video" href="https://www.youtube.com/watch?v=H3jLkJrhHKQ"></a></div>
+                        <div class="item-video" data-merge="3"><a class="owl-video" href="https://www.youtube.com/watch?v=g3J4VxWIM6s"></a></div>
+                        <div class="item-video" data-merge="1"><a class="owl-video" href="https://www.youtube.com/watch?v=0fhoIate4qI"></a></div>
+                        <div class="item-video" data-merge="2"><a class="owl-video" href="https://www.youtube.com/watch?v=EF_kj2ojZaE"></a></div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+<script type="text/javascript">
+        $('.owl-carousel').owlCarousel({
+        items:1,
+        merge:true,
+        loop:true,
+        margin:0,
+        video:true,
+        lazyLoad:true,
+        center:true,
+        videoHeight:300,
+        videoWidth:300,
+        responsive:{
+            480:{
+                items:1
+            },
+            600:{
+                items:1
+            }
+        }
+    })
+</script>
 
 <script>
     jQuery("#video_slider").owlCarousel({
@@ -4169,7 +4210,7 @@
         responsiveClass: true,
         // animateOut: 'fadeOut',
         // animateIn: 'fadeIn',
-        autoplay:false,
+        autoplay:true,
         autoplayTimeout:3500,
         autoplayHoverPause:false,
         autoHeight: true,
@@ -4178,6 +4219,9 @@
         smartSpeed: 3500,
         nav: true,
         dots:false,
+        video:true,
+        videoHeight:300;
+        videoWidth:300;
         responsive: {
             0: {
                 items: 1
@@ -4197,7 +4241,6 @@
         }
     });
 </script>
-
 
 <div class="msg_popup">
     <div id="myModalmsg" class="modal fade" role="dialog">
@@ -4782,7 +4825,6 @@
         </div>
     </div>
 </div>
-
 
 <div class="connect_pop">
     <div id="connect" class="modal fade" role="dialog">
@@ -5719,7 +5761,8 @@ $(document).ready(function() {
     $(document).ready(function() {
     $('#lightGallery3').lightGallery({
         showThumbByDefault:true,
-        addClass:'showThumbByDefault'
+        addClass:'showThumbByDefault',
+        video:true
     }); 
     });
     $(document).ready(function() {

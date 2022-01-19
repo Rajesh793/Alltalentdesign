@@ -628,7 +628,10 @@
 .all_media_tabs .col-md-2, .col-md-10 {-ms-flex: 0 0 100%; flex: 0 0 100%;max-width: 100%;}
 .all_media_tabs_right{margin: 20px 0 0 0;}
 
-
+.our_story_sec .row .col-md-6{-ms-flex: 0 0 100%;flex: 0 0 100%;max-width: 100%;}
+.padd_left { padding-left: 0;}
+.our_story_sec_right{margin:15px 0;}
+.ethos_right_img{margin:15px 0;}
 
 }
 @media only screen and (min-width:768px) and (max-width:991px) {
@@ -801,6 +804,12 @@
 .talent_manager_sec .col-md-7, .col-md-5 {-ms-flex: 0 0 100%; flex: 0 0 100%;max-width: 100%;}
 .all_media_tabs .col-md-2, .col-md-10 {-ms-flex: 0 0 100%; flex: 0 0 100%;max-width: 100%;}
 .all_media_tabs_right{margin: 20px 0 0 0;}
+
+.our_story_sec .row .col-md-6{-ms-flex: 0 0 100%;flex: 0 0 100%;max-width: 100%;}
+.padd_left { padding-left: 0;}
+.our_story_sec_right{margin:15px 0;}
+.ethos_right_img{margin:15px 0;}
+
 
 
 
@@ -1017,13 +1026,19 @@
 .new_nav .nav {grid-template-columns: 1fr 1fr;grid-gap: 10px;}
 .new_nav .nav .nav-item.nav-link{font-size: 14px;}
 
+/*About us page*/
 
-
-
-
-
-
-
+.about_us_sec {padding: 20px 0;}
+.padd_left {padding-left: 0;}
+.our_story_sec_right {margin: 20px 0 0 0;}
+.our_story_sec_right h4{font-size: 25px;}
+.our_story_sec_right p{font-size: 14px;}
+.about_us_sec .spacer30px{height: 20px;}
+.our_story_sec_right ul li {margin-bottom: 10px;font-size: 14px;}
+.ethos_right_img img { width: 200px;}
+.new_flex{flex-direction: column-reverse;}
+.our_story_sec_left{padding: 150px 0;margin-left: 0px;}
+.wid {width: 150px !important;}
 
 
 
