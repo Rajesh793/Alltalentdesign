@@ -22,6 +22,7 @@
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
 <link href="css/lightgallery.css" rel="stylesheet">
 
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="js/bootstrap.min.js"></script>
@@ -33,7 +34,13 @@
 <script src="https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js"></script>
 <script src="js/lightgallery-all.min.js"></script>
 <script src="js/jquery.mousewheel.min.js"></script>
+
+<link rel="stylesheet" href="assests/style.min.css">
+<link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+
+
 </head>
+
 <body class="inner_body">
 
 <header class="all_head_inner inner_pages">
@@ -552,7 +559,7 @@
                                                 </div>
                                                 <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
                                                     <div class="tab_img_sec">
-                                                        <div class="tab_img_sec_single">
+                                                        <!-- <div class="tab_img_sec_single">
                                                             <div class="dropdown">
                                                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                                                                 <i class="fas fa-ellipsis-h"></i>
@@ -571,7 +578,7 @@
                                                                     <img src="images/pic-1.png" alt="" title="" />
                                                                 </a>
                                                             </div>
-                                                        </div>
+                                                        </div> -->
                                                         <div class="tab_img_sec_single">
                                                             <div class="dropdown">
                                                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
@@ -605,7 +612,7 @@
                                                                 </div>
                                                             </div>
                                                             <ul id="lightGallery3">
-                                                                <li data-src="videos/video-1.mp4">
+                                                                <li data-src="images/pic-2.png">
                                                                    <div class="gallery_sec_single">
                                                                         <a href="#">
                                                                             <i class="fas fa-play"></i>
@@ -4000,7 +4007,6 @@
 </section>
 <hr class="spacer50px">
 
-
 <footer class="inner_ftr">
     <div class="container">
         <div class="row">
@@ -4126,6 +4132,7 @@
     </div>
 </div>
 
+
 <div class="video_popup_modal">
     <div id="myvideo" class="modal fade" role="dialog">
         <div class="modal-dialog">
@@ -4164,43 +4171,14 @@
                             </a>
                         </div>
                     </div> -->
-                    <div class="owl-carousel owl-theme">
-                        <div class="item-video" data-merge="3"><a class="owl-video" href="https://youtu.be/KGkiIBTq0y0"></a></div>
-                        <div class="item-video" data-merge="1"><a class="owl-video" href="https://youtu.be/KGkiIBTq0y0"></a></div>
-                        <div class="item-video" data-merge="2"><a class="owl-video" href="https://youtu.be/KGkiIBTq0y0"></a></div>
-                        <div class="item-video" data-merge="1"><a class="owl-video" href="https://youtu.be/KGkiIBTq0y0"></a></div>
-                        <div class="item-video" data-merge="2"><a class="owl-video" href="https://www.youtube.com/watch?v=H3jLkJrhHKQ"></a></div>
-                        <div class="item-video" data-merge="3"><a class="owl-video" href="https://www.youtube.com/watch?v=g3J4VxWIM6s"></a></div>
-                        <div class="item-video" data-merge="1"><a class="owl-video" href="https://www.youtube.com/watch?v=0fhoIate4qI"></a></div>
-                        <div class="item-video" data-merge="2"><a class="owl-video" href="https://www.youtube.com/watch?v=EF_kj2ojZaE"></a></div>
-                    </div>
+
                 </div>
             </div>
         </div>
     </div>
 </div>
 
-<script type="text/javascript">
-        $('.owl-carousel').owlCarousel({
-        items:1,
-        merge:true,
-        loop:true,
-        margin:0,
-        video:true,
-        lazyLoad:true,
-        center:true,
-        videoHeight:300,
-        videoWidth:300,
-        responsive:{
-            480:{
-                items:1
-            },
-            600:{
-                items:1
-            }
-        }
-    })
-</script>
+
 
 <script>
     jQuery("#video_slider").owlCarousel({
@@ -5809,6 +5787,12 @@ $(document).ready(function() {
     });
     $(document).ready(function() {
     $('#lightGallery11').lightGallery({
+        showThumbByDefault:true,
+        addClass:'showThumbByDefault'
+    }); 
+    });
+    $(document).ready(function() {
+    $('#lightGallery14').lightGallery({
         showThumbByDefault:true,
         addClass:'showThumbByDefault'
     }); 

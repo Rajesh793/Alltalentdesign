@@ -1,5 +1,6 @@
 @media only screen and (min-width:1801px) and (max-width:3400px) {
 .form_sec {padding-bottom: 200px;}
+.our_story_sec_left{margin-left: -350px;}
 }
 @media only screen and (min-width:1801px) and (max-width:1900px) {
 .head_sec_left_inner h1{font-size: 55px;}
