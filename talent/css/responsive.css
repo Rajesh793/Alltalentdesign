@@ -228,6 +228,7 @@
 .bold{font-size: 15px !important;}
 .search_btn i{font-size: 20px;}
 .apply_now{width: 160px;height: 45px;font-size: 14px;}
+.view_details{width: 160px;height: 45px;font-size: 14px;}
 .featured_job span{font-size: 12px;}
 .job_list_body_right_search_sec input{font-size: 16px;}
 .job_list_body_right_body_single_id ul li {padding-right: 12px; font-size: 14px;}
@@ -1206,6 +1207,17 @@
 .prev_pop_cont_form {padding: 20px 15px;}
 .connect_pop_body_inner ul li img { width: 35%;}
 .circle_sec p{font-size: 24px;}
+
+
+
+/*Contact Us*/
+
+.contact_sec_main {padding: 20px;}
+.contact_sec_left {padding-left: 0;margin: 0 0 20px 0;}
+.contact_sec_left ul li{font-size: 20px;}
+.msg_btn_new {font-size: 16px;margin-left: 10px;margin-top: 20px;}
+
+
 
 
 }
