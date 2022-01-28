@@ -653,7 +653,13 @@
 .language_popup .close {right: 20px;top: -45px;}
 .sticky_class{position: -webkit-sticky;position: sticky;top: 95px;}
 
-
+/*Clarification page
+*/
+.talent_profile_clarification_inner{padding: 20px 15px;}
+.talent_profile_clarification_inner ol li{font-size: 14px;}
+.talent_profile_clarification_input{grid-template-columns: 1fr;}
+.talent_profile_clarification_input_left input {font-size: 12px;padding-left: 10px;}
+.talent_profile_clarification_input_right{text-align: center;}
 
 }
 
@@ -854,6 +860,16 @@
 .profile_page_main_right_left h6{font-size: 20px;}
 .talent_manager_head h4{font-size: 18px;}
 .profile_page_main_left{margin-bottom: 10px;}
+
+
+/*Clarification page
+*/
+.talent_profile_clarification_inner{padding: 20px 15px;}
+.talent_profile_clarification_inner ol li{font-size: 14px;}
+.talent_profile_clarification_input{grid-template-columns: 1fr;}
+.talent_profile_clarification_input_left input {font-size: 12px;padding-left: 10px;}
+.talent_profile_clarification_input_right{text-align: center;}
+
 
 }
 @media only screen and (min-width:450px) and (max-width:767px) {
@@ -1216,7 +1232,11 @@
 .contact_sec_left {padding-left: 0;margin: 0 0 20px 0;}
 .contact_sec_left ul li{font-size: 20px;}
 .msg_btn_new {font-size: 16px;margin-left: 10px;margin-top: 20px;}
-
+.talent_profile_clarification_inner{padding: 20px 15px;}
+.talent_profile_clarification_inner ol li{font-size: 14px;}
+.talent_profile_clarification_input{grid-template-columns: 1fr;}
+.talent_profile_clarification_input_left input {font-size: 12px;padding-left: 10px;}
+.talent_profile_clarification_input_right{text-align: center;}
 
 
 
