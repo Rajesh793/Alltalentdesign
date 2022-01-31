@@ -138,6 +138,672 @@
 </header>
 
 
+<section class="talent_settings">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-11 col-md-11 mx-auto">
+                <div class="talent_settings_main">
+                    <h6>Talent Settings</h6>
+                    <div class="talent_settings_body">
+                        <div class="talent_settings_body_single">
+                            <div class="row">
+                                <div class="col-lg-3 col-md-3">
+                                    <div class="talent_settings_body_single_left">
+                                        <h5>Profile Visibility</h5>
+                                    </div>
+                                </div>
+                                <div class="col-lg-9 col-md-9">
+                                    <div class="talent_settings_body_single_right">
+                                        <div class="talent_settings_body_single_right_show" id="profile_visibility_hide">
+                                            <p>Public</p>
+                                            <a href="javascript:void(0);" onclick="showEditSection('profile_visibility','profile_visibility_hide');">Edit</a>
+                                        </div>
+                                        <div class="talent_settings_body_single_right_hide" id="profile_visibility" style="display: none;">
+                                            <div class="form_sec_radio">
+                                                <div class="radio_btn_single">
+                                                    <label class="radio_btn">Company
+                                                      <input type="radio" name="radio" checked>
+                                                      <span class="checkmark"></span>
+                                                    </label>
+                                                </div>
+                                                <div class="radio_btn_single">
+                                                    <label class="radio_btn">Individual
+                                                      <input type="radio" name="radio">
+                                                      <span class="checkmark"></span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="right_cont_form">
+                                                <a href="javascript:void(0);" onclick="hideEditSection('profile_visibility','profile_visibility_hide');">
+                                                    <i class="fas fa-times"></i>
+                                                </a>
+                                                <a href="javascript:void(0);" class="update_btn" onclick="hideEditSection('profile_visibility','profile_visibility_hide');">update</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="talent_settings_body_single">
+                            <div class="row">
+                                <div class="col-lg-3 col-md-3">
+                                    <div class="talent_settings_body_single_left">
+                                        <h5>Display Name</h5>
+                                    </div>
+                                </div>
+                                <div class="col-lg-9 col-md-9">
+                                    <div class="talent_settings_body_single_right">
+                                        <div class="talent_settings_body_single_right_show" id="display_name_hide">
+                                            <p>RakeshJhunjhunwala</p>
+                                            <a href="javascript:void(0);" onclick="showEditSection('display_name','display_name_hide');">Edit</a>
+                                        </div>
+                                        <div class="talent_settings_body_single_right_hide" id="display_name" style="display: none;">
+                                            <div class="talent_setting_input_display">
+                                                <input type="text" name="" placeholder="Enter your Display Name"><i class="fas fa-info-circle"></i>
+                                            </div>
+                                            <div class="right_cont_form">
+                                                <a href="javascript:void(0);" onclick="hideEditSection('display_name','display_name_hide');">
+                                                    <i class="fas fa-times"></i>
+                                                </a>
+                                                <a href="javascript:void(0);" class="update_btn" class="update_btn" onclick="hideEditSection('display_name','display_name_hide');">update</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="talent_settings_body_single">
+                            <div class="row">
+                                <div class="col-lg-3 col-md-3">
+                                    <div class="talent_settings_body_single_left space_tag phone_flex">
+                                        <h5>Country</h5>
+                                        <h5>State</h5>
+                                        <h5>City</h5>
+                                    </div>
+                                </div>
+                                <div class="col-lg-9 col-md-9">
+                                    <div class="talent_settings_body_single_right">
+                                        <div class="talent_settings_body_single_right_show space_tag"  id="country_sec_hide">
+                                            <div>
+                                                <p>Public</p>
+                                                <p>Public</p>
+                                                <p>Public</p>
+                                            </div>
+                                            <a href="javascript:void(0);" onclick="showEditSection('country_sec','country_sec_hide');">Edit</a>
+                                        </div>
+                                        <div class="talent_settings_body_single_right_hide" id="country_sec" style="display: none;">
+                                            <div class="talent_setting_input_display">
+                                                <input type="text" name="" placeholder=""><i class="fas fa-info-circle"></i>
+                                                <hr class="spacer10px">
+                                                <input type="text" name="" placeholder=""><i class="fas fa-info-circle"></i>
+                                                <hr class="spacer10px">
+                                                <input type="text" name="" placeholder=""><i class="fas fa-info-circle"></i>
+                                            </div>
+                                            <div class="right_cont_form">
+                                                <a href="javascript:void(0);" onclick="hideEditSection('country_sec','country_sec_hide');">
+                                                    <i class="fas fa-times"></i>
+                                                </a>
+                                                <a href="javascript:void(0);" class="update_btn" onclick="hideEditSection('country_sec','profile_visibility_hide');">update</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="talent_settings_body_single">
+                            <div class="row">
+                                <div class="col-lg-3 col-md-3">
+                                    <div class="talent_settings_body_single_left">
+                                        <h5>Preferred Location</h5>
+                                    </div>
+                                </div>
+                                <div class="col-lg-9 col-md-9">
+                                    <div class="talent_settings_body_single_right">
+                                        <div class="talent_settings_body_single_right_show" id="preferred_location_hide">
+                                            <p>Mumbai, Noida, Delhi</p>
+                                            <a href="javascript:void(0);" onclick="showEditSection('preferred_location','preferred_location_hide');">Edit</a>
+                                        </div>
+                                        <div class="talent_settings_body_single_right_hide" id="preferred_location" style="display: none;">
+                                            <div class="talent_setting_input_display">
+                                                <input type="text" name="" placeholder=""><i class="fas fa-info-circle"></i>
+                                                <div class="location_span">
+                                                    <span><a href="javascript:void(0);"> Mumbai<i class="fas fa-times"></i></a></span>
+                                                    <span><a href="javascript:void(0);">Delhi<i class="fas fa-times"></i></a></span>
+                                                    <span><a href="javascript:void(0);">Bangalore<i class="fas fa-times"></i></a></span>
+                                                </div>
+                                            </div>
+                                            <div class="right_cont_form">
+                                                <a href="javascript:void(0);" onclick="hideEditSection('preferred_location','preferred_location_hide');">
+                                                    <i class="fas fa-times"></i>
+                                                </a>
+                                                <a href="javascript:void(0);" class="update_btn" onclick="hideEditSection('preferred_location','preferred_location_hide');">update</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="talent_settings_body_single">
+                            <div class="row">
+                                <div class="col-lg-3 col-md-3">
+                                    <div class="talent_settings_body_single_left">
+                                        <h5>Preferred Language</h5>
+                                    </div>
+                                </div>
+                                <div class="col-lg-9 col-md-9">
+                                    <div class="talent_settings_body_single_right">
+                                        <div class="talent_settings_body_single_right_show" id="preferred_lang_hide">
+                                            <p>English, Spanish, Hindi</p>
+                                            <a href="javascript:void(0);" onclick="showEditSection('preferred_lang','preferred_lang_hide');">Edit</a>
+                                        </div>
+                                        <div class="talent_settings_body_single_right_hide" id="preferred_lang" style="display: none;">
+                                            <div class="talent_setting_input_display">
+                                                <input type="text" name="" placeholder=""><i class="fas fa-info-circle"></i>
+                                                <div class="location_span">
+                                                    <span><a href="javascript:void(0);"> English<i class="fas fa-times"></i></a></span>
+                                                    <span><a href="javascript:void(0);">Spanish<i class="fas fa-times"></i></a></span>
+                                                    <span><a href="javascript:void(0);">Hindi<i class="fas fa-times"></i></a></span>
+                                                </div>
+                                            </div>
+                                            <div class="right_cont_form">
+                                                <a href="javascript:void(0);" onclick="hideEditSection('preferred_lang','preferred_lang_hide');">
+                                                    <i class="fas fa-times"></i>
+                                                </a>
+                                                <a href="javascript:void(0);" class="update_btn" onclick="hideEditSection('preferred_lang','preferred_lang_hide');">update</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="talent_settings_body_single">
+                            <div class="row">
+                                <div class="col-lg-3 col-md-3">
+                                    <div class="talent_settings_body_single_left">
+                                        <h5>Languages Known</h5>
+                                    </div>
+                                </div>
+                                <div class="col-lg-9 col-md-9">
+                                    <div class="talent_settings_body_single_right">
+                                        <div class="talent_settings_body_single_right_show" id="laguage_known_hide">
+                                            <p>English, Spanish, French</p>
+                                            <a href="javascript:void(0);" onclick="showEditSection('laguage_known','laguage_known_hide');">Edit</a>
+                                        </div>
+                                        <div class="talent_settings_body_single_right_hide" id="laguage_known" style="display: none;">
+                                            <div class="talent_setting_input_display">
+                                                <input type="text" name="" placeholder=""><i class="fas fa-info-circle"></i>
+                                                <div class="location_span">
+                                                    <span><a href="javascript:void(0);">English<i class="fas fa-times"></i></a></span>
+                                                    <span><a href="javascript:void(0);">Spanish<i class="fas fa-times"></i></a></span>
+                                                    <span><a href="javascript:void(0);">French<i class="fas fa-times"></i></a></span>
+                                                </div>
+                                            </div>
+                                            <div class="right_cont_form">
+                                                <a href="javascript:void(0);" onclick="hideEditSection('laguage_known','laguage_known_hide');">
+                                                    <i class="fas fa-times"></i>
+                                                </a>
+                                                <a href="javascript:void(0);" class="update_btn" onclick="hideEditSection('laguage_known','laguage_known_hide');">update</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="talent_settings_body_single">
+                            <div class="row">
+                                <div class="col-lg-3 col-md-3">
+                                    <div class="talent_settings_body_single_left">
+                                        <h5>Passport</h5>
+                                    </div>
+                                </div>
+                                <div class="col-lg-9 col-md-9">
+                                    <div class="talent_settings_body_single_right">
+                                        <div class="talent_settings_body_single_right_show" id="passport_hide">
+                                            <p>Yes</p>
+                                            <a href="javascript:void(0);" onclick="showEditSection('passport','passport_hide');">Edit</a>
+                                        </div>
+                                        <div class="talent_settings_body_single_right_hide" id="passport" style="display: none;">
+                                            <div class="form_sec_radio">
+                                                <div class="radio_btn_single">
+                                                    <label class="radio_btn">Yes
+                                                      <input type="radio" name="radio" checked>
+                                                      <span class="checkmark"></span>
+                                                    </label>
+                                                </div>
+                                                <div class="radio_btn_single">
+                                                    <label class="radio_btn">No
+                                                      <input type="radio" name="radio">
+                                                      <span class="checkmark"></span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="right_cont_form">
+                                                <a href="javascript:void(0);" onclick="hideEditSection('passport','passport_hide');">
+                                                    <i class="fas fa-times"></i>
+                                                </a>
+                                                <a href="javascript:void(0);" class="update_btn" onclick="hideEditSection('passport','passport_hide');">update</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="talent_settings_body_single">
+                            <div class="row">
+                                <div class="col-lg-3 col-md-3">
+                                    <div class="talent_settings_body_single_left">
+                                        <h5>Talent Categories & Subcategories</h5>
+                                    </div>
+                                </div>
+                                <div class="col-lg-9 col-md-9">
+                                    <div class="talent_settings_body_single_right">
+                                        <div class="talent_settings_body_single_right_show" id="talent_category_hide">
+                                            <div class="talent_setting_category">
+                                                <div class="talent_setting_category_left">
+                                                    <h5>Categories</h5>
+                                                    <p>1 Actor</p>
+                                                    <p>2 Singer</p>
+                                                </div>
+                                                <div class="talent_setting_category_left">
+                                                    <h5>Subcategories</h5>
+                                                    <p>Background Actor, Side Actor</p>
+                                                    <p>Voice-over</p>
+                                                </div>
+                                            </div>
+                                            <a href="javascript:void(0);" onclick="showEditSection('talent_category','talent_category_hide');">Edit</a>
+                                        </div>
+                                        <div class="talent_settings_body_single_right_hide" id="talent_category" style="display: none;">
+                                            <div class="category_sub_inner">
+                                                <div class="category_sub_inner_single">
+                                                    <h6>Category</h6>
+                                                    <div class="cate_check">
+                                                        <label class="container">Actor
+                                                          <input type="checkbox" checked="checked">
+                                                          <span class="checkmark"></span>
+                                                        </label>
+                                                    </div>
+                                                    <div class="cate_check">
+                                                        <label class="container">Singer
+                                                          <input type="checkbox" checked="checked">
+                                                          <span class="checkmark"></span>
+                                                        </label>
+                                                    </div>
+                                                    <div class="cate_check">
+                                                        <a href="javascript:void(0);">+ Add more</a>
+                                                    </div>
+                                                </div>
+                                                <div class="category_sub_inner_single">
+                                                    <h6>Subcategory</h6>
+                                                    <div class="location_span_main">
+                                                        <span><a href="javascript:void(0);">Background Actor<i class="fas fa-times"></i></a></span>
+                                                        <span><a href="javascript:void(0);">Side Actor<i class="fas fa-times"></i></a></span>
+                                                        <span><a href="javascript:void(0);">Voice-over<i class="fas fa-times"></i></a></span>
+                                                    </div>
+                                                </div>
+                                                <div class="category_sub_inner_single">
+                                                    <h5>Delete all selected</h5>
+                                                    <p><a href="javascript:void(0);"><i class="fas fa-plus"></i></a></p>
+                                                </div>
+                                            </div>
+                                            <div class="right_cont_form">
+                                                <a href="javascript:void(0);" onclick="hideEditSection('talent_category','talent_category_hide');">
+                                                    <i class="fas fa-times"></i>
+                                                </a>
+                                                <a href="javascript:void(0);" class="update_btn" onclick="hideEditSection('talent_category','talent_category_hide');">update</a>
+                                            </div>
+                                        </div>
+                                        <div class="category_inner_sub" style="display: none;">
+                                            <div class="category_inner_sub_single">
+                                                <label>Category</label>
+                                                <select>
+                                                    <option>Category</option>
+                                                </select>
+                                            </div>
+                                            <div class="category_inner_sub_single">
+                                                <label>Subcategory</label>
+                                                <select>
+                                                    <option>Subcategory</option>
+                                                </select>
+                                                <div class="cate_check new_add">
+                                                    <a href="javascript:void(0);">+ Add more</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="talent_settings_body_single">
+                            <div class="row">
+                                <div class="col-lg-3 col-md-3">
+                                    <div class="talent_settings_body_single_left">
+                                        <h5>Physical Attributes</h5>
+                                    </div>
+                                </div>
+                                <div class="col-lg-9 col-md-9">
+                                    <div class="talent_settings_body_single_right">
+                                        <div class="talent_settings_body_single_right_show" id="physical_attr_hide">
+                                            <div class="talent_setting_category">
+                                                <p>Height : 5.5 ft</p>
+                                                <p>Weight : 60 Kg</p>
+                                            </div>
+                                            <a href="javascript:void(0);" onclick="showEditSection('physical_attr','physical_attr_hide');">Edit</a>
+                                        </div>
+                                        <div class="talent_settings_body_single_right_hide" id="physical_attr" style="display: none;">
+                                            <div class="physical_attr">
+                                                <div class="physical_attr_single">
+                                                    <input type="text" name="" placeholder="Weight">
+                                                    <input type="text" name="" placeholder="Shoulder">
+                                                    <input type="text" name="" placeholder="Forearm">
+                                                    <input type="text" name="" placeholder="Hips">
+                                                    <input type="text" name="" placeholder="Ankle">
+                                                    <select>
+                                                        <option>Eye Pupil Colour</option>
+                                                    </select>
+                                                </div>
+                                                <div class="physical_attr_single">
+                                                    <input type="text" name="" placeholder="Height">
+                                                    <input type="text" name="" placeholder="Chest">
+                                                    <input type="text" name="" placeholder="Wrist">
+                                                    <input type="text" name="" placeholder="Thighs">
+                                                    <select>
+                                                        <option>Hair Colour</option>
+                                                    </select>
+                                                    <select>
+                                                        <option>Skin Type</option>
+                                                    </select>
+                                                </div>
+                                                <div class="physical_attr_single">
+                                                    <input type="text" name="" placeholder="Neck">
+                                                    <input type="text" name="" placeholder="Biceps">
+                                                    <input type="text" name="" placeholder="Waist">
+                                                    <input type="text" name="" placeholder="Calf">
+                                                    <input type="text" name="" placeholder="Shoe Size">
+                                                </div>
+                                            </div>
+                                            <div class="right_cont_form">
+                                                <a href="javascript:void(0);" onclick="hideEditSection('physical_attr','physical_attr_hide');">
+                                                    <i class="fas fa-times"></i>
+                                                </a>
+                                                <a href="javascript:void(0);" class="update_btn" onclick="hideEditSection('physical_attr','physical_attr_hide');">update</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="talent_settings_body_single">
+                            <div class="row">
+                                <div class="col-lg-3 col-md-3">
+                                    <div class="talent_settings_body_single_left">
+                                        <h5>Social Media Connect</h5>
+                                    </div>
+                                </div>
+                                <div class="col-lg-9 col-md-9">
+                                    <div class="talent_settings_body_single_right">
+                                        <div class="talent_settings_body_single_right_show" id="socail_media_hide">
+                                            <div class="talent_setting_category">
+                                                <p>Facebook</p>
+                                                <p>Youtube</p>
+                                            </div>
+                                            <a href="javascript:void(0);" onclick="showEditSection('socail_media','socail_media_hide');">Edit</a>
+                                        </div>
+                                        <div class="talent_settings_body_single_right_hide" id="socail_media" style="display: none;">
+                                            <div class="social_sec_right">
+                                                <div class="social_sec_right_single">
+                                                    <ul>
+                                                        <li><img src="images/social-1.jpg"></li>
+                                                        <li><a href="javascript:void(0);" class="dis_connect">Disconnect</a></li>
+                                                    </ul>
+                                                    <ul>
+                                                        <li><img src="images/social-4.jpg"></li>
+                                                        <li><a href="javascript:void(0);" class="dis_connect">Disconnect</a></li>
+                                                    </ul>
+                                                    <ul>
+                                                        <li><img src="images/social-5.jpg"></li>
+                                                        <li><a href="javascript:void(0);" class="connect">Connect</a></li>
+                                                    </ul>
+                                                    <ul>
+                                                        <li><img src="images/social-5.jpg"></li>
+                                                        <li><a href="javascript:void(0);" class="connect">Connect</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="right_cont_form">
+                                                <a href="javascript:void(0);" onclick="hideEditSection('socail_media','socail_media_hide');">
+                                                    <i class="fas fa-times"></i>
+                                                </a>
+                                                <a href="javascript:void(0);" class="update_btn" onclick="hideEditSection('socail_media','socail_media_hide');">update</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="talent_settings_body_single">
+                            <div class="row">
+                                <div class="col-lg-3 col-md-3">
+                                    <div class="talent_settings_body_single_left">
+                                        <h5>Email</h5>
+                                    </div>
+                                </div>
+                                <div class="col-lg-9 col-md-9">
+                                    <div class="talent_settings_body_single_right">
+                                        <div class="talent_settings_body_single_right_show" id="email_hide">
+                                            <p>rakeshjhunjhunwala@gmail.com</p>
+                                            <a href="javascript:void(0);" onclick="showEditSection('email','email_hide');">Edit</a>
+                                        </div>
+                                        <div class="talent_settings_body_single_right_hide" id="email" style="display: none;">
+                                            <div class="talent_setting_input_display">
+                                                <div class="talent_setting_input_display_update new_input">
+                                                    <div class="dis_flex_new">
+                                                        <input type="text" name="" placeholder="Enter your Email ID">
+                                                        <i class="fas fa-info-circle"></i>
+                                                    </div>
+                                                    <div class="">
+                                                        <a href="javascript:void(0);" class="update_btn_new">Update</a>
+                                                    </div>
+                                                </div>
+                                                <hr class="spacer10px">
+                                                <div class="talent_setting_input_display_update new_input">
+                                                    <div class="dis_flex_new">
+                                                        <input type="text" name="" placeholder="Enter your Email ID">
+                                                        <i class="fas fa-info-circle"></i>
+                                                    </div>
+                                                    <div class="">
+                                                        <a href="javascript:void(0);" class="update_btn_new">Get OTP</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="right_cont_form">
+                                               <a href="javascript:void(0);" onclick="hideEditSection('email','email_hide');">
+                                                    <i class="fas fa-times"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="talent_settings_body_single">
+                            <div class="row">
+                                <div class="col-lg-3 col-md-3">
+                                    <div class="talent_settings_body_single_left">
+                                        <h5>Mobile no</h5>
+                                    </div>
+                                </div>
+                                <div class="col-lg-9 col-md-9">
+                                    <div class="talent_settings_body_single_right">
+                                        <div class="talent_settings_body_single_right_show new_mob_icn" id="mobile_no_hide">
+                                            <input type="tel" id="mobile_number" class="" name="mobile_number" value="" placeholder="98 _ _ _ _ _ _ _ _" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" maxlength="10">
+                                            <a href="javascript:void(0);" onclick="showEditSection('mobile_no','mobile_no_hide');">Edit</a>
+                                        </div>
+                                        <div class="talent_settings_body_single_right_hide" id="mobile_no" style="display: none;">
+                                            <div class="talent_setting_input_display">
+                                                <div class="talent_setting_input_display_update new_input">
+                                                    <div class="dis_flex_new">
+                                                        <input type="tel" id="mobile_number1" class="" name="mobile_number" value="" placeholder="98 _ _ _ _ _ _ _ _" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" maxlength="10">
+                                                        <i class="fas fa-info-circle"></i>
+                                                    </div>
+                                                    <div class="">
+                                                        <a href="javascript:void(0);" class="update_btn_new">Update</a>
+                                                    </div>
+                                                </div>
+                                                <hr class="spacer10px">
+                                                <div class="talent_setting_input_display_update new_input">
+                                                    <div class="dis_flex_new">
+                                                        <input type="text" name="" placeholder="Enter your Email ID">
+                                                        <i class="fas fa-info-circle"></i>
+                                                    </div>
+                                                    <div class="">
+                                                        <a href="javascript:void(0);" class="update_btn_new">Get OTP</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="right_cont_form">
+                                                <a href="javascript:void(0);" onclick="hideEditSection('mobile_no','mobile_no_hide');">
+                                                    <i class="fas fa-times"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="talent_settings_body_single">
+                            <div class="row">
+                                <div class="col-lg-3 col-md-3">
+                                    <div class="talent_settings_body_single_left">
+                                        <h5>Date of Birth</h5>
+                                    </div>
+                                </div>
+                                <div class="col-lg-9 col-md-9">
+                                    <div class="talent_settings_body_single_right">
+                                        <div class="talent_settings_body_single_right_show new_color" id="dob_sec_hide">
+                                            <p>01-01-1980</p>
+                                            <a href="javascript:void(0);" onclick="showEditSection('dob_sec','dob_sec_hide');">Edit</a>
+                                        </div>
+                                        <div class="talent_settings_body_single_right_hide" id="dob_sec" style="display: none;">
+                                            <div class="talent_setting_input_display">
+                                                <input type="text" name="" placeholder="DD-MM-YYYY"><i class="fas fa-info-circle"></i>
+                                            </div>
+                                            <div class="right_cont_form">
+                                                <a href="javascript:void(0);" onclick="hideEditSection('dob_sec','dob_sec_hide');">
+                                                    <i class="fas fa-times"></i>
+                                                </a>
+                                                <a href="javascript:void(0);" class="update_btn" onclick="hideEditSection('dob_sec','dob_sec_hide');">update</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="talent_settings_body_single">
+                            <div class="row">
+                                <div class="col-lg-3 col-md-3">
+                                    <div class="talent_settings_body_single_left">
+                                        <h5>Gender</h5>
+                                    </div>
+                                </div>
+                                <div class="col-lg-9 col-md-9">
+                                    <div class="talent_settings_body_single_right">
+                                        <div class="talent_settings_body_single_right_show new_color" id="gender_sec_hide">
+                                            <p>Male</p>
+                                            <a href="javascript:void(0);" onclick="showEditSection('gender_sec','gender_sec_hide');">Edit</a>
+                                        </div>
+                                        <div class="talent_settings_body_single_right_hide" id="gender_sec" style="display: none;">
+                                            <div class="talent_setting_input_display">
+                                                <select>
+                                                    <option>All Genders</option>
+                                                </select>
+                                                <i class="fas fa-info-circle"></i>
+                                            </div>
+                                            <div class="right_cont_form">
+                                                <a href="javascript:void(0);" onclick="hideEditSection('gender_sec','gender_sec_hide');">
+                                                    <i class="fas fa-times"></i>
+                                                </a>
+                                                <a href="javascript:void(0);" class="update_btn" onclick="hideEditSection('gender_sec','gender_sec_hide');">update</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="talent_settings_body_single">
+                            <div class="row">
+                                <div class="col-lg-3 col-md-3">
+                                    <div class="talent_settings_body_single_left">
+                                        <h5>URL</h5>
+                                    </div>
+                                </div>
+                                <div class="col-lg-9 col-md-9">
+                                    <div class="talent_settings_body_single_right">
+                                        <div class="talent_settings_body_single_right_show new_color" id="url_sec_hide">
+                                            <p>https://www.alltalent.com/</p>
+                                            <a href="javascript:void(0);" onclick="showEditSection('url_sec','url_sec_hide');">Edit</a>
+                                        </div>
+                                        <div class="talent_settings_body_single_right_hide" id="url_sec" style="display: none;">
+                                            <div class="talent_setting_input_display">
+                                                <input type="text" name="" placeholder="rakeshjhunjhunwala"><i class="fas fa-info-circle"></i>
+                                            </div>
+                                            <div class="right_cont_form">
+                                                <a href="javascript:void(0);" onclick="hideEditSection('url_sec','url_sec_hide');">
+                                                    <i class="fas fa-times"></i>
+                                                </a>
+                                                <a href="javascript:void(0);" class="update_btn" onclick="hideEditSection('url_sec','url_sec_hide');">update</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="talent_settings_body_single">
+                            <div class="row">
+                                <div class="col-lg-3 col-md-3">
+                                    <div class="talent_settings_body_single_left">
+                                        <h5>Change Password<br>Current Password</h5>
+                                    </div>
+                                </div>
+                                <div class="col-lg-9 col-md-9">
+                                    <div class="talent_settings_body_single_right">
+                                        <div class="talent_settings_body_single_right_show"  id="password_sec_hide">
+                                            <p>********</p>
+                                            <a href="javascript:void(0);" onclick="showEditSection('password_sec','password_sec_hide');">Edit</a>
+                                        </div>
+                                        <div class="talent_settings_body_single_right_hide" id="password_sec" style="display: none;">
+                                            <div class="talent_setting_input_display">
+                                                <div class="current_password">
+                                                    <h5>Current Password</h5>
+                                                    <input type="password" name="" placeholder=""><i class="fas fa-info-circle"></i>  
+                                                </div>
+                                                <hr class="spacer10px">
+                                                <div class="current_password">
+                                                    <h5>New Password</h5>
+                                                    <input type="password" name="" placeholder=""><i class="fas fa-info-circle"></i>  
+                                                </div>
+                                                 <hr class="spacer10px">
+                                                <div class="current_password">
+                                                    <h5>Confirm Password</h5>
+                                                    <input type="password" name="" placeholder=""><i class="fas fa-info-circle"></i>  
+                                                </div>
+                                            </div>
+                                            <div class="right_cont_form">
+                                                <a href="javascript:void(0);" onclick="hideEditSection('password_sec','password_sec_hide');">
+                                                    <i class="fas fa-times"></i>
+                                                </a>
+                                                <a href="javascript:void(0);" class="update_btn" onclick="hideEditSection('password_sec','password_sec_hide');">update</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 <footer class="inner_ftr">
     <div class="container">
@@ -266,6 +932,20 @@
 
 
 <script type="text/javascript">
+    function showEditSection(dynShowId,dynHidId) {
+        $('#'+dynShowId).show(500);
+        $('#'+dynHidId).hide(500);
+    }
+    function hideEditSection(dynHidId,dynShowId) {
+        $('#'+dynHidId).hide(500);
+        $('#'+dynShowId).show(500);
+    }
+</script>
+
+
+
+
+<script type="text/javascript">
     $(window).on('scroll', function() {
         if ($(window).scrollTop() > 100) {
             $('.all_head_inner').addClass('sticky_header_inner animated fadeInDown');
@@ -330,6 +1010,145 @@ btn.addEventListener('click', ()=>{
                 });
             });
         }
+</script>
+
+
+<script>
+$(document).on('keypress', '#name', function (event) {
+var regex = new RegExp("^[a-zA-Z ]+$");
+var key = String.fromCharCode(!event.charCode ? event.which : event.charCode);
+if (!regex.test(key)) {
+event.preventDefault();
+return false;
+}
+});
+var phone_number = window.intlTelInput(document.querySelector("#mobile_number"), {
+separateDialCode: true,
+hiddenInput: "full",
+utilsScript: "cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.3/js/utils.js"
+});
+
+var myInput = document.querySelectorAll("input[type=number]");
+function keyAllowed(key) {
+var keys = [8, 9, 13, 16, 17, 18, 19, 20, 27, 46, 48, 49, 50,
+51, 52, 53, 54, 55, 56, 57, 91, 92, 93
+];
+if (key && keys.indexOf(key) === -1)
+return false;
+else
+return true;
+}
+myInput.forEach(function(element) {
+element.addEventListener('keypress', function(e) {
+var key = !isNaN(e.charCode) ? e.charCode : e.keyCode;
+if (!keyAllowed(key))
+e.preventDefault();
+}, false);
+
+// Disable pasting of non-numbers
+element.addEventListener('paste', function(e) {
+var pasteData = e.clipboardData.getData('text/plain');
+if (pasteData.match(/[^0-9]/))
+e.preventDefault();
+}, false);
+})
+
+var inputEl = document.getElementById('mobile_number');
+var goodKey = '0123456789';
+
+var checkInputTel = function(e) {
+var key = (typeof e.which == "number") ? e.which : e.keyCode;
+var start = this.selectionStart,
+end = this.selectionEnd;
+
+var filtered = this.value.split('').filter(filterInput);
+this.value = filtered.join("");
+
+/* Prevents moving the pointer for a bad character */
+var move = (filterInput(String.fromCharCode(key)) || (key == 0 || key == 8)) ? 0 : 1;
+this.setSelectionRange(start - move, end - move);
+}
+
+var filterInput = function(val) {
+return (goodKey.indexOf(val) > -1);
+}
+
+inputEl.addEventListener('input', checkInputTel);
+
+function keyPressed(){
+var key = event.keyCode || event.charCode || event.which ;
+return key;
+}
+</script>
+
+
+
+<script>
+$(document).on('keypress', '#name', function (event) {
+var regex = new RegExp("^[a-zA-Z ]+$");
+var key = String.fromCharCode(!event.charCode ? event.which : event.charCode);
+if (!regex.test(key)) {
+event.preventDefault();
+return false;
+}
+});
+var phone_number = window.intlTelInput(document.querySelector("#mobile_number1"), {
+separateDialCode: true,
+hiddenInput: "full",
+utilsScript: "cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.3/js/utils.js"
+});
+
+var myInput = document.querySelectorAll("input[type=number]");
+function keyAllowed(key) {
+var keys = [8, 9, 13, 16, 17, 18, 19, 20, 27, 46, 48, 49, 50,
+51, 52, 53, 54, 55, 56, 57, 91, 92, 93
+];
+if (key && keys.indexOf(key) === -1)
+return false;
+else
+return true;
+}
+myInput.forEach(function(element) {
+element.addEventListener('keypress', function(e) {
+var key = !isNaN(e.charCode) ? e.charCode : e.keyCode;
+if (!keyAllowed(key))
+e.preventDefault();
+}, false);
+
+// Disable pasting of non-numbers
+element.addEventListener('paste', function(e) {
+var pasteData = e.clipboardData.getData('text/plain');
+if (pasteData.match(/[^0-9]/))
+e.preventDefault();
+}, false);
+})
+
+var inputEl = document.getElementById('mobile_number1');
+var goodKey = '0123456789';
+
+var checkInputTel = function(e) {
+var key = (typeof e.which == "number") ? e.which : e.keyCode;
+var start = this.selectionStart,
+end = this.selectionEnd;
+
+var filtered = this.value.split('').filter(filterInput);
+this.value = filtered.join("");
+
+/* Prevents moving the pointer for a bad character */
+var move = (filterInput(String.fromCharCode(key)) || (key == 0 || key == 8)) ? 0 : 1;
+this.setSelectionRange(start - move, end - move);
+}
+
+var filterInput = function(val) {
+return (goodKey.indexOf(val) > -1);
+}
+
+inputEl.addEventListener('input', checkInputTel);
+
+function keyPressed(){
+var key = event.keyCode || event.charCode || event.which ;
+return key;
+}
 </script>
 
 </body>

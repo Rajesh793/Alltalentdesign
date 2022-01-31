@@ -661,6 +661,14 @@
 .talent_profile_clarification_input_left input {font-size: 12px;padding-left: 10px;}
 .talent_profile_clarification_input_right{text-align: center;}
 
+
+/*Talent Settings*/
+
+.talent_setting_input_display input{width: 100%;}
+.talent_setting_input_display select{width: 100%;}
+
+
+
 }
 
 
@@ -869,6 +877,44 @@
 .talent_profile_clarification_input{grid-template-columns: 1fr;}
 .talent_profile_clarification_input_left input {font-size: 12px;padding-left: 10px;}
 .talent_profile_clarification_input_right{text-align: center;}
+
+/*Talent Settings*/
+
+.talent_settings_body_single{padding: 10px;}
+.talent_settings_body_single_left h5{font-size: 14px;margin-bottom: 5px;}
+.talent_settings_body_single_right_show{display: block;}
+.talent_settings_body_single_right_show p {margin-bottom: 5px;font-size: 14px;}
+.talent_settings_body_single_right_show a{font-size: 14px;}
+.talent_settings_body_single_right_hide{display: block;}
+.radio_btn{font-size: 14px;}
+.right_cont_form i {display: inline-block;font-size: 14px;margin: 0;float: right;}
+.right_cont_form .update_btn {font-size: 14px;padding: 8px 20px;}
+.right_cont_form {margin: 10px 0 0 0;}
+.talent_setting_input_display input {width: 90%;height: 35px;font-size: 14px;}
+.phone_flex{display: flex;align-items: center;justify-content: space-between;flex-wrap: wrap;margin-bottom: 10px;}
+.location_span{top: 5px;}
+.location_span span {padding: 3px 10px;font-size: 10px;}
+.location_span span i {margin-top: 5px;font-size: 10px;}
+.talent_setting_input_display i {padding-left: 5px;font-size: 10px;}
+.category_sub_inner {grid-template-columns: 1fr;grid-gap: 10px;width: 100%;}
+.category_sub_inner_single h6 {margin-bottom: 10px; font-size: 14px; font-weight: 400;}
+.category_sub_inner_single .container{margin-bottom: 10px;font-size: 14px;}
+.category_sub_inner_single .checkmark{height: 16px;width: 16px;}
+.category_sub_inner_single .container .checkmark:after {left: 2px;top: 0;font-size: 10px;}
+.cate_check a{font-size: 14px;}
+.talent_setting_category {width: 100%;grid-gap: 10px;}
+.physical_attr {grid-template-columns: 1fr 1fr 1fr; grid-gap: 10px;width: 100%;}
+.physical_attr_single input {height: 30px;font-size: 12px;margin-bottom: 5px;}
+.physical_attr_single select {height: 30px;font-size: 12px;margin-bottom: 5px;}
+.talent_setting_input_display_update {grid-template-columns: 1fr;}
+.update_btn_new {border-radius: 4px;font-size: 12px;padding: 8px 20px;}
+.talent_setting_input_display select {width: 100%;height: 35px;font-size: 14px;margin-bottom: 10px;}
+.talent_settings_body_single_left{margin-bottom: 10px;}
+.current_password {width: 100%;}
+.current_password h5{font-size: 12px;}
+.talent_setting_category_left h5 {font-size: 14px;margin: 0px 0 10px 0;}
+.talent_settings_main h6{font-size: 20px;}
+
 
 
 }
@@ -1237,6 +1283,47 @@
 .talent_profile_clarification_input{grid-template-columns: 1fr;}
 .talent_profile_clarification_input_left input {font-size: 12px;padding-left: 10px;}
 .talent_profile_clarification_input_right{text-align: center;}
+
+
+/*Talent Settings*/
+
+.talent_settings_body_single{padding: 10px;}
+.talent_settings_body_single_left h5{font-size: 14px;margin-bottom: 5px;}
+.talent_settings_body_single_right_show{display: block;}
+.talent_settings_body_single_right_show p {margin-bottom: 5px;font-size: 14px;}
+.talent_settings_body_single_right_show a{font-size: 14px;}
+.talent_settings_body_single_right_hide{display: block;}
+.radio_btn{font-size: 14px;}
+.right_cont_form i {display: inline-block;font-size: 14px;margin: 0;float: right;}
+.right_cont_form .update_btn {font-size: 14px;padding: 8px 20px;}
+.right_cont_form {margin: 10px 0 0 0;}
+.talent_setting_input_display input {width: 90%;height: 35px;font-size: 14px;}
+.phone_flex{display: flex;align-items: center;justify-content: space-between;flex-wrap: wrap;margin-bottom: 10px;}
+.location_span{top: 5px;}
+.location_span span {padding: 3px 10px;font-size: 10px;}
+.location_span span i {margin-top: 5px;font-size: 10px;}
+.talent_setting_input_display i {padding-left: 5px;font-size: 10px;}
+.category_sub_inner {grid-template-columns: 1fr;grid-gap: 10px;width: 100%;}
+.category_sub_inner_single h6 {margin-bottom: 10px; font-size: 14px; font-weight: 400;}
+.category_sub_inner_single .container{margin-bottom: 10px;font-size: 14px;}
+.category_sub_inner_single .checkmark{height: 16px;width: 16px;}
+.category_sub_inner_single .container .checkmark:after {left: 2px;top: 0;font-size: 10px;}
+.cate_check a{font-size: 14px;}
+.talent_setting_category {width: 100%;grid-gap: 10px;}
+.physical_attr {grid-template-columns: 1fr 1fr 1fr; grid-gap: 10px;width: 100%;}
+.physical_attr_single input {height: 30px;font-size: 12px;margin-bottom: 5px;}
+.physical_attr_single select {height: 30px;font-size: 12px;margin-bottom: 5px;}
+.talent_setting_input_display_update {grid-template-columns: 1fr;}
+.update_btn_new {border-radius: 4px;font-size: 12px;padding: 8px 20px;}
+.talent_setting_input_display select {width: 100%;height: 35px;font-size: 14px;margin-bottom: 10px;}
+.talent_settings_body_single_left{margin-bottom: 10px;}
+.current_password {width: 100%;}
+.current_password h5{font-size: 12px;}
+.talent_setting_category_left h5 {font-size: 14px;margin: 0px 0 10px 0;}
+.talent_settings_main h6{font-size: 20px;}
+
+
+
 
 
 
