@@ -667,6 +667,8 @@
 .talent_setting_input_display input{width: 100%;}
 .talent_setting_input_display select{width: 100%;}
 
+/*Talent Browsing */
+.new_prof_sec .col-lg-12 {-ms-flex: 0 0 50%; flex: 0 0 50%; max-width: 50%;}
 
 
 }
@@ -1323,9 +1325,15 @@
 .talent_settings_main h6{font-size: 20px;}
 
 
+/*Talent Browsing */
 
-
-
+.client_talent_brow_bottom {grid-template-columns: 1fr 1fr; grid-gap: 10px;margin-top: 20px;}
+.client_talent_brow_bottom_single {border-radius: 15px;padding: 10px;}
+.talent_brow_cont_text{left: 10px;}
+.talent_brow_cont_text h6{font-size: 16px;}
+.talent_brow_cont_text ul li{font-size: 14px;}
+.talent_brow_cont_text p{font-size: 12px;}
+.talent_brow_cont_heart i{font-size: 14px;}
 
 }
 
