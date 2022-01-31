@@ -1106,8 +1106,8 @@ input:checked + .slider:before {-webkit-transform: translateX(35px);-ms-transfor
 .talent_profile_clarification_inner{box-shadow: 0px 3px 6px #00000029;border: 1px solid rgba(112 112 112 / 0.50);border-radius: 16px;padding: 20px 45px;}
 .talent_profile_clarification_inner h6{position: relative;font-size: 20px;color: #C81B1B;font-weight: 600;margin: 0 0 10px 0;}
 .talent_profile_clarification_inner ol{padding-left: 15px;list-style-type: none;}
-.talent_profile_clarification_inner ol li{padding-bottom: 5px;color: #9F9E9E;font-size: 17px;font-weight: 500;position: relative;counter-increment: li;}
-.talent_profile_clarification_inner ol li::before {content: counter(li); color: #181818;display: inline-block; width: 1em;margin-left: -1em}
+.talent_profile_clarification_inner ol li{padding-bottom: 5px;color: #9F9E9E;font-size: 17px;font-weight: 500;position: relative;*counter-increment: li;list-style-type: disc;}
+/*.talent_profile_clarification_inner ol li::before {content: counter(li); color: #181818;display: inline-block; width: 1em;margin-left: -1em}*/
 .talent_profile_clarification_inner p{padding-bottom: 8px;color: #9F9E9E;font-size: 17px;font-weight: 500;margin-bottom: 0;}
 .talent_profile_clarification_input{position: relative;display: grid;grid-template-columns: 2fr 1fr;grid-gap: 10px;margin-top: 15px;align-items: center;}
 .talent_profile_clarification_input_left input {position: relative;height: 45px;width: 100%;border: 1px solid #D5D5D5; font-size: 17px;color: #9F9E9E;padding-left: 20px;border-radius: 4px;}
@@ -1118,7 +1118,7 @@ input:checked + .slider:before {-webkit-transform: translateX(35px);-ms-transfor
 .talent_profile_clarification_input_right ul li a.clarify_submit{display: inline-block;box-shadow: 0px 3px 6px #00000029;border: 3px solid #FFFFFF;border-radius: 8px;background: #1565C0;font-size: 16px;color: #FFFFFF;font-weight: 500;padding: 8px 15px;}
 .talent_profile_clarification_input_right ul li a.clarify_contact{display: inline-block;box-shadow: 0px 3px 6px #00000029;border: 3px solid #FFFFFF;border-radius: 8px;background: #BBBBBB;font-size: 16px;color: #242424;font-weight: 500;padding: 8px 15px;}
 .talent_profile_clarification_input_right ul li a.clarify_contact i{margin-right: 10px;}
-
+.clarify_submit{display: inline-block;box-shadow: 0px 3px 6px #00000029;border: 3px solid #FFFFFF;border-radius: 8px;background: #1565C0;font-size: 16px;color: #FFFFFF;font-weight: 500;padding: 8px 15px;}
 
 /*About us*/
 .about_us_sec{position: relative;padding: 0 0 50px 0;background:url(../images/about-bg.svg);background-position: 100% -60px;background-size: cover;background-repeat: no-repeat;}
@@ -1235,7 +1235,7 @@ input:checked + .slider:before {-webkit-transform: translateX(35px);-ms-transfor
 
 .new_color p{color: #AAAAAA;font-weight: 400;}
 .talent_setting_input_display{position: relative;}
-.talent_setting_input_display input{width: 550px;position: relative;border: 1px solid #AAAAAA;height: 40px;font-size: 16px;color: #B0B0B0;font-weight: 300;padding-left: 10px;}
+.talent_setting_input_display input{width: 500px;position: relative;border: 1px solid #AAAAAA;height: 40px;font-size: 16px;color: #B0B0B0;font-weight: 300;padding-left: 10px;}
 .talent_setting_input_display input::-webkit-input-placeholder {color: #B0B0B0 !important; opacity:1 !important;}
 .talent_setting_input_display input::-moz-placeholder {color: #B0B0B0 !important; opacity:1 !important;}
 .talent_setting_input_display input:-ms-input-placeholder {color: #B0B0B0 !important; opacity:1 !important;}
@@ -1292,7 +1292,7 @@ input:checked + .slider:before {-webkit-transform: translateX(35px);-ms-transfor
 .new_mob_icn input#mobile_number {border: none; font-size: 17px;color: #000;}
 .new_mob_icn .iti--allow-dropdown .iti__flag-container, .iti--separate-dial-code .iti__flag-container{top: 8px;}
 .new_input input{}
-.talent_setting_input_display select { position: relative; width: 550px; height: 40px;border: 1px solid #AAAAAA;
+.talent_setting_input_display select { position: relative; width: 500px; height: 40px;border: 1px solid #AAAAAA;
     font-size: 14px;  color: #AAAAAA;  font-weight: 300; padding-left: 10px; margin-bottom: 10px; -webkit-appearance: button; -moz-appearance: button; appearance: button;}
 .current_password{display: flex;align-items: center;width: 80%;}
 .current_password h5{margin: 0;font-size: 16px;color: #000000;font-weight: 600;min-width: 115px;}
