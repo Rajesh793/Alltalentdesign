@@ -1403,6 +1403,21 @@ input:checked + .slider:before {-webkit-transform: translateX(35px);-ms-transfor
 .new_client_set h5 { min-width: 150px;font-size: 16px;}
 .new_client_set_inner{display: grid;grid-template-columns: 1fr 1fr;grid-gap: 10px;}
 .new_client_set_inner input{width: 100%;}
+.physical_attr_single h5{margin: 0 0 5px 0;font-size: 18px;font-weight: 500;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

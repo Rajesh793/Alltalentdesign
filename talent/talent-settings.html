@@ -137,7 +137,6 @@
     </div>
 </header>
 
-
 <section class="talent_settings">
     <div class="container">
         <div class="row">
@@ -177,7 +176,7 @@
                                                 <a href="javascript:void(0);" onclick="hideEditSection('profile_visibility','profile_visibility_hide');">
                                                     <i class="fas fa-times"></i>
                                                 </a>
-                                                <a href="javascript:void(0);" class="update_btn" onclick="hideEditSection('profile_visibility','profile_visibility_hide');">update</a>
+                                                <a href="#" class="update_btn" data-toggle="modal" data-target="#update_popup">update</a>
                                             </div>
                                         </div>
                                     </div>
@@ -927,6 +926,25 @@
     </div>
     <div class="closeBtn">
       <i class="fas fa-times"></i>
+    </div>
+</div>
+
+<div class="update_popup">
+    <div id="update_popup" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <div  class="update_popup_main">
+                        <div class="update_popup_main_img">
+                            <img src="images/update.svg">
+                        </div>
+                        <h6>Your Settings have been applied.</h6>
+                        <button type="button" class="ok_btn">Ok</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 

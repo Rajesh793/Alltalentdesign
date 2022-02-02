@@ -764,7 +764,6 @@ border-radius: 7px;padding: 8px 15px;color: #fff;font-size: 10px;}
 .new_left_sec_nav a.active .show_img{display: none;}
 .new_left_sec_nav a.active .hide_img{display: block;}
 
-
 .all_media_tabs_right{position: relative;}
 .all_media_tabs_right_sec{position: relative;}
 .new_nav{position: relative;margin: 0 0 20px 0;background: #F3F9FFB3;padding: 20px;border-radius: 20px;}
@@ -1095,8 +1094,8 @@ input:checked + .slider:before {-webkit-transform: translateX(35px);-ms-transfor
 .client_pay table tr td ul li{display: inline-block;padding: 0 !important;}
 .brdr_btm_tab{border-bottom: 1px solid #ccc;}
 .client_pay:after{content: '';width: 0;height: 0;border-left: 20px solid transparent;
-    border-right: 20px solid transparent;border-bottom: 20px solid #0096c7;position: absolute;
-    left: 0;top: -20px;right: 0;margin: 0 auto}
+    border-right: 20px solid transparent;border-bottom: 20px solid #e9e9e9;position: absolute;
+    left: 0;top: -21px;right: 0;margin: 0 auto}
 .submit_btn_sec{position: relative;background:#227BDC;color: #fff;font-size: 16px;text-align: center;border: 1px solid #fff;border-radius: 13px;float: right;padding: 8px 30px;box-shadow: 0px 3px 10px #00000029;}
 .submit_btn_sec:hover{color: #fff;}
 
@@ -1296,6 +1295,24 @@ input:checked + .slider:before {-webkit-transform: translateX(35px);-ms-transfor
     font-size: 14px;  color: #AAAAAA;  font-weight: 300; padding-left: 10px; margin-bottom: 10px; -webkit-appearance: button; -moz-appearance: button; appearance: button;}
 .current_password{display: flex;align-items: center;width: 80%;}
 .current_password h5{margin: 0;font-size: 16px;color: #000000;font-weight: 600;min-width: 115px;}
+.update_popup{position: relative;}
+.update_popup .modal-dialog {max-width: 600px;margin: 50px auto;background: #fff;border: 1px solid #707070;
+    border-radius: 55px;}
+.update_popup .close {position: absolute;right: -40px;top: -15px;font-size: 40px;font-weight: normal;color: #fff;z-index: 11;opacity: 1;}
+.update_popup .modal-body{position: relative;padding: 30px;}
+.update_popup_main{position: relative;}
+.update_popup_main_img{margin: 0 auto;width: 70%;}
+.update_popup_main_img img{width: 100%;}
+.update_popup_main h6{text-align: center;color: #000000;font-size: 24px;margin:15px 0;font-weight: 500;}
+.update_popup_main .ok_btn{display: inline-block;box-shadow: 0px 3px 6px #00000029;border: 3px solid #FFFFFF;
+    border-radius: 8px;background: #1565C0;font-size: 16px;color: #FFFFFF;font-weight: 500;padding: 5px 25px;float: right;}
+
+
+
+
+
+
+
 
 
 
