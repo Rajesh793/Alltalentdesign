@@ -909,7 +909,7 @@
 .category_sub_inner_single .checkmark{height: 16px;width: 16px;}
 .category_sub_inner_single .container .checkmark:after {left: 2px;top: 0;font-size: 10px;}
 .cate_check a{font-size: 14px;}
-.talent_setting_category {width: 100%;grid-gap: 10px;}
+.talent_setting_category {width: 85%;grid-gap: 10px;}
 .physical_attr {grid-template-columns: 1fr 1fr 1fr; grid-gap: 10px;width: 100%;}
 .physical_attr_single input {height: 30px;font-size: 12px;margin-bottom: 5px;}
 .physical_attr_single select {height: 30px;font-size: 12px;margin-bottom: 5px;}
@@ -1343,6 +1343,10 @@
 .current_password h5{font-size: 12px;}
 .talent_setting_category_left h5 {font-size: 14px;margin: 0px 0 10px 0;}
 .talent_settings_main h6{font-size: 20px;}
+.update_popup .modal-dialog{margin:80px auto;}
+.update_popup .close {right: 20px;top: -40px;}
+.update_popup_main h6{font-size: 16px;}
+
 
 
 /*Talent Browsing */
