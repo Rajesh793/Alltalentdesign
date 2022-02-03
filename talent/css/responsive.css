@@ -316,10 +316,12 @@
 
 /*PROFILE PAGE CSS*/
 .languages_sec{display: block;}
-.talent_man_msg{display: block;}
+.talent_man_msg{display: flex;}
 .talent_man_msg p{font-size: 14px;margin: 0 0 10px 0;}
 .all_media_tabs_left a {font-size: 14px; padding-bottom: 20px;}
 .all_media_tabs_left a img{width: 30px;}
+
+
 
 
 }
@@ -403,11 +405,31 @@
 .new_nav{padding: 15px;}
 .new_nav .nav .nav-item.nav-link{font-size: 16px;}
 .languages_sec{display: block;}
-.talent_man_msg{display: block;}
+.talent_man_msg{display: flex;}
 .talent_man_msg p{font-size: 14px;margin: 0 0 10px 0;}
 .all_media_tabs_left a {font-size: 14px; padding-bottom: 20px;}
 .all_media_tabs_left a img{width: 30px;}
 .add_media_btn {font-size: 12px !important;padding: 8px 20px;top: 5px;}
+
+
+.talent_profile_clarification_inner ol li{font-size: 15px;}
+.talent_profile_clarification_inner p{font-size: 15px;}
+.talent_profile_clarification_input_right ul li{margin-left: 10px;}
+.clarify_submit {font-size: 14px;padding: 6px 12px;}
+.talent_profile_clarification_input_right ul li a.clarify_contact{font-size: 14px;padding: 6px 12px;}
+.talent_profile_clarification_input_left input {width: 85%;font-size: 15px;}
+.languages_sec ul li a{font-size: 12px;}
+.see_all_btn {font-size: 14px;}
+.new_padd_16 {padding: 20px 0;}
+.profile_str h6 {font-size: 14px;}
+.analyse_btn {font-size: 16px;}
+.social_stat h5{font-size: 12px;}
+.share_btn {font-size: 12px;padding: 5px 12px;margin: 0 0 5px 0;}
+.insta_sec table tr td{padding-bottom: 12px;}
+
+
+
+
 
 
 
@@ -486,29 +508,46 @@
 /*PROFILE PAGE CSS*/
 
 .insta_sec {width: auto;}
-.profile_page_main_right_left h6{font-size: 16px;}
-.profile_page_main_right_left p{font-size: 14px;}
-.profile_gender {margin: 0 0 10px 0;padding: 12px;}
-.profile_gender_main table tr td{font-size: 14px;}
+.profile_page_main_right_left h6{font-size: 14px;margin-bottom: 5px;}
+.profile_page_main_right_left p{font-size: 13px;margin-bottom: 5px;}
+.profile_page_main_right_left p img{width: 10px;}
+.profile_gender {margin: 0 0 8px 0;padding: 10px;}
+.profile_gender_main table tr td{font-size: 12px;}
+.profile_gender_main table tr td span{font-size: 12px;}
+.languages_sec p {font-size: 14px;margin: 0 0px 5px 0;}
+.languages_sec ul li {padding: 0 5px 3px 0;}
+.languages_sec ul li a{font-size: 12px;}
+.see_all_btn {font-size: 13px;margin: 0;}
+.categoryy_tab ul li:first-child a{font-size: 14px;}
+.categoryy_tab ul li a {padding: 0px 4px 0 0;font-size: 12px;}
+.categoryy_tab ul li{font-size: 12px;}
+.new_sub_cate {margin: 0 !important;}
+.categoryy_tab ul { margin: 0 0 10px 0;}
+.new_padd_16 {padding: 20px 0;}
+.profile_str h6 {font-size: 12px;}
+.analyse_btn{font-size: 16px;}
+.share_btn {font-size: 12px;padding: 5px 10px;margin: 0 0 5px 0;}
+.social_stat h5{font-size: 12px;}
 .languages_sec{display: block;}
 .circle_sec p{font-size: 18px;}
-.insta_sec table tr td{font-size: 14px;}
-.talent_manager_head h4{font-size: 16px;}
+.insta_sec table tr td{font-size: 12px;padding-bottom: 10px;}
+.talent_manager_head h4{font-size: 14px;margin:10px 0;}
 .talent_man_msg p{font-size: 12px;margin-bottom: 15px;}
 .talent_man_msg span{font-size: 12px;}
 .talent_height_wig{grid-gap: 5px;}
-.talent_height_wig_single h6{font-size: 14px;}
+.talent_height_wig_single h6{font-size: 12px;}
 .talent_height_wig_single p{font-size: 12px;}
-.all_media_tabs_left{padding: 20px;}
+.all_media_tabs_left{padding: 20px 15px;}
 .all_media_tabs_left ul li {padding-bottom: 20px;}
 .all_media_tabs_left ul li a{font-size: 12px;}
 .new_nav{padding: 15px;}
 .new_nav .nav .nav-item.nav-link{font-size: 16px;}
 
 .new_sub_cate li a {font-size: 10px !important;padding: 5px 10px !important;}
-.talent_man_msg{display: block;}
-.talent_man_msg p{font-size: 16px;margin: 0 0 15px 0;}
-.all_media_tabs_left a {font-size: 14px; padding-bottom: 20px;}
+.talent_man_msg{display: flex;}
+.msg_btn{padding: 8px 10px;font-size: 10px;}
+.talent_man_msg p{font-size: 12px;margin: 0 0 10px 0;}
+.all_media_tabs_left a {font-size: 14px; padding-bottom: 15px;}
 .all_media_tabs_left a img{width: 30px;}
 .add_media_btn {font-size: 12px !important;padding: 8px 20px;top: 5px;}
 .language_popup_right ul{grid-gap: 10px;margin: 0;}
@@ -516,10 +555,13 @@
 .language_popup_right {margin: 20px;padding: 20px;}
 .language_popup_main .row{align-items: center;}
 
-
-
-
-
+.talent_profile_clarification_inner ol li{font-size: 15px;}
+.talent_profile_clarification_inner p{font-size: 15px;}
+.talent_profile_clarification_input_right ul li{margin-left: 10px;}
+.clarify_submit {font-size: 14px;padding: 6px 12px;}
+.talent_profile_clarification_input_right ul li a.clarify_contact{font-size: 14px;padding: 6px 12px;}
+.talent_profile_clarification_input_left input {width: 85%;font-size: 15px;}
+.all_media_tabs{padding: 0 15px;}
 
 
 

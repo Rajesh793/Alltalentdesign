@@ -1314,6 +1314,22 @@ input:checked + .slider:before {-webkit-transform: translateX(35px);-ms-transfor
 .update_popup_main h6{text-align: center;color: #000000;font-size: 24px;margin:15px 0;font-weight: 500;}
 .update_popup_main .ok_btn{display: inline-block;box-shadow: 0px 3px 6px #00000029;border: 3px solid #FFFFFF;
     border-radius: 8px;background: #1565C0;font-size: 16px;color: #FFFFFF;font-weight: 500;padding: 5px 25px;float: right;}
+.talent_cate_sec{position: relative;width: 70%;}
+.talent_cate_sec table thead tr td{position: relative; font-size: 18px; color: #000000;font-weight: 600;
+    padding: 0px 0px 10px 0;}
+.talent_cate_sec table thead tr td:last-child{padding-right: 0px;}
+.talent_cate_sec table tbody tr td{padding-bottom: 10px;color: #000000;font-size: 16px;font-weight: 300;}
+.talent_edit_sec{position: relative;width: 70%;}
+.talent_edit_sec table thead tr td{position: relative; font-size: 18px; color: #000000;font-weight: 600;
+    padding: 0px 0px 10px 0;}
+.talent_edit_sec table thead tr td.delete_text{font-size: 15px;color: #D50000;font-weight: 500;}
+.sub_cate_sub{position: relative;}
+.sub_cate_sub li{display: inline-block;margin: 0 5px 5px 0;}
+.sub_cate_sub li span{padding: 4px 10px;background: #C4C4C4;border-radius:4px; color: #000000;font-size: 12px;display: inline-block;}
+.sub_cate_sub li span i {text-align: right;padding-left: 10px;}
+.plus_icon a i{color: #007FEB;font-size: 16px;}
+.plus_icon{position: absolute; left: 170px;}
+.talent_edit_sec tbody tr td{padding-bottom: 10px;}
 
 
 
@@ -1353,6 +1369,7 @@ input:checked + .slider:before {-webkit-transform: translateX(35px);-ms-transfor
 .new_adv_btn{position: relative;font-size: 18px;font-weight: 600;color: #0096C7;float: right;margin: 5px 0;display: inline-block;width: 100%;text-align: right;}
 .new_adv_btn:hover{color: #0096C7;}
 .content{margin-top: 50px;}
+
 
 
 

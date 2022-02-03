@@ -397,51 +397,114 @@
                                 <div class="col-lg-9 col-md-9">
                                     <div class="talent_settings_body_single_right">
                                         <div class="talent_settings_body_single_right_show" id="talent_category_hide">
-                                            <div class="talent_setting_category">
-                                                <div class="talent_setting_category_left">
-                                                    <h5>Categories</h5>
-                                                    <p>1 Actor</p>
-                                                    <p>2 Singer</p>
-                                                </div>
-                                                <div class="talent_setting_category_left">
-                                                    <h5>Subcategories</h5>
-                                                    <p>Background Actor, Side Actor</p>
-                                                    <p>Voice-over</p>
-                                                </div>
+                                            <div class="talent_cate_sec">
+                                                <table width="100%" cellpadding="0" cellspacing="0">
+                                                    <thead>
+                                                        <tr>
+                                                            <td width="50%">Categories</td>
+                                                            <td width="50%">Subcategories</td>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td width="50%">1 Actor</td>
+                                                            <td width="50%">Background Actor, Side Actor,Background Actor, Side Actor</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td width="50%">2 Singer</td>
+                                                            <td width="50%">Voice-over, Side Actor,Background Actor, Side Actor</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
                                             </div>
                                             <a href="javascript:void(0);" onclick="showEditSection('talent_category','talent_category_hide');">Edit</a>
                                         </div>
                                         <div class="talent_settings_body_single_right_hide" id="talent_category" style="display: none;">
-                                            <div class="category_sub_inner">
-                                                <div class="category_sub_inner_single">
-                                                    <h6>Category</h6>
-                                                    <div class="cate_check">
-                                                        <label class="container">Actor
-                                                          <input type="checkbox" checked="checked">
-                                                          <span class="checkmark"></span>
-                                                        </label>
+                                            <div class="talent_edit_sec">
+                                                <table width="100%" cellspacing="0" cellpadding="0">
+                                                    <thead>
+                                                        <tr>
+                                                            <td width="33%">Category</td>
+                                                            <td width="33%">Subcategory</td>
+                                                            <td width="33%" class="delete_text">Delete all selected</td>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td width="33%">
+                                                                <div class="category_sub_inner_single">
+                                                                    <div class="cate_check">
+                                                                        <label class="container">Actor
+                                                                          <input type="checkbox" checked="checked">
+                                                                          <span class="checkmark"></span>
+                                                                        </label>
+                                                                    </div>
+                                                                </div>
+                                                            </td>
+                                                            <td width="33%">
+                                                                <div class="plus_icon">
+                                                                    <a href="#">
+                                                                        <i class="fas fa-plus"></i>
+                                                                    </a>
+                                                                </div>
+                                                                <ul class="sub_cate_sub">
+                                                                    <li><span>Background Actor<i class="fas fa-times"></i></span></li>
+                                                                    <li><span>Side Actor<i class="fas fa-times"></i></span></li>
+                                                                    <li><span>Voice-over<i class="fas fa-times"></i></span></li>
+                                                                </ul>
+                                                            </td>
+                                                            <td width="33%">
+                                                                <div class="category_inner_sub_single">
+                                                                    <label>Subcategory</label>
+                                                                    <select>
+                                                                        <option>Subcategory</option>
+                                                                    </select>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td width="33%">
+                                                                <div class="category_sub_inner_single">
+                                                                    <div class="cate_check">
+                                                                        <label class="container">Actor
+                                                                          <input type="checkbox" checked="checked">
+                                                                          <span class="checkmark"></span>
+                                                                        </label>
+                                                                    </div>
+                                                                </div>
+                                                            </td>
+                                                            <td width="33%">
+                                                                <div class="plus_icon">
+                                                                    <a href="#">
+                                                                        <i class="fas fa-plus"></i>
+                                                                    </a>
+                                                                </div>
+                                                                <ul class="sub_cate_sub">
+                                                                    <li><span>Background Actor<i class="fas fa-times"></i></span></li>
+                                                                    <li><span>Side Actor<i class="fas fa-times"></i></span></li>
+                                                                    <li><span>Voice-over<i class="fas fa-times"></i></span></li>
+                                                                </ul>
+                                                            </td>
+                                                            <td width="33%"></td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                                <div class="category_inner_sub" style="visibility: visible;">
+                                                    <div class="category_inner_sub_single">
+                                                        <label>Category</label>
+                                                        <select>
+                                                            <option>Category</option>
+                                                        </select>
                                                     </div>
-                                                    <div class="cate_check">
-                                                        <label class="container">Singer
-                                                          <input type="checkbox" checked="checked">
-                                                          <span class="checkmark"></span>
-                                                        </label>
+                                                    <div class="category_inner_sub_single">
+                                                        <label>Subcategory</label>
+                                                        <select>
+                                                            <option>Subcategory</option>
+                                                        </select>
+                                                        <div class="cate_check new_add">
+                                                            <a href="javascript:void(0);">+ Add more</a>
+                                                        </div>
                                                     </div>
-                                                    <div class="cate_check">
-                                                        <a href="javascript:void(0);">+ Add more</a>
-                                                    </div>
-                                                </div>
-                                                <div class="category_sub_inner_single">
-                                                    <h6>Subcategory</h6>
-                                                    <div class="location_span_main">
-                                                        <span><a href="javascript:void(0);">Background Actor<i class="fas fa-times"></i></a></span>
-                                                        <span><a href="javascript:void(0);">Side Actor<i class="fas fa-times"></i></a></span>
-                                                        <span><a href="javascript:void(0);">Voice-over<i class="fas fa-times"></i></a></span>
-                                                    </div>
-                                                </div>
-                                                <div class="category_sub_inner_single">
-                                                    <h5>Delete all selected</h5>
-                                                    <p><a href="javascript:void(0);"><i class="fas fa-plus"></i></a></p>
                                                 </div>
                                             </div>
                                             <div class="right_cont_form">
@@ -449,23 +512,6 @@
                                                     <i class="fas fa-times"></i>
                                                 </a>
                                                 <a href="javascript:void(0);" class="update_btn" onclick="hideEditSection('talent_category','talent_category_hide');">update</a>
-                                            </div>
-                                        </div>
-                                        <div class="category_inner_sub" style="display: none;">
-                                            <div class="category_inner_sub_single">
-                                                <label>Category</label>
-                                                <select>
-                                                    <option>Category</option>
-                                                </select>
-                                            </div>
-                                            <div class="category_inner_sub_single">
-                                                <label>Subcategory</label>
-                                                <select>
-                                                    <option>Subcategory</option>
-                                                </select>
-                                                <div class="cate_check new_add">
-                                                    <a href="javascript:void(0);">+ Add more</a>
-                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -803,6 +849,7 @@
         </div>
     </div>
 </section>
+
 
 <footer class="inner_ftr">
     <div class="container">
