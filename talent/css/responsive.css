@@ -1402,6 +1402,9 @@
 .talent_brow_cont_heart i{font-size: 14px;}
 
 
+/*talent Crop*/
+.talent_crop_sec_body{grid-template-columns: 1fr 1fr 1fr 1fr;}
+
 
 
 }
