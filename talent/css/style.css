@@ -1213,7 +1213,7 @@ input:checked + .slider:before {-webkit-transform: translateX(35px);-ms-transfor
 .talent_settings_body_single_left h5{position: relative;font-size: 18px;color: #000000;font-weight: 600;margin:0px;}
 .talent_settings_body_single_right{position: relative;}
 .talent_settings_body_single_right_show{position: relative;display: flex;align-items: center;justify-content: space-between;align-items: center;}
-.talent_settings_body_single_right_show p{margin-bottom: 0;color: #000000;font-size: 18px;font-weight: 300;}
+.talent_settings_body_single_right_show p{margin-bottom: 8px;color: #000000;font-size: 18px;font-weight: 300;}
 .talent_settings_body_single_right_show a{color: #007FEB;font-size: 18px;}
 
 .form_sec_radio{position: relative;display: flex;align-items: center;}
@@ -1242,7 +1242,7 @@ input:checked + .slider:before {-webkit-transform: translateX(35px);-ms-transfor
 
 .new_color p{color: #AAAAAA;font-weight: 400;}
 .talent_setting_input_display{position: relative;}
-.talent_setting_input_display input{width: 500px;position: relative;border: 1px solid #AAAAAA;height: 40px;font-size: 16px;color: #B0B0B0;font-weight: 300;padding-left: 10px;}
+.talent_setting_input_display input{width: 500px !important;position: relative;border: 1px solid #AAAAAA;height: 40px;font-size: 16px;color: #B0B0B0;font-weight: 300;padding-left: 10px;}
 .talent_setting_input_display input::-webkit-input-placeholder {color: #B0B0B0 !important; opacity:1 !important;}
 .talent_setting_input_display input::-moz-placeholder {color: #B0B0B0 !important; opacity:1 !important;}
 .talent_setting_input_display input:-ms-input-placeholder {color: #B0B0B0 !important; opacity:1 !important;}
@@ -1392,7 +1392,10 @@ input:checked + .slider:before {-webkit-transform: translateX(35px);-ms-transfor
 .crop_modal_img img{width: 100%;}
 .crop_btn{display: inline-block;float: right;position: relative;margin: 20px 0 0 0;background: #007FEB;color: #fff;font-size: 16px;text-align: center;padding: 10px 40px;border-radius: 4px;}
 
-
+.choices__inner{background: #fff !important;border: none !important;}
+.choices__list--multiple .choices__item{background: #007FEB !important;border-color: #007FEB !important;display: inline-block;}
+.choices__list--multiple { display: inline-block;float: left;width: 100%;}
+.choices__input{width: 500px !important;}
 
 
 
