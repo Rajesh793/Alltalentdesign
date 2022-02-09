@@ -1293,7 +1293,7 @@ input:checked + .slider:before {-webkit-transform: translateX(35px);-ms-transfor
 
 .transition{transition: 0.5s ease-in-out;}
 .talent_setting_input_display_update{display: grid;grid-template-columns: 1fr 1fr;grid-gap: 15px;}
-.update_btn_new{background:#007FEB;color: #fff;border-radius: 4px;font-size: 15px;color: #fff;text-align: center;padding: 10px 25px;display: inline-block;}
+.update_btn_new{border:none;background:#007FEB;color: #fff;border-radius: 4px;font-size: 15px;color: #fff;text-align: center;padding: 10px 25px;display: inline-block;}
 .update_btn_new:hover{color: #fff;}
 .dis_flex_new{display: flex;align-items: center;}
 .new_mob_icn input#mobile_number {border: none; font-size: 17px;color: #000;}
@@ -1396,9 +1396,9 @@ input:checked + .slider:before {-webkit-transform: translateX(35px);-ms-transfor
 .choices__list--multiple .choices__item{background: #007FEB !important;border-color: #007FEB !important;display: inline-block;}
 .choices__list--multiple { display: inline-block;float: left;width: 100%;}
 .choices__input{width: 500px !important;}
-
-
-
+.fxt-transformY-50 {width: 380px;}
+.fxt-transformY-50 .form-control{width: 15% !important;}
+#botmanWidgetRoot{display: none;}
 
 
 

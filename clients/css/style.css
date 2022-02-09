@@ -1506,6 +1506,7 @@ border: 1px solid #D5D5D5;}
 .view_details_page_sec_single ul {display: block;}
 .view_details_page_sec_single ul li{display: inline-block;margin-right: 20px;font-size: 20px;color: #000000;font-weight: 500;}
 .view_details_page_sec_single ul li span{color: #9F9E9E;padding-left: 5px;}
+.view_details_page_sec_single ul li span i{padding: 0 5px;}
 .view_details_page_sec_single h5{color: #000000;font-size: 32px;margin: 0 0 15px 0;font-weight: 600;line-height: inherit;}
 .pay_title {font-size: 15px;color: #3E9C35 !important;text-transform: uppercase;}
 .view_details_page_sec_main .space {clear:both;line-height:0;font-size:0;overflow:hidden;height:0px; background:none; margin:15px 0;width:100%; border-top:1px solid #AAAAAA;}
@@ -1538,11 +1539,11 @@ border: 1px solid #D5D5D5;}
 .verified_profile_btns ul li{display: inline-block;margin-left: 10px;}
 .shortlist{background: #3ACC16;font-size: 18px;font-weight: 500;text-align: center;border-radius: 11px;padding: 8px 45px;color: #fff;display: inline-block;}
 .shortlist:hover{color: #fff;}
-.reject{background: #C81B1B;font-size: 18px;font-weight: 400;text-align: center;border-radius: 11px;padding: 8px 45px;color: #fff;display: inline-block;}
+.reject{background: #C81B1B;font-size: 18px;font-weight: 500;text-align: center;border-radius: 11px;padding: 8px 45px;color: #fff;display: inline-block;}
 .reject:hover{color: #fff;}
 .new_has_passpot .container{font-size: 14px;}
 .new_adv_btn{font-size: 14px;}
-.notify{background: #FCE021;font-size: 18px;font-weight: 400;text-align: center;border-radius: 8px;padding: 8px 45px;color: #1D1D1D;display: inline-block;}
+.notify{background: #FCE021;font-size: 18px;font-weight: 500;text-align: center;border-radius: 8px;padding: 8px 45px;color: #1D1D1D;display: inline-block;}
 .notify:hover{color: #1D1D1D;}
 
 
@@ -1584,7 +1585,7 @@ border: 1px solid #D5D5D5;}
 .audition_sec_body_list{position: relative;}
 .audition_sec_body_body{position: relative;}
 .video_sec_popup_img .new_img{width: 100%;border-radius: 5px;}
-.audition_sec_body_body p{font-size: 14px;color: #000000;font-weight: 600;margin: 0 0 5px 0;}
+.audition_sec_body_body p{font-size: 14px;color: #000000;font-weight: 600;margin: 0 0 5px 0;display: inline-block;}
 .audition_sec_body_right{position: relative;}
 .audition_sec_body_right_top{position: relative;border-bottom: 1px solid #CFCFCF;padding-bottom: 10px;margin-bottom: 10px;display: grid;grid-template-columns: 1fr 2fr;}
 .audition_sec_body_right_top_left {position: relative;}
@@ -1612,21 +1613,52 @@ border: 1px solid #D5D5D5;}
 .age_list ul li span{font-weight: 500;padding-left: 10px;}
 .audition_sec_body_btns{position: relative;margin: 10px 0;display: grid;grid-template-columns: 1fr 1fr 1fr;grid-gap: 10px;}
 .audition_sec_body_btns a{color: #FFFFFF;font-size: 14px;font-weight: 600;box-shadow: 0px 3px 6px #00000029;border: 2px solid #FFFFFF;border-radius: 5px;padding: 5px 0;text-align: center;font-weight: 500;}
-.red_bg{background: #E92020;}
-.green_bg{background: #4EE728;}
-.blue_bg{background: #0096C7;}
+.red_bg{background: #E92020 !important;}
+.green_bg{background: #4EE728 !important;}
+.blue_bg{background: #0096C7 !important;}
 .audition_prev_jobs{position: relative;}
 .audition_prev_jobs p{font-size: 14px;font-weight: 700;color: #1D1D1D;margin: 0 0 10px 0;}
-.audition_prev_jobs_body{position: relative;}
-.audition_prev_jobs_body_single{position: relative;padding: 10px 15px;box-shadow: 0px 3px 6px #00000029;border: 1px solid #CFCFCF;border-radius: 13px;}
+.audition_prev_jobs_body{position: relative;height: 160px;overflow-y: scroll;padding-right: 10px;}
+.audition_prev_jobs_body_single{position: relative;padding: 10px 15px;box-shadow: 0px 3px 6px #00000029;border: 1px solid #CFCFCF;border-radius: 13px;margin: 0 0 15px 0;}
 .audition_prev_jobs_body_single p{font-weight: 700;font-size: 14px;margin: 0 0 10px 0;}
-.audition_prev_jobs_body_single span{font-size: 12px;font-weight: 400;color: #797979;margin: 0 0 10px 0;display: block;}
+.audition_prev_jobs_body_single span{font-size: 12px;font-weight: 400;color: #797979;margin: 0 0 5px 0;display: block;}
 .audition_prev_jobs_body_single span img{width: 12px;margin:0 5px 0 0;}
 .audition_prev_jobs_body_single ul{display: block;}
+.audition_prev_jobs_body_single ul li{display: inline-block;margin-right: 10px;font-size: 10px;font-weight: 500;}
+.audition_prev_jobs_body_single ul li:last-child{margin: 0;}
+.audition_prev_jobs_body::-webkit-scrollbar-track{border-radius: 0px;background-color: #F5F5F5;border:0.5px solid #9B9B9B;}
+.audition_prev_jobs_body::-webkit-scrollbar{width: 11px;background-color: #F5F5F5;}
+.audition_prev_jobs_body::-webkit-scrollbar-thumb{border-radius: 0px;background-color: #707070;}
 
+#audition_slider .owl-nav{position: absolute;display: flex;align-items: center;justify-content: space-between;
+    width: 110%;left: -60px;top: 0;bottom: 0;z-index: -1;}
+#audition_slider .owl-nav .owl-next i{font-size: 40px; line-height: 0;color: #fff;opacity: 70%;font-weight: 700 !important;}
+#audition_slider .owl-nav .owl-prev i{font-size: 40px; line-height: 0;color: #fff;opacity: 70%;font-weight: 700 !important;}
+.pos{position: absolute;top: -25px;}
+.drop_sec_main_sec .dropdown{z-index: 11;}
+.view_details_btns{position: relative;margin: 0 0 20px 0;}
+.view_details_btns ul{display: block;}
+.view_details_btns ul li{position: relative;display: inline-block;margin: 0 15px 0 0;}
+.talent_text{position: relative;font-size: 22px;color: #000000;font-weight: 500;}
+.yellow_btn{position: relative;display: inline-block;font-size: 18px;color: #000000;font-weight: 500;border-radius: 11px;background: #FCE021;box-shadow: 0px 3px 6px #00000029;border: 3px solid #FFFFFF;padding: 5px 30px;}
+.reject_btn{position: relative;display: inline-block;font-size: 18px;color: #fff;font-weight: 500;border-radius: 11px;background: #F11A1A;box-shadow: 0px 3px 6px #00000029;border: 3px solid #FFFFFF;padding: 5px 30px;}
+.grey_btn{background: #C4C4C4 !important;}
+.blue_btn{position: relative;display: inline-block;font-size: 18px;color: #fff;font-weight: 500;border-radius: 11px;background: #227BDC;box-shadow: 0px 3px 6px #00000029;border: 3px solid #FFFFFF;padding: 5px 30px;}
+.blue_bg_btn{background: #0096C7;font-size: 14px;font-weight: 600;box-shadow: 0px 3px 6px #00000029;border: 2px solid #FFFFFF;border-radius: 5px;padding: 5px 20px;text-align: center;font-weight: 500;color: #fff;display: inline-block;margin: 0 0 10px 0;}
+.red_bg_btn{background: #E92020;font-size: 14px;font-weight: 600;box-shadow: 0px 3px 6px #00000029;border: 2px solid #FFFFFF;border-radius: 5px;padding: 5px 20px;text-align: center;font-weight: 500;color: #fff;display: inline-block;margin: 0 0 10px 0;}
+.all_tbns{position: relative;}
+.all_tbns li{display: inline-block;margin-left: 5px;}
+.prev_flex{display: flex;align-items: center;justify-content: space-between;}
 
-
-
+.notify_talents{position: relative;}
+.notify_talents .modal-dialog{max-width: 700px;margin:100px auto;background: #fff;border-radius: 22px;}
+.notify_talents .close {position: absolute;top: -30px;right: -20px;font-size: 30px;color: #fff;font-weight: 400 !important;z-index: 11;opacity: 1;}
+.notify_talents .modal-body{padding: 30px;}
+.notify_talents_body{position: relative;box-shadow: 0px 3px 6px #00000029;border: 1px solid #E0E0E0;padding: 30px;}
+.notify_talents_body h6{color: #1D1D1D;font-size: 20px;font-weight: 600;margin: 0 0 10px 0;}
+.notify_talents_body span{border: 1px solid #B6B6B6;padding: 15px;display: block;font-size: 16px;margin: 0;font-weight: 400;color: #B6B6B6;}
+.notify_new{background: #FCE021;font-size: 16px;font-weight: 500;text-align: center;border-radius: 8px;padding: 8px 30px;color: #1D1D1D;display: inline-block;margin: 15px 0 0 0;display: flex;align-items: center;justify-content: flex-end; width: max-content;}
+.notify_new:hover{color: #1D1D1D;}
 
 
 
