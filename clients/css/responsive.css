@@ -668,7 +668,37 @@
 
 
 
+/*Client talent Browsing*/
 
+.client_talent_brow {padding: 15px 0;}
+.client_talent_brow_bottom {grid-template-columns: 1fr 1fr 1fr;grid-gap: 10px;margin-top: 15px;}
+.client_talent_brow_top{padding-bottom: 12px;}
+.client_talent_brow_bottom_single {border-radius: 15px;padding: 10px;}
+.talent_brow_cont_heart {top: 15px;right: 15px;}
+.talent_brow_cont_heart i {font-size: 25px;}
+.talent_brow_cont_text {bottom: 10px;left: 10px;z-index: 11;}
+.talent_brow_cont_text ul{display: block;}
+.talent_brow_cont_text p{display: block;font-size: 16px;}
+.talent_brow_cont_text h6{font-size: 20px;}
+.unverified_prof {top: 15px;left: 15px;}
+.unverified_prof a {padding: 2px 10px;font-size: 15px;}
+.filter_btn{font-size: 14px;}
+.filter_modal .modal-body {padding: 20px;}
+.filter_check_sec .container {padding-left: 20px;font-size: 13px;}
+
+/*Dash page-15*/
+.talent_profile_clarification_inner {padding: 20px 25px;}
+.talent_profile_clarification_inner ol li{font-size: 13px;}
+.view_details_page_sec_main{padding: 20px;}
+.new_list_dash {position: relative;left: 0;top: 0; z-index: 11;margin: 0 0 10px 0;}
+.new_list_dash ul li {margin-right: 15px;margin-left: 0px;}
+.talent_cont_btn{font-size: 14px;}
+.view_details_page_sec_single ul li {margin-right: 10px;font-size: 14px;}
+.view_details_page_sec_single {margin: 0 0 10px 0;}
+.view_details_page_sec_single h5 {color: #000000;font-size: 25px;margin: 0;}
+.my_projects_sec_right_single_btns_new ul li a {font-size: 13px;padding: 5px 20px;}
+.view_details_page_sec_single h6{font-size: 16px;}
+.view_details_page_sec_single p {font-size: 14px;}
 
 
 
@@ -925,6 +955,44 @@
 .talent_setting_category_left h5 {font-size: 14px;margin: 0px 0 10px 0;}
 .talent_settings_main h6{font-size: 20px;}
 .physical_attr_single h5{font-size: 14px;}
+
+
+
+/*Client talent Browsing*/
+
+.client_talent_brow {padding: 15px 0;}
+.client_talent_brow_bottom {grid-template-columns: 1fr 1fr 1fr;grid-gap: 10px;margin-top: 15px;}
+.client_talent_brow_top{padding-bottom: 12px;}
+.client_talent_brow_bottom_single {border-radius: 15px;padding: 10px;}
+.talent_brow_cont_heart {top: 15px;right: 15px;}
+.talent_brow_cont_heart i {font-size: 25px;}
+.talent_brow_cont_text {bottom: 10px;left: 10px;z-index: 11;}
+.talent_brow_cont_text ul{display: block;}
+.talent_brow_cont_text p{display: block;font-size: 16px;}
+.talent_brow_cont_text h6{font-size: 20px;}
+.unverified_prof {top: 15px;left: 15px;}
+.unverified_prof a {padding: 2px 10px;font-size: 15px;}
+.filter_btn{font-size: 14px;}
+.filter_modal .modal-body {padding: 20px;}
+.filter_check_sec .container {padding-left: 20px;font-size: 13px;}
+
+
+/*Dash page-15*/
+.talent_profile_clarification_inner {padding: 20px 25px;}
+.talent_profile_clarification_inner ol li{font-size: 13px;}
+.view_details_page_sec_main{padding: 20px;}
+.new_list_dash {position: relative;left: 0;top: 0; z-index: 11;margin: 0 0 10px 0;}
+.new_list_dash ul li {margin-right: 15px;margin-left: 0px;}
+.talent_cont_btn{font-size: 14px;}
+.view_details_page_sec_single ul li {margin-right: 10px;font-size: 14px;}
+.view_details_page_sec_single {margin: 0 0 10px 0;}
+.view_details_page_sec_single h5 {color: #000000;font-size: 25px;margin: 0;}
+.my_projects_sec_right_single_btns_new ul li a {font-size: 13px;padding: 5px 20px;}
+.view_details_page_sec_single h6{font-size: 16px;}
+.view_details_page_sec_single p {font-size: 14px;}
+
+
+
 
 
 
@@ -1355,6 +1423,45 @@
 .talent_settings_main h6{font-size: 20px;}
 .update_popup_client .modal-dialog{margin:80px auto;}
 .update_popup_client .close {right: 20px;top: -40px;}
+
+
+
+/*Client talent Browsing*/
+
+.client_talent_brow {padding: 15px 0;}
+.client_talent_brow_bottom {grid-template-columns: 1fr 1fr;grid-gap: 10px;margin-top: 15px;}
+.client_talent_brow_top{padding-bottom: 12px;}
+.client_talent_brow_bottom_single {border-radius: 15px;padding: 10px;}
+.talent_brow_cont_heart {top: 5px;right: 5px;}
+.talent_brow_cont_heart i {font-size: 15px;}
+.talent_brow_cont_text {bottom: 10px;left: 5px;z-index: 11;}
+.talent_brow_cont_text ul{display: none;}
+.talent_brow_cont_text p{display: block;font-size: 12px;}
+.talent_brow_cont_text h6{font-size: 14px;}
+.unverified_prof {top: 5px;left: 5px;}
+.unverified_prof a {padding: 2px 10px;font-size: 8px;}
+.filter_modal .modal-body {padding: 15px;}
+.filter_check_sec .container {padding-left: 20px;font-size: 13px;}
+
+
+/*Dash page-15*/
+
+.talent_profile_clarification_inner {padding: 15px 25px;}
+.view_details_page_sec_main {padding: 20px;}
+.new_list_dash {position: relative;right: 0;top: 0;margin: 0 0 25px 0;}
+.new_list_dash ul li {margin-left: 15px;}
+.talent_cont_btn {font-size: 14px;padding: 5px 15px;}
+.view_details_page_sec_single ul li {margin-right: 5px;margin-bottom: 10px;font-size: 16px;}
+.view_details_page_sec_single {margin: 0 0 10px 0;}
+.view_details_page_sec_single h5 {font-size: 25px;margin: 0 0 10px 0;}
+.my_projects_sec_right_single_btns_new {margin: 15px 0;}
+.my_projects_sec_right_single_btns_new ul{display: grid;grid-template-columns: 1fr 1fr;}
+.my_projects_sec_right_single_btns_new ul li {margin-right: 5px;margin-bottom: 15px;}
+.my_projects_sec_right_single_btns_new ul li a {font-size: 12px;padding: 5px 20px;}
+.view_details_page_sec_main .job_list_body_right_body_single_id_new ul li{font-size: 16px;}
+
+
+
 
 
 }
