@@ -473,7 +473,7 @@ div[slider] > input[type=range]::-ms-tooltip { display: none;}
 .view_details_pop .modal.right .modal-body {padding: 70px 40px 20px;border: 1px solid #7070705c;border-radius: 0;background: #fff;}
 .view_details_pop .modal.right.fade .modal-dialog {right: 0px;-webkit-transition: opacity 0.3s linear, right 0.3s ease-out;-moz-transition: opacity 0.3s linear, right 0.3s ease-out;-o-transition: opacity 0.3s linear, right 0.3s ease-out;transition: opacity 0.3s linear, right 0.3s ease-out;}
 .job_list_body_right_body_single_id_new{position: relative;padding-bottom: 10px;}
-.job_list_body_right_body_single_id_new ul{position: relative;display: block;}
+.job_list_body_right_body_single_id_new ul{position: relative;display: block;margin-bottom: 0px;}
 .job_list_body_right_body_single_id_new ul li{display: inline-block;padding-right: 15px;font-size: 17px;color: #000000;font-weight: 500;*padding-bottom: 10px;line-height: 30px;}
 .job_list_body_right_body_single_id_new ul li:last-child{padding-right: 0;}
 .job_list_body_right_body_single_id_new ul li span{color: #9F9E9E;}
