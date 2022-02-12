@@ -516,7 +516,8 @@
 .language_popup_main .row{align-items: center;}
 
 
-
+.view_details_page_sec_single ul li {margin-right: 10px;font-size: 16px;}
+.new_list_dash ul li {margin-left: 15px;}
 
 
 
@@ -699,7 +700,7 @@
 .my_projects_sec_right_single_btns_new ul li a {font-size: 13px;padding: 5px 20px;}
 .view_details_page_sec_single h6{font-size: 16px;}
 .view_details_page_sec_single p {font-size: 14px;}
-
+.view_details_btns ul li {margin: 0 10px 10px 0;}
 
 
 }
@@ -990,11 +991,24 @@
 .my_projects_sec_right_single_btns_new ul li a {font-size: 13px;padding: 5px 20px;}
 .view_details_page_sec_single h6{font-size: 16px;}
 .view_details_page_sec_single p {font-size: 14px;}
+.view_details_btns ul li {margin: 0 10px 10px 0;}
 
 
+/*Client Dashboard*/
 
-
-
+.client_dash_sec_main nav {width: 100%;}
+.client_dash_sec_main nav .nav-item {padding: 10px 20px;font-size: 14px;}
+.client_dash_sec {padding: 15px 0;}
+.client_dash_sec_main .tab-content {margin: 20px 0;}
+.table_cont table thead tr td:first-child {padding-left: 5px;}
+.table_cont table thead tr td {font-size: 10px;padding: 10px 0;}
+.table_cont table tbody tr td:first-child {padding-left: 5px;}
+.table_cont table tbody tr td{font-size: 10px;padding: 10px 0;}
+.table_cont table tbody tr td ul li {margin: 10px 2px;font-size: 10px;display: block;}
+.edit_btn_sec{font-size: 10px;}
+.view_det_tab{font-size: 8px}
+.pending_approval span {font-size: 8px !important;margin-right: 0px !important;margin-bottom: 10px !important;}
+.pending_approval a{font-size: 8px !important;}
 
 
 
@@ -1449,8 +1463,8 @@
 .talent_profile_clarification_inner {padding: 15px 25px;}
 .view_details_page_sec_main {padding: 20px;}
 .new_list_dash {position: relative;right: 0;top: 0;margin: 0 0 25px 0;}
-.new_list_dash ul li {margin-left: 15px;}
-.talent_cont_btn {font-size: 14px;padding: 5px 15px;}
+.new_list_dash ul li {margin-left: 5px;}
+.talent_cont_btn {font-size: 12px;padding: 5px 15px;}
 .view_details_page_sec_single ul li {margin-right: 5px;margin-bottom: 10px;font-size: 16px;}
 .view_details_page_sec_single {margin: 0 0 10px 0;}
 .view_details_page_sec_single h5 {font-size: 25px;margin: 0 0 10px 0;}
@@ -1459,6 +1473,43 @@
 .my_projects_sec_right_single_btns_new ul li {margin-right: 5px;margin-bottom: 15px;}
 .my_projects_sec_right_single_btns_new ul li a {font-size: 12px;padding: 5px 20px;}
 .view_details_page_sec_main .job_list_body_right_body_single_id_new ul li{font-size: 16px;}
+.talent_profile_clarification_inner ol li {font-size: 14px;}
+.view_details_btns ul li {margin: 0 10px 10px 0;}
+
+
+/*Client Dashboard*/
+
+.client_dash_sec_main nav {width: 100%;}
+.client_dash_sec_main nav .nav-item {padding: 10px 20px;font-size: 14px;}
+.client_dash_sec {padding: 15px 0;}
+.client_dash_sec_main .tab-content {margin: 20px 0;}
+.table_cont table thead tr td:first-child {padding-left: 5px;}
+.table_cont table thead tr td {font-size: 10px;padding: 10px 0;}
+.table_cont table tbody tr td:first-child {padding-left: 5px;}
+.table_cont table tbody tr td{font-size: 10px;padding: 10px 0;}
+.table_cont table tbody tr td ul li {margin: 10px 2px;font-size: 10px;display: block;}
+.edit_btn_sec{font-size: 10px;}
+.view_det_tab{font-size: 8px}
+.pending_approval span {font-size: 8px !important;margin-right: 0px !important;margin-bottom: 10px !important;}
+.pending_approval a{font-size: 8px !important;}
+
+
+/*My Projects*/
+
+.my_projects_sec {padding: 15px 0;}
+.my_projects_sec_main {border-radius: 20px; padding: 20px;}
+.my_projects_sec_left_top h5 {font-size: 16px;}
+.my_projects_sec_left_top {padding-bottom: 10px;}
+.my_projects_sec_left_top a {font-size: 14px;}
+.my_projects_sec_left_btm_single {padding: 10px;}
+.my_projects_sec_left_btm_single_inner {grid-template-columns: 1fr;}
+.my_projects_sec_left_btm_single_inner_left ul li {padding-bottom: 10px;font-size: 12px;}
+.my_projects_sec_left_btm_single_inner_right {margin: 15px 0 0 0;}
+.my_projects_sec_left_btm_single_inner_right ul li a.view_jobs {margin: 10px 0 0 0;padding: 5px 0;font-size: 10px;}
+.my_projects_sec_main .col-lg-4 {padding: 0 10px;}
+.my_projects_sec_right_head h4 {font-size: 22px;}
+.my_projects_sec_right {padding-left: 0;}
+.my_projects_sec_main .col-lg-8 {padding: 0 10px;}
 
 
 

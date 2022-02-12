@@ -1396,7 +1396,7 @@ input:checked + .slider:before {-webkit-transform: translateX(35px);-ms-transfor
 .update_btn_new{background:#007FEB;color: #fff;border-radius: 4px;font-size: 15px;color: #fff;text-align: center;padding: 10px 25px;display: inline-block;}
 .update_btn_new:hover{color: #fff;}
 .dis_flex_new{display: flex;align-items: center;}
-.new_mob_icn input#mobile_number,input#mobile_number3,input#mobile_number5 {border: none; font-size: 17px;color: #000;}
+.new_mob_icn input#mobile_number,input#mobile_number3 {border: none; font-size: 17px;color: #000;}
 .new_mob_icn .iti--allow-dropdown .iti__flag-container, .iti--separate-dial-code .iti__flag-container{top: 8px;}
 .new_input input{}
 .talent_setting_input_display select { position: relative; width:500px; height: 40px;border: 1px solid #AAAAAA;
