@@ -1,7 +1,23 @@
-https://www.design.alltalents.in/clients/about-us.html
-https://www.design.alltalents.in/clients/client-job-preview-and-completed.html
-https://www.design.alltalents.in/clients/client-jobs-bowsing.html
+https://www.design.alltalents.in/clients/my-projects.html
+https://www.design.alltalents.in/clients/client-talents-browsing.html
 https://www.design.alltalents.in/clients/client-profile.html
+https://www.design.alltalents.in/clients/client-jobs-bowsing.html
 https://www.design.alltalents.in/clients/client-settings.html
 https://www.design.alltalents.in/clients/client-signup-form.html
-https://www.design.alltalents.in/clients/client-talents-browsing.html
+https://www.design.alltalents.in/clients/client-job-preview-and-completed.html
+https://www.design.alltalents.in/clients/about-us.html
+https://www.design.alltalents.in/clients/view-application.html
+https://www.design.alltalents.in/clients/dashboard-page-15.html
+https://www.design.alltalents.in/clients/dashboard-page-13.html
+https://www.design.alltalents.in/clients/pending-approval-dashboard.html
+https://www.design.alltalents.in/clients/pending-approval-page.html
+
+
+
+
+Continue Pages
+----------------
+https://www.design.alltalents.in/clients/client-dashboard.html
+https://www.design.alltalents.in/clients/view-details-ongoing-page.html
+https://www.design.alltalents.in/clients/view-details-closed.html
+https://www.design.alltalents.in/clients/view-details-completed.html

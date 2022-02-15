@@ -44,7 +44,7 @@ body {
 	text-decoration:none;
 	list-style:none;
 	box-sizing: border-box;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Poppins', sans-serif !important;
 	background-color:#fff;
 }
 
@@ -1230,11 +1230,11 @@ input:checked + .slider:before {-webkit-transform: translateX(35px);-ms-transfor
 .preview_jobs_right_single{position: relative;margin-bottom: 30px;}
 .preview_jobs_right_single_top{position: relative;display: flex;align-items: center;justify-content: space-between;padding-left: 40px;}
 .preview_jobs_right_single_top h6{margin-bottom: 0px;color: #000;font-weight: 600;font-size: 25px;}
-.preview_jobs_right_single_top ul{display: block;}
+.preview_jobs_right_single_top ul{display: block;margin-bottom: 0px;}
 .preview_jobs_right_single_top ul li{display: inline-block;margin-left: 20px;}
 .preview_jobs_right_single_top ul li a{position: relative;color: #fff;font-size: 16px;text-align: center;border-radius: 10px;box-shadow: 0px 3px 6px #00000029;padding: 8px 35px;border: 1px solid #fff;display: inline-block;}
-.preview_jobs_right_single_top ul li a.back_btn{background: #a0a0a0;color: #fff;}
-.preview_jobs_right_single_top ul li a.blue_btn{background: #007feb;color: #fff;}
+.preview_jobs_right_single_top ul li a.back_btn{background: #a0a0a0;color: #fff;margin-bottom: 0px;}
+.preview_jobs_right_single_top ul li a.blue_btn{background: #007feb;color: #fff;margin-bottom: 0px;}
 .preview_jobs_right_single_bottom{position: relative;box-shadow: 0px 3px 6px #00000029;border: 1px solid #D5D5D5;border-radius: 25px;padding: 30px 40px;margin-top: 30px;}
 .edit_btn_new {position: absolute;color: #fff;font-size: 16px;text-align: center;border-radius: 10px; box-shadow: 0px 3px 6px #00000029; padding: 8px 35px;border: 1px solid #fff;background: #3acc15;
     width: 130px; right: 50px; top: 30px;}
@@ -1256,6 +1256,7 @@ input:checked + .slider:before {-webkit-transform: translateX(35px);-ms-transfor
 
 /*Client Job preview*/
 
+#post_job .nav{justify-content: center;}
 
 /*Client Talent Browsing*/
 
@@ -1276,8 +1277,8 @@ input:checked + .slider:before {-webkit-transform: translateX(35px);-ms-transfor
 .talent_brow_cont_text ul li:last-child::after{display: none;}
 .talent_brow_cont_text p{font-size: 16px;color: #fff;margin: 0;font-weight: 400;font-family: 'Roboto', sans-serif;}
 .talent_brow_cont_text p i{font-weight: 400;color: #fff;font-size: 16px;padding-right: 10px;}
-.unverified_prof{position: absolute;top: 10px;left: 10px;z-index: 11;}
-.unverified_prof a{background: rgba(196, 196, 196, 1);border-radius: 7px;padding: 4px 10px;color: rgba(44, 44, 44, 1);font-size: 14px;font-weight: 500;}
+.unverified_prof{position: absolute;top: 10px;left: 10px;z-index: 11;background: rgba(196, 196, 196, 1);border-radius: 7px;padding: 4px 10px;color: rgba(44, 44, 44, 1);font-size: 14px;font-weight: 500;}
+/*.unverified_prof a{background: rgba(196, 196, 196, 1);border-radius: 7px;padding: 4px 10px;color: rgba(44, 44, 44, 1);font-size: 14px;font-weight: 500;}*/
 .client_talent_brow_bottom_single_img img{width: 100%;}
 .filter_check_sec{position: relative;margin: 0 0 20px 0;}
 
@@ -1688,8 +1689,8 @@ border: 1px solid #D5D5D5;}
 .table_cont table tbody tr{border: 1px solid #D5D5D5;}
 .table_cont table tbody tr td ul{display: block;}
 .table_cont table tbody tr td ul li{display: inline-block;margin: 0 2px;font-size: 12px;position: relative;}
-.blue_btn_app{background: #007FEB;padding: 5px;border-radius: 8px;color: #fff;display: inline-block;}
-.green_btn_app{background: #3ACC16;padding: 5px;border-radius: 8px;color: #fff;display: inline-block;}
+.blue_btn_app{background: #007FEB;padding: 5px;border-radius: 5px;color: #fff;display: inline-block;}
+.green_btn_app{background: #3ACC16;padding: 5px;border-radius: 5px;color: #fff;display: inline-block;}
 
 .drop_table .ev {font-size: 20px;top: 5px;}
 .drop_table .drop_sec {padding: 10px;right: -38px !important;margin-top: 40px;}
@@ -1718,7 +1719,7 @@ border: 1px solid #D5D5D5;}
 .new_list_dash ul{display: flex;align-items: center;}
 .new_list_dash ul li{display: inline-block;margin-left: 30px;}
 
-.talent_cont_btn{position: relative;background: #0096C7;display: inline-block;border-radius: 8px;color: #fff;font-size: 16px;font-weight: 500;padding: 8px 20px;}
+.talent_cont_btn{position: relative;background: #0096C7;display: inline-block;border-radius: 8px;color: #fff;font-size: 16px;font-weight: 500;padding: 8px 20px;display: flex;align-items: center;}
 .talent_cont_btn:hover{color: #fff;}
 .talent_cont_btn i{padding-right: 10px;}
 .reason_sec{position: relative;}
@@ -1750,3 +1751,5 @@ border: 1px solid #D5D5D5;}
 input,textarea { -webkit-user-select:text;}
 select{-webkit-appearance: none;-moz-appearance: none;appearance: none;}
 
+
+.top-menu li:hover .game-list li a .i-amphtml-loading-container{display: none !important;visibility: collapse !important;}
