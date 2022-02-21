@@ -715,8 +715,8 @@ select .options{width: 100% !important;}
 .profile_str h6{position: relative;font-size: 18px;font-weight: bold;color: #242424;}
 .new_padd_16{padding: 40px 0;}
 .circle_sec{position: relative;margin: 20px auto;}
-.circle_sec img{width: 60%;}
-.circle_sec p {position: absolute;margin: 0;font-size: 22px;font-weight: 600;line-height: 15px;color: #242424;
+.circle_sec img{width: 50%;}
+.circle_sec p {position: absolute;margin: 0;font-size: 20px;font-weight: 600;line-height: 15px;color: #242424;
     top: 0;left: 0;right: 0;bottom: 0;display: flex;align-items: center;justify-content: center;}
 .circle_sec p span{font-size: 14px;}
 .analyse_btn{position: relative;font-size: 18px;font-weight: bold;color: rgba(0 85 212 / 0.81);}
@@ -1083,7 +1083,7 @@ input:checked + .slider:before {-webkit-transform: translateX(35px);-ms-transfor
 
 .new_tal_pay{cursor: pointer;position: relative;}
 .new_tal_pay:hover .client_pay{transition: 0.5s ease-in-out;display: block;}
-.client_pay{position: absolute;z-index: 1;transition: 0.5s ease-in-out;background:#fff;padding: 10px;border: 1px solid #000000;width: 300px;border-radius: 5px;left: -45px;display: none;top: 40px;}
+.client_pay{position: absolute;z-index: 1;transition: 0.5s ease-in-out;background:#fff;padding: 10px;border: 1px solid #000000;width: 300px;border-radius: 5px;left: -45px;display: none;top: 40px;*left: -140px;}
 .new_tal_pay i {color: #242424;font-size: 14px;position: absolute;right: -20px;top: 10px;}
 .client_pay table{position: relative;}
 .client_pay table tr td{font-size: 12px;color: #000000;font-weight: 600;text-transform: capitalize;}
@@ -1100,7 +1100,7 @@ input:checked + .slider:before {-webkit-transform: translateX(35px);-ms-transfor
     left: 0;top: -21px;right: 0;margin: 0 auto}
 .submit_btn_sec{position: relative;background:#227BDC;color: #fff;font-size: 16px;text-align: center;border: 1px solid #fff;border-radius: 13px;float: right;padding: 8px 30px;box-shadow: 0px 3px 10px #00000029;}
 .submit_btn_sec:hover{color: #fff;}
-.new_prof_sec .circle_sec img{width: 45%;}
+.new_prof_sec .circle_sec img{width: 40%;}
 .new_prof_sec .insta_sec table tr td {padding-bottom: 5px;}
 
 /*Talent profile tab*/

@@ -715,14 +715,14 @@ select .options{width: 100% !important;}
 .profile_str h6{position: relative;font-size: 18px;font-weight: bold;color: #242424;}
 .new_padd_16{padding: 40px 0;}
 .circle_sec{position: relative;margin: 20px auto;}
-.circle_sec img{width: 60%;}
+.circle_sec img{width: 40%;}
 .circle_sec p {position: absolute;margin: 0;font-size: 22px;font-weight: 600;line-height: 15px;color: #242424;
     top: 0;left: 0;right: 0;bottom: 0;display: flex;align-items: center;justify-content: center;}
 .circle_sec p span{font-size: 14px;}
 .analyse_btn{position: relative;font-size: 18px;font-weight: bold;color: rgba(0 85 212 / 0.81);}
 .insta_sec{position: relative;margin: 0 auto;*width: 200px;}
 .insta_sec img {width: 50px;margin: 0 auto 20px;text-align: center;display: block;}
-.insta_sec table tr td{padding-bottom: 20px;font-size: 16px;color: #001D3D;font-weight: bold;}
+.insta_sec table tr td{padding-bottom: 10px;font-size: 14px;color: #001D3D;font-weight: bold;}
 .insta_sec table tr td:first-child {font-weight: normal;}
 .d_flex{display: flex;align-items: center;justify-content: center;}
 .talent_manager_sec{position: relative;}
@@ -787,7 +787,7 @@ border-radius: 7px;padding: 8px 15px;color: #fff;font-size: 10px;}
 .drop_sec_all_btn{position: relative;text-align: center;}
 .profile_btn{position: relative;display: inline-block;border-radius: 7px;background: #A7D1FF;box-shadow: 0px 3px 6px #00000029;border: 1px solid #FFFFFF;padding: 10px 0px;text-align: center;font-size: 14px;color: #060606;font-weight: 600;width: 100%;margin: 0 0 10px 0;}
 .profile_btn:hover{color: #060606;}
-.delete_btn{position: relative;display: inline-block;border-radius: 7px;background: #DC2222;box-shadow: 0px 3px 6px #00000029;border: 1px solid #FFFFFF;padding: 10px 0px;text-align: center;font-size: 14px;color: #fff;font-weight: 600;width: 100%;margin: 0 0 10px 0;}
+.delete_btn{position: relative;display: inline-block;border-radius: 7px;background: #DC2222;box-shadow: 0px 3px 6px #00000029;border: 1px solid #FFFFFF;padding: 10px 0px;text-align: center;font-size: 14px;color: #fff;font-weight: 600;width: 100%;*margin: 0 0 10px 0;}
 .delete_btn:hover{color: #fff;}
 .edit_btn{position: relative;display: inline-block;border-radius: 7px;background: #227BDC;box-shadow: 0px 3px 6px #00000029;border: 1px solid #FFFFFF;padding: 10px 0px;text-align: center;font-size: 14px;color: #fff;font-weight: 600;width: 100%;margin: 0 0 10px 0;}
 .edit_btn:hover{color: #fff;}
@@ -1275,7 +1275,7 @@ input:checked + .slider:before {-webkit-transform: translateX(35px);-ms-transfor
 .talent_brow_cont_text ul li{display: inline-block;margin: 0 10px 0 0;font-size: 18px;font-family: 'Roboto', sans-serif;font-weight: 400;position: relative;color: #fff;}
 .talent_brow_cont_text ul li:after{position: absolute;right: -7px;top: 5px;height: 70%;width: 1px;background: #fff;content: '';}
 .talent_brow_cont_text ul li:last-child::after{display: none;}
-.talent_brow_cont_text p{font-size: 16px;color: #fff;margin: 0;font-weight: 400;font-family: 'Roboto', sans-serif;}
+.talent_brow_cont_text p{font-size: 16px;color: #fff;margin: 0;font-weight: 400;font-family: 'Roboto', sans-serif;display: flex;}
 .talent_brow_cont_text p i{font-weight: 400;color: #fff;font-size: 16px;padding-right: 10px;}
 .unverified_prof{position: absolute;top: 10px;left: 10px;z-index: 11;background: rgba(196, 196, 196, 1);border-radius: 7px;padding: 4px 10px;color: rgba(44, 44, 44, 1);font-size: 14px;font-weight: 500;}
 /*.unverified_prof a{background: rgba(196, 196, 196, 1);border-radius: 7px;padding: 4px 10px;color: rgba(44, 44, 44, 1);font-size: 14px;font-weight: 500;}*/
@@ -1738,8 +1738,22 @@ border: 1px solid #D5D5D5;}
 .table_cont::-webkit-scrollbar-thumb{border-radius: 0px;background-color: #707070;}
 
 
+/*Attedance Sheet*/
 
-
+.attendance_sheet{position: relative;}
+.attendance_sheet_inner{position: relative;}
+.attendance_sheet .modal-dialog {max-width: 1000px;margin: 50px auto;background: #fff;border-radius: 15px;}
+.attendance_sheet_inner{position: relative;padding: 10px;}
+.attendance_sheet_inner h4{margin-bottom: 15px;color: #181818;font-size: 22px;font-weight: 600;}
+.attendance_sheet_sec{position: relative;display: grid;grid-template-columns: 1fr 1fr 1fr 1fr;grid-gap: 10px;}
+.attendance_sheet_sec_single{position: relative;margin: 0 0 15px 0;}
+.attendance_sheet_sec_single .talent_brow_cont_text h6{font-size: 16px;margin: 0 0 5px 0;}
+.attendance_sheet_sec_single .talent_brow_cont_text ul li{font-size: 14px;}
+.attendance_sheet_sec_single_btns{position: relative;margin: 10px 0 0 0;display: flex;align-items: center;justify-content: space-between;}
+.attendance_sheet_sec_single .talent_brow_cont_text{left: 15px;}
+.no_btn{display: inline-block;background: #db1b1b;color: #fff;display: flex;align-items: center;justify-content: center;font-size: 16px;font-weight: 500;width: 100%;padding: 4px 0;border-radius: 5px;margin: 0 5px 0 0;border: 2px solid #fff;box-shadow: 0px 3px 6px #00000029;}
+.yes_btn{background: #449f10;display: inline-block;color: #fff;display: flex;align-items: center;justify-content: center;font-size: 16px;font-weight: 500;width: 100%;padding: 4px 0;border-radius: 5px;margin: 0 0 0 5px;border: 2px solid #fff;box-shadow: 0px 3px 6px #00000029;}
+#mark_complete{padding-right: 0px;}
 
 
 

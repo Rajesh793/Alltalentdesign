@@ -1086,11 +1086,13 @@
 .view_details_page_sec_single ul li {margin-right: 10px;font-size: 14px;}
 .view_details_page_sec_single {margin: 0 0 10px 0;}
 .view_details_page_sec_single h5 {color: #000000;font-size: 25px;margin: 0;}
-.my_projects_sec_right_single_btns_new ul li a {font-size: 12px;padding: 5px 20px;}
+.my_projects_sec_right_single_btns_new ul li a {font-size: 12px;padding: 5px 15px;}
 .view_details_page_sec_single h6{font-size: 16px;}
 .view_details_page_sec_single p {font-size: 14px;}
 .view_details_btns ul li {margin: 0 10px 10px 0;}
-
+.on_going_new {padding: 7px 20px !important;}
+.unverified_prof{padding: 5px 0px;font-size: 8px;}
+.unverified_prof a{font-size: 10px;}
 
 /*Client Dashboard*/
 
@@ -1142,7 +1144,7 @@
 .audition_sec .close {top: -50px;right: 30px;}
 .notify {font-size: 14px;padding: 8px 30px;}
 
-
+.new_nav .nav .nav-item.nav-link{font-size: 16px;}
 
 
 
@@ -1459,8 +1461,8 @@
 .filter_modal_body_head h6 img {width: 25px;}
 .filter_modal_body_sec_single {margin: 0 0 12px 0;}
 .filter_modal_body_sec_single label {font-size: 12px;}
-.filter_modal_body_sec_single input{font-size: 12px;}
-.filter_modal_body_sec_single select{font-size: 12px;}
+.filter_modal_body_sec_single input{font-size: 12px;height: 30px;}
+.filter_modal_body_sec_single select{font-size: 12px;height: 30px;}
 .good_luck_body_cont p{font-size: 16px;}
 .good_luck_body_cont h5{font-size: 25px;}
 .language_popup .close{right: 35px; top: -50px;font-size: 35px;}
@@ -1588,13 +1590,13 @@
 .talent_brow_cont_heart i {font-size: 15px;}
 .talent_brow_cont_text {bottom: 10px;left: 10px;z-index: 11;}
 .talent_brow_cont_text ul{display: block;}
-.talent_brow_cont_text p{display: block;font-size: 12px;}
-.talent_brow_cont_text h6{font-size: 14px;}
-.unverified_prof {top: 5px;left: 5px;}
+.talent_brow_cont_text p{display: block;font-size: 10px;}
+.talent_brow_cont_text h6{font-size: 12px;margin-bottom: 5px;}
+.unverified_prof {top: 5px;left: 5px;padding: 5px 0px;font-size: 5px;}
 .unverified_prof a {padding: 2px 10px;font-size: 8px;}
 .filter_modal .modal-body {padding: 15px;}
 .filter_check_sec .container {padding-left: 20px;font-size: 13px;}
-
+.talent_brow_cont_text p i{font-size: 10px;}
 
 /*Dash page-15*/
 
@@ -1602,7 +1604,7 @@
 .view_details_page_sec_main {padding: 15px;}
 .new_list_dash {position: relative;right: 0;top: 0;margin: 0 0 25px 0;}
 .new_list_dash ul li {margin-left: 5px;margin-right: 5px;}
-.talent_cont_btn {font-size: 12px;padding: 5px 15px;}
+.talent_cont_btn {font-size: 10px;padding: 10px 15px;}
 .view_details_page_sec_single ul li {margin-right: 5px;margin-bottom: 5px;font-size: 12px;}
 .view_details_page_sec_single {margin: 0 0 5px 0;}
 .view_details_page_sec_single h5 {font-size: 20px;margin: 0;}
@@ -1698,7 +1700,7 @@
 .preview_jobs_left ul {display: grid;grid-template-columns: 1fr 1fr;grid-gap: 5px;height: auto;overflow-y: visible;padding-right: 0px;}
 .completed_tab_inner_list li {margin: 10px;}
 .my_projects_sec_right_single_btns_new ul li span{font-size: 10px;}
-.view_details_page_sec_single p{font-size: 14px;}
+.view_details_page_sec_single p{font-size: 14px;margin-bottom: 10px;}
 .on_going_new {padding: 5px 20px !important;}
 .yellow_btn {font-size: 12px;padding: 3px 15px;}
 .reject_btn{font-size: 12px;padding: 3px 15px;}
@@ -1707,10 +1709,29 @@
 .blue_btn {font-size: 12px;padding: 5px 20px;}
 .view_details_page_sec_single .pay_title{font-size: 17px;}
 .view_details_page_sec_single h6{font-size: 16px;}
-.talent_brow_cont_text ul li{font-size: 14px;}
+.talent_brow_cont_text ul li{font-size: 12px;}
 .ev{font-size: 20px;}
 .notify{font-size: 12px;padding: 5px 20px;}
 .notify_talents .close { top: -50px; right: 40px;}
+
+
+/*17-02-2021*/
+
+.delete_btn{font-size: 12px;padding: 8px 0px;}
+.delete_btn i{font-size: 15px;}
+.view_apps_right .talent_brow_cont_text h6 {font-size: 14px;}
+.unverified_btn{font-size: 7px;}
+.edit_dash_btn{font-size: 12px;}
+.reason_sec h6{font-size: 16px;}
+.reason_sec p{font-size: 14px;}
+.client_sign_form {padding: 15px 0;}
+.client_sign_form_head h4 {font-size: 18px;margin: 0 0 10px 0;}
+.form_cont_sec {margin: 5px 0 0 0;}
+.attendance_sheet_inner h4{font-size: 14px;}
+.attendance_sheet_sec {grid-template-columns: 1fr 1fr;}
+
+
+
 
 
 
