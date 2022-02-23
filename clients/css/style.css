@@ -1585,7 +1585,7 @@ border: 1px solid #D5D5D5;}
 .audition_sec .close {position: absolute;top: -30px;right: -20px;font-size: 30px;color: #fff;font-weight: 400 !important;z-index: 11;opacity: 1;}
 .audition_sec .modal-body{padding: 20px;}
 .audition_sec_body{position: relative;}
-.audition_sec_body_list{position: relative;}
+.audition_sec_body_list{position: relative;z-index: 11;}
 .audition_sec_body_body{position: relative;}
 .video_sec_popup_img .new_img{width: 100%;border-radius: 5px;}
 .audition_sec_body_body p{font-size: 14px;color: #000000;font-weight: 600;margin: 0 0 5px 0;display: inline-block;}
