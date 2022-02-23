@@ -233,7 +233,7 @@
 .featured_job span{font-size: 12px;}
 .job_list_body_right_search_sec input{font-size: 16px;}
 .job_list_body_right_body_single_id ul li {padding-right: 12px; font-size: 14px;}
-.head_title {font-size: 30px;margin: 5px 0 10px 0;}
+.head_title {font-size: 30px;margin: 0px 0 5px 0;}
 .inner_menu_single h5{font-size: 20px;}
 .inner_menu_single ul li{padding-bottom: 14px;}
 .inner_menu_single ul li a{font-size: 18px;}
@@ -246,6 +246,15 @@
 .inner_ftr_copy_sec_single ul li a {font-size: 17px;}
 .inner_ftr_copy_sec_single ul li {padding-left: 10px;}
 .inner_ftr_copy_sec_single ul li:last-child {padding-left: 20px;}
+.profile_page_main_left img{height: 425px;}
+.categoryy_tab ul li:first-child a{font-size: 14px;}
+.categoryy_tab ul li:first-child{width: 120px;}
+.profile_gender_main table tr td{font-size: 14px;}
+.profile_page_main_right_left h6{font-size: 18px;}
+.profile_page_main_right_left p{font-size: 16px;}
+.new_sub_cate li:first-child{font-size: 14px;}
+.new_sub_cate li a {font-size: 11px !important;padding: 5px 8px !important;}
+.talent_height_wig_single h6{font-size: 12px;}
 
 
 
@@ -317,13 +326,22 @@
 
 /*PROFILE PAGE CSS*/
 .languages_sec{display: block;}
-.talent_man_msg{display: flex;}
+.talent_man_msg{display: flex;padding: 0px;}
 .talent_man_msg p{font-size: 14px;margin: 0 0 10px 0;}
-.all_media_tabs_left a {font-size: 14px; padding-bottom: 20px;}
+.all_media_tabs_left a {font-size: 12px; padding-bottom: 15px;}
 .all_media_tabs_left a img{width: 30px;}
-
-
-
+.profile_page_main_right_left h6{font-size: 18px;}
+.profile_page_main_right_left p{font-size: 16px;}
+.new_sub_cate li:first-child{font-size: 14px;}
+.new_sub_cate li a {font-size: 11px !important;padding: 5px 8px !important;}
+.talent_height_wig_single h6{font-size: 10px;}
+.talent_height_wig_single p{font-size: 10px;}
+.new_nav .nav .nav-item.nav-link{font-size: 14px;}
+.talent_manager_head h4{font-size: 16px;}
+.add_media_btn{padding: 10px 30px;font-size: 12px !important;}
+.social_stat h5{font-size: 12px;}
+.share_btn{font-size: 12px;}
+.profile_page_main_left img{height: 400px;}
 
 }
 @media only screen and (min-width:1301px) and (max-width:1400px) {
@@ -386,10 +404,12 @@
 
 /*PROFILE PAGE CSS*/
 
-.insta_sec {width: auto;}
-.profile_page_main_right_left h6{font-size: 16px;}
-.profile_page_main_right_left p{font-size: 14px;}
-.profile_gender {margin: 0 0 10px 0;padding: 12px;}
+.insta_sec {width: auto;padding: 12px 0;}
+.profile_page_main_right_left h6{font-size: 15px;margin: 0 0 5px 0;}
+.profile_page_main_right_left p{font-size: 12px;}
+.profile_page_main_right_left p img {width: 12px;}
+.profile_gender {margin: 0 0 10px 0;padding: 13px;}
+.profile_gender_main table tr td span{font-size: 11px;}
 .profile_gender_main table tr td{font-size: 14px;}
 .languages_sec{display: block;}
 .circle_sec p{font-size: 18px;}
@@ -398,7 +418,8 @@
 .talent_man_msg p{font-size: 12px;}
 .talent_man_msg span{font-size: 12px;}
 .talent_height_wig{grid-gap: 5px;}
-.talent_height_wig_single h6{font-size: 12px;}
+.talent_height_wig_single h6{font-size: 10px;}
+.profile_page_main_left img{width: 380px;}
 .talent_height_wig_single p{font-size: 10px;}
 .all_media_tabs_left{padding: 20px;}
 .all_media_tabs_left ul li {padding-bottom: 20px;}
@@ -408,7 +429,7 @@
 .languages_sec{display: block;}
 .talent_man_msg{display: flex;}
 .talent_man_msg p{font-size: 14px;margin: 0 0 10px 0;}
-.all_media_tabs_left a {font-size: 14px; padding-bottom: 20px;}
+.all_media_tabs_left a {font-size: 12px; padding-bottom: 20px;}
 .all_media_tabs_left a img{width: 30px;}
 .add_media_btn {font-size: 12px !important;padding: 8px 20px;top: 5px;}
 
@@ -421,14 +442,17 @@
 .talent_profile_clarification_input_left input {width: 85%;font-size: 15px;}
 .languages_sec ul li a{font-size: 12px;}
 .see_all_btn {font-size: 14px;}
-.new_padd_16 {padding: 20px 0;}
+.new_padd_16 {padding: 44px 0;}
 .profile_str h6 {font-size: 14px;}
 .analyse_btn {font-size: 16px;}
 .social_stat h5{font-size: 12px;}
 .share_btn {font-size: 12px;padding: 5px 12px;margin: 0 0 5px 0;}
 .insta_sec table tr td{padding-bottom: 12px;}
-
-
+.categoryy_tab ul li:first-child a{font-size: 14px;}
+.categoryy_tab ul li:first-child {width: 115px;}
+.new_sub_cate li:first-child{font-size: 14px;}
+.new_sub_cate li a {font-size: 10px !important;padding: 5px 7px !important;}
+.talent_man_msg{padding: 0px;}
 
 
 
@@ -519,12 +543,15 @@
 .languages_sec ul li {padding: 0 5px 3px 0;}
 .languages_sec ul li a{font-size: 12px;}
 .see_all_btn {font-size: 13px;margin: 0;}
-.categoryy_tab ul li:first-child a{font-size: 14px;}
+.categoryy_tab ul li:first-child a{font-size: 12px;}
+.new_sub_cate li:first-child{font-size: 12px;}
+.categoryy_tab ul li:first-child{width: 100px;}
 .categoryy_tab ul li a {padding: 0px 4px 0 0;font-size: 12px;}
 .categoryy_tab ul li{font-size: 12px;}
 .new_sub_cate {margin: 0 !important;}
 .categoryy_tab ul { margin: 0 0 10px 0;}
-.new_padd_16 {padding: 20px 0;}
+.new_padd_16 {padding: 30px 0;}
+.profile_page_main_left img {height: 330px;}
 .profile_str h6 {font-size: 12px;}
 .analyse_btn{font-size: 16px;}
 .share_btn {font-size: 12px;padding: 5px 10px;margin: 0 0 5px 0;}
@@ -548,7 +575,7 @@
 .talent_man_msg{display: flex;}
 .msg_btn{padding: 8px 10px;font-size: 10px;}
 .talent_man_msg p{font-size: 12px;margin: 0 0 10px 0;}
-.all_media_tabs_left a {font-size: 14px; padding-bottom: 15px;}
+.all_media_tabs_left a {font-size: 12px; padding-bottom: 15px;}
 .all_media_tabs_left a img{width: 30px;}
 .add_media_btn {font-size: 12px !important;padding: 8px 20px;top: 5px;}
 .language_popup_right ul{grid-gap: 10px;margin: 0;}
@@ -689,7 +716,7 @@
 .talent_manager_sec .row .col-md-12 { -ms-flex: 0 0 100%; flex: 0 0 100%;max-width: 100%;}
 .all_media_tabs .row .col-md-2 {-ms-flex: 0 0 100%;flex: 0 0 100%;max-width: 100%;}
 .all_media_tabs .row .col-md-10 {-ms-flex: 0 0 100%;flex: 0 0 100%;max-width: 100%;}
-.new_left_sec_nav {grid-template-columns: 1fr 1fr 1fr;}
+/*.new_left_sec_nav {grid-template-columns: 1fr;}*/
 
 .language_popup .modal-body {position: relative;padding: 20px;}
 .language_popup .modal-dialog {margin: 70px auto;}
@@ -707,8 +734,9 @@
 
 /*Talent Settings*/
 
-.talent_setting_input_display input{width: 100%;}
-.talent_setting_input_display select{width: 100%;}
+.talent_setting_input_display input{width: 85% !important;font-size: 14px;}
+.talent_setting_input_display select{width: 85% !important;font-size: 14px;}
+.talent_setting_input_display {flex: 0 0 75%;}
 
 /*Talent Browsing */
 .new_prof_sec .col-lg-12 {-ms-flex: 0 0 50%; flex: 0 0 50%; max-width: 50%;}
@@ -717,6 +745,18 @@
 
 .about_us_sec {background-position: 20% -10px;}
 
+/*21-02-2022*/
+.contact_sec_left h4{font-size: 26px;}
+.contact_sec_left ul li{font-size: 20px;}
+.contact_sec_right{padding: 130px 0;}
+.msg_btn_new {padding: 7px 40px;}
+.contact_sec_left ul li:after {top: 7px;width: 14px;height: 14px;}
+.client_talent_brow_bottom{grid-template-columns: 1fr 1fr 1fr;}
+.all_media_tabs_left a{font-size: 10px;}
+.all_media_tabs_left a img{width: 28px;}
+.crop_modal .modal-dialog {max-width: 470px;}
+.crop_modal_img {width: 70%;}
+.crop_btn {margin: 10px 0 0 0;font-size: 13px;padding: 8px 30px;}
 
 
 }
@@ -881,7 +921,12 @@
 .profile_page_main_right{margin: 0px 0 0 0;}
 .social_list ul li img { width: 100%;}
 .circle_sec img {width: 50%;}
-.circle_sec p{font-size: 30px;}
+.circle_sec p{font-size: 22px;}
+.insta_sec{width: 200px;}
+.talent_height_wig_single h6{font-size: 10px;}
+.talent_height_wig_single p{font-size: 10px;}
+.insta_sec table tr td{font-size: 14px;padding-bottom: 10px;}
+.new_padd_16 {padding: 25px 0;}
 .all_media_tabs .col-md-2, .col-md-10 {-ms-flex: 0 0 100%; flex: 0 0 100%;max-width: 100%;}
 .all_media_tabs_right{margin: 20px 0 0 0;}
 .our_story_sec .row .col-md-6{-ms-flex: 0 0 100%;flex: 0 0 100%;max-width: 100%;}
@@ -890,9 +935,10 @@
 .ethos_right_img{margin:15px 0;}
 
 .profile_gender{padding: 15px;}
-.profile_gender_main table tr td{font-size: 14px;}
+.profile_gender_main table tr td{font-size: 12px;}
+.profile_gender_main table tr td span{font-size: 12px;}
 .languages_sec{display: block;}
-.languages_sec p{margin: 0 0 15px 0;}
+.languages_sec p{margin: 0 0 10px 0;font-size: 14px;}
 .new_left_sec_nav{grid-template-columns: 1fr}
 .all_media_tabs_left a{font-size: 12px;}
 .profile_listing_sec{margin: 20px 0 0 0;padding: 20px;}
@@ -915,10 +961,10 @@
 .previous_jobs_tabs_single .row .col-md-4 {-ms-flex: 0 0 100%;flex: 0 0 100%;max-width: 100%;}
 .previous_jobs_tabs_single .row .col-md-6 {-ms-flex: 0 0 100%;flex: 0 0 100%;max-width: 100%;}
 .sticky_class{position: -webkit-sticky;position: sticky;top: 95px;}
-.profile_page_main_right_left h6{font-size: 20px;}
-.talent_manager_head h4{font-size: 18px;}
+.profile_page_main_right_left h6{font-size: 16px;}
+.talent_manager_head h4{font-size: 16px;}
 .profile_page_main_left{margin-bottom: 10px;}
-
+.talent_man_msg p{font-size: 14px;}
 
 /*Clarification page
 */
@@ -940,7 +986,7 @@
 .right_cont_form i {display: inline-block;font-size: 14px;margin: 0;float: right;}
 .right_cont_form .update_btn {font-size: 14px;padding: 8px 20px;}
 .right_cont_form {margin: 10px 0 0 0;}
-.talent_setting_input_display input {width: 90%;height: 35px;font-size: 14px;}
+.talent_setting_input_display input {width: 90% !important;height: 35px;font-size: 14px;}
 .phone_flex{display: flex;align-items: center;justify-content: space-between;flex-wrap: wrap;margin-bottom: 10px;}
 .location_span{top: 5px;}
 .location_span span {padding: 3px 10px;font-size: 10px;}
@@ -967,9 +1013,48 @@
 
 
 /*Talent Browsing */
-.client_talent_brow_bottom {grid-template-columns: 1fr 1fr;grid-gap: 15px;margin-top: 30px;}
-.msg_btn_new {font-size: 16px;margin-left: 0;margin-top: 10px;}
-.contact_sec_right{padding: 175px 0px;}
+.client_talent_brow_bottom {grid-template-columns: 1fr 1fr 1fr;grid-gap: 15px;margin-top: 30px;}
+.msg_btn_new {font-size: 14px;margin-left: 0;*margin-top: 10px;padding: 2px 25px;}
+.contact_sec_right{padding: 100px 0px;}
+.talent_brow_cont_text h6{font-size: 15px;}
+.talent_brow_cont_text ul li{font-size: 14px;}
+.talent_brow_cont_text p{font-size: 14px;}
+.unverified_prof a{font-size: 10px;}
+/*21-02-2022*/
+
+.contact_sec_left h4{font-size: 24px;}
+.contact_sec_left ul li {padding-bottom: 15px;font-size: 15px;padding-left: 20px;}
+.contact_sec_left ul li:after { top: 5px;width: 10px;height: 10px;}
+.contact_sec_main {padding: 15px;}
+
+.talent_profile_clarification_inner p{font-size: 14px;}
+.talent_profile_clarification_input_right ul li a.clarify_contact{font-size: 14px;}
+.clarify_submit{font-size: 14px;}
+.talent_profile_clarification_input_right ul li a.link_btn{font-size: 20px;}
+.profile_page_main_right_left p{font-size: 14px;}
+.profile_page_main_right_left p img {margin-right: 2px;width: 12px;}
+.languages_sec ul li {padding: 0 5px 2px 0;}
+.languages_sec ul li a{font-size: 12px;}
+.see_all_btn{font-size: 14px;text-align: right;}
+.categoryy_tab ul li:first-child a{font-size: 14px;}
+.categoryy_tab ul li{font-size: 12px;}
+.new_sub_cate li:first-child{font-size: 14px;}
+.new_sub_cate li a{font-size: 10px !important;}
+.share_btn{font-size: 12px;}
+.new_nav .nav .nav-item.nav-link{font-size: 12px;}
+.add_media_btn {font-size: 10px !important;padding: 8px 20px;top: 10px;}
+.profile_str h6 {font-size: 16px;}
+
+.hide{display: none;}
+.show{display: block;}
+.all_media_tabs_left{top: 20px;}
+.audio_sec_single_music {padding: 0px;width: 100%;margin: 0 auto;}
+.language_popup_right ul li a{font-size: 14px;}
+.language_popup_left h4 img{display: none;}
+.language_popup_left_star{display: none;}
+.crop_modal .modal-dialog {max-width: 470px;}
+.crop_modal_img {width: 70%;}
+.crop_btn {margin: 10px 0 0 0;font-size: 13px;padding: 8px 30px;}
 
 
 
@@ -1052,7 +1137,7 @@
 .job_list_body{padding: 30px 0;}
 .job_list_body_left { margin: 0 0 30px 0;padding: 15px;}
 
-.job_list_body_right_body_single_id ul li { padding-right: 0; padding-bottom: 5px;font-size: 12px;display: block;padding-right: 0px !important;font-size: 14px !important;}
+.job_list_body_right_body_single_id ul li { padding-right: 0; padding-bottom: 5px;font-size: 12px !important;display: block;padding-right: 0px !important;    line-height: 22px}
 .head_title{font-size: 16px;line-height: inherit;margin-top: 0px;margin-bottom: 5px;}
 .job_list_body_right_body_single_vac ul{grid-template-columns: 1fr;}
 .job_list_body_right_body_single_btn ul li { padding-bottom: 10px;text-align: center;display: block;padding-left: 0;}
@@ -1086,13 +1171,14 @@
 .new_right_body { padding-right: 0; margin-right: 0;}
 .job_list_body_right_body {height: auto;overflow-y: inherit;padding-right: 0;max-height: inherit;}
 .view_details_pop .modal.right .modal-body{padding: 25px 20px;}
-.view_details_pop .modal.right .modal-dialog{width: 290px !important;max-width: 290px !important;height: 600px;
+.view_details_pop .modal.right .modal-dialog{width: 290px !important;max-width: 290px !important;height: 620px;
     overflow-y: scroll;}
 .view_details_pop .close { top: 5px; right: 10px;z-index: 1;}
 .job_list_body_right_body_single_id_new ul li { display: inline-block; padding-right: 10px; font-size: 10px;line-height: 20px;}
 .job_list_body_right_body_single_btn_popup {margin: 5px 0;}
 .apply_now_popup img {width: 25px;}
-.apply_now_popup {width: 110px;height: 30px;font-size: 12px;}
+.apply_now_popup {width: 105px;height: 30px;font-size: 10px;}
+.audition_attach {margin: 10px 0 0 0;}
 .space{margin: 10px 0 5px 0;}
 .job_list_body_right_body_single_id_new {padding-bottom: 5px;}
 .job_list_body_right_body_single_vac_new ul {grid-template-columns: 1fr 1fr;grid-gap: 10px;}
@@ -1124,7 +1210,7 @@
 .terms_para{font-size: 12px;}
 .record_popup .modal-dialog {max-width: initial;margin: 40px 15px !important;width: auto;}
 .record_popup .modal-header .close{z-index: 1;}
-.record_popup .modal-content{padding: 30px 0px;}
+.record_popup .modal-content{padding: 25px 0px 0 0;}
 .record_sec_middle {margin: 10px 0 15px 0;}
 .cir i {font-size: 25px;}
 .record_btn {width: 45px;height: 45px;}
@@ -1163,7 +1249,7 @@
 .profile_page_main_right_left{margin: 15px 0 0 0;}
 .profile_page_main_right_left h6{font-size: 18px;}
 .profile_page_main_right_left {font-size: 16px;}
-.profile_gender{padding: 20px 15px;}
+.profile_gender{padding: 15px;}
 .profile_gender_main table tr td{font-size: 14px;}
 .profile_gender_main table tr td span{font-size: 12px;}
 .languages_sec p{font-size: 14px;margin-bottom: 10px;}
@@ -1183,21 +1269,24 @@
 .talent_manager_head h4{font-size: 18px;}
 .talent_man_msg p{font-size: 14px;margin: 0 0 15px 0;}
 .talent_man_msg span{font-size: 10px;}
-.msg_btn {padding: 8px 14px;font-size: 12px;}
+.msg_btn {padding: 8px 14px;font-size: 10px;}
 .msg_btn img {width: 14px;margin: 0 5px 0 0;}
 .talent_height_wig {grid-template-columns: 1fr 1fr;grid-gap: 15px;}
 .all_media_tabs_left ul li {padding-bottom: 15px;}
 .all_media_tabs_left ul li a{font-size: 14px;}
 .all_media_tabs_left{padding: 15px;margin: 0 0 20px 0;}
 .new_nav{padding: 10px;margin: 0 0 15px 0;}
-.new_nav .nav {grid-template-columns: 1fr 1fr;grid-gap: 10px;}
-.new_nav .nav .nav-item.nav-link{font-size: 14px;margin: 0 0 15px 0;}
-.talent_profile_clarification_inner p{font-size: 14px}
+.new_nav .nav {grid-template-columns: 1fr 1fr;grid-gap: 15px;}
+.new_nav .nav .nav-item.nav-link{font-size: 14px;margin: 0;display: flex;align-items: center;justify-content: center;}
+.talent_profile_clarification_inner p{font-size: 12px}
 .job_list_body_left_head span{font-size: 12px;}
 .job_list_body_left_head h6{font-size: 12px;}
 .job_list_body_left_head{padding-bottom: 15px;}
 .job_list_body_left_body_single {margin: 0 0 10px 0;}
 .job_list_body_right_body_single_id{padding-bottom: 2px;}
+.clarify_contact{display: none !important;}
+.clarify_contact_new{display: block;}
+.clarify_contact_new{font-size: 12px;padding: 5px 15px;}
 
 
 /*About us page*/
@@ -1221,8 +1310,12 @@
 
 .all_media_tabs_left a {padding-bottom: 15px; font-size: 14px;}
 .languages_sec{display: block;}
-.new_sub_cate li a{font-size: 10px !important;padding: 5px 10px !important;}
+.new_sub_cate li a{font-size: 12px !important;padding: 5px 10px !important;}
+.insta_sec {width: 155px;}
 .share_btn {font-size: 14px;padding: 5px 15px;}
+/*.new_pos_btn{position: absolute;right: 0px;}*/
+.hide{display: none;}
+.show{display: block;}
 .talent_id{font-size: 12px;}
 .profile_page_main_right_left p{font-size: 14px;}
 .profile_page_main_right_left p img{width: 12px;}
@@ -1242,9 +1335,10 @@
 .click_sec {left: 5px;width: 100%;}
 .click_sec a i{font-size: 20px;}
 .lg-actions .lg-next, .lg-actions .lg-prev{top: 45%;}
-.audio_sec_single_music{padding: 10px; width: 60%;margin: 0 auto 20px;}
-.audio_sec_single_lyrics{width: 80%;margin: 0 auto 20px;}
-.audio_sec_single_icn{width: 40%;margin: 0 auto 20px;}
+.audio_sec_single_music{padding: 0px; width: 100%;margin: 0;}
+.audio_sec_single_lyrics{width: 125%;margin: 0;left: -10px;}
+.ev{font-size: 18px;}
+.audio_sec_single_icn{width: 70%;margin: 0;}
 .profile_listing_sec {border-radius: 20px;padding: 20px 10px;}
 .recommened_job_sec {margin: 10px 0 15px 0;align-items: center;justify-content: center;text-align: center;display: block;}
 .recommened_job_sec p{margin: 0 0 15px 0;font-size: 18px;}
@@ -1254,8 +1348,9 @@
 .filter_btn img {width: 20px;}
 .payment_title span{font-size: 18px;}
 .new_tal_pay i {font-size: 12px;top: 7px;}
-.new_filter_pg .job_list_body_right_body_single_vac ul {width: 80%;grid-template-columns: 1fr 1fr;}
-.new_filter_pg .job_list_body_right_body_single_vac ul li {font-size: 12px;padding: 8px 10px;}
+.new_filter_pg .job_list_body_right_body_single_vac ul {width: 100%;grid-template-columns: 1fr 1fr;    grid-gap: 10px;}
+.new_filter_pg .job_list_body_right_body_single_vac ul li {font-size: 11px;padding: 8px 10px;}
+.job_list_body_right_body_single_btn{margin: 10px 0 0 0;}
 .apply_now {width: 100%;height: 40px;font-size: 12px;}
 .view_details{width: 100%;height: 40px;font-size: 12px;padding: 0 15px;}
 .job_list_body_right_body_single_btn ul{display: grid;grid-template-columns: 1fr 1fr;grid-gap: 10px;}
@@ -1277,9 +1372,10 @@
 .marvel_sec p{font-size: 14px;}
 .marvel_sec table tr td{font-size: 12px;}
 .marvel_sec h6{font-size: 14px;}
-.studio_pack {border-radius: 10px;padding: 10px;grid-template-columns: 1fr 1fr;grid-gap: 10px;}
+.studio_pack {border-radius: 10px;padding: 10px;grid-template-columns: 1fr 1fr 1fr;grid-gap: 10px;}
 .drop_sec{right: 0 !important;}
-.prev_sec_cont_single p {font-size: 14px; padding: 10px;border-radius: 10px;}
+.prev_sec_cont_single p {font-size: 12px; padding: 10px;border-radius: 10px;}
+.prev_sec_cont_single h6{font-size: 14px;}
 .std_pic_sec {display: grid;width: 100%;grid-template-columns: 1fr 1fr 1fr 1fr;grid-gap: 10px;}
 .std_pic_sec_single{margin: 0;}
 .add_media_pop .modal-body {padding: 20px 15px;}
@@ -1312,12 +1408,13 @@
 .language_popup_right {border-radius: 5px;margin: 15px;padding: 15px;}
 .language_popup_right h6 {font-size: 16px;margin: 0 0 15px 0;}
 .language_popup_right ul {grid-template-columns: 1fr 1fr 21fr;grid-gap: 10px;margin-bottom: 10px;}
-.language_popup_right ul li a {border-radius: 5px;font-size: 12px;padding: 5px 10px;}
+.language_popup_right ul li a {border-radius: 5px;font-size: 10px;padding: 5px 10px;width: 100%;}
 .categoryy_tab ul li a.see_all_btn{font-size: 14px;}
-.unorder_list li a {font-size: 12px;padding: 5px;border-radius: 5px;display: block;}
+.unorder_list li a {font-size: 10px;padding: 5px;border-radius: 5px;display: block;}
 .unorder_list li{margin: 5px;}
-.analyse_popup .close{right: 35px; top: -50px;font-size: 35px;}
-.analyse_popup .modal-dialog {max-width: 100%;border-radius: 20px;margin: 70px 0;}
+.analyse_popup .close{right: 0px; top: -35px;font-size: 35px;}
+.circle_sec_new p{font-size: 25px;}
+.analyse_popup .modal-dialog {max-width: 90%;border-radius: 20px;margin: 50px auto;}
 .analyse_popup_check .container {padding-left: 45px;font-size: 14px;}
 .analyse_popup .modal-body {padding: 20px 15px;}
 
@@ -1330,9 +1427,9 @@
 .msg_popup_body h6 {font-size: 18px;text-align: center;}
 .msg_popup_body table tr td {padding: 0 0 10px 0;font-size: 14px;}
 .submit_btn_new {font-size: 14px;padding: 8px 25px;}
-.measure_grid {grid-template-columns: 1fr 1fr;}
+.measure_grid {grid-template-columns: 1fr 1fr 1fr;}
 .measure_grid_single {margin: 0 0 10px 0;}
-.measure_grid_single p{font-size: 14px;}
+.measure_grid_single p{font-size: 12.5px;}
 .builder_img{width: 35%;margin: 0 auto;}
 .previous_work_pop .close{right: 35px; top: -50px;font-size: 35px;}
 .previous_work_pop .modal-dialog {max-width: 100%;border-radius: 20px;margin: 70px 0;}
@@ -1349,7 +1446,7 @@
 .contact_sec_left ul li{font-size: 16px;padding-left: 20px;}
 .msg_btn_new {font-size: 14px;margin-left: 0;margin-top: 15px;padding: 5px 15px;}
 .talent_profile_clarification_inner{padding: 20px 15px;}
-.talent_profile_clarification_inner ol li{font-size: 14px;}
+.talent_profile_clarification_inner ol li{font-size: 12px;}
 .talent_profile_clarification_input{grid-template-columns: 1fr;}
 .talent_profile_clarification_input_left input {font-size: 12px;padding-left: 10px;}
 .talent_profile_clarification_input_right{text-align: center;}
@@ -1380,7 +1477,7 @@
 .category_sub_inner_single .container{margin-bottom: 10px;font-size: 14px;}
 .category_sub_inner_single .checkmark{height: 16px;width: 16px;}
 .category_sub_inner_single .container .checkmark:after {left: 2px;top: 0;font-size: 10px;}
-.cate_check a{font-size: 14px;}
+.cate_check a{font-size: 12px;}
 .talent_setting_category {width: 100%;grid-gap: 10px;}
 .physical_attr {grid-template-columns: 1fr 1fr 1fr; grid-gap: 10px;width: 100%;}
 .physical_attr_single input {height: 30px;font-size: 12px;margin-bottom: 5px;}
@@ -1396,12 +1493,12 @@
 .update_popup .modal-dialog{margin:80px auto;}
 .update_popup .close {right: 20px;top: -40px;}
 .update_popup_main h6{font-size: 16px;}
-
+.talent_edit_sec table thead tr td.delete_text{font-size: 12px;}
 
 
 /*Talent Browsing */
 
-.client_talent_brow_bottom {grid-template-columns: 1fr 1fr; grid-gap: 20px;margin-top: 20px;}
+.client_talent_brow_bottom {grid-template-columns: 1fr; grid-gap: 10px;margin-top: 20px;}
 .client_talent_brow_bottom_single {border-radius: 15px;padding: 10px;}
 .talent_brow_cont_text{left: 10px;}
 .talent_brow_cont_text h6{font-size: 16px;}
@@ -1409,18 +1506,65 @@
 .talent_brow_cont_text p{font-size: 12px;}
 .talent_brow_cont_heart i{font-size: 14px;}
 
-
 /*talent Crop*/
 .talent_crop_sec_body{grid-template-columns: 1fr 1fr;}
 .clarify_submit {font-size: 12px;padding: 5px 15px;}
-.talent_profile_clarification_input_right ul li {margin-left: 0;margin: 5px;}
+.talent_profile_clarification_input_right ul li {margin-left: 0;margin: 0 0 0 7px;}
 .talent_profile_clarification_input_right ul li a.clarify_contact{font-size: 12px;}
 .talent_profile_clarification_input_right ul li a.link_btn{font-size: 20px;}
 .profile_page_main_left { margin-bottom: 0;}
-
 .talent_crop_sec_main {padding: 15px;}
 
+.profile_gender_main { text-align: left;}
+.new_sub_cate li:first-child{font-size: 14px;}
+.new_pos_btn {text-align: right;}
+.audio_sec_single{padding: 10px;}
 
+.drop_sec{padding: 10px;width: 45%;min-width: 45%;padding: 8px;width: 45%;min-width: 45%;border-radius: 5px;}
+.delete_btn {border-radius: 5px;padding: 6px 0px;font-size: 12px;width: 100%;margin: 0px 0 0px 0;}
+.delete_btn i{font-size: 14px;}
+.edit_btn {border-radius: 5px;padding: 6px 0px;font-size: 12px;width: 100%;margin: 0px 0 10px 0;}
+.edit_btn i{font-size: 14px;}
+.report_btn {border-radius: 5px;padding: 6px 0px;font-size: 12px;width: 100%;margin: 0px;display: flex;align-items: center;justify-content: center;}
+.report_btn i{font-size: 14px;}
+
+.client_pay {width: 250px;left: -108px;top: 45px;}
+.new_grid ul{display: grid;grid-template-columns: 1fr !important;}
+.prevjobs_sec{margin: 20px 0 0 0;}
+.prevjobs_sec ul{width: 100%;}
+.good_luck_popup .modal-dialog{max-width: 280px;}
+.hello_img{display: none;}
+.language_popup_left {margin: 0px 0 10px 0;}
+.popcate_tab .first_table tr td{font-size: 12px;}
+.popcate_tab .sec_table tr td:last-child {padding-left: 10px;padding-bottom: 15px;}
+.popcate_tab .sec_table tr td:first-child{vertical-align: initial;font-size: 14px;padding: 10px;}
+.popcate_tab {padding: 15px;}
+.msg_popup .modal-dialog{max-width: 95%;margin: 50px auto;}
+.msg_popup_body table tr td textarea{border-radius: 3px;}
+.language_popup_left_star{display: none;}
+.builder_img{display: none;}
+.language_popup_right_top_toggle {padding: 15px 0 0 0;}
+.talent_cate_sec table thead tr td{font-size: 13px;}
+.talent_cate_sec table tbody tr td{font-size: 12px;}
+.talent_edit_sec table thead tr td{font-size: 12px;padding-right: 60px;}
+.sub_cate_sub li span{font-size: 10px;}
+.category_inner_sub_single label{font-size: 12px;}
+.sub_cate_sub li span i {float: right;padding-top: 3px;}
+.talent_edit_sec {width: 100%;overflow: scroll;}
+.category_inner_sub_single select{font-size: 10px;}
+
+.crop_modal .modal-dialog {max-width: 470px;}
+.crop_modal_img {width: 90%;}
+.crop_btn {margin: 10px 0 0 0;font-size: 13px;padding: 8px 30px;}
+.crop_modal .modal-content {padding: 25px 25px 10px 25px;}
+
+
+
+}
+
+
+@media only screen and (min-width:250px) and (max-width:319px) {
+	.location_span span {padding: 3px 8px;font-size: 9px;}
 }
 
 
