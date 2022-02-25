@@ -30,7 +30,6 @@
 
 </head>
 <body class="inner_body">
-
 <header class="all_head_inner inner_pages">
     <div class="container-fluid">
         <div class="row">
@@ -138,7 +137,7 @@
             <div class="col-lg-12 col-md-12 col-xl-12">
                 <div class="job_list_body_main">
                     <div class="row new_ipad_pro">
-                        <div class="col-lg-4 col-md-12 sticky">
+                        <div class="col-lg-4 col-md-12 sticky filter_sec_desk">
                             <div class="job_list_body_left">
                                 <div class="job_list_body_left_head">
                                     <span><i class="fas fa-filter"></i>Filters</span>
@@ -293,7 +292,10 @@
                         </div>
                         <div class="col-lg-8 col-md-12 sticky">
                             <div class="job_list_body_right">
-                                <a href="#" class="sort_btn new_sort">Sort By<i class="fas fa-caret-down"></i></a>
+                                <div class="new_sort_sec">
+                                    <a href="#" class="sort_btn filter_btn_sec" data-toggle="modal" data-target="#filter_modal1"><i class="fas fa-filter"></i>Filter</a>
+                                    <a href="#" class="sort_btn new_sort">Sort By<i class="fas fa-caret-down"></i></a>
+                                </div>
                                 <div class="job_list_body_right_body new_right_body">
                                     <div class="job_list_body_right_body_single">
                                         <div class="job_list_body_right_body_single_id">
@@ -766,6 +768,170 @@
       <i class="fas fa-times"></i>
     </div>
 </div>
+
+<div class="filter_modal">
+    <div id="filter_modal1" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <div class="modal-body">
+                    <div class="job_list_body_left" style="">
+                        <div class="job_list_body_left_head">
+                            <span><i class="fas fa-filter"></i>Filters</span>
+                            <h6>(15 Matching Jobs)</h6>
+                        </div>
+                        <div class="job_list_body_left_body" style="">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12">
+                                <div class="job_list_body_left_body_single">
+                                    <label>Keyword</label>
+                                    <input type="text" name="" placeholder="Enter Name">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-12">
+                                <div class="job_list_body_left_body_single">
+                                    <label>Category</label>
+                                    <select>
+                                        <option>Category</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-12">
+                                <div class="job_list_body_left_body_single">
+                                    <label>Sub-Category</label>
+                                    <select>
+                                        <option>Sub-Category</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-12">
+                                <div class="job_list_body_left_body_single">
+                                    <label>Project Type</label>
+                                    <select>
+                                        <option>Project Type</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-12">
+                                <div class="job_list_body_left_body_single">
+                                    <label>Job Type</label>
+                                    <select>
+                                        <option>Job Type</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-12">
+                                <div class="job_list_body_left_body_single">
+                                    <label>Audition Type</label>
+                                    <select>
+                                        <option>Audition Type</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-12">
+                                <div class="job_list_body_left_body_single">
+                                    <label>Job Posted</label>
+                                    <select>
+                                        <option>Job Posted</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12">
+                                <div class="job_list_body_left_body_single">
+                                    <label>Job Location</label>
+                                    <input type="text" name="" placeholder="Job Location (Add Multiple)">
+                                    <p>Mumbai, Hyderabad, Delhi</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row" style="">
+                            <div class="col-lg-12 col-md-12" style="">
+                                <div class="job_list_body_left_body_single min_max_head" style="">
+                                     <label>Talent Pay:$5000</label>
+                                    <div class="first2" style="">
+                                        <input type="range" data-rangeslider="" value="1" min="0" max="5" step="0.5" style="position: absolute; width: 1px; height: 1px; overflow: hidden; opacity: 0;"><div class="rangeslider" id="js-rangeslider-js-0" style=""><div class="rangeslider__fill__bg"></div><div class="rangeslider__fill" style="width: 76.6px;"></div><div class="rangeslider__handle" style="transform: translate(69.6px, -50%);"></div></div>
+                                        <div class="output"></div>
+                                    </div>
+                                    <div class="min_max">
+                                        <label>Min</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12">
+                                <div class="job_list_body_left_body_single min_max_head">
+                                    <label>Gender</label>
+                                    <select>
+                                        <option>Select Gender</option>
+                                        <option>Male</option>
+                                        <option>Female</option>
+                                    </select>
+                                    <div class="min_max">
+                                        <label></label>
+                                        <label>(Only for User)</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12">
+                                <div class="job_list_body_left_body_single">
+                                    <label>Age Range: 25-30</label>
+                                    <div slider="" id="slider-distance">
+                                        <div>
+
+                                            <div inverse-left="" style="width:70%;"></div>
+                                            <div inverse-right="" style="width:70%;"></div>
+                                            <div range="" style="left:30%;right:40%;"></div>
+                                            <span thumb="" style="left:30%;"></span>
+                                            <span thumb="" style="left:60%;"></span>
+                                        </div>
+                                        <input type="range" tabindex="0" value="30" max="100" min="0" step="1" oninput="
+                                          this.value=Math.min(this.value,this.parentNode.childNodes[5].value-1);
+                                          var value=(100/(parseInt(this.max)-parseInt(this.min)))*parseInt(this.value)-(100/(parseInt(this.max)-parseInt(this.min)))*parseInt(this.min);
+                                          var children = this.parentNode.childNodes[1].childNodes;
+                                          children[1].style.width=value+'%';
+                                          children[5].style.left=value+'%';
+                                          children[7].style.left=value+'%';children[11].style.left=value+'%';
+                                          children[11].childNodes[1].innerHTML=this.value;">
+                                        <input type="range" tabindex="0" value="60" max="100" min="0" step="1" oninput="
+                                          this.value=Math.max(this.value,this.parentNode.childNodes[3].value-(-1));
+                                          var value=(100/(parseInt(this.max)-parseInt(this.min)))*parseInt(this.value)-(100/(parseInt(this.max)-parseInt(this.min)))*parseInt(this.min);
+                                          var children = this.parentNode.childNodes[1].childNodes;
+                                          children[3].style.width=(100-value)+'%';
+                                          children[5].style.right=(100-value)+'%';
+                                          children[9].style.left=value+'%';children[13].style.left=value+'%';
+                                          children[13].childNodes[1].innerHTML=this.value;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12">
+                                <div class="job_list_body_left_body_btn">
+                                    <a href="#" class="btn_apply">Apply</a>
+                                    <a href="#" class="all_btn">Clear All</a>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 
 <div class="record_popup">

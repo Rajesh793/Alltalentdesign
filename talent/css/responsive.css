@@ -3,6 +3,7 @@
 .our_story_sec_left{margin-left: -350px !important;}
 }
 
+
 @media only screen and (min-width:1801px) and (max-width:1900px) {
 .head_sec_left_inner h1{font-size: 55px;}
 .head_sec_left_inner p{font-size: 20px;}
@@ -757,7 +758,12 @@
 .crop_modal .modal-dialog {max-width: 470px;}
 .crop_modal_img {width: 70%;}
 .crop_btn {margin: 10px 0 0 0;font-size: 13px;padding: 8px 30px;}
+.talent_setting_input_display_update #mobile_number1{width: 96% !important;}
 
+.filter_sec_desk{display: none;}
+.new_right_body { padding-right: 0;margin-right: 0;}
+.filter_btn_sec{display: block;}
+.new_sort_sec a:last-child {width: 50%;}
 
 }
 
@@ -837,7 +843,7 @@
 .sticky{position: relative;top: 0;}
 .job_list_body{padding: 30px 0;}
 .job_list_body_left { margin: 0 0 30px 0;}
-.job_list_body_right_body_single_id ul li { padding-right: 0; padding-bottom: 10px;font-size: 14px;display: inline-block;}
+.job_list_body_right_body_single_id ul li { padding-right: 14px; padding-bottom: 10px;font-size: 14px;display: inline-block;}
 .head_title{font-size: 20px;margin: 0;}
 .job_list_body_right_body_single_vac ul{grid-template-columns: 1fr 1fr 1fr;width: 100% !important;}
 .job_list_body_right_body_single_btn ul li { padding-bottom: 20px;text-align: center;display: inline-block;}
@@ -867,7 +873,7 @@
 .inner_ftr_copy_sec_single ul li:last-child {padding-left: 20px;}
 
 .view_details_pop .modal.right .modal-body{padding: 20px;}
-.view_details_pop .modal.right .modal-dialog{width: 500px !important;max-width: 500px !important;height: 720px;
+.view_details_pop .modal.right .modal-dialog{width: 500px !important;max-width: 500px !important;height: 100%;
     overflow-y: scroll;}
 .view_details_pop .close { top: 15px; right: 15px;z-index: 1;}
 .job_list_body_right_body_single_id_new ul li { display: inline-block; padding-right: 10px; font-size: 10px;line-height: 20px;}
@@ -1004,7 +1010,7 @@
 .physical_attr_single select {height: 30px;font-size: 12px;margin-bottom: 5px;}
 .talent_setting_input_display_update {grid-template-columns: 1fr;}
 .update_btn_new {border-radius: 4px;font-size: 12px;padding: 8px 20px;}
-.talent_setting_input_display select {width: 100%;height: 35px;font-size: 14px;margin-bottom: 10px;}
+.talent_setting_input_display select {width: 90%;height: 35px;font-size: 14px;margin-bottom: 10px;}
 .talent_settings_body_single_left{margin-bottom: 10px;}
 .current_password {width: 100%;}
 .current_password h5{font-size: 12px;}
@@ -1055,7 +1061,27 @@
 .crop_modal .modal-dialog {max-width: 470px;}
 .crop_modal_img {width: 70%;}
 .crop_btn {margin: 10px 0 0 0;font-size: 13px;padding: 8px 30px;}
+.talent_id{display: none;}
+.talent_id.show {display: block;}
 
+.filter_sec_desk{display: none;}
+.new_right_body { padding-right: 0;margin-right: 0;}
+.filter_btn_sec{display: block;}
+.new_sort_sec a:last-child {width: 50%;}
+
+
+
+
+
+}
+@media only screen and (min-width:715px) and (max-width:767px) {
+.container {width: 100%;max-width: 100%;}
+.profile_page_main .row .col-lg-3{width: 30%;}
+.profile_page_main .row .col-lg-9{width: 70%;}
+.new_left_sec_nav {grid-template-columns: 1fr 1fr 1fr;}
+	
+
+	
 
 
 }
@@ -1171,7 +1197,7 @@
 .new_right_body { padding-right: 0; margin-right: 0;}
 .job_list_body_right_body {height: auto;overflow-y: inherit;padding-right: 0;max-height: inherit;}
 .view_details_pop .modal.right .modal-body{padding: 25px 20px;}
-.view_details_pop .modal.right .modal-dialog{width: 290px !important;max-width: 290px !important;height: 620px;
+.view_details_pop .modal.right .modal-dialog{width: 290px !important;max-width: 290px !important;height:100%;
     overflow-y: scroll;}
 .view_details_pop .close { top: 5px; right: 10px;z-index: 1;}
 .job_list_body_right_body_single_id_new ul li { display: inline-block; padding-right: 10px; font-size: 10px;line-height: 20px;}
@@ -1557,6 +1583,15 @@
 .crop_modal_img {width: 90%;}
 .crop_btn {margin: 10px 0 0 0;font-size: 13px;padding: 8px 30px;}
 .crop_modal .modal-content {padding: 25px 25px 10px 25px;}
+.talent_setting_input_display_update #mobile_number1{width: 94% !important;}
+.talent_id{display: none;}
+.talent_id.show{display: block;}
+
+
+.filter_sec_desk{display: none;}
+.new_right_body { padding-right: 0;margin-right: 0;}
+.filter_btn_sec{display: block;}
+.new_sort_sec a:last-child {width: 50%;}
 
 
 
