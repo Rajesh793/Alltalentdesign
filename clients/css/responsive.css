@@ -1130,8 +1130,8 @@
 .view_det_tab{font-size: 8px;padding: 5px 8px;border-radius: 5px;}
 .pending_approval span {font-size: 8px !important;margin-right: 0px !important;margin-bottom: 10px !important;}
 .pending_approval a{font-size: 8px !important;}
-.drop_table .ev {right: 10px;transform: rotate(90deg);top: -80px;}
-.drop_table .drop_sec {padding: 10px;right: -15px !important;margin-top: -35px;}
+.drop_table .ev {right: 10px;transform: rotate(90deg);top: 0px;}
+.drop_table .drop_sec {padding: 10px;right: -15px !important;margin-top: 35px;}
 .blue_btn_app{width: 100%;}
 .green_btn_app{width: 100%;}
 .table_cont table tbody tr td:last-child{padding-right: 15px;}
@@ -1171,7 +1171,7 @@
 .new_nav .nav .nav-item.nav-link{font-size: 16px;}
 /*23-02-2022*/
 .unverified_prof_sec{display: none;}
-.table_cont table tbody tr td ul{display: block;}
+.table_cont table tbody tr td ul{display: flex;align-items: center;justify-content: center;flex-direction: column-reverse;}
 .completed_tab_inner_sit {width: 30%;margin: 0 auto 20px;}
 .thank_you_img{width: 50%;margin: 0 auto 0px;}
 
@@ -1668,7 +1668,7 @@
 /*Client Dashboard*/
 
 .client_dash_sec_main nav {width: 100%;}
-.client_dash_sec_main nav .nav-item {padding: 10px 20px;font-size: 12px;vertical-align: middle;
+.client_dash_sec_main nav .nav-item {padding: 10px 20px;font-size: 10px;vertical-align: middle;
     display: flex; align-items: center;justify-content: center;}
 .client_dash_sec {padding: 15px 0;}
 .client_dash_sec_main .tab-content {margin: 20px 0;}
@@ -1677,7 +1677,7 @@
 .table_cont table tbody tr td:first-child {padding-left: 5px;}
 .table_cont table tbody tr td{font-size: 10px;padding: 10px 0px 15px 25px;}
 .table_cont table tbody tr td ul li {margin: 10px 2px;font-size: 8px;display: block;}
-.drop_table .ev{right: 30px;}
+.drop_table .ev{right: 0px;transform: rotate(90deg);}
 .edit_btn_sec{font-size: 10px;}
 .view_det_tab{font-size: 8px}
 .pending_approval span {font-size: 10px !important;margin-right: 10px !important;margin-bottom: 10px !important;}
@@ -1783,7 +1783,7 @@
 .next_btn {font-size: 14px;padding: 6px 30px;}
 .drop_table .report_btn {font-size: 10px;}
 .drop_table .delete_btn {font-size: 10px;}
-.table_cont table tbody tr td ul{display: block;}
+.table_cont table tbody tr td ul{display: flex;align-items: center;justify-content: center;flex-direction: column-reverse;}
 .completed_tab_inner_sit {width: 25%;margin: 0 auto 20px;}
 .thank_you_img{width: 50%;margin: 0 auto 0px;}
 .client_dash_sec_main #nav-tab{display: grid;grid-template-columns: 1fr 1fr;}

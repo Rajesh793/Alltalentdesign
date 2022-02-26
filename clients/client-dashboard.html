@@ -150,6 +150,7 @@
     </div>
 </section> -->
 
+
 <section class="client_dash_sec">
     <div class="container-fluid">
         <div class="row">
@@ -218,7 +219,7 @@
                                             <td class="text-center">
                                                 <ul>
                                                     <li><a href="" class="blue_btn_app"> View Applications(50)<span class="tip_sec">50</span></a></li>
-                                                    <li><a href="" class="green_btn_app"> Mark As Completed</a></li>
+                                                    <li><a href="#" class="green_btn_app" data-toggle="modal" data-target="#mark_complete_pop"> Mark As Completed</a></li>
                                                     <li class="drop_table">
                                                         <div class="dropdown">
                                                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
@@ -1203,6 +1204,22 @@
     </div>
 </div>
 
+<div class="notify_talent_pop">
+    <div id="mark_complete_pop" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <div class="notify_talent_sec">
+                        <img src="images/notify-img.svg" alt="" title="">
+                        <p>You have x no Talents shortlisted. Please <a href="#">(click here)</a> to Notify all  the Shortlisted Talents.</p>
+                        <p>Please <a href="#">(click here)</a> to Reject all the Shortlisted Talents and Delete the Job.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 <div class="attendance_sheet">
     <div id="mark_complete" class="modal fade" role="dialog">
