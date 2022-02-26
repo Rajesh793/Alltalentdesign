@@ -1633,7 +1633,7 @@
 .client_talent_brow_top{padding-bottom: 12px;}
 .client_talent_brow_bottom_single {border-radius: 15px;padding: 10px;}
 .talent_brow_cont_heart {top: 5px;right: 5px;}
-.talent_brow_cont_heart i {font-size: 30px;}
+.talent_brow_cont_heart i {font-size: 15px;}
 .talent_brow_cont_text {bottom: 10px;left: 10px;z-index: 11;}
 .talent_brow_cont_text ul{display: block;}
 .talent_brow_cont_text p{display: block;font-size: 13px;}
@@ -1641,8 +1641,9 @@
 .unverified_prof {top: 5px;left: 5px;padding: 5px 0px;font-size: 5px;}
 .unverified_prof a {padding: 2px 10px;font-size: 10px;}
 .filter_modal .modal-body {padding: 15px;}
-.filter_check_sec .container {padding-left: 20px;font-size: 13px;}
+.filter_check_sec .container {padding-left: 20px;font-size: 13px;margin: 0px;}
 .talent_brow_cont_text p i{font-size: 10px;}
+.new_has_passpot.filter_check_sec .container{margin-bottom: 15px;}
 
 /*Dash page-15*/
 
@@ -1716,7 +1717,8 @@
 .verified_profile_btns ul li { margin-left: 2px;}
 .reject { font-size: 12px;padding: 5px 20px;}
 .shortlist{ font-size: 12px;padding: 5px 20px;}
-.verified_profile_btns {margin: 15px 0 0px 0;}
+.verified_profile_btns {margin: 15px 0;display: block;}
+.verified_profile_btns ul{margin-top: 15px;}
 .job_list_body_left_head h6{font-size: 14px;}
 .job_list_body_left_head span{font-size: 14px;}
 .job_list_body_left_body_single label {font-size: 11px;}
@@ -1729,7 +1731,7 @@
 .audition_sec_body_right {margin: 0 0 15px 0;}
 .audition_sec_body_body .row{flex-direction: column-reverse;}
 .pos{right: 0px;}
-
+.verified_profile_btns h6{font-size: 16px;}
 
 
 /*Client Settings*/

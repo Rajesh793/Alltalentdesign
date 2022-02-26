@@ -1284,7 +1284,7 @@ input:checked + .slider:before {-webkit-transform: translateX(35px);-ms-transfor
 .filter_check_sec{position: relative;margin: 0 0 0px 0;}
 
 
-.filter_check_sec .container {display: block;position: relative;padding-left: 25px;margin-bottom: 0px;cursor: pointer;font-size: 16px; -webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;font-weight: 500;}
+.filter_check_sec .container {display: block;position: relative;padding-left: 25px;margin-bottom: 15px;cursor: pointer;font-size: 16px; -webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;font-weight: 500;}
 .filter_check_sec .container input {position: absolute;opacity: 0;cursor: pointer;height: 0;width: 0;}
 .filter_check_sec .checkmark {position: absolute;top: 2px;left: 0;height: 16px;width: 16px;background-color: #fff;border-radius: 2px;border: 1px solid #707070;}
 .filter_check_sec .container:hover input ~ .checkmark {background-color: #fff;}
@@ -1295,7 +1295,7 @@ input:checked + .slider:before {-webkit-transform: translateX(35px);-ms-transfor
 .new_adv_btn{position: relative;font-size: 18px;font-weight: 600;color: #0096C7;float: right;margin: 5px 0;display: inline-block;width: 100%;text-align: right;}
 .new_adv_btn:hover{color: #0096C7;}
 .content{margin-top:40px;}
-
+.verified_profile_btns ul li .filter_check_sec .container{margin: 0px;}
 
 /*Client profile*/
 
@@ -1542,13 +1542,13 @@ border: 1px solid #D5D5D5;}
 .verified_profile_btns{position: relative;display: flex;align-items: center;justify-content: space-between;margin: 15px 0 20px 0;}
 .verified_profile_btns ul{position: relative;display: flex;justify-content: flex-end;width: 100%;align-items: center;}
 .verified_profile_btns ul li{display: inline-block;margin-left: 10px;}
-.shortlist{background: #3ACC16;font-size: 18px;font-weight: 500;text-align: center;border-radius: 11px;padding: 8px 45px;color: #fff;display: inline-block;}
+.shortlist{background: #3ACC16;font-size: 16px;font-weight: 500;text-align: center;border-radius: 11px;padding: 8px 30px;color: #fff;display: inline-block;}
 .shortlist:hover{color: #fff;}
-.reject{background: #C81B1B;font-size: 18px;font-weight: 500;text-align: center;border-radius: 11px;padding: 8px 45px;color: #fff;display: inline-block;}
+.reject{background: #C81B1B;font-size: 16px;font-weight: 500;text-align: center;border-radius: 11px;padding: 8px 30px;color: #fff;display: inline-block;}
 .reject:hover{color: #fff;}
 .new_has_passpot .container{font-size: 14px;}
 .new_adv_btn{font-size: 14px;}
-.notify{background: #FCE021;font-size: 18px;font-weight: 500;text-align: center;border-radius: 8px;padding: 8px 45px;color: #1D1D1D;display: inline-block;}
+.notify{background: #FCE021;font-size: 16px;font-weight: 500;text-align: center;border-radius: 8px;padding: 8px 30px;color: #1D1D1D;display: inline-block;}
 .notify:hover{color: #1D1D1D;}
 .verified_profile_btns h6{margin: 0;flex: 0 0 40%; font-size: 20px;font-weight: 600;}
 
