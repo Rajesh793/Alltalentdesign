@@ -1550,8 +1550,10 @@ border: 1px solid #D5D5D5;}
 .new_adv_btn{font-size: 14px;}
 .notify{background: #FCE021;font-size: 16px;font-weight: 500;text-align: center;border-radius: 8px;padding: 8px 30px;color: #1D1D1D;display: inline-block;}
 .notify:hover{color: #1D1D1D;}
-.verified_profile_btns h6{margin: 0;flex: 0 0 40%; font-size: 20px;font-weight: 600;}
-
+.verified_profile_btns h6{margin: 0;flex: 0 0 365px; font-size: 20px;font-weight: 600;}
+.dash_btn_hm {display: inline-block;color: #fff;font-size: 14px; font-weight: 400;border-radius: 4px;padding: 9px 0px; background: #007FEB;width: 220px;flex: 0 0 40%;display: flex;align-items: center;justify-content: center;
+    border-radius: 11px;}
+.profile_text{position: relative;display: flex;align-items: center;justify-content: space-between;}
 .view_apps_right{margin-top:0px;}
 .view_apps_right .talent_brow_cont_text h6{font-size: 16px;}
 .view_apps_right .talent_brow_cont_text ul li{font-size: 14px;}
