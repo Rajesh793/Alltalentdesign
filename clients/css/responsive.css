@@ -1801,6 +1801,10 @@
 .new_right_body { padding-right: 0;margin-right: 0;}
 .filter_btn_sec{display: block;margin: 0px;}
 .new_sort_sec a:last-child {width: 50%;}
+.profile_text{display: block;}
+.verified_profile_btns h6{margin-bottom: 15px;}
+.dash_btn_hm{width: 50%;}
+
 
 
 }
