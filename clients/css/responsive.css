@@ -817,6 +817,13 @@
 .new_right_body { padding-right: 0;margin-right: 0;}
 .filter_btn_sec{display: block;margin: 0px;}
 .new_sort_sec a:last-child {width: 50%;}
+.table_cont{*overflow-x: scroll;}
+
+.client_dash_sec_main nav .nav-item {padding: 10px 25px;font-size: 14px;}
+.table_cont table thead tr td{font-size: 12px;padding: 10px 0px 10px 25px;}
+.table_cont table tbody tr td ul{display: flex;align-items: center;justify-content: center;flex-direction: column-reverse;}
+
+
 
 
 }
@@ -1184,7 +1191,7 @@
 .new_right_body { padding-right: 0;margin-right: 0;}
 .filter_btn_sec{display: block;margin: 0px;}
 .new_sort_sec a:last-child {width: 50%;}
-
+.table_cont{*overflow-x: scroll;}
 
 }
 
@@ -1597,7 +1604,7 @@
 .new_client_set_inner_new input {font-size: 12px;}
 .physical_attr_single h5 {font-size: 10px;}
 .right_cont_form {margin: 10px 0 0 0;}
-.talent_setting_input_display input {width: 90%;height: 35px;font-size: 14px;}
+.talent_setting_input_display input {width: 260px;height: 35px;font-size: 14px;}
 .phone_flex{display: flex;align-items: center;justify-content: space-between;flex-wrap: wrap;margin-bottom: 10px;}
 .location_span{top: 5px;}
 .location_span span {padding: 3px 10px;font-size: 10px;}
@@ -1804,8 +1811,11 @@
 .profile_text{display: block;}
 .verified_profile_btns h6{margin-bottom: 15px;}
 .dash_btn_hm{width: 50%;}
-
-
+#mobile_number{}
+.talent_settings_body_single{padding: 15px;}
+.talent_settings_body_single_right_hide{display: block;}
+.nav_height{height: 0px !important;}
+.table_cont{overflow-x: scroll;}
 
 }
 

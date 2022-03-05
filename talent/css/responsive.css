@@ -4,6 +4,7 @@
 }
 
 
+
 @media only screen and (min-width:1801px) and (max-width:1900px) {
 .head_sec_left_inner h1{font-size: 55px;}
 .head_sec_left_inner p{font-size: 20px;}
@@ -187,6 +188,9 @@
 .inner_ftr_copy_sec_single ul li a {font-size: 17px;}
 .inner_ftr_copy_sec_single ul li {padding-left: 10px;}
 .inner_ftr_copy_sec_single ul li:last-child {padding-left: 20px;}
+.profile_page_main_left img {height: 430px;}
+.profile_gender_main table tr td span{font-size: 15px;}
+
 
 }
 @media only screen and (min-width:1501px) and (max-width:1600px) {
@@ -420,7 +424,7 @@
 .talent_man_msg span{font-size: 12px;}
 .talent_height_wig{grid-gap: 5px;}
 .talent_height_wig_single h6{font-size: 10px;}
-.profile_page_main_left img{width: 380px;}
+.profile_page_main_left img{height: 380px;}
 .talent_height_wig_single p{font-size: 10px;}
 .all_media_tabs_left{padding: 20px;}
 .all_media_tabs_left ul li {padding-bottom: 20px;}
@@ -922,7 +926,7 @@
 .connect_facebook h4{font-size: 16px;}
 
 /*Profile Page CSS*/
-.profile_page_main .col-md-3, .col-md-9 {position: -webkit-sticky;position: sticky;top: 0;}
+/*.profile_page_main .col-md-3, .col-md-9 {position: -webkit-sticky;position: sticky;top: 0;}*/
 .profile_page_main .row{*flex-direction: column-reverse;}
 .profile_page_main_right{margin: 0px 0 0 0;}
 .social_list ul li img { width: 100%;}
@@ -1062,15 +1066,15 @@
 .crop_modal_img {width: 70%;}
 .crop_btn {margin: 10px 0 0 0;font-size: 13px;padding: 8px 30px;}
 .talent_id{display: none;}
-.talent_id.show {display: block;}
+/*.talent_id.show {display: block !important;}*/
 
 .filter_sec_desk{display: none;}
 .new_right_body { padding-right: 0;margin-right: 0;}
 .filter_btn_sec{display: block;}
 .new_sort_sec a:last-child {width: 50%;}
 
-
-
+.tab_img_sec_single{height: 100%;}
+.thank_you_page_main p{font-size: 25px;}
 
 
 }
@@ -1594,8 +1598,8 @@
 .filter_btn_sec{display: block;}
 .new_sort_sec a:last-child {width: 50%;}
 .tab_img_sec_single{height: auto;}
-
-
+.fxt-transformY-50 .form-control { width: 10% !important;}
+.thank_you_page_main p{font-size: 25px;}
 }
 
 
