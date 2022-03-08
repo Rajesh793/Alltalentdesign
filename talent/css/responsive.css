@@ -1075,7 +1075,7 @@
 
 .tab_img_sec_single{height: 100%;}
 .thank_you_page_main p{font-size: 25px;}
-
+.container-fluid { padding-left: 15px; padding-right: 15px;}
 
 }
 @media only screen and (min-width:715px) and (max-width:767px) {
@@ -1600,6 +1600,8 @@
 .tab_img_sec_single{height: auto;}
 .fxt-transformY-50 .form-control { width: 10% !important;}
 .thank_you_page_main p{font-size: 25px;}
+.container-fluid { padding-left: 15px; padding-right: 15px;}
+.circle_sec .circular-chart{max-width: 30%;}
 }
 
 

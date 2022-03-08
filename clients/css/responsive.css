@@ -1192,7 +1192,7 @@
 .filter_btn_sec{display: block;margin: 0px;}
 .new_sort_sec a:last-child {width: 50%;}
 .table_cont{*overflow-x: scroll;}
-
+.container-fluid { padding-left: 15px; padding-right: 15px;}
 }
 
 @media only screen and (min-width:715px) and (max-width:767px) {
@@ -1205,6 +1205,24 @@
 @media only screen and (min-width:450px) and (max-width:767px) {
 	.talent_man_msg{display: flex !important;align-items: center;}
 	.talent_man_msg p{margin: 0 !important;}
+}
+
+
+@media only screen and (min-width:250px) and (max-width:319px) {
+	.company_form_sec_single label {font-size: 12px;}
+	.radio_btn {font-size: 12px;}
+	.radio_btn .checkmark{top: 0px;}
+	.radio_btn{padding-left: 25px;}
+	.next_btn {font-size: 14px;padding: 6px 30px;}
+	.current_password{display: block;}
+	.new_client_set_inner_new {width: 100%;}
+	.physical_attr_single h5 {font-size: 9px;}
+	.talent_cont_btn {font-size: 9px;padding: 5px 12px;}
+	.edit_dash_btn{font-size: 9px;padding: 12px 25px;}
+	.talent_profile_clarification_inner {padding: 15px 15px;}
+	.radio_btn {font-size: 12px;}
+	.client_sign_form_body{padding: 15px;}
+	.side-slide1 {width: 260px !important; padding: 20px;}
 }
 @media only screen and (max-width:767px) {
 .sticky_header {position: fixed !important;top: 0px !important; left: 0; width: 100%;background: #fff;z-index: 99;padding: 15px 0;}
@@ -1816,23 +1834,16 @@
 .talent_settings_body_single_right_hide{display: block;}
 .nav_height{height: 0px !important;}
 .table_cont{overflow-x: scroll;}
+.container-fluid { padding-left: 15px; padding-right: 15px;}
+.sorry_popup_sec .close {top: -40px;right: 20px;}
+.sorry_popup_sec .modal-body {padding: 15px;}
+.sorry_pop_inner p {font-size: 18px;}
+
+
+
 
 }
 
-
-@media only screen and (min-width:250px) and (max-width:319px) {
-	.company_form_sec_single label {font-size: 12px;}
-	.radio_btn {font-size: 12px;}
-	.radio_btn .checkmark{top: 0px;}
-	.radio_btn{padding-left: 25px;}
-	.next_btn {font-size: 14px;padding: 6px 30px;}
-	.current_password{display: block;}
-	.new_client_set_inner_new {width: 100%;}
-	.physical_attr_single h5 {font-size: 9px;}
-	.talent_cont_btn {font-size: 9px;padding: 5px 12px;}
-	.edit_dash_btn{font-size: 9px;padding: 12px 25px;}
-	.talent_profile_clarification_inner {padding: 15px 15px;}
-}
 
 
 

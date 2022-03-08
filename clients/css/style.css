@@ -15,6 +15,7 @@
 	color:#FFF;
 }
 
+
 /*html {scroll-behavior: smooth;}*/
 select::-ms-expand { display: none; }
 img{max-width:100%;height:auto;}
@@ -75,7 +76,7 @@ input:focus{outline:none;}
 img{max-width:100%;height:auto; outline:none;}
 a{outline:none; border:none;}
 .fl_w{float: left;}
-.container-fluid{padding-left: 50px;padding-right: 50px;}
+.container-fluid{padding-left: 75px;padding-right: 75px;}
 
 
 .head_sec{position: relative;}
@@ -1806,12 +1807,34 @@ border: 1px solid #D5D5D5;}
 .post_job .nav-tabs .nav-link.active{color: #666 !important;}
 .page-item.active .page-link {background-color: #227bdc;border-color: #227bdc;}
 .client_pay table tr td ul li{line-height: inherit;}
-.footer-menus-row{display: grid !important;grid-template-columns: 1fr 1fr 1fr 1fr 1fr;grid-gap: 10px;}
+
+.choices__inner{background: #fff !important;border: none !important;}
+.choices__list--multiple .choices__item{background: #007FEB !important;border-color: #007FEB !important;display: inline-block;}
+.choices__list--multiple { display: inline-block;float: left;width: 100%;}
+.choices__input{width: 100% !important;}
+.fxt-transformY-50 {width: 380px;}
+.fxt-transformY-50 .form-control{width: 15% !important;}
+
+.sorry_popup_sec{position: relative;}
+.sorry_popup_sec .modal-dialog{max-width: 600px;margin:100px auto;background: #fff;border-radius: 22px;}
+.sorry_popup_sec .close {position: absolute;top: -30px;right: -20px;font-size: 30px;color: #fff;font-weight: 400 !important;z-index: 11;opacity: 1;}
+.sorry_popup_sec .modal-body{padding: 30px;}
+.sorry_pop_inner{position: relative;*padding: 15px;text-align: center;}
+.sorry_pop_inner img{width: 80%;margin: 0 auto 20px;}
+.sorry_pop_inner p{color: #121212;font-size: 25px;font-weight: 600;text-align: center;}
+.sorry_pop_inner button { display: inline-block;padding: 7px 40px;background: #1565C0;color: #fff;
+    font-size: 16px;font-weight: 600;border: none;border-radius: 7px;}
+
+    
+
+
+}
+
 
 
 input,textarea { -webkit-user-select:text;}
 select{-webkit-appearance: none;-moz-appearance: none;appearance: none;}
 
-
+.close:hover{color: #fff;}
 .top-menu li:hover .game-list li a .i-amphtml-loading-container{display: none !important;visibility: collapse !important;}
 .modal-backdrop{background-color: rgb(45 45 45);}
