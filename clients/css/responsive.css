@@ -1839,6 +1839,14 @@
 .sorry_popup_sec .modal-body {padding: 15px;}
 .sorry_pop_inner p {font-size: 18px;}
 
+#nav-tabContent-new {margin: 0px 0 0 0;}
+.preview_jobs_left {margin-top: 0;margin-bottom: 20px;padding: 15px;}
+.preview_jobs_left ul{height: auto;padding-right: 0px;}
+.preview_jobs_right{height: auto;padding-right: 0px;}
+.preview_jobs_right_single_top{padding-left: 0px;}
+.preview_jobs_right_single_top ul li a {font-size: 12px;padding: 8px 25px;}
+.preview_jobs_right_single_bottom {padding: 15px;margin-top: 20px;}
+.edit_btn_new { font-size: 12px;padding: 5px 25px;width: auto; right: 10px;top: 10px;}
 
 
 
