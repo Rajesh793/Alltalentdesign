@@ -333,12 +333,12 @@ a{outline:none; border:none;}
 .job_list_body_right_body_single_btn{position: relative;text-align: right;margin: 20px 0 0 0;}
 .job_list_body_right_body_single_btn ul{position: relative;display: block;}
 .job_list_body_right_body_single_btn ul li{display: inline-block;padding-left: 20px;}
-.view_details {position: relative;width: 160px; height: 50px;background: #C4C4C4;border-radius: 7px;box-shadow: 0px 3px 6px #00000029; font-size: 16px; color: #000; font-weight: 500; display: flex; text-align: center;align-items: center;
+.view_details {position: relative;width: 150px; height: 45px;background: #C4C4C4;border-radius: 7px;box-shadow: 0px 3px 6px #00000029; font-size: 14px; color: #000; font-weight: 500; display: flex; text-align: center;align-items: center;
     justify-content: center;*padding: 15px 0;transition: 0.5s ease-in-out;border: 1px solid #fff;}
 .view_details:hover{background: #C4C4C4;color: #000;}
 .view_details:focus{border: none;color: #000;}
 .view_details img{padding-right: 8px;}
-.apply_now {position: relative;width: 160px; height: 50px;background: #0096C7;border-radius: 7px;box-shadow: 0px 3px 6px #00000029; font-size: 16px; color: #fff; font-weight: 500; display: flex; text-align: center;align-items: center;
+.apply_now {position: relative;width: 150px; height: 45px;background: #0096C7;border-radius: 7px;box-shadow: 0px 3px 6px #00000029; font-size: 14px; color: #fff; font-weight: 500; display: flex; text-align: center;align-items: center;
     justify-content: center;*padding: 15px 0;border: 1px solid #fff;}
 .apply_now:focus{border: none;color: #fff;}
 .apply_now img{padding-right: 8px;}
@@ -540,7 +540,7 @@ div[slider] > input[type=range]::-ms-tooltip { display: none;}
 .record_popup .modal-content{box-shadow: 0px 3px 6px #00000029;border-radius: 5px;padding: 30px 20px;background: #fff;}
 .record_popup .modal-header {padding: 0;border-bottom: none;display: flex;align-items: center;justify-content: flex-start;
     width: 100%;padding-bottom: 0px;}
-.record_popup .modal-header .close {top: 25px;position: absolute;right: 20px;opacity: 1;font-size: 30px;font-weight: 400 !important;padding: 0;width: 40px;z-index: 1;}
+.record_popup .modal-header .close {top: -5px;position: absolute;right: 0px;opacity: 1;font-size: 30px;font-weight: 400 !important;padding: 0;width: 40px;z-index: 1;}
 
 .record_main{position: relative;}
 .record_main_single{position: relative;}
@@ -804,7 +804,7 @@ border-radius: 7px;padding: 8px 15px;color: #fff;font-size: 10px;}
 .delete_btn i{position: absolute;left: 8px;font-size: 18px;color: #fff;}
 .report_btn i{position: absolute;left: 8px;font-size: 18px;}
 .edit_btn i{position: absolute;left: 8px;font-size: 18px;}
-.gallery_sec_single i {position: absolute;top: 50%;left: 0; right: 0;text-align: center;font-size: 75px;color: rgb(255 255 255 / 70%);font-weight: 900 !important;}
+.gallery_sec_single i {position: absolute;top: 48%;left: 0; right: 0;text-align: center;font-size: 50px;color: rgb(255 255 255 / 70%);font-weight: 900 !important;}
 .gallery_sec_single img{width: 100%;}
 .audio_sec{position: relative;}
 .audio_sec_single{position: relative;padding: 20px;border-radius: 12px;border: 1px solid rgba(0 0 0 / 0.16);box-shadow: 0px 3px 6px #00000029;margin: 0 0 20px 0;}
@@ -823,9 +823,9 @@ border-radius: 7px;padding: 8px 15px;color: #fff;font-size: 10px;}
 .recommened_job_sec p span{font-size: 16px;font-weight: 500;color: #C8C8C8;}
 .recommened_job_sec{position: relative;padding: 0 0 10px 0;border-bottom: 1px solid #0000004D;margin: 15px 0 20px 0;display: flex;align-items: center;justify-content: space-between;}
 
-.filter_btn {position: relative;background: #0096C7;color: #fff;padding: 10px 20px;font-size: 18px;font-weight: 500;border-radius: 7px;display: inline-block;}
+.filter_btn {position: relative;background: #0096C7;color: #fff;padding: 8px 15px;font-size: 16px;font-weight: 500;border-radius: 7px;display: inline-block;}
 .filter_btn:hover{color: #fff;}
-.filter_btn img{margin: 0 5px 0 0;}
+.filter_btn img{margin: 0 5px 0 0;width: 20px;}
 .new_filter_pg{position: relative;*padding: 30px;}
 .new_filter_pg .job_list_body_right_body_single_id ul li {padding-right: 20px;font-size: 16px;}
 .new_filter_pg .job_list_body_right_body_single_vac ul{width: 80%;}
@@ -874,9 +874,9 @@ border-radius: 7px;padding: 8px 15px;color: #fff;font-size: 10px;}
 .prev_sec_cont_single{position: relative;}
 .prev_sec_cont_single p {font-size: 16px;color: rgba(36 36 36 / 0.79);margin: 0;padding: 15px;background: #fff;
     border-radius: 14px;border: 1px solid #707070;}
-.std_pic_sec{position: relative;margin: 15px 0;display: flex;align-items: center;width: 90%;}
-.std_pic_sec_single{flex: auto;margin: 0 15px 0 0;}
-.std_pic_sec_single img{width: 100%;}
+.std_pic_sec{position: relative;margin: 15px 0;*display: flex;*align-items: center;width: 90%;grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;display: grid;}
+.std_pic_sec_single{%flex: auto;margin: 0 15px 0 0;}
+.std_pic_sec_single img{width: 100% !important;height: 100px !important;}
 .prev_sec_cont_single h6 {font-size: 18px;font-weight: 400;color: #242424;margin: 0 0 10px 0;}
 .new_filter_pg .job_list_body_right_body_single_vac ul li{font-size: 16px;}
 
@@ -1340,7 +1340,7 @@ input:checked + .slider:before {-webkit-transform: translateX(35px);-ms-transfor
 
 /*Client Talent Browsing*/
 
-.client_talent_brow{position: relative;padding: 30px 0;}
+.client_talent_brow{position: relative;padding: 10px 0 30px 0;}
 .client_talent_brow_top{position: relative;display: flex;align-items: center;justify-content: space-between;border-bottom: 1px solid #f1f1f1;padding-bottom: 20px;}
 .client_talent_brow_bottom{position: relative;display: grid;grid-template-columns: 1fr 1fr 1fr 1fr;grid-gap: 15px;margin-top: 30px;}
 .client_talent_brow_bottom_single{position: relative;box-shadow: 0px 3px 10px #00000029;border: 1px solid #D9D9D9;border-radius: 20px;padding: 15px;}
@@ -1528,11 +1528,12 @@ body {counter-reset: section;}
 .social_field_single label{position: relative;color: #000;font-size: 14px;font-weight: 500;margin-bottom: 5px;}
 .social_field_single input{position: relative;height: 35px;padding: 0 15px;width: 100%;border: 1px solid #ccc;}
 .social_field_single input:focus{border: 1px solid #ccc;}
-
-
-
-
-
+.talent_brow_cont_heart i{cursor: pointer;}
+/*.talent_brow_cont_heart i:hover{font-weight: inherit !important;}*/
+.favrioutactive{cursor: pointer !important;font-weight: 900 !important;}
+/*.favrioutactive:hover{font-weight: inherit !important;}*/
+.favrioutactive{font-weight: 900 !important;}
+.talent_brow_cont_heart i:hover{font-weight: 900 !important;transition: 0.5s ease-in-out;}
 input,textarea { -webkit-user-select:text;}
 select{-webkit-appearance: none;-moz-appearance: none;appearance: none;}
 .hide{display: block;}
@@ -1542,3 +1543,12 @@ select{-webkit-appearance: none;-moz-appearance: none;appearance: none;}
 .talent_id.show{display: none !important;}
 .dropdown.show{display: block;}
 .modal-backdrop{background-color: rgb(45 45 45);}
+.talent_brow_cont_heart i.favrioutactive{font-weight: 900 !important;}
+#uploadRecordVideo .close{color: #000;top: -5px;right: 0px;}
+.modal-header .close{color:#000;}
+.modal-header .close:hover{color:#000;}
+#viedo_recoder
+
+.profile_page {
+    margin-top: -35px;
+}
