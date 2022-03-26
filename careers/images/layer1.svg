@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="151.165" height="73.812" viewBox="0 0 151.165 73.812">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="path4676" d="M0-558.275H151.165v73.811H0Z" transform="translate(0 558.275)"/>
+    </clipPath>
+  </defs>
+  <g id="layer1" transform="translate(103.487 -304.812)">
+    <g id="g4670" transform="translate(-103.487 304.811)">
+      <g id="g4672" clip-path="url(#clip-path)">
+        <g id="g4678" transform="translate(18.239 16.615)">
+          <path id="path4680" d="M-244.328-258.6a2.175,2.175,0,0,0,2.174-2.174v-35.05A2.175,2.175,0,0,0-244.328-298h-35.05a2.174,2.174,0,0,0-2.175,2.175v35.05a2.174,2.174,0,0,0,2.175,2.174Z" transform="translate(281.553 298.002)" fill="#3b5998"/>
+        </g>
+        <g id="g4682" transform="translate(34.149 22.566)">
+          <path id="path4684" d="M-74-219.544V-234.8h5.121l.767-5.946H-74v-3.8c0-1.722.478-2.895,2.947-2.895l3.149,0v-5.318a42.138,42.138,0,0,0-4.588-.234c-4.54,0-7.648,2.771-7.648,7.86v4.385h-5.134v5.946h5.134v15.257Z" transform="translate(85.278 252.992)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

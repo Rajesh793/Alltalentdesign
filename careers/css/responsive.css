@@ -1,0 +1,110 @@
+
+@media only screen and (min-width:1801px) and (max-width:3400px) {
+
+}
+
+@media only screen and (min-width:1801px) and (max-width:1900px) {
+
+}
+
+@media only screen and (min-width:1701px) and (max-width:1800px) {
+
+}
+
+@media only screen and (min-width:1601px) and (max-width:1700px) {
+
+}
+@media only screen and (min-width:1501px) and (max-width:1600px) {
+
+}
+@media only screen and (min-width:1401px) and (max-width:1500px) {
+
+}
+@media only screen and (min-width:1301px) and (max-width:1400px) {
+.graph_design{display: block;}
+}
+@media only screen and (min-width:1200px) and (max-width:1300px) {
+.graph_design{display: block;}
+}
+@media only screen and (min-width:992px) and (max-width:1199px) {
+
+.carreer_page_sec_right {padding: 0 40px;}
+.graph_design{display: block;}
+.carreer_page_sec_left_right_new {padding: 15px;}
+.carreer_page_sec_right_join_team{padding: 15px;}
+.carreer_page_sec_right_join_team h2{font-size: 25px;}
+.graph_design_new{display:block;}
+.reset_password_sec_right h5 {font-size: 25px;margin-bottom: 10px;}
+.reset_password_sec_right p {font-size: 16px;margin-bottom: 15px;}
+.reset_password_sec_right_form .link_btn {font-size: 14px;padding: 8px 35px;}
+.reset_password_sec_right_form_single input {height: 40px;font-size: 14px;}
+.reset_password_sec_right_form_single .field-icon{font-size:14px;}
+
+
+
+
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+
+.carreer_page_sec_main{display: block;}
+.carreer_page_sec_left {flex: 0 0 100%;padding: 200px 0;}
+.carreer_page_sec_right {flex: 0 0 100%;padding: 30px 15px;}
+.carreer_page_sec_right h5 {font-size: 22px;margin-bottom: 10px;}
+.carreer_page_sec_right h3 {font-size: 30px;margin: 0 0 10px 0;}
+.carreer_page_sec_right p {font-size: 14px;}
+.view_open {font-size: 14px;padding: 8px 20px;}
+.carreer_page_sec:after {width: 90%;background-position: right bottom;}
+.carreer_page_sec_left_right_new {padding: 15px;}
+.carreer_page_sec_right_join_team{padding: 15px;}
+.carreer_page_sec_right_join_team h2{font-size: 25px;}
+.graph_design_new{display:block;}
+.reset_password_sec_right h5 {font-size: 25px;margin-bottom: 10px;}
+.reset_password_sec_right p {font-size: 16px;margin-bottom: 15px;}
+.reset_password_sec_right_form .link_btn {font-size: 14px;padding: 8px 35px;}
+.reset_password_sec_right_form_single input {height: 40px;font-size: 14px;}
+.reset_password_sec_right_form_single .field-icon{font-size:14px;}
+
+
+}
+@media only screen and (max-width:767px) {
+
+.carreer_page_sec_main{display: block;}
+.carreer_page_sec_left {flex: 0 0 100%;padding: 130px 0;}
+.carreer_page_sec_right {flex: 0 0 100%;padding: 30px 15px;}
+.carreer_page_sec_right h5 {font-size: 22px;margin-bottom: 10px;}
+.carreer_page_sec_right h3 {font-size: 30px;margin: 0 0 10px 0;}
+.carreer_page_sec_right p {font-size: 14px;}
+.view_open {font-size: 14px;padding: 8px 20px;}
+.carreer_page_sec:after {width: 90%;background-position: right bottom;}
+.carreer_page_sec_left_right_new h5 {font-size: 22px;margin: 0 0 5px 0;}
+.carreer_page_sec_left_right_new_list li {font-size: 14px;}
+.carreer_page_sec_left_right_new h6{font-size: 14px;}
+.carreer_page_sec_left_right_new p{font-size: 14px;}
+.resume_sec{display: block;}
+.resume_sec h3{font-size: 13px;}
+.email_resume_btn {font-size: 14px;padding: 8px 20px;}
+.carreer_page_sec_left_right_new {padding: 15px;}
+.carreer_page_sec_right_join_team{padding: 15px;}
+.carreer_page_sec_right_join_team h2{font-size: 25px;}
+.graphics_sec {grid-template-columns: 1fr;}
+.graph_design_new{display:block;}
+.reset_password_sec_left {text-align: center;margin-bottom: 15px;}
+.reset_password_sec_right h5 {font-size: 22px;text-align: center;}
+.reset_password_sec_right p {font-size: 16px;text-align: center;}
+.reset_password_sec_right_form{text-align: center;}
+.reset_password_sec_right_form .link_btn {font-size: 14px;}
+.reset_password_sec_right_form_single input {height: 40px;font-size: 14px;}
+.reset_password_sec_right_form_single .field-icon{font-size:14px;}
+
+
+}
+
+
+
+
+
+
+
+input,textarea { -webkit-user-select:text;}
+select{-webkit-appearance: none;-moz-appearance: none;appearance: none;}

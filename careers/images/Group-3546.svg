@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="55.646" height="23" viewBox="0 0 55.646 23">
+  <g id="Group_3546" data-name="Group 3546" transform="translate(-296.619 -773)">
+    <g id="Group_3545" data-name="Group 3545" transform="translate(-1462 -1187.827)">
+      <g id="Group_3513" data-name="Group 3513" transform="translate(1758.619 1964.006)">
+        <path id="Path_2656" data-name="Path 2656" d="M0,0H17.649V17.649H0Z" fill="none"/>
+        <path id="Path_2657" data-name="Path 2657" d="M15.089,5H9.206a2.941,2.941,0,0,1,0,5.883H7L11.412,15.3" transform="translate(-1.852 -1.323)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Path_2689" data-name="Path 2689" d="M0,0H7.947" transform="translate(5.179 6.574)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
+      </g>
+      <text id="INR" transform="translate(1776 1977.827)" stroke="rgba(0,0,0,0)" stroke-width="1" font-size="15" font-family="Poppins-Medium, Poppins" font-weight="500" letter-spacing="0.012em"><tspan x="0" y="0">INR</tspan></text>
+      <path id="Polygon_1" data-name="Polygon 1" d="M5.681,0l5.681,10.511H0Z" transform="translate(1814.264 1978.086) rotate(180)"/>
+    </g>
+  </g>
+</svg>
