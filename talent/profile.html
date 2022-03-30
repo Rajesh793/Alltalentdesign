@@ -43,7 +43,6 @@
 
 <body class="inner_body">
 
-
 <header class="all_head_inner inner_pages">
     <div class="container-fluid">
         <div class="row">
@@ -303,7 +302,7 @@
                                                     <div class="social_list">
                                                         <ul>
                                                             <li>
-                                                                <a href="#" class="share_btn"><i class="fas fa-share-alt"></i>Share</a>
+                                                                <a href="#" data-toggle="modal" data-target="#unverified" class="share_btn"><i class="fas fa-share-alt"></i>Share</a>
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -1921,6 +1920,9 @@
                                                                             <ul>
                                                                                 <li class="status_btn">
                                                                                     <p>Status:<span class="green">Shortlisted</span></p>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <a href="#" class="shotlist_msg_btn" data-toggle="modal" data-target="#short_prof"><img src="images/msg-icn.svg"> Shortlisted Message</a>
                                                                                 </li>
                                                                                  <li>
                                                                                     <a href="#" class="view_details" data-toggle="modal" data-target="#view_det_short"><img src="images/view-details.svg" alt="" title="">View Details</a>
@@ -3657,8 +3659,6 @@
 </section>
 <hr class="spacer50px">
 
-
-
 <footer class="inner_ftr">
     <div class="container">
         <div class="row">
@@ -3781,6 +3781,58 @@
     </div>
     <div class="closeBtn">
       <i class="fas fa-times"></i>
+    </div>
+</div>
+
+<!-- <div>
+    <div class="modal right fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+
+                <div class="modal-body">
+                    <p>Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+<div class="short_prof_sec">
+    <div id="short_prof" class="modal right fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <div class="short_prof_sec_inner">
+                        <div class="short_prof_sec_inner_new">
+                            <img src="images/short-list-pop.svg">
+                            <h5>Congratulations! Your Profile has been shortlisted</h5>
+                            <p>Morbi blandit, lorem non ultrices ullamcorper, dolor arcu molestie sapien, ut tempus libero lorem porta dui. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Ut mattis metus non dolor mollis iaculis.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="unver_prof_sec">
+    <div id="unverified" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <div>
+                        <img src="images/un-img.svg">
+                        <p>Profile Not Found</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 

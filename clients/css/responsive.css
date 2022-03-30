@@ -355,10 +355,13 @@
 .table_cont table tbody tr td ul li{font-size: 10px;}
 .view_det_tab{font-size: 9px;}
 .audition_sec .modal-dialog{max-width: 1150px;}
-
+.view_details_page_sec .view_details_page_sec_main .view_details_btns .reject_btn{font-size: 14px !important;}
+.view_details_page_sec .view_details_page_sec_main .view_details_btns .yellow_btn{font-size: 14px !important;}
+.view_details_page_sec .view_details_page_sec_main .view_details_btns .blue_btn{font-size: 14px !important;}
 
 }
 @media only screen and (min-width:1301px) and (max-width:1400px) {
+.tab_img_sec_single {height: 320px;}
 .head_sec_left_inner h1{font-size: 55px;}
 .head_sec_left_inner p{font-size: 20px;}
 .want_write_right h2{font-size: 40px;}
@@ -482,9 +485,15 @@
 .view_details { width: 160px !important; height: 45px !important;font-size: 14px !important;}
 
 .audition_sec .modal-dialog{max-width: 1150px;}
+.talent_settings_body_single_right_hide{display: block;}
+.view_details_page_sec .view_details_page_sec_main .view_details_btns .reject_btn{font-size: 14px !important;}
+.view_details_page_sec .view_details_page_sec_main .view_details_btns .yellow_btn{font-size: 14px !important;}
+.view_details_page_sec .view_details_page_sec_main .view_details_btns .blue_btn{font-size: 14px !important;}
 
 }
 @media only screen and (min-width:1200px) and (max-width:1300px) {
+	.job_list_body_left_body_single label{font-size: 11px;}
+	.talent_settings_body_single_right_hide{display: block;}
 	.job_list_body_right_body_single_vac ul li{font-size: 12px;}
 /*.all_head { position: relative; top: 0;}
 .all_head_right ul li{color: #000;}*/
@@ -1281,11 +1290,12 @@
 .view_details_page_sec .view_details_page_sec_main .view_details_btns .reject_btn {font-size: 13px !important;}
 
 .audition_sec .modal-dialog{max-width: 700px;}
-
+.forcleintsubmenu{display: block;}
 
 }
 
 @media only screen and (min-width:715px) and (max-width:767px) {
+	.forcleintsubmenu{display: block;}
 	.container {width: 100%;max-width: 100%;}
 }
 
@@ -1293,12 +1303,14 @@
 
 }*/
 @media only screen and (min-width:450px) and (max-width:767px) {
+	.forcleintsubmenu{display: block;}
 	.talent_man_msg{display: flex !important;align-items: center;}
 	.talent_man_msg p{margin: 0 !important;}
 }
 
 
 @media only screen and (min-width:250px) and (max-width:319px) {
+	.forcleintsubmenu{display: block;}
 	.company_form_sec_single label {font-size: 12px;}
 	.radio_btn {font-size: 12px;}
 	.radio_btn .checkmark{top: 0px;}
@@ -1315,6 +1327,9 @@
 	.side-slide1 {width: 260px !important; padding: 20px;}
 }
 @media only screen and (max-width:767px) {
+	.mark_as_read { font-size: 10px !important; text-align: right;float: right;}
+	section#post_job {padding: 50px 0;}
+	.forcleintsubmenu{display: block;}
 .sticky_header {position: fixed !important;top: 0px !important; left: 0; width: 100%;background: #fff;z-index: 99;padding: 15px 0;}
 .all_head_index { position: relative; top: 0;}
 .all_head_main{display: block;}
@@ -1614,7 +1629,7 @@
 #audio_slider .owl-nav{display: flex;align-items: center;justify-content: space-between;position: absolute;
     left: -20px; top: 40px; width: 114%;}
 #audio_slider .owl-next i, .owl-prev i {font-size: 18px;line-height: 60px;color: #000;}
-.filter_modal .close{right: 10px; top: -50px;font-size: 35px;}
+.filter_modal .close{right: 10px !important; top: -50px;font-size: 35px;}
 .filter_modal .modal-dialog {max-width: 100%;border-radius: 20px;margin: 70px 0;}
 .filter_modal_body_head h6{font-size: 14px;}
 .filter_modal_body_head h6 img {width: 25px;}
