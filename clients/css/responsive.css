@@ -1292,6 +1292,15 @@
 .audition_sec .modal-dialog{max-width: 700px;}
 .forcleintsubmenu{display: block;}
 
+
+.new_talent_sec_popup {
+    min-height: auto;
+    height: auto;
+    overflow-y: auto;
+    padding-right: 0;
+}
+.attendance_sheet_sec{grid-template-columns: 1fr 1fr 1fr;}
+
 }
 
 @media only screen and (min-width:715px) and (max-width:767px) {
@@ -1968,6 +1977,17 @@
 .head_title{font-size: 18px !important;margin-top: 0px !important;line-height: inherit !important;}
 .payment_title span{font-size: 16px !important;}
 .audition_sec_body_btns{grid-template-columns: 1fr;}
+
+
+
+
+.job_closed_btn {font-size: 11px;padding: 5px 20px;}
+.view_short_talents {font-size: 14px;margin-right: 0;}
+#mark_complete .modal-body{padding: 0px;}
+.new_talent_sec_popup{grid-template-columns: 1fr;}
+.new_talent_sec_popup .talent_brow_cont_heart { top: 20px; right: 20px;}
+.new_talent_sec_popup{padding-right: 0px;height: auto;min-height: inherit;overflow: auto;}
+
 
 }
 
