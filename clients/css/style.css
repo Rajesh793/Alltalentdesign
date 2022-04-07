@@ -1904,3 +1904,7 @@ select{-webkit-appearance: none;-moz-appearance: none;appearance: none;}
 .new_talent_sec_popup::-webkit-scrollbar{width: 12px;background-color: #F5F5F5;}
 .new_talent_sec_popup::-webkit-scrollbar-thumb{border-radius: 0px;/*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);*/
 	background-color: #9B9B9B;}
+	.shrotlited-close{position: absolute; right: 20px; top: 10px;font-size: 35px; font-weight: 400; color: #aaa;
+    opacity: 1; z-index: 11;}
+    .shrotlited-close:hover{position: absolute; right: 20px; top: 10px;font-size: 35px; font-weight: 400; color: #aaa;
+    opacity: 1; z-index: 11;}

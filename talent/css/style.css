@@ -1633,3 +1633,64 @@ select{-webkit-appearance: none;-moz-appearance: none;appearance: none;}
 #short_prof .modal-body h5{font-size: 24px;font-weight: 600;color: #121212;}
 .short_prof_sec_inner{position: relative;display: flex;align-items: center;height: 100%;}
 .short_prof_sec_inner_new{position: relative;text-align: center;}
+
+
+
+
+
+/*05-04-2021*/
+.dis_flex_new{display: flex;align-items: center;justify-content: space-between;}
+.job_closed_btn {position: relative;display: inline-block;background: #FED8D8;border-radius: 11px;font-size: 16px;
+    font-weight: 500;color: #FF0000; padding: 5px 30px;cursor: pointer;}
+.view_short_talents{position: relative;color: #2196F3;font-weight: 500;font-size: 16px;margin-right:15px;}
+.view_short_talents img{margin-right: 10px;}
+.view_short_talents:hover{color: #2196F3;}
+.new_talent_sec_popup .talent_brow_cont_text {bottom: 30px;left: 25px;}
+.new_talent_sec_popup .talent_brow_cont_text h6{font-size: 16px;}
+.new_talent_sec_popup .talent_brow_cont_text ul li{font-size: 14px;}
+.new_talent_sec_popup .talent_brow_cont_text p{font-size: 12px;}
+.new_talent_sec_popup .talent_brow_cont_heart i{font-size: 25px;}
+.new_talent_sec_popup{*min-height: 610px;*height: 610px;overflow-y: scroll;    padding-right: 15px;}
+.new_talent_sec_popup::-webkit-scrollbar-track{/*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);*/border-radius: 0px;
+	background-color: #F5F5F5;border:0.5px solid #9B9B9B;}
+.new_talent_sec_popup::-webkit-scrollbar{width: 12px;background-color: #F5F5F5;}
+.new_talent_sec_popup::-webkit-scrollbar-thumb{border-radius: 0px;/*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);*/
+	background-color: #9B9B9B;}
+	.attendance_sheet_sec {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+.shrotlited-close{position: absolute; right: 20px; top: 10px;font-size: 35px; font-weight: 400; color: #aaa;
+    opacity: 1; z-index: 11;}
+    .shrotlited-close:hover{color: #aaa;}
+
+
+
+
+
+
+
+/*Attedance Sheet*/
+
+.attendance_sheet{position: relative;}
+.attendance_sheet_inner{position: relative;}
+.attendance_sheet .modal-dialog {max-width: 1000px;margin: 50px auto;background: #fff;border-radius: 15px;}
+.attendance_sheet_inner{position: relative;padding: 10px;}
+.attendance_sheet_inner h4{margin-bottom: 15px;color: #181818;font-size: 22px;font-weight: 600;}
+.attendance_sheet_sec{position: relative;display: grid;grid-template-columns: 1fr 1fr 1fr 1fr;grid-gap: 10px;}
+.attendance_sheet_sec_single{position: relative;margin: 0 0 15px 0;}
+.attendance_sheet_sec_single .talent_brow_cont_text h6{font-size: 16px;margin: 0 0 5px 0;}
+.attendance_sheet_sec_single .talent_brow_cont_text ul li{font-size: 14px;}
+.attendance_sheet_sec_single_btns{position: relative;margin: 10px 0 0 0;display: flex;align-items: center;justify-content: space-between;}
+.attendance_sheet_sec_single .talent_brow_cont_text{left: 15px;}
+.no_btn{display: inline-block;background: #db1b1b;color: #fff;display: flex;align-items: center;justify-content: center;font-size: 16px;font-weight: 500;width: 100%;padding: 4px 0;border-radius: 5px;margin: 0 5px 0 0;border: 2px solid #fff;box-shadow: 0px 3px 6px #00000029;}
+.yes_btn{background: #449f10;display: inline-block;color: #fff;display: flex;align-items: center;justify-content: center;font-size: 16px;font-weight: 500;width: 100%;padding: 4px 0;border-radius: 5px;margin: 0 0 0 5px;border: 2px solid #fff;box-shadow: 0px 3px 6px #00000029;}
+#mark_complete{padding-right: 0px;}
+.audition_left_right{position: absolute;top: 0;bottom: 0;display: flex;align-items: center;justify-content: space-between; left: -60px;width: 110%;}
+.audition_left_right i{font-size: 40px; line-height: 0;color: #fff; opacity: 70%;font-weight: 700 !important;z-index: -1;}
+.shrotlited-close{position: absolute; right: 20px; top: 10px;font-size: 35px; font-weight: 400; color: #aaa;
+    opacity: 1; z-index: 11;}
+
+

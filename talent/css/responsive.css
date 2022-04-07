@@ -1117,6 +1117,13 @@
 .preview_jobs_main .row .col-lg-9 { -ms-flex: 0 0 75% !important; flex: 0 0 75% !important; max-width: 75% !important;}
 .std_pic_sec_single img {height: auto !important;}
 .forcleintsubmenu{display: block;}
+
+
+
+.attendance_sheet_sec{grid-template-columns: 1fr 1fr 1fr;}
+
+
+
 }
 @media only screen and (min-width:715px) and (max-width:767px) {
 .container {width: 100%;max-width: 100%;}
@@ -1678,6 +1685,15 @@
 #short_prof .modal-body p {font-size: 14px;}
 .job_list_body_right_body_single_btn ul{display: grid;grid-template-columns: 1fr;grid-gap: 10px;}
 .shotlist_msg_btn {font-size: 12px;}
+
+
+.job_closed_btn {font-size: 11px;padding: 5px 20px;}
+.view_short_talents {font-size: 14px;margin-right: 0;}
+#mark_complete .modal-body{padding: 0px;}
+.new_talent_sec_popup{grid-template-columns: 1fr;}
+.new_talent_sec_popup .talent_brow_cont_heart { top: 20px; right: 20px;}
+.new_talent_sec_popup{padding-right: 0px;height: auto;min-height: inherit;overflow: auto;}
+
 }
 
 
@@ -1685,6 +1701,7 @@
 	.location_span span {padding: 3px 8px;font-size: 9px;}
 	.forcleintsubmenu{display: block;}
 }
+
 
 
 
