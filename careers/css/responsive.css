@@ -222,10 +222,10 @@
 .hm_banner_main_cont_sec h1{font-size: 45px;}
 .home_sec_banner_cont_right ul li {margin: 0 0 0 20px;}
 .login_btn_new{font-size: 14px;}
-.sign_btn_new{font-size: 14px;}
+.sign_btn_new{font-size: 14px;padding: 6px 30px;}
 .home_sec_banner_cont_new_right_inner h3{font-size: 18px;}
 .home_sec_banner_cont_new_right {right: -35px;}
-.home_sec_banner_cont_new_right_inner h3:after {height: 80px;right: -60px;bottom: -20px;}
+.home_sec_banner_cont_new_right_inner h3:after {height: 80px;right: -60px;bottom: -18px;}
 .talent_grow_sec {margin: 30px 0;}
 .talent_grow_sec_main {grid-template-columns: 1fr;}
 .talent_grow_sec_right h2 {font-size: 50px;}
@@ -271,8 +271,7 @@
 .sign_up_here_btn {font-size: 12px;}
 .tab_inner_cont_des h4{font-size: 25px;}
 .tab_inner_cont_des_input_single_grid {grid-template-columns: 1fr;}
-.iti--allow-dropdown .iti__flag-container, .iti--separate-dial-code .iti__flag-container {top: 7px;left: 5px!important;
-}
+.iti--allow-dropdown .iti__flag-container, .iti--separate-dial-code .iti__flag-container {top: 7px;left: 5px!important;}
 .otp_single_sec input{height: 40px;}
 #mobile_number {padding-left: 35px !important;}
 #mobile_number2 {padding-left: 35px !important;}
@@ -291,7 +290,7 @@
 .camp_sec_hm_head h5 {font-size: 20px; line-height: inherit;}
 .camp_sec_hm_body ul li {padding: 10px 20px;}
 .suceess_story_body_single_cont {border-radius: 20px;padding: 15px;}
-.suceess_story_body_single_cont p {font-size: 14px;}
+.suceess_story_body_single_cont p {font-size: 12px;}
 .models_sec_main_inner ul li {font-size: 40px;}
 .models_sec_main_inner ul li span {font-size: 12px;}
 .inner_menu_single h5{font-size: 16px;}
@@ -305,6 +304,11 @@
 #mobile_number1 {padding-left: 55px !important;}
 .tab_cont_sec_new .spacer30px{height: 15px;}
 .tab_inner_cont_des_input_single img {left: 10px; top: 15px;}
+#sucess_slide.owl-carousel .owl-item img {width: 70%;}
+.suceess_story_body_inner {padding: 50px 30px;}
+.right_arrow_img img {width: 25px;}
+
+
 
 
 
@@ -455,7 +459,7 @@
 .select-selected {height: 45px;font-size: 16px;}
 .select-selected:after{font-size: 30px;}
 #mobile_number1 {padding-left: 55px !important;}
-
+#sucess_slide.owl-carousel .owl-item img {width: 80%;}
 
 
 
