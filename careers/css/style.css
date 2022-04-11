@@ -568,10 +568,11 @@ border: 1px solid #2196F3;border-radius: 15px;}
 .text_bold_sec_right span i{color: #818181;font-size: 15px;padding-left: 8px;}
 .socail_stat_new_sec{position: relative;}
 .socail_stat_new_sec ul {display: block;}
-.socail_stat_new_sec ul li{display: inline-block;padding-right: 25px;}
-.follow_sec li{display: block !important;}
+.socail_stat_new_sec ul li{display: inline-block;padding-right: 80px;}
+.socail_stat_new_sec ul li:last-child{padding-right: 0px;}
+.follow_sec li{display: block !important;padding-right: 0px !important;padding-bottom: 10px;}
+.follow_sec li:last-child{padding-bottom: 0px;}
 .social_sec_img{position: relative;display: flex;align-items: center;justify-content: center;}
 .social_sec_img img{width: 55px;}
 .social_sec_img_cont{position: relative;padding-left: 20px;} 
 .social_sec_img_cont p{margin: 0px;}
-.socail_stat_new_sec ul li:last-child{}
