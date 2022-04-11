@@ -381,7 +381,7 @@ a{outline:none; border:none;}
 #mobile_number{border-radius: 9px 0 0 9px;padding-left: 80px !important;}
 #mobile_number1{border-radius: 9px 0 0 9px;padding-left: 80px !important;}
 .tab_inner_cont_des_input_single_otp_sec{position: relative;background: #fff;}
-.otp_single_sec{position: relative;text-align: center;width: 23%;display: inline-block;border: none;}
+.otp_single_sec{position: relative;text-align: center;width: 13%;display: inline-block;border: none;}
 .otp_single_sec input{text-align: center;font-size: 18px;color: rgba(39 39 39 / 0.39) !important;border: 1px solid #fff;width: 100%; height: 60px;border-radius: 4px;}
 .tab_inner_cont_des_input_single img { position: absolute;left: 25px;z-index: 1;display: flex;align-items: center;
     top: 25px;bottom: 0;width: 28px;color: #8F8F8F;font-weight: 600 !important;}
@@ -532,8 +532,8 @@ border: 1px solid #2196F3;border-radius: 15px;}
 .talent_prof_cont_prof_inner h5 i{padding-right: 5px;}
 .talent_prof_cont_prof_inner h6{position: relative;color: #181818;font-weight: 500;font-size: 15px;}
 .talent_prof_cont_prof_inner h6 span{color: #FCAF49;}
-.bg_light_blue{position: relative;padding: 12px;background: #F3F9FFB3;border-radius: 8px;margin: 0px 0 5px 0;}
-.bg_light_blue_right{position: relative;padding: 15px 20px;background: #DDEEFF;border-radius: 8px;margin: 0px 0 5px 0;}
+.bg_light_blue{position: relative;padding: 12px;background: rgba(221 238 255 / 0.50);border-radius: 8px;margin: 0px 0 5px 0;}
+.bg_light_blue_right{position: relative;padding: 15px 20px;background: rgba(221 238 255 / 0.50);border-radius: 8px;margin: 0px 0 5px 0;}
 .gender_cont_sec{position: relative;text-align: center;}
 .gender_cont_sec table{position: relative;width: 100%;}
 .gender_cont_sec table tr td{font-size: 16px;font-weight: 600;color: #001D3D;}
@@ -568,11 +568,70 @@ border: 1px solid #2196F3;border-radius: 15px;}
 .text_bold_sec_right span i{color: #818181;font-size: 15px;padding-left: 8px;}
 .socail_stat_new_sec{position: relative;}
 .socail_stat_new_sec ul {display: block;}
-.socail_stat_new_sec ul li{display: inline-block;padding-right: 80px;}
+.socail_stat_new_sec ul li{display: inline-block;padding-right: 120px;position: relative;min-height: 87px;}
 .socail_stat_new_sec ul li:last-child{padding-right: 0px;}
-.follow_sec li{display: block !important;padding-right: 0px !important;padding-bottom: 10px;}
+.follow_sec li{display: block !important;padding-right: 0px !important;padding-bottom: 10px;font-size: 16px;color: #818181;font-weight: 500;min-height: 0px !important;}
+.follow_sec li span{color: #181818;font-weight: 600;}
 .follow_sec li:last-child{padding-bottom: 0px;}
 .social_sec_img{position: relative;display: flex;align-items: center;justify-content: center;}
 .social_sec_img img{width: 55px;}
 .social_sec_img_cont{position: relative;padding-left: 20px;} 
-.social_sec_img_cont p{margin: 0px;}
+.social_sec_img_cont p{margin: 0px;color: #181818;font-weight: 600;font-size: 18px;}
+.socail_stat_new_sec ul li:after{position: absolute;content: ''; right: 50px; top: 0;background: rgba(112 112 112 / 0.46);width: 1px;height: 90px;}
+.socail_stat_new_sec ul li:nth-child(2):after{top: -10px;}
+.socail_stat_new_sec ul li:last-child:after{display: none;}
+.socail_stat_new_sec ul li:first-child{padding-left: 10px;}
+.follow_sec li:after{display: none !important;}
+.social_see_new { position: absolute; right: 5px;bottom: 0px;}
+.follow_sec li:first-child{padding-left: 0px !important;}
+.new_cate_sec_main{position: relative;padding: 0 0 10px 0;}
+.new_cate_sec_main ul{display: flex;}
+.new_cate_sec_main ul li{display: inline-block;padding-right: 15px;font-size: 17px;color: #181818;font-weight: 500;line-height: 30px;}
+.new_cate_sec_main ul li:last-child{padding-right: 0px;}
+.new_cate_sec_main ul li.active_btn{color: #0055D4 !important;}
+.cate_sec_new{color: #818181 !important;min-width: 150px;}
+.bg_light_blue_right_language{position: relative;}
+.bg_light_blue_right_language_flex{display: flex;justify-content: space-between;width: 90%;}
+.lang_known ul{display: block;}
+.lang_known ul li{display: inline-block;color: #181818;font-size: 20px;font-weight: 600;padding-right: 10px;}
+.lang_known ul li:last-child{padding-right: 0px;}
+.bg_light_blue_right_language img{width: 80px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Madhu mam Css*/
+
+
+#timer_login{color: #fff;font-size: 16px;font-weight: 600;}
