@@ -375,7 +375,21 @@ a{outline:none; border:none;}
 .sign_up_here_btn{position: relative;font-size: 18px;color: #fff;font-weight: 300;text-align: center;}
 .sign_up_here_btn a{font-weight: 600;color: #fff;}
 .tab_inner_cont_des h4{position: relative;color: #FFFFFF;font-family: 'Barlow Semi Condensed', sans-serif;text-align: left;font-size: 48px;font-weight: 600;margin-bottom: 5px;}
-.tab_inner_cont_des_input_single_grid{position: relative;display: grid;grid-template-columns: 2fr 1fr;grid-gap: 10px;}
+.tab_inner_cont_des_input_single_grid{position: relative;display: grid;grid-template-columns: 1fr;grid-gap: 10px;}
+.tab_inner_cont_des_input_single_grid_resend{position: relative;display: grid;grid-template-columns: 2fr 1fr;grid-gap: 10px;}
+.resend_otp_new {
+    position: relative;
+    height: 60px;
+    border-radius: 9px;
+    background: transparent;
+    color: #fff !important;
+    border: 1px solid #fff;
+    text-align: center;
+    justify-content: center !important;
+    display: flex !important;
+    align-items: center !important;
+    font-size: 16px !important;
+}
 .verify_btn_new {position: absolute;right: 0;height: 60px;width: 100px;background: #2196F3;border: 1px solid #2196F3;
     color: #fff;font-size: 18px;font-weight: 400;border-radius: 9px 0 0 9px;}
 #mobile_number{border-radius: 9px 0 0 9px;padding-left: 80px !important;}
@@ -597,10 +611,34 @@ border: 1px solid #2196F3;border-radius: 15px;}
 .lang_known ul li:last-child{padding-right: 0px;}
 .bg_light_blue_right_language img{width: 80px;}
 
-
-
-
-
+#filters {
+    position: relative;
+    width: 75%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+    
+    margin: 0 auto;
+}
+#filters li{text-align: center;}
+.gallery_head{position: relative;background: #F3F9FFB3;padding: 10px 0;border-radius: 27px;}
+.add_media_new {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: #2196F3;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 25px;
+    border-radius: 25px;
+}
+.add_media_new i{padding-right: 8px;}
+#filters li .filter{position: relative;font-size: 18px;color: #5580AD;font-weight: 300;cursor: pointer;}
+#filters li .filter.active{color: #21558E;font-weight: 600;}
+.gallery-item {
+  display: none;
+}
 
 
 

@@ -36,6 +36,10 @@
 <script src="https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js"></script>
 <script src="js/lightgallery-all.min.js"></script>
 <script src="js/jquery.mousewheel.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/2.1.11/jquery.mixitup.min.js"></script>
+
+
+
 </head>
 <body class="inner_body">
 
@@ -222,57 +226,28 @@
                         <div class="col-lg-9 col-md-9">
                             <div class="talent_profile_page_sec_right">
                                 <div>
-                                        <div class="filters">
-      <ul>
-        <li class="active" data-filter="*">All</li>
-        <li data-filter=".corporate">Corporate</li>
-        <li data-filter=".personal">Personal</li>
-        <li data-filter=".agency">Agency</li>
-        <li data-filter=".portal">Portal</li>
-      </ul>
-    </div>
-    
-    <div class="filters-content">
-      <div class="row grid">
-        <div class="col-sm-4 all corporate">
-          <div class="item">
-            <img src="https://i.picsum.photos/id/923/1000/1200.jpg?hmac=aTXp3_sl8AMqNddbsjWOIy6R8-RCLWB5GoFrQUWIusA" alt="Work 1">
-            <div class="p-inner">
-              <h5>Work 1</h5>
-              <div class="cat">Corporate</div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-4 all personal">
-          <div class="item">
-            <img src="https://i.picsum.photos/id/1014/1000/1600.jpg?hmac=J7nIoCc0sqwy89muMNzuYWzK3UcBlAAraWUGR1r6X4U" alt="Work 1">
-            <div class="p-inner">
-              <h5>Work 1</h5>
-              <div class="cat">Personal</div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-4 all agency">
-          <div class="item">
-            <img src="https://i.picsum.photos/id/1081/1000/1400.jpg?hmac=OhhXp4iAtTJQcx6fx3dehRJ7R3YjEqDcxow-sj6z0sc" alt="Work 1">
-            <div class="p-inner">
-              <h5>Work 1</h5>
-              <div class="cat">Agency</div>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-4 all portal">
-          <div class="item">
-            <img src="https://i.picsum.photos/id/267/1200/1400.jpg?hmac=3rlhklmRH3kQvtK87L57l5ewC9WGL5pF8d7xQhb82bg" alt="Work 1">
-            <div class="p-inner">
-              <h5>Work 1</h5>
-              <div class="cat">Portal</div>
-            </div>
-          </div>
-        </div>
-        
-      </div>
-    </div>
+                                    <div class="gallery-wrap">
+                                        <div class="gallery_head">
+                                            <ul id="filters" class="clearfix">
+                                              <li><span class="filter active" data-filter=".print, .strategy, .logo">All</span></li>
+                                              <li><span class="filter" data-filter=".print">Pictures</span></li>
+                                              <li><span class="filter" data-filter=".strategy">Videos</span></li>
+                                              <li><span class="filter" data-filter=".logo">Audio</span></li>
+                                            </ul>
+                                            <a href="#" class="add_media_new"><i class="fas fa-plus"></i>Add Media</a>
+                                        </div>
+                                        <div id="gallery">
+                                                <a class="gallery-item print" href="#" data-cat="print">
+                                                 <img src="images/prfo-img-1.jpg">
+                                                </a>
+                                                <a class="gallery-item strategy" href="#" data-cat="strategy">
+                                                  <img src="images/bg-new-sec.png">
+                                                </a>
+                                                <a class="gallery-item logo" href="#" data-cat="logo">
+                                                  <img src="images/actor-img.png">
+                                                </a>
+                                        </div>
+                                    </div>
                                 </div>
                                 <h4 class="text_bold_sec_right">Physical Attributes <a href="#" class="edit_physical_attr"><i class="fas fa-edit"></i>Edit Physical Attributes</a></h4>
                                 <div class="bg_light_blue_right">
@@ -512,23 +487,24 @@
 </div>
 
 <script type="text/javascript">
-    $('.filters ul li').click(function(){
-          $('.filters ul li').removeClass('active');
-          $(this).addClass('active');
-          
-          var data = $(this).attr('data-filter');
-          $grid.isotope({
-            filter: data
-          })
-        });
+$(function () {
+    var filterList = {
+        init: function () {
+            $('#gallery').mixItUp({
+                selectors: {
+              target: '.gallery-item',
+              filter: '.filter' 
+          },
+          load: {
+              filter: '.print, .strategy, .logo'
+            }     
+            });                             
+        
+        }
 
-        var $grid = $(".grid").isotope({
-          itemSelector: ".all",
-          percentPosition: true,
-          masonry: {
-            columnWidth: ".all"
-          }
-        })
+    };
+    filterList.init();
+});
 </script>
 
 
