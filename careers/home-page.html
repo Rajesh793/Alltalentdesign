@@ -36,11 +36,14 @@
 <script src="js/lightgallery-all.min.js"></script>
 <script src="js/jquery.mousewheel.min.js"></script>
 </head>
-<body class="inner_body">
+<body class="inner_body hm_body">
 
 <section class="home_sec_banner">
-    <video id="myVideo" autoplay loop muted>
-      <source src="images/hm-video.mp4" type="video/mp4">
+    <!-- <video id="myVideo" autoplay="true" loop="true" controls="false" muted="" preload="none"> 
+        <source src="{{asset('alltalent_v1/images/hm-video1.mp4')}}" type="video/mp4">
+    </video> -->
+    <video id="myVideo" autoplay="true" loop="true" controls="false" muted="" preload="none">
+        <source src="images/hm-video.mp4" type="video/mp4"></source>
     </video>
     <div class="home_sec_banner_cont_new">
         <div class="container-fluid">
@@ -164,6 +167,7 @@
                                         <input type="tel" id="mobile_number" class="" name="mobile_number" value="" placeholder="9865422312" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" maxlength="10">
                                         <button type="button" class="verify_btn_new">Verify</button>
                                     </div>
+                                    <hr class="spacer10px">
                                     <div class="tab_inner_cont_des_input_single_grid_resend">
                                         <div class="tab_inner_cont_des_input_single_otp_sec">
                                             <div class="otp_single_sec">
@@ -439,24 +443,6 @@
     </div>
 </section>
 
-<!-- <section class="talent_grow_sec_new">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 col-md-12">
-                <div class="talent_grow_sec_main align-items-center">
-                    <div class="talent_grow_sec_right">
-                        <h2><span>Influencer Marketing</span></h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consectetur rutrum fringilla. Ut sit amet commodo arcu. Nunc tempor leo arcu, quis vehicula nulla tincidunt vel. Vestibulum dictum risus enim, et faucibus purus eleifend eget.</p>
-                        <button type="button" class="btns_all_hm"><span><img src="images/regd-1.png"></span> Register as an Influencer</button>
-                    </div>
-                    <div class="talent_grow_sec_left">
-                        <img src="images/grow-img-new.png">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section> -->
 
 <section class="featured_jobs_sec">
     <div class="container-fluid">
@@ -466,7 +452,7 @@
                     <h2>Featured Jobs</h2>
                     <p>Our clients are scouting fresh talent for their new projects! If any of these openings look like your cup of tea, Apply now!</p>
                 </div>
-                <div class="featured_jobs_sec_body_main">
+                <div class="featured_jobs_sec_body_main owl-carousel" id="featured_slide">
                     <div class="featured_jobs_sec_single">
                         <div class="featured_jobs_sec_single_web">
                             <p>WEB SERIES</p>
@@ -912,6 +898,32 @@
         video.currentTime = 0;
     }
     function hideMenu(dynMenuCls){
+        $('.new_remove').show();
+        $('.'+dynMenuCls).hide();
+        $('#myVideo').get(0).play();
+        // if ($(window).width() < 767) {
+        //     $('.new_remove').hide();
+        // }else{
+        //     $('.new_remove').show();
+        // }
+        
+    }
+    function openOtpModal(hidePopDyn,showPopDyn){
+        $('.'+hidePopDyn).hide();
+        $('.'+showPopDyn).show();
+    }
+</script>
+
+<!-- <script type="text/javascript">
+    function showMenu(dynMenuCls){
+        $('.menu_hide').hide();
+        $('.new_remove').hide();
+        $('.'+dynMenuCls).show();
+        var video = document.getElementById("myVideo");
+        video.pause();
+        video.currentTime = 0;
+    }
+    function hideMenu(dynMenuCls){
         $('.'+dynMenuCls).hide();
         $('#myVideo').get(0).play();
         if ($(window).width() < 767) {
@@ -925,13 +937,50 @@
         $('.'+hidePopDyn).hide();
         $('.'+showPopDyn).show();
     }
+</script> -->
+
+<script>
+    jQuery("#featured_slide").owlCarousel({
+        // lazyLoad: true,
+        loop: true,
+        margin:0,
+        responsiveClass: true,
+        // animateOut: 'fadeOut',
+        // animateIn: 'fadeIn',
+        autoplay:true,
+        // autoplayTimeout:1500,
+        autoplayHoverPause:true,
+        autoHeight: true,
+        mouseDrag: true,
+        touchDrag: true,
+        smartSpeed: 1000,
+        nav: false,
+        dots:false,
+        responsive: {
+            0: {
+                items: 1
+            },
+
+            600: {
+                items: 2
+            },
+
+            1024: {
+                items: 3
+            },
+
+            1366: {
+                items: 3
+            }
+        }
+    });
 </script>
 
 <script>
     jQuery("#talent_slide").owlCarousel({
         // lazyLoad: true,
         loop: true,
-        margin:30,
+        margin:20,
         responsiveClass: true,
         // animateOut: 'fadeOut',
         // animateIn: 'fadeIn',
@@ -950,7 +999,7 @@
             },
 
             600: {
-                items: 4
+                items: 3
             },
 
             1024: {
@@ -1001,6 +1050,13 @@
             }
         }
     });
+</script>
+
+<script> 
+    var vids = $("video"); 
+        $.each(vids, function(){
+        this.controls = false; 
+    }); 
 </script>
 
 <script>

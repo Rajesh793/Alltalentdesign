@@ -38,8 +38,6 @@
 <script src="js/jquery.mousewheel.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/2.1.11/jquery.mixitup.min.js"></script>
 
-
-
 </head>
 <body class="inner_body">
 
@@ -215,142 +213,938 @@
                                                 </div>
                                                 <div class="circle_sec_new_cir_cont">
                                                     <p>Complete your profile to increase your profile strength.</p>
-                                                    <a href="#" class="btn_fr_all">Analyse</a>
+                                                    <a href="#" class="btn_fr_all" data-toggle="modal" data-target="#analyse">Analyse</a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+                            <div class="talent_profile_page_sec_jobs_tab">
+                                <div>
+                                    <nav>
+                                        <div class="nav nav-fill talent_prof_jobs_tabs" id="nav-tab1" role="tablist">
+                                          <a class="nav-item nav-link active" id="nav-home-tab1" data-toggle="tab" href="#nav-home1" role="tab" aria-controls="nav-home1" aria-selected="true"><i class="fas fa-user-check"></i>Recommended Jobs</a>
+                                          <a class="nav-item nav-link" id="nav-profile-tab1" data-toggle="tab" href="#nav-profile1" role="tab" aria-controls="nav-profile1" aria-selected="false"><i class="fas fa-clipboard-list"></i>Applied Jobs</a>
+                                          <a class="nav-item nav-link" id="nav-contact-tab1" data-toggle="tab" href="#nav-contact1" role="tab" aria-controls="nav-contact1" aria-selected="false"><i class="fas fa-user-clock"></i>Completed Jobs</a>
+                                          <a class="nav-item nav-link" id="nav-about-tab1" data-toggle="tab" href="#nav-about1" role="tab" aria-controls="nav-about1" aria-selected="false"><i class="fas fa-user-edit"></i>Previous Jobs</a>
+                                        </div>
+                                    </nav>
+                                </div>
+                            </div>
                         </div>
                         <div class="col-lg-9 col-md-9">
                             <div class="talent_profile_page_sec_right">
-                                <div>
-                                    <div class="gallery-wrap">
-                                        <div class="gallery_head">
-                                            <ul id="filters" class="clearfix">
-                                              <li><span class="filter active" data-filter=".print, .strategy, .logo">All</span></li>
-                                              <li><span class="filter" data-filter=".print">Pictures</span></li>
-                                              <li><span class="filter" data-filter=".strategy">Videos</span></li>
-                                              <li><span class="filter" data-filter=".logo">Audio</span></li>
+                                <div class="talent_profile_page_sec_right_top_new_sec">
+                                    <div>
+                                        <nav class="new_nav_sec_prof">
+                                            <div class="nav new_tabs_sec_prof" id="nav-tab" role="tablist">
+                                              <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">All</a>
+                                              <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Pictures</a>
+                                              <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Videos</a>
+                                              <a class="nav-item nav-link" id="nav-about-tab" data-toggle="tab" href="#nav-about" role="tab" aria-controls="nav-about" aria-selected="false">Audio</a>
+                                            </div>
+                                            <a href="#" class="add_media_new_btn">+ Add Media</a>
+                                        </nav>
+                                        <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
+                                            <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                                                <div class="new_prof_picture_sec owl-carousel" id="all_slide">
+                                                    <div class="new_prof_picture_sec_single">
+                                                        <a href="#" data-toggle="modal" data-target="#gallery_popup">
+                                                            <img src="images/gal-1.jpg">
+                                                        </a>
+                                                    </div>
+                                                    <div class="new_prof_picture_sec_single">
+                                                        <a href="#">
+                                                            <img src="images/gal-2.jpg">
+                                                            <i class="fas fa-play"></i>
+                                                        </a>
+                                                    </div>
+                                                    <div class="new_prof_picture_sec_audio">
+                                                        <img src="images/audio-graph.png" class="graph_wave">
+                                                        <div class="new_prof_picture_sec_audio_sign">
+                                                            <p>3:53</p>
+                                                            <a href="#">
+                                                                <img src="images/audio-btn.png">
+                                                            </a>
+                                                            <div class="dropdown new_drop_sec_audio">
+                                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                                                    <i class="fas fa-ellipsis-h"></i>
+                                                                </a>
+                                                                <div class="dropdown-menu dropdown-menu-right new_drop_sec_audio_cont">
+                                                                  <a class="" href="#" class="delete_btn"><i class="fas fa-trash-alt"></i>Delete</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="audio_line_dots">
+                                                            <img src="images/audio-line.png">
+                                                            <img src="images/audio-dot.png" class="line_dots">
+                                                        </div>
+                                                        <p class="upload_hour">Uploaded 20hrs Ago</p>
+                                                    </div>
+                                                    <div class="new_prof_picture_sec_single">
+                                                        <a href="#">
+                                                            <img src="images/gal-3.jpg">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                                                <div class="new_prof_picture_sec owl-carousel" id="all_slide1">
+                                                    <div class="new_prof_picture_sec_single">
+                                                        <a href="#" data-toggle="modal" data-target="#gallery_popup">
+                                                            <img src="images/gal-1.jpg">
+                                                        </a>
+                                                    </div>
+                                                    <div class="new_prof_picture_sec_single">
+                                                        <a href="#">
+                                                            <img src="images/gal-2.jpg">
+                                                        </a>
+                                                    </div>
+                                                    <div class="new_prof_picture_sec_single">
+                                                        <a href="#">
+                                                            <img src="images/gal-3.jpg">
+                                                        </a>
+                                                    </div>
+                                                    <div class="new_prof_picture_sec_single">
+                                                        <a href="#">
+                                                            <img src="images/gal-4.jpg">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                                                <div class="new_prof_picture_sec owl-carousel" id="all_slide2">
+                                                    <div class="new_prof_picture_sec_single">
+                                                        <a href="#">
+                                                            <img src="images/gal-1.jpg">
+                                                            <i class="fas fa-play"></i>
+                                                        </a>
+                                                    </div>
+                                                    <div class="new_prof_picture_sec_single">
+                                                        <a href="#">
+                                                            <img src="images/gal-2.jpg">
+                                                            <i class="fas fa-play"></i>
+                                                        </a>
+                                                    </div>
+                                                    <div class="new_prof_picture_sec_single">
+                                                        <a href="#">
+                                                            <img src="images/gal-3.jpg">
+                                                            <i class="fas fa-play"></i>
+                                                        </a>
+                                                    </div>
+                                                    <div class="new_prof_picture_sec_single">
+                                                        <a href="#">
+                                                            <img src="images/gal-4.jpg">
+                                                            <i class="fas fa-play"></i>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-pane fade" id="nav-about" role="tabpanel" aria-labelledby="nav-about-tab">
+                                                <div class="new_prof_picture_sec owl-carousel" id="all_slide3">
+                                                    <div class="new_prof_picture_sec_audio">
+                                                        <img src="images/audio-graph.png" class="graph_wave">
+                                                        <div class="new_prof_picture_sec_audio_sign">
+                                                            <p>3:53</p>
+                                                            <a href="#">
+                                                                <img src="images/audio-btn.png">
+                                                            </a>
+                                                            <div class="dropdown new_drop_sec_audio">
+                                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                                                    <i class="fas fa-ellipsis-h"></i>
+                                                                </a>
+                                                                <div class="dropdown-menu dropdown-menu-right new_drop_sec_audio_cont">
+                                                                  <a class="" href="#"><i class="fas fa-trash-alt"></i>Delete</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="audio_line_dots">
+                                                            <img src="images/audio-line.png">
+                                                            <img src="images/audio-dot.png" class="line_dots">
+                                                        </div>
+                                                        <p class="upload_hour">Uploaded 20hrs Ago</p>
+                                                    </div>
+                                                    <div class="new_prof_picture_sec_audio">
+                                                        <img src="images/audio-graph.png" class="graph_wave">
+                                                        <div class="new_prof_picture_sec_audio_sign">
+                                                            <p>3:53</p>
+                                                            <a href="#">
+                                                                <img src="images/audio-btn.png">
+                                                            </a>
+                                                            <div class="dropdown new_drop_sec_audio">
+                                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                                                    <i class="fas fa-ellipsis-h"></i>
+                                                                </a>
+                                                                <div class="dropdown-menu dropdown-menu-right new_drop_sec_audio_cont">
+                                                                  <a class="" href="#"><i class="fas fa-trash-alt"></i>Delete</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="audio_line_dots">
+                                                            <img src="images/audio-line.png">
+                                                            <img src="images/audio-dot.png" class="line_dots">
+                                                        </div>
+                                                        <p class="upload_hour">Uploaded 20hrs Ago</p>
+                                                    </div>
+                                                    <div class="new_prof_picture_sec_audio">
+                                                        <img src="images/audio-graph.png" class="graph_wave">
+                                                        <div class="new_prof_picture_sec_audio_sign">
+                                                            <p>3:53</p>
+                                                            <a href="#">
+                                                                <img src="images/audio-btn.png">
+                                                            </a>
+                                                            <div class="dropdown new_drop_sec_audio">
+                                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                                                    <i class="fas fa-ellipsis-h"></i>
+                                                                </a>
+                                                                <div class="dropdown-menu dropdown-menu-right new_drop_sec_audio_cont">
+                                                                  <a class="" href="#"><i class="fas fa-trash-alt"></i>Delete</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="audio_line_dots">
+                                                            <img src="images/audio-line.png">
+                                                            <img src="images/audio-dot.png" class="line_dots">
+                                                        </div>
+                                                        <p class="upload_hour">Uploaded 20hrs Ago</p>
+                                                    </div>
+                                                    <div class="new_prof_picture_sec_audio">
+                                                        <img src="images/audio-graph.png" class="graph_wave">
+                                                        <div class="new_prof_picture_sec_audio_sign">
+                                                            <p>3:53</p>
+                                                            <a href="#">
+                                                                <img src="images/audio-btn.png">
+                                                            </a>
+                                                            <div class="dropdown new_drop_sec_audio">
+                                                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                                                    <i class="fas fa-ellipsis-h"></i>
+                                                                </a>
+                                                                <div class="dropdown-menu dropdown-menu-right new_drop_sec_audio_cont">
+                                                                  <a class="" href="#"><i class="fas fa-trash-alt"></i>Delete</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="audio_line_dots">
+                                                            <img src="images/audio-line.png">
+                                                            <img src="images/audio-dot.png" class="line_dots">
+                                                        </div>
+                                                        <p class="upload_hour">Uploaded 20hrs Ago</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <h4 class="text_bold_sec_right">Physical Attributes <a href="#" class="edit_physical_attr"><i class="fas fa-edit"></i>Edit Physical Attributes</a></h4>
+                                    <div class="bg_light_blue_right">
+                                        <div class="physical_attr_sec">
+                                            <ul>
+                                                <li>Height<br><span>5'3" (1.8m)</span></li>
+                                                <li>Weight<br><span>51kg (112lbs)</span></li>  
+                                                <li>Eye Color<br><span>Dark</span></li> 
+                                                <li>Hair Color<br><span>Brown</span></li> 
+                                                <li>Skin Type<br><span>Fair</span></li>
+                                                <li>
+                                                    <!-- <a href="#" class="edit_physical_attr"><i class="fas fa-edit"></i>Edit Physical Attributes</a> -->
+                                                    <a href="#" class="btn_fr_all" data-toggle="modal" data-target="#weight_pop">See all</a>
+                                                </li>  
                                             </ul>
-                                            <a href="#" class="add_media_new"><i class="fas fa-plus"></i>Add Media</a>
-                                        </div>
-                                        <div id="gallery">
-                                                <a class="gallery-item print" href="#" data-cat="print">
-                                                 <img src="images/prfo-img-1.jpg">
-                                                </a>
-                                                <a class="gallery-item strategy" href="#" data-cat="strategy">
-                                                  <img src="images/bg-new-sec.png">
-                                                </a>
-                                                <a class="gallery-item logo" href="#" data-cat="logo">
-                                                  <img src="images/actor-img.png">
-                                                </a>
                                         </div>
                                     </div>
-                                </div>
-                                <h4 class="text_bold_sec_right">Physical Attributes <a href="#" class="edit_physical_attr"><i class="fas fa-edit"></i>Edit Physical Attributes</a></h4>
-                                <div class="bg_light_blue_right">
-                                    <div class="physical_attr_sec">
-                                        <ul>
-                                            <li>Height<br><span>5'3" (1.8m)</span></li>
-                                            <li>Weight<br><span>51kg (112lbs)</span></li>  
-                                            <li>Eye Color<br><span>Dark</span></li> 
-                                            <li>Hair Color<br><span>Brown</span></li> 
-                                            <li>Skin Type<br><span>Fair</span></li>
-                                            <li>
-                                                <!-- <a href="#" class="edit_physical_attr"><i class="fas fa-edit"></i>Edit Physical Attributes</a> -->
-                                                <a href="#" class="btn_fr_all">See all</a>
-                                            </li>  
-                                        </ul>
+                                    <hr class="spacer10px">
+                                    <h4 class="text_bold_sec_right">Social Statistics<span><i class="fas fa-info-circle"></i></span></h4>
+                                    <div class="bg_light_blue_right">
+                                        <div class="socail_stat_new_sec">
+                                            <ul>
+                                                <li>
+                                                    <div class="social_sec_img">
+                                                        <img src="images/instagram.svg">
+                                                        <div class="social_sec_img_cont">
+                                                            <ul class="follow_sec">
+                                                                <li>Followers: <span>1m</span></li>
+                                                                <li>No.of Posts: <span>786</span></li>
+                                                                <li>Average Likes: <span>7845</span></li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="social_sec_img">
+                                                        <img src="images/twitter.svg">
+                                                        <div class="social_sec_img_cont">
+                                                            <p>Connect your <br>Twitter</p>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="social_sec_img">
+                                                        <img src="images/youtube.png">
+                                                        <div class="social_sec_img_cont">
+                                                            <p>Connect your <br>Youtube</p>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                            <a href="#" class="btn_fr_all social_see_new" data-toggle="modal" data-target="#connect1">See all</a>
+                                        </div>
                                     </div>
-                                </div>
-                                <hr class="spacer10px">
-                                <h4 class="text_bold_sec_right">Social Statistics<span><i class="fas fa-info-circle"></i></span></h4>
-                                <div class="bg_light_blue_right">
-                                    <div class="socail_stat_new_sec">
-                                        <ul>
-                                            <li>
-                                                <div class="social_sec_img">
-                                                    <img src="images/instagram.svg">
-                                                    <div class="social_sec_img_cont">
-                                                        <ul class="follow_sec">
-                                                            <li>Followers: <span>1m</span></li>
-                                                            <li>No.of Posts: <span>786</span></li>
-                                                            <li>Average Likes: <span>7845</span></li>
-                                                        </ul>
-                                                    </div>
+                                    <hr class="spacer10px">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6">
+                                            <h4 class="text_bold_sec_right">Categories & SubCategories<span><i class="fas fa-info-circle"></i></span></h4>
+                                            <div class="bg_light_blue_right">
+                                                <div class="new_cate_sec_main">
+                                                    <ul>
+                                                        <li class="cate_sec_new">Categories:</li>
+                                                        <span>
+                                                            <li class="active_btn">Actor</li>
+                                                            <li>Influencer</li>
+                                                            <li>Director</li>
+                                                        </span>
+                                                    </ul>
                                                 </div>
-                                            </li>
-                                            <li>
-                                                <div class="social_sec_img">
-                                                    <img src="images/twitter.svg">
-                                                    <div class="social_sec_img_cont">
-                                                        <p>Connect your <br>Twitter</p>
-                                                    </div>
+                                                <div class="new_cate_sec_main">
+                                                    <ul>
+                                                        <li class="cate_sec_new">SubCategories:</li>
+                                                        <span>
+                                                            <li>Film Acting</li>
+                                                            <li>TV Acting</li>
+                                                            <li>Theater Acting</li>
+                                                        </span>
+                                                    </ul>
                                                 </div>
-                                            </li>
-                                            <li>
-                                                <div class="social_sec_img">
-                                                    <img src="images/youtube.png">
-                                                    <div class="social_sec_img_cont">
-                                                        <p>Connect your <br>Youtube</p>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                        <a href="#" class="btn_fr_all social_see_new">See all</a>
-                                    </div>
-                                </div>
-                                <hr class="spacer10px">
-                                <div class="row">
-                                    <div class="col-lg-6 col-md-6">
-                                        <h4 class="text_bold_sec_right">Categories & SubCategories<span><i class="fas fa-info-circle"></i></span></h4>
-                                        <div class="bg_light_blue_right">
-                                            <div class="new_cate_sec_main">
-                                                <ul>
-                                                    <li class="cate_sec_new">Categories:</li>
-                                                    <span>
-                                                        <li class="active_btn">Actor</li>
-                                                        <li>Influencer</li>
-                                                        <li>Director</li>
-                                                    </span>
-                                                </ul>
+                                                <a href="#" class="edit_physical_attr ml-0" data-toggle="modal" data-target="#category_popup"><i class="fas fa-edit"></i>Add categories</a>
                                             </div>
-                                            <div class="new_cate_sec_main">
-                                                <ul>
-                                                    <li class="cate_sec_new">SubCategories:</li>
-                                                    <span>
-                                                        <li>Film Acting</li>
-                                                        <li>TV Acting</li>
-                                                        <li>Theater Acting</li>
-                                                    </span>
-                                                </ul>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6">
+                                            <h4 class="text_bold_sec_right">Languages Known<span><i class="fas fa-info-circle"></i></span></h4>
+                                            <div class="bg_light_blue_right">
+                                                <div class="bg_light_blue_right_language">
+                                                    <hr class="spacer20px">
+                                                    <div class="bg_light_blue_right_language_flex">
+                                                        <div class="lang_known">
+                                                            <ul>
+                                                                <li>English</li>
+                                                                <li>Hindi</li>
+                                                                <li>Punjabi</li>
+                                                            </ul>
+                                                            <hr class="spacer20px">
+                                                            <a href="#" class="edit_physical_attr ml-0" data-toggle="modal" data-target="#language_pop"><i class="fas fa-edit"></i>Add Languages</a>
+                                                        </div>
+                                                        <img src="images/world.svg">
+                                                    </div>
+                                                    <a href="#" class="btn_fr_all">See all</a>
+                                                </div>
+                                                <hr class="spacer10px">
                                             </div>
-                                            <a href="#" class="edit_physical_attr ml-0"><i class="fas fa-edit"></i>Add categories</a>
                                         </div>
                                     </div>
-                                    <div class="col-lg-6 col-md-6">
-                                        <h4 class="text_bold_sec_right">Languages Known<span><i class="fas fa-info-circle"></i></span></h4>
-                                        <div class="bg_light_blue_right">
-                                            <div class="bg_light_blue_right_language">
-                                                <hr class="spacer20px">
-                                                <div class="bg_light_blue_right_language_flex">
-                                                    <div class="lang_known">
+                                </div>
+                                <div class="jobs_right_tabs_sec">
+                                    <div class="tab-content" id="nav-tabContent1">
+                                        <div class="tab-pane fade show active" id="nav-home1" role="tabpanel" aria-labelledby="nav-home-tab1">
+                                            <div class="jobs_recommened_sec">
+                                                <h4>Recommended Jobs</h4>
+                                                <div class="recomm_jobs_body">
+                                                    <div class="recomm_jobs_body_single_new">
                                                         <ul>
-                                                            <li>English</li>
-                                                            <li>Hindi</li>
-                                                            <li>Punjabi</li>
+                                                            <li>Job ID: <span>762183</span></li>
+                                                            <li>Job Expiry Date: <span>20th May 2021</span></li>
                                                         </ul>
-                                                        <hr class="spacer20px">
-                                                        <a href="#" class="edit_physical_attr ml-0"><i class="fas fa-edit"></i>Add Languages</a>
+                                                        <h6>Male Actor for Web Series for Netflix</h6>
+                                                        <ul>
+                                                            <li>Project Type: <span>Web Series</span></li>
+                                                            <li>Job Type: <span>Remote Job</span></li>
+                                                            <li>Age Range: <span>20-25</span></li>
+                                                        </ul>
+                                                        <ul>
+                                                            <li><i class="fas fa-map-marker-alt"></i> Mumbai, Maharashtra,India</li>
+                                                            <li>Required: <span>Actor | Movie</span></li>
+                                                            <li>Gender: <span>Male</span></li>
+                                                        </ul>
+                                                        <ul>
+                                                            <li>Talent Payment: <span class="new_tal_pay_new">₹10,000</span></li>
+                                                            <li>Audition Required: <span>No</span></li>
+                                                        </ul>
+                                                        <ul class="vac_sec_list">
+                                                            <li>Vacancies: 15</li>
+                                                            <li>Applied: 50</li>
+                                                            <li>Shortlisted: 12</li>
+                                                        </ul>
+                                                        <div class="job_list_body_right_body_single_btn_new">
+                                                            <ul>
+                                                                <li>
+                                                                    <a href="#" class="apply_now_new_sec" data-toggle="modal" data-target="#"><img src="images/apply-now.svg" alt="" title="">Apply Now</a>
+                                                                </li>
+                                                                 <li>
+                                                                    <a href="#" class="view_details_new_sec" data-toggle="modal" data-target="#"><img src="images/view-details.svg" alt="" title="">View Details</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
                                                     </div>
-                                                    <img src="images/world.svg">
+                                                    <div class="recomm_jobs_body_single_new">
+                                                        <ul>
+                                                            <li>Job ID: <span>762183</span></li>
+                                                            <li>Job Expiry Date: <span>20th May 2021</span></li>
+                                                        </ul>
+                                                        <h6>Male Actor for Web Series for Netflix</h6>
+                                                        <ul>
+                                                            <li>Project Type: <span>Web Series</span></li>
+                                                            <li>Job Type: <span>Remote Job</span></li>
+                                                            <li>Age Range: <span>20-25</span></li>
+                                                        </ul>
+                                                        <ul>
+                                                            <li><i class="fas fa-map-marker-alt"></i> Mumbai, Maharashtra,India</li>
+                                                            <li>Required: <span>Actor | Movie</span></li>
+                                                            <li>Gender: <span>Male</span></li>
+                                                        </ul>
+                                                        <ul>
+                                                            <li>Talent Payment: <span class="new_tal_pay_new">₹10,000</span></li>
+                                                            <li>Audition Required: <span>No</span></li>
+                                                        </ul>
+                                                        <ul class="vac_sec_list">
+                                                            <li>Vacancies: 15</li>
+                                                            <li>Applied: 50</li>
+                                                            <li>Shortlisted: 12</li>
+                                                        </ul>
+                                                        <div class="job_list_body_right_body_single_btn_new">
+                                                            <ul>
+                                                                <li>
+                                                                    <a href="#" class="apply_now_new_sec" data-toggle="modal" data-target="#"><img src="images/apply-now.svg" alt="" title="">Apply Now</a>
+                                                                </li>
+                                                                 <li>
+                                                                    <a href="#" class="view_details_new_sec" data-toggle="modal" data-target="#"><img src="images/view-details.svg" alt="" title="">View Details</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
-                                            <hr class="spacer30px">
                                         </div>
-                                    </div>
+                                        <div class="tab-pane fade" id="nav-profile1" role="tabpanel" aria-labelledby="nav-profile-tab1">
+                                            <div class="jobs_recommened_sec">
+                                                <h4>Applied Jobs</h4>
+                                                <div class="recomm_jobs_body">
+                                                    <div class="recomm_jobs_body_single_new">
+                                                        <ul class="dis_flex_new_sec">
+                                                            <li>Job ID: <span>762183</span></li>
+                                                            <li class="new_short_list">Shortlisted</li>
+                                                        </ul>
+                                                        <h6>Male Actor for Web Series for Netflix</h6>
+                                                        <ul>
+                                                            <li>Project Type: <span>Web Series</span></li>
+                                                            <li>Job Type: <span>Remote Job</span></li>
+                                                            <li>Age Range: <span>20-25</span></li>
+                                                        </ul>
+                                                        <ul>
+                                                            <li><i class="fas fa-map-marker-alt"></i> Mumbai, Maharashtra,India</li>
+                                                            <li>Required: <span>Actor | Movie</span></li>
+                                                            <li>Gender: <span>Male</span></li>
+                                                        </ul>
+                                                        <ul>
+                                                            <li>Talent Payment: <span class="new_tal_pay_new">₹10,000</span></li>
+                                                            <li>Audition Required: <span>No</span></li>
+                                                        </ul>
+                                                        <ul class="vac_sec_list">
+                                                            <li>Vacancies: 15</li>
+                                                            <li>Applied: 50</li>
+                                                            <li>Shortlisted: 12</li>
+                                                        </ul>
+                                                        <div class="job_list_body_right_body_single_btn_new">
+                                                            <ul>
+                                                                <li>
+                                                                    <a href="#" class="view_details_black_btn" data-toggle="modal" data-target="#"><img src="images/view-details.svg" alt="" title="">View Details</a>
+                                                                </li>
+                                                                 <li>
+                                                                    <a href="#" class="shortlist_new_btn_sec" data-toggle="modal" data-target="#"><i class="fas fa-comment-alt-lines"></i>Shortlisted Message</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="recomm_jobs_body_single_new">
+                                                        <ul class="dis_flex_new_sec">
+                                                            <li>Job ID: <span>762183</span></li>
+                                                            <li class="new_short_list reject_new_btn">Rejected</li>
+                                                        </ul>
+                                                        <h6>Male Actor for Web Series for Netflix</h6>
+                                                        <ul>
+                                                            <li>Project Type: <span>Web Series</span></li>
+                                                            <li>Job Type: <span>Remote Job</span></li>
+                                                            <li>Age Range: <span>20-25</span></li>
+                                                        </ul>
+                                                        <ul>
+                                                            <li><i class="fas fa-map-marker-alt"></i> Mumbai, Maharashtra,India</li>
+                                                            <li>Required: <span>Actor | Movie</span></li>
+                                                            <li>Gender: <span>Male</span></li>
+                                                        </ul>
+                                                        <ul>
+                                                            <li>Talent Payment: <span class="new_tal_pay_new">₹10,000</span></li>
+                                                            <li>Audition Required: <span>No</span></li>
+                                                        </ul>
+                                                        <ul class="vac_sec_list">
+                                                            <li>Vacancies: 15</li>
+                                                            <li>Applied: 50</li>
+                                                            <li>Shortlisted: 12</li>
+                                                        </ul>
+                                                        <div class="job_list_body_right_body_single_btn_new">
+                                                            <ul>
+                                                                <li>
+                                                                    <a href="#" class="view_details_black_btn" data-toggle="modal" data-target="#"><img src="images/view-details.svg" alt="" title="">View Details</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="recomm_jobs_body_single_new">
+                                                        <ul class="dis_flex_new_sec">
+                                                            <li>Job ID: <span>762183</span></li>
+                                                            <li class="new_short_list Pending_new_btn_sec">Pending</li>
+                                                        </ul>
+                                                        <h6>Male Actor for Web Series for Netflix</h6>
+                                                        <ul>
+                                                            <li>Project Type: <span>Web Series</span></li>
+                                                            <li>Job Type: <span>Remote Job</span></li>
+                                                            <li>Age Range: <span>20-25</span></li>
+                                                        </ul>
+                                                        <ul>
+                                                            <li><i class="fas fa-map-marker-alt"></i> Mumbai, Maharashtra,India</li>
+                                                            <li>Required: <span>Actor | Movie</span></li>
+                                                            <li>Gender: <span>Male</span></li>
+                                                        </ul>
+                                                        <ul>
+                                                            <li>Talent Payment: <span class="new_tal_pay_new">₹10,000</span></li>
+                                                            <li>Audition Required: <span>No</span></li>
+                                                        </ul>
+                                                        <ul class="vac_sec_list">
+                                                            <li>Vacancies: 15</li>
+                                                            <li>Applied: 50</li>
+                                                            <li>Shortlisted: 12</li>
+                                                        </ul>
+                                                        <div class="job_list_body_right_body_single_btn_new">
+                                                            <ul>
+                                                                <li>
+                                                                    <a href="#" class="view_details_black_btn" data-toggle="modal" data-target="#"><img src="images/view-details.svg" alt="" title="">View Details</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="recomm_jobs_body_single_new">
+                                                        <ul class="dis_flex_new_sec">
+                                                            <li>Job ID: <span>762183</span></li>
+                                                            <li class="new_short_list">Shortlisted</li>
+                                                        </ul>
+                                                        <h6>Male Actor for Web Series for Netflix</h6>
+                                                        <ul>
+                                                            <li>Project Type: <span>Web Series</span></li>
+                                                            <li>Job Type: <span>Remote Job</span></li>
+                                                            <li>Age Range: <span>20-25</span></li>
+                                                        </ul>
+                                                        <ul>
+                                                            <li><i class="fas fa-map-marker-alt"></i> Mumbai, Maharashtra,India</li>
+                                                            <li>Required: <span>Actor | Movie</span></li>
+                                                            <li>Gender: <span>Male</span></li>
+                                                        </ul>
+                                                        <ul>
+                                                            <li>Talent Payment: <span class="new_tal_pay_new">₹10,000</span></li>
+                                                            <li>Audition Required: <span>No</span></li>
+                                                        </ul>
+                                                        <ul class="vac_sec_list">
+                                                            <li>Vacancies: 15</li>
+                                                            <li>Applied: 50</li>
+                                                            <li>Shortlisted: 12</li>
+                                                        </ul>
+                                                        <div class="job_list_body_right_body_single_btn_new">
+                                                            <ul>
+                                                                <li>
+                                                                    <a href="#" class="view_details_black_btn" data-toggle="modal" data-target="#"><img src="images/view-details.svg" alt="" title="">View Details</a>
+                                                                </li>
+                                                                 <li>
+                                                                    <a href="#" class="shortlist_new_btn_sec" data-toggle="modal" data-target="#"><i class="fas fa-comment-alt-lines"></i>Shortlisted Message</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="recomm_jobs_body_single_new">
+                                                        <ul class="dis_flex_new_sec">
+                                                            <li>Job ID: <span>762183</span></li>
+                                                            <li class="new_short_list reject_new_btn">Rejected</li>
+                                                        </ul>
+                                                        <h6>Male Actor for Web Series for Netflix</h6>
+                                                        <ul>
+                                                            <li>Project Type: <span>Web Series</span></li>
+                                                            <li>Job Type: <span>Remote Job</span></li>
+                                                            <li>Age Range: <span>20-25</span></li>
+                                                        </ul>
+                                                        <ul>
+                                                            <li><i class="fas fa-map-marker-alt"></i> Mumbai, Maharashtra,India</li>
+                                                            <li>Required: <span>Actor | Movie</span></li>
+                                                            <li>Gender: <span>Male</span></li>
+                                                        </ul>
+                                                        <ul>
+                                                            <li>Talent Payment: <span class="new_tal_pay_new">₹10,000</span></li>
+                                                            <li>Audition Required: <span>No</span></li>
+                                                        </ul>
+                                                        <ul class="vac_sec_list">
+                                                            <li>Vacancies: 15</li>
+                                                            <li>Applied: 50</li>
+                                                            <li>Shortlisted: 12</li>
+                                                        </ul>
+                                                        <div class="job_list_body_right_body_single_btn_new">
+                                                            <ul>
+                                                                <li>
+                                                                    <a href="#" class="view_details_black_btn" data-toggle="modal" data-target="#"><img src="images/view-details.svg" alt="" title="">View Details</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="recomm_jobs_body_single_new">
+                                                        <ul class="dis_flex_new_sec">
+                                                            <li>Job ID: <span>762183</span></li>
+                                                            <li class="new_short_list Pending_new_btn_sec">Pending</li>
+                                                        </ul>
+                                                        <h6>Male Actor for Web Series for Netflix</h6>
+                                                        <ul>
+                                                            <li>Project Type: <span>Web Series</span></li>
+                                                            <li>Job Type: <span>Remote Job</span></li>
+                                                            <li>Age Range: <span>20-25</span></li>
+                                                        </ul>
+                                                        <ul>
+                                                            <li><i class="fas fa-map-marker-alt"></i> Mumbai, Maharashtra,India</li>
+                                                            <li>Required: <span>Actor | Movie</span></li>
+                                                            <li>Gender: <span>Male</span></li>
+                                                        </ul>
+                                                        <ul>
+                                                            <li>Talent Payment: <span class="new_tal_pay_new">₹10,000</span></li>
+                                                            <li>Audition Required: <span>No</span></li>
+                                                        </ul>
+                                                        <ul class="vac_sec_list">
+                                                            <li>Vacancies: 15</li>
+                                                            <li>Applied: 50</li>
+                                                            <li>Shortlisted: 12</li>
+                                                        </ul>
+                                                        <div class="job_list_body_right_body_single_btn_new">
+                                                            <ul>
+                                                                <li>
+                                                                    <a href="#" class="view_details_black_btn" data-toggle="modal" data-target="#"><img src="images/view-details.svg" alt="" title="">View Details</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="nav-contact1" role="tabpanel" aria-labelledby="nav-contact-tab1">
+                                            <div class="jobs_recommened_sec">
+                                                <h4>Completed Jobs</h4>
+                                                <div class="recomm_jobs_body" id="">
+                                                    <div class="recomm_jobs_body_single_new">
+                                                        <ul>
+                                                            <li>Job ID: <span>762183</span></li>
+                                                            <li>Job Expiry Date: <span>20th May 2021</span></li>
+                                                        </ul>
+                                                        <h6>Male Actor for Web Series for Netflix</h6>
+                                                        <ul>
+                                                            <li>Project Type: <span>Web Series</span></li>
+                                                            <li>Job Type: <span>Remote Job</span></li>
+                                                            <li>Age Range: <span>20-25</span></li>
+                                                        </ul>
+                                                        <ul>
+                                                            <li><i class="fas fa-map-marker-alt"></i> Mumbai, Maharashtra,India</li>
+                                                            <li>Required: <span>Actor | Movie</span></li>
+                                                            <li>Gender: <span>Male</span></li>
+                                                        </ul>
+                                                        <ul>
+                                                            <li>Talent Payment: <span class="new_tal_pay_new">₹10,000
+                                                                <div class="client_pay_new">
+                                                                    <table width="100%" cellpadding="0" cellspacing="0">
+                                                                        <tbody><tr>
+                                                                            <td width="60%">Client Pay</td>
+                                                                            <td width="40%"><span class="blue_btn_new">10000</span></td>
+                                                                        </tr>
+                                                                        <tr class="brdr_btm_tab_new">
+                                                                            <td width="60%">All Talent Commission</td>
+                                                                            <td width="40%">
+                                                                                <ul>
+                                                                                    <li>-</li>
+                                                                                    <li><span class="red_btn_new">20%</span></li>
+                                                                                    <li><span class="blue_btn_new">2000</span></li>
+                                                                                </ul>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td width="60%">= Talent Pay</td>
+                                                                            <td width="40%"><span class="blue_btn_new">8000</span></td>
+                                                                        </tr>
+                                                                    </tbody></table>
+                                                                </div>
+                                                            </span></li>
+                                                        </ul>
+                                                        <ul>
+                                                            <li>Audition Required: <span>Yes</span></li>
+                                                            <li>Audition Type: <span>Online</span></li>
+                                                        </ul>
+                                                        <ul class="vac_sec_list">
+                                                            <li>Vacancies: 15</li>
+                                                            <li>Applied: 50</li>
+                                                            <li>Shortlisted: 12</li>
+                                                        </ul>
+                                                        <div class="job_list_body_right_body_single_btn_new">
+                                                            <ul>
+                                                                 <li>
+                                                                    <a href="#" class="view_details_new_sec" data-toggle="modal" data-target="#"><img src="images/view-details.svg" alt="" title="">View Details</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="recomm_jobs_body_single_new">
+                                                        <ul>
+                                                            <li>Job ID: <span>762183</span></li>
+                                                            <li>Job Expiry Date: <span>20th May 2021</span></li>
+                                                        </ul>
+                                                        <h6>Male Actor for Web Series for Netflix</h6>
+                                                        <ul>
+                                                            <li>Project Type: <span>Web Series</span></li>
+                                                            <li>Job Type: <span>Remote Job</span></li>
+                                                            <li>Age Range: <span>20-25</span></li>
+                                                        </ul>
+                                                        <ul>
+                                                            <li><i class="fas fa-map-marker-alt"></i> Mumbai, Maharashtra,India</li>
+                                                            <li>Required: <span>Actor | Movie</span></li>
+                                                            <li>Gender: <span>Male</span></li>
+                                                        </ul>
+                                                        <ul>
+                                                            <li>Talent Payment: <span class="new_tal_pay_new">₹10,000
+                                                                <div class="client_pay_new">
+                                                                    <table width="100%" cellpadding="0" cellspacing="0">
+                                                                        <tbody><tr>
+                                                                            <td width="60%">Client Pay</td>
+                                                                            <td width="40%"><span class="blue_btn_new">10000</span></td>
+                                                                        </tr>
+                                                                        <tr class="brdr_btm_tab_new">
+                                                                            <td width="60%">All Talent Commission</td>
+                                                                            <td width="40%">
+                                                                                <ul>
+                                                                                    <li>-</li>
+                                                                                    <li><span class="red_btn_new">20%</span></li>
+                                                                                    <li><span class="blue_btn_new">2000</span></li>
+                                                                                </ul>
+                                                                            </td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td width="60%">= Talent Pay</td>
+                                                                            <td width="40%"><span class="blue_btn_new">8000</span></td>
+                                                                        </tr>
+                                                                    </tbody></table>
+                                                                </div>
+                                                            </span></li>
+                                                        </ul>
+                                                        <ul>
+                                                            <li>Audition Required: <span>Yes</span></li>
+                                                            <li>Audition Type: <span>Online</span></li>
+                                                        </ul>
+                                                        <ul class="vac_sec_list">
+                                                            <li>Vacancies: 15</li>
+                                                            <li>Applied: 50</li>
+                                                            <li>Shortlisted: 12</li>
+                                                        </ul>
+                                                        <div class="job_list_body_right_body_single_btn_new">
+                                                            <ul>
+                                                                 <li>
+                                                                    <a href="#" class="view_details_new_sec" data-toggle="modal" data-target="#"><img src="images/view-details.svg" alt="" title="">View Details</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="nav-about1" role="tabpanel" aria-labelledby="nav-about-tab1">
+                                            <div class="jobs_recommened_sec">
+                                                <div class="dis_flex_new_sec">
+                                                    <h4>Previous Jobs</h4>
+                                                    <a href="#" class="add_previous_jobs">+ Add Previous Jobs</a>
+                                                </div>
+                                                <div class="recomm_jobs_body">
+                                                    <div class="prev_jobs_single">
+                                                        <div class="prev_jobs_single_head">
+                                                            <span>
+                                                                <h6>Marvel Studios</h6>
+                                                                <h5>SpiderMan No Way Home</h5>
+                                                            </span>
+                                                            <a href="#" class="edit_new_btn"><i class="far fa-edit"></i>Edit</a>
+                                                        </div>
+                                                        <div class="prev_jobs_proj">
+                                                            <div class="prev_jobs_proj_left">
+                                                                <table width="100%" cellpadding="0" cellspacing="0">
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>Project Type:</td>
+                                                                            <td>Featured Films</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>Category:</td>
+                                                                            <td>Actor</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>Sub-Category:</td>
+                                                                            <td>Junior Actor</td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                            <div class="prev_jobs_proj_right">
+                                                                <div class="studio_pack_new">
+                                                                    <div class="studio_pack_single_new">
+                                                                        <img src="images/prev-1.png" alt="" title="">
+                                                                    </div>
+                                                                    <div class="studio_pack_single_new">
+                                                                        <img src="images/prev-1.png" alt="" title="">
+                                                                    </div>
+                                                                    <div class="studio_pack_single_new">
+                                                                        <img src="images/prev-1.png" alt="" title="">
+                                                                    </div>
+                                                                    <div class="studio_pack_single_new">
+                                                                        <img src="images/prev-1.png" alt="" title="">
+                                                                    </div>
+                                                                    <div class="studio_pack_single_new">
+                                                                        <img src="images/prev-1.png" alt="" title="">
+                                                                    </div>
+                                                                    <div class="studio_pack_single_new">
+                                                                        <img src="images/prev-1.png" alt="" title="">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="dis_flex_new_sec">
+                                                            <h6 class="wash_text"><i class="fas fa-map-marker-alt"></i>Washington DC, USA</h6>
+                                                        </div>
+                                                        <div class="prev_jobs_para">
+                                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas cursus urna orci, vel pharetra nulla iaculis sed.</p>
+                                                        </div>
+                                                        <div class="prev_jobs_big_screen">
+                                                            <div class="prev_jobs_big_screen_single">
+                                                                <img src="images/prev-big-1.png">
+                                                            </div>
+                                                            <div class="prev_jobs_big_screen_single">
+                                                                <img src="images/prev-big-1.png">
+                                                            </div>
+                                                            <div class="prev_jobs_big_screen_single">
+                                                                <img src="images/prev-big-1.png">
+                                                            </div>
+                                                            <div class="prev_jobs_big_screen_single">
+                                                                <img src="images/prev-big-1.png">
+                                                            </div>
+                                                            <div class="prev_jobs_big_screen_single">
+                                                                <img src="images/prev-big-1.png">
+                                                            </div>
+                                                            <div class="prev_jobs_big_screen_single">
+                                                                <img src="images/prev-big-1.png">
+                                                            </div>
+                                                            <div class="prev_jobs_big_screen_single">
+                                                                <img src="images/prev-big-1.png">
+                                                            </div>
+                                                            <div class="prev_jobs_big_screen_single">
+                                                                <img src="images/prev-big-1.png">
+                                                            </div>
+                                                        </div>
+                                                        <hr class="spacer30px">
+                                                         <div class="dis_flex_new_sec">
+                                                            <a href="#" class="see_less_btn">See Less</a>
+                                                            <a href="#" class="view_details_new_sec"><img src="images/view-details.svg" alt="" title="">View Details</a>
+                                                        </div>
+                                                    </div>
+                                                    <hr class="spacer20px">
+                                                    <div class="prev_jobs_single">
+                                                        <div class="prev_jobs_single_head">
+                                                            <span>
+                                                                <h6>Marvel Studios</h6>
+                                                                <h5>SpiderMan No Way Home</h5>
+                                                            </span>
+                                                            <a href="#" class="edit_new_btn"><i class="far fa-edit"></i>Edit</a>
+                                                        </div>
+                                                        <div class="prev_jobs_proj">
+                                                            <div class="prev_jobs_proj_left">
+                                                                <table width="100%" cellpadding="0" cellspacing="0">
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td>Project Type:</td>
+                                                                            <td>Featured Films</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>Category:</td>
+                                                                            <td>Actor</td>
+                                                                        </tr>
+                                                                        <tr>
+                                                                            <td>Sub-Category:</td>
+                                                                            <td>Junior Actor</td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                            <div class="prev_jobs_proj_right">
+                                                                <div class="studio_pack_new">
+                                                                    <div class="studio_pack_single_new">
+                                                                        <img src="images/prev-1.png" alt="" title="">
+                                                                    </div>
+                                                                    <div class="studio_pack_single_new">
+                                                                        <img src="images/prev-1.png" alt="" title="">
+                                                                    </div>
+                                                                    <div class="studio_pack_single_new">
+                                                                        <img src="images/prev-1.png" alt="" title="">
+                                                                    </div>
+                                                                    <div class="studio_pack_single_new">
+                                                                        <img src="images/prev-1.png" alt="" title="">
+                                                                    </div>
+                                                                    <div class="studio_pack_single_new">
+                                                                        <img src="images/prev-1.png" alt="" title="">
+                                                                    </div>
+                                                                    <div class="studio_pack_single_new">
+                                                                        <img src="images/prev-1.png" alt="" title="">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="dis_flex_new_sec">
+                                                            <h6 class="wash_text"><i class="fas fa-map-marker-alt"></i>Washington DC, USA</h6>
+                                                        </div>
+                                                        <div class="prev_jobs_para">
+                                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas cursus urna orci, vel pharetra nulla iaculis sed.</p>
+                                                        </div>
+                                                        <div class="prev_jobs_big_screen">
+                                                            <div class="prev_jobs_big_screen_single">
+                                                                <img src="images/prev-big-1.png">
+                                                            </div>
+                                                            <div class="prev_jobs_big_screen_single">
+                                                                <img src="images/prev-big-1.png">
+                                                            </div>
+                                                            <div class="prev_jobs_big_screen_single">
+                                                                <img src="images/prev-big-1.png">
+                                                            </div>
+                                                            <div class="prev_jobs_big_screen_single">
+                                                                <img src="images/prev-big-1.png">
+                                                            </div>
+                                                            <div class="prev_jobs_big_screen_single">
+                                                                <img src="images/prev-big-1.png">
+                                                            </div>
+                                                            <div class="prev_jobs_big_screen_single">
+                                                                <img src="images/prev-big-1.png">
+                                                            </div>
+                                                            <div class="prev_jobs_big_screen_single">
+                                                                <img src="images/prev-big-1.png">
+                                                            </div>
+                                                            <div class="prev_jobs_big_screen_single">
+                                                                <img src="images/prev-big-1.png">
+                                                            </div>
+                                                        </div>
+                                                        <hr class="spacer30px">
+                                                         <div class="dis_flex_new_sec">
+                                                            <a href="#" class="see_less_btn">See Less</a>
+                                                            <a href="#" class="view_details_new_sec"><img src="images/view-details.svg" alt="" title="">View Details</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                      </div>
                                 </div>
                             </div>
                         </div>
@@ -486,6 +1280,740 @@
     </div>
 </div>
 
+
+<div class="gallery_popup_sec">
+    <div id="gallery_popup" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <div class="gallery_popup_sec_main">
+                        <div class="owl-carousel" id="gallery_new_popup">
+                            <div class="gallery_popup_sec_single">
+                                <img src="images/gal-slide-1.png">
+                                <div class="dropdown picture_drop">
+                                    <a href="#" data-toggle="dropdown">
+                                        <i class="fas fa-ellipsis-h"></i>
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-menu-right">
+                                        <li><a href="#" class="set_pic"><i class="fas fa-image"></i>Set Profile Picture</a></li>
+                                        <li><a href="#" class="delete_pic_btn"><i class="fas fa-trash-alt"></i>Delete</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="gallery_popup_sec_single">
+                                <img src="images/gal-3.jpg">
+                                <div class="dropdown picture_drop">
+                                    <a href="#" data-toggle="dropdown">
+                                        <i class="fas fa-ellipsis-h"></i>
+                                    </a>
+                                    <ul class="dropdown-menu dropdown-menu-right">
+                                        <li><a href="#" class="set_pic"><i class="fas fa-image"></i>Set Profile Picture</a></li>
+                                        <li><a href="#" class="delete_pic_btn"><i class="fas fa-trash-alt"></i>Delete</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    jQuery("#gallery_new_popup").owlCarousel({
+        loop: true,
+        margin:5,
+        responsiveClass: true,
+        autoplay:true,
+        autoplayHoverPause:true,
+        autoHeight: true,
+        mouseDrag: true,
+        touchDrag: true,
+        smartSpeed: 1000,
+        nav: true,
+        dots:false,
+        responsive: {
+            0: {
+                items: 1
+            },
+
+            600: {
+                items: 1
+            },
+
+            1024: {
+                items: 1
+            },
+
+            1366: {
+                items: 1
+            }
+        }
+    });
+</script>
+
+<div class="language_popup">
+    <div id="language_pop" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <div class="modal-body">
+                    <div class="language_popup_main">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-3">
+                                <div class="language_popup_left">
+                                    <img src="images/lang-img.jpg" class="jhun">
+                                    <h4>Rakesh Jhunjhunwala<img src="images/safe.png" alt="" title=""> </h4>
+                                    <p><img src="images/location-img.png"> Mumbai, Maharashtra, India</p>
+                                    <div class="language_popup_left_star">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <span>(5)</span>
+                                    </div>
+                                    <div class="hello_img"><img src="images/hello.jpg" alt="" title=""></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-9 col-md-9">
+                                <div class="language_popup_right_top">
+                                    <div class="language_popup_right">
+                                        <h6>Languages:</h6>
+                                        <ul>
+                                            <li>
+                                                <a href="#">English</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Hindi</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Persian</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Marathi</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Chinese</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Korean</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Kannada</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Tamil</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Telegu</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">French</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Gujrati</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">African</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Spanish</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">German</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Italian</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Turkish</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Swedish</a>
+                                            </li>
+                                            <!-- <li>
+                                                <a href="#">Norwegian</a>
+                                            </li> -->
+                                            <li>
+                                                <a href="#">Dutch</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Malay</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="language_popup">
+    <div id="weight_pop" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <div class="modal-body">
+                    <div class="language_popup_main">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-3">
+                                <div class="language_popup_left">
+                                    <img src="images/lang-img.jpg" class="jhun">
+                                    <h4>Rakesh Jhunjhunwala</h4>
+                                    <p><img src="images/location-img.png"> Mumbai, Maharashtra, India</p>
+                                    
+                                </div>
+                                <div class="builder_img"><img src="images/builder.jpg" alt="" title=""></div>
+                            </div>
+                            <div class="col-lg-9 col-md-9">
+                                <div class="language_popup_right_top">
+                                    <div class="language_popup_right_top_toggle">
+                                        <h5>Physical attributes</h5>
+                                        <!-- <div class="height_grid">
+                                            <div class="height_grid_single">
+                                                <h6>Height<span>173CM</span></h6>
+                                                <div class="height_grid_single_toggle">
+                                                    <span>INCH</span>
+                                                    <label class="switch">
+                                                      <input type="checkbox">
+                                                      <span class="slider round"></span>
+                                                    </label>
+                                                    <span>CMS</span>
+                                                </div>
+                                            </div>
+                                            <div class="height_grid_single">
+                                                <h6>Weight<span>56KG</span></h6>
+                                                <div class="height_grid_single_toggle">
+                                                    <span>KG</span>
+                                                    <label class="switch">
+                                                      <input type="checkbox">
+                                                      <span class="slider round"></span>
+                                                    </label>
+                                                    <span>LBS</span>
+                                                </div>
+                                            </div>
+                                            <div class="height_grid_single">
+                                                <h6>Shoe Size<span>7US</span></h6>
+                                                <div class="height_grid_single_toggle">
+                                                    <span>US</span>
+                                                    <label class="switch">
+                                                      <input type="checkbox">
+                                                      <span class="slider round"></span>
+                                                    </label>
+                                                    <span>UK</span>
+                                                </div>
+                                            </div>
+                                        </div> -->
+                                    </div>
+                                    <div class="language_popup_right mt-0">
+                                        <div class="measure_grid">
+                                            <div class="measure_grid_single">
+                                                <p>Chest</p>
+                                                <p><strong>40cm</strong></p>
+                                            </div>
+                                            <div class="measure_grid_single">
+                                                <p>Biceps</p>
+                                                <p><strong>18cm</strong></p>
+                                            </div>
+                                            <div class="measure_grid_single">
+                                                <p>Neck</p>
+                                                <p><strong>22cm</strong></p>
+                                            </div>
+                                            <div class="measure_grid_single">
+                                                <p>Shoulder</p>
+                                                <p><strong>22cm</strong></p>
+                                            </div>
+                                            <div class="measure_grid_single">
+                                                <p>Waist</p>
+                                                <p><strong>40cm</strong></p>
+                                            </div>
+                                            <div class="measure_grid_single">
+                                                <p>Hips</p>
+                                                <p><strong>18cm</strong></p>
+                                            </div>
+                                            <div class="measure_grid_single">
+                                                <p>Forearm</p>
+                                                <p><strong>17cm</strong></p>
+                                            </div>
+                                            <div class="measure_grid_single">
+                                                <p>Wrist</p>
+                                                <p><strong>10cm</strong></p>
+                                            </div>
+                                            <div class="measure_grid_single">
+                                                <p>Ankle</p>
+                                                <p><strong>40cm</strong></p>
+                                            </div>
+                                            <div class="measure_grid_single">
+                                                <p>Eye pupil color</p>
+                                                <p><strong>Blue</strong></p>
+                                            </div>
+                                            <div class="measure_grid_single">
+                                                <p>Thighs</p>
+                                                <p><strong>17cm</strong></p>
+                                            </div>
+                                            <div class="measure_grid_single">
+                                                <p>Calf</p>
+                                                <p><strong>10cm</strong></p>
+                                            </div>
+                                            <div class="measure_grid_single">
+                                                <p>Hair color</p>
+                                                <p><strong>Green</strong></p>
+                                            </div>
+                                            <div class="measure_grid_single">
+                                                <p>Hair Length</p>
+                                                <p><strong>Short</strong></p>
+                                            </div>
+                                            <div class="measure_grid_single">
+                                                <p>Skin type</p>
+                                                <p><strong>Fair</strong></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="analyse_popup">
+    <div id="analyse" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <div class="modal-body">
+                    <div class="profile_str_sec">
+                        <h5>Profile Strength</h5>
+                        <p class="profile_str_new">Complete your profile to increase your Profile Strength</p>
+                        <div class="circle_sec_new">
+                            <img src="images/circle.svg">
+                            <p>90<br><span>%</span></p>
+                        </div>
+                        <p class="profile_str_new">Tip: Upload your pictures in various poses which will increase your pointer.</p>
+                        <hr class="spacer10px">
+                        <div class="analyse_popup_check">
+                            <div class="analyse_popup_check_single">
+                                <label class="container">Upload 10 Media
+                                  <input type="checkbox">
+                                  <span class="checkmark"></span>
+                                </label>
+                            </div>
+                            <div class="analyse_popup_check_single">
+                                <label class="container">Complete your Physical Attributes
+                                  <input type="checkbox">
+                                  <span class="checkmark"></span>
+                                </label>
+                            </div>
+                            <div class="analyse_popup_check_single">
+                                <label class="container">Select a profile picture
+                                  <input type="checkbox">
+                                  <span class="checkmark"></span>
+                                </label>
+                            </div>
+                            <div class="analyse_popup_check_single">
+                                <label class="container">Connect to your Social Media
+                                  <input type="checkbox">
+                                  <span class="checkmark"></span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="connect_pop">
+    <div id="connect" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <div class="modal-body">
+                    <div class="connect_pop_body">
+                        <div class="connect_pop_body_inner">
+                            <h6>Connect Social Media</h6>
+                            <div class="row">
+                                <div class="col-lg-6 col-md-6 mx-auto">
+                                    <div class="insta_sec">
+                                        <img src="images/instagram.svg">
+                                        <table width="100%" cellpadding="0" cellspacing="0">
+                                            <tr>
+                                                <td>Followers:</td>
+                                                <td>5.9M</td>
+                                            </tr>
+                                            <tr>
+                                                <td>No Of Posts:</td>
+                                                <td>786</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Avg Likes:</td>
+                                                <td>9768</td>
+                                            </tr>
+
+                                        </table>
+                                        <a href="#" class="see_all_btn d_flex">See all</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <ul>
+                                <li>
+                                    <img src="images/social-1.jpg">
+                                    <a href="#" class="msg_btn">Connect</a>
+                                </li>
+                                <li>
+                                    <img src="images/social-2.jpg">
+                                    <a href="#" class="msg_btn">Connect</a>
+                                </li>
+                                <li>
+                                    <img src="images/social-3.jpg">
+                                    <a href="#" class="msg_btn">Connect</a>
+                                </li>
+                                <li>
+                                    <img src="images/social-4.jpg">
+                                    <a href="#" class="msg_btn">Connect</a>
+                                </li>
+                                <div class="social_field">
+                                    <div class="social_field_single">
+                                        <label>Youtube</label>
+                                        <input type="text" name="">
+                                    </div>
+                                    <div class="social_field_single">
+                                        <label>Youtube</label>
+                                        <input type="text" name="">
+                                    </div>
+                                    <div class="social_field_single">
+                                        <label>Youtube</label>
+                                        <input type="text" name="">
+                                    </div>
+                                    <div class="social_field_single">
+                                        <label>Youtube</label>
+                                        <input type="text" name="">
+                                    </div>
+                                </div>
+                                <li>
+                                    <img src="images/social-5.jpg">
+                                    <a href="#" class="msg_btn">Connect</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="connect_pop_before">
+    <div id="connect1" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <div class="modal-body">
+                    <div class="connect_pop_before_body">
+                        <div class="connect_pop_before_body_inner">
+                            <h5>Connect Social Media</h5>
+                            <ul>
+                                <li><img src="images/social-1.jpg"><a href="#" class="msg_btn">Connect</a></li>
+                                <li><img src="images/social-2.jpg"><a href="#" class="msg_btn">Connect</a></li>
+                                <li><img src="images/social-3.jpg"><a href="#" class="msg_btn">Connect</a></li>
+                                <li><img src="images/social-4.jpg"><a href="#" class="msg_btn">Connect</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>s
+
+<div class="language_popup">
+    <div id="category_popup" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <div class="modal-body">
+                    <div class="language_popup_main">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-3">
+                                <div class="language_popup_left">
+                                    <img src="images/lang-img.jpg" class="jhun">
+                                    <h4>Rakesh Jhunjhunwala</h4>
+                                    <p><img src="images/location-img.png"> Mumbai, Maharashtra, India</p>
+                                    <div class="hello_img"><img src="images/cate-img.jpg" alt="" title=""></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-9 col-md-9">
+                                <div class="language_popup_right_top">
+                                    <div class="popcate_tab">
+                                        <table width="100%" cellspacing="0" cellpadding="0" class="first_table">
+                                            <tr>
+                                                <td width="25%">Categories</td>
+                                                <td width="75%">Sub-Categories</td>
+                                            </tr>
+                                        </table>
+                                        <table width="100%" cellspacing="0" cellpadding="0" class="sec_table">
+                                            <tr>
+                                                <td width="25%">Actor</td>
+                                                <td width="75%">
+                                                    <ul class="unorder_list">
+                                                        <li><a href="#">Theatre Artist</a></li>
+                                                        <li><a href="#">Film Artist</a></li>
+                                                        <li><a href="#">Freelance Artist</a></li>
+                                                        <li><a href="#">Film Artist</a></li>
+                                                        <li><a href="#">Youtuber</a></li>
+                                                        <li><a href="#">Short Flim</a></li>
+                                                    </ul>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td width="25%">Singer</td>
+                                                <td width="75%">
+                                                    <ul class="unorder_list">
+                                                        <li><a href="#">Theatre Artist</a></li>
+                                                        <li><a href="#">Film Artist</a></li>
+                                                        <li><a href="#">Freelance Artist</a></li>
+                                                        <li><a href="#">Film Artist</a></li>
+                                                        <li><a href="#">Youtuber</a></li>
+                                                        <li><a href="#">Short Flim</a></li>
+                                                    </ul>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td width="25%">Dancer</td>
+                                                <td width="75%">
+                                                    <ul class="unorder_list">
+                                                        <li><a href="#">Theatre Artist</a></li>
+                                                        <li><a href="#">Film Artist</a></li>
+                                                        <li><a href="#">Freelance Artist</a></li>
+                                                        <li><a href="#">Film Artist</a></li>
+                                                    </ul>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td width="25%">Writer</td>
+                                                <td width="75%">
+                                                    <ul class="unorder_list">
+                                                        <li><a href="#">Theatre Artist</a></li>
+                                                        <li><a href="#">Film Artist</a></li>
+                                                        <li><a href="#">Freelance Artist</a></li>
+                                                        <li><a href="#">Film Artist</a></li>
+                                                    </ul>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td width="25%">Actor</td>
+                                                <td width="75%">
+                                                    <ul class="unorder_list">
+                                                        <li><a href="#">Theatre Artist</a></li>
+                                                        <li><a href="#">Film Artist</a></li>
+                                                        <li><a href="#">Freelance Artist</a></li>
+                                                        <li><a href="#">Film Artist</a></li>
+                                                    </ul>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td width="25%">Singer</td>
+                                                <td width="75%">
+                                                    <ul class="unorder_list">
+                                                        <li><a href="#">Theatre Artist</a></li>
+                                                        <li><a href="#">Film Artist</a></li>
+                                                        <li><a href="#">Freelance Artist</a></li>
+                                                        <li><a href="#">Film Artist</a></li>
+                                                        <li><a href="#">Youtuber</a></li>
+                                                        <li><a href="#">Short Flim</a></li>
+                                                    </ul>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td width="25%">Dancer</td>
+                                                <td width="75%">
+                                                    <ul class="unorder_list">
+                                                        <li><a href="#">Theatre Artist</a></li>
+                                                        <li><a href="#">Film Artist</a></li>
+                                                        <li><a href="#">Freelance Artist</a></li>
+                                                        <li><a href="#">Film Artist</a></li>
+                                                    </ul>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function() {
+      $('.nav-toggle, .nav-toggle1').click(function(){
+        //get collapse content selector
+        var collapse_content_selector = $(this).attr('href');
+
+        //make the collapse content to be shown or hide
+        var toggle_switch = $(this);
+        $(collapse_content_selector).toggle(function(){
+          if($(this).css('display')=='none'){
+                            //change the button label to be 'Show'
+            toggle_switch.html('<img src="images/view-details.svg" alt="" title=""> View Details');
+          }else{
+                            //change the button label to be 'Hide'
+            toggle_switch.html('<img src="images/view-details.svg" alt="" title=""> See Less');
+          }
+        });
+      });
+
+    });
+
+</script>
+
+<script>
+    jQuery("#all_slide").owlCarousel({
+        loop: true,
+        margin:20,
+        responsiveClass: true,
+        autoplay:false,
+        autoplayHoverPause:true,
+        autoHeight: true,
+        mouseDrag: true,
+        touchDrag: true,
+        smartSpeed: 1000,
+        nav: true,
+        dots:false,
+        responsive: {
+            0: {
+                items: 1
+            },
+
+            600: {
+                items: 3
+            },
+
+            1024: {
+                items: 3
+            },
+
+            1366: {
+                items: 4
+            }
+        }
+    });
+</script>
+
+<script>
+    jQuery("#all_slide1").owlCarousel({
+        loop: true,
+        margin:20,
+        responsiveClass: true,
+        autoplay:false,
+        autoplayHoverPause:true,
+        autoHeight: true,
+        mouseDrag: true,
+        touchDrag: true,
+        smartSpeed: 1000,
+        nav: true,
+        dots:false,
+        responsive: {
+            0: {
+                items: 1
+            },
+
+            600: {
+                items: 3
+            },
+
+            1024: {
+                items: 3
+            },
+
+            1366: {
+                items: 4
+            }
+        }
+    });
+</script>
+
+<script>
+    jQuery("#all_slide2").owlCarousel({
+        loop: true,
+        margin:20,
+        responsiveClass: true,
+        autoplay:false,
+        autoplayHoverPause:true,
+        autoHeight: true,
+        mouseDrag: true,
+        touchDrag: true,
+        smartSpeed: 1000,
+        nav: true,
+        dots:false,
+        responsive: {
+            0: {
+                items: 1
+            },
+
+            600: {
+                items: 3
+            },
+
+            1024: {
+                items: 3
+            },
+
+            1366: {
+                items: 4
+            }
+        }
+    });
+</script>
+<script>
+    jQuery("#all_slide3").owlCarousel({
+        loop: true,
+        margin:20,
+        responsiveClass: true,
+        autoplay:false,
+        autoplayHoverPause:true,
+        autoHeight: true,
+        mouseDrag: true,
+        touchDrag: true,
+        smartSpeed: 1000,
+        nav: true,
+        dots:false,
+        responsive: {
+            0: {
+                items: 1
+            },
+
+            600: {
+                items: 3
+            },
+
+            1024: {
+                items: 3
+            },
+
+            1366: {
+                items: 4
+            }
+        }
+    });
+</script>
+
 <script type="text/javascript">
 $(function () {
     var filterList = {
@@ -574,6 +2102,9 @@ btn.addEventListener('click', ()=>{
             });
         }
 </script>
+
+
+
 
 </body>
 </html>
