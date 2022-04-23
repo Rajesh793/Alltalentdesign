@@ -199,9 +199,17 @@
                                     </div>
                                 </div>
                                 <hr class="spacer20px">
-                                <div class="tab_inner_cont_des_input_single">
-                                    <i class="fas fa-lock-alt lock_icn"></i>
-                                    <input type="text" name="" placeholder="Password">
+                                <div class="signup_grid_2">
+                                    <div class="tab_inner_cont_des_input_single">
+                                        <i class="fas fa-lock-alt lock_icn"></i>
+                                        <input type="password" name="" placeholder="Password" id="password-field" value="Secret">
+                                        <span toggle="#password-field" class="fa fa-fw fa-eye toggle-password new_eye"></span>
+                                    </div>
+                                    <div class="tab_inner_cont_des_input_single">
+                                        <i class="fas fa-lock-alt lock_icn"></i>
+                                        <input type="password" name="" placeholder="Confirm Password" value="Secret1" id="password-field1">
+                                        <span toggle="#password-field1" class="fa fa-fw fa-eye toggle-password1 new_eye"></span>
+                                    </div>
                                 </div>
                             </div>
                             <button type="button" class="sign_btn_linear">REGISTER NOW</button>
@@ -875,6 +883,18 @@
         </div>
     </div>
 </footer>
+
+<script type="text/javascript">
+    $(".toggle-password,.toggle-password1").click(function() {
+      $(this).toggleClass("fa-eye fa-eye-slash");
+      var input = $($(this).attr("toggle"));
+      if (input.attr("type") == "password") {
+        input.attr("type", "text");
+      } else {
+        input.attr("type", "password");
+      }
+    });
+</script>
 
 <script>
     $( ".gee_cross" ).hide();
