@@ -1,10 +1,14 @@
 <section class="home_sec_banner">
-    <!-- <video id="myVideo" autoplay="true" loop="true" controls="false" muted="" preload="none"> 
-     <source src="{{asset('alltalent_v1/images/hm-video1.mp4')}}" type="video/mp4">
-    </video> -->
-    <video id="myVideo" autoplay="true" loop="true" controls="false" muted="" preload="none">
-        <source src="{{asset('alltalent_v1/images/hm-video1.mp4')}}" type="video/mp4"></source>
-    </video>
+<video id="myVideo" autoplay="true" loop="true" controls="false" muted="" playsinline preload="metadata" data-wf-ignore="true" data-object-fit="cover" autobuffer>
+    <!-- <source src="{{asset('alltalent_v1/images/web-2.mp4')}}" type="video/mp4" data-wf-ignore="true"></source>
+    <source src="{{asset('alltalent_v1/images/web-3.webm')}}" type="video/webm"/>
+    <source src="{{asset('alltalent_v1/images/web-1.ogg')}}" type="video/ogg"/> -->
+    <source src="{{asset('alltalent_v1/images/new-updated-new.mp4')}}" type="video/mp4" data-wf-ignore="true"></source>
+</video>
+
+<!-- <video id="myVideo" autoplay="true" loop="true" controls="false" muted="" preload="none">
+    <source src="{{asset('alltalent_v1/images/hm-video1.mp4')}}" type="video/mp4"></source>
+</video> -->
     <!-- <video id="myVideo" autoplay loop muted>
     <source src="{{asset('alltalent_v1/images/hm-video.mp4')}}" type="video/mp4">
     <source src="{{asset('alltalent_v1/images/hm-video.mp4')}}" type="video/webm"/>
@@ -21,13 +25,20 @@
                             </a>
                         </div>
                         <div class="home_sec_banner_cont_right">
-                            <ul>
-                                <li>
-                                    <a href="javascript:void(0);" id="showmenu1" onclick="showMenu('menu1','nav-home-tab')" class="login_btn_new new_remove">Log In</a>
-                                </li>
-                                <li><a href="javascript:void(0);" id="showmenu2" onclick="showMenu('menu1','nav-profile-tab')" class="sign_btn_new new_remove">Sign Up</a></li>
-                                <li><a href="javascript:void(0);" id="showmenu3" onclick="showMenu('menu3')" class="right_arrow_img new_remove"><img src="{{asset('alltalent_v1/images/right-arrow.png')}}"></a></li>
-                            </ul>
+                            @if (!empty(Auth::user()->role_id))
+                                <ul>
+                                    <li><a href="{{route('frontend.logout')}}" class="sign_btn_new">Logout</a></li>
+                                    <li><a href="javascript:void(0);" id="showmenu3" onclick="showMenu('menu3')" class="right_arrow_img new_remove"><img src="{{asset('alltalent_v1/images/right-arrow.png')}}"></a></li>
+                                </ul>
+                            @else
+                                <ul>
+                                    <li>
+                                        <a href="javascript:void(0);" id="showmenu1" onclick="showMenu('menu1','nav-home-tab')" class="login_btn_new new_remove">Log In</a>
+                                    </li>
+                                    <li><a href="javascript:void(0);" id="showmenu2" onclick="showMenu('menu1','nav-profile-tab')" class="sign_btn_new new_remove">Sign Up</a></li>
+                                    <li><a href="javascript:void(0);" id="showmenu3" onclick="showMenu('menu3')" class="right_arrow_img new_remove"><img src="{{asset('alltalent_v1/images/right-arrow.png')}}"></a></li>
+                                </ul>
+                            @endif
                         </div>
                     </div>
                 </div>
@@ -106,7 +117,7 @@
                                             <span class="checkmark"></span>
                                         </label>
                                     </div>
-                                    <a href="/password/reset" class="frgt_pass">Forgot your password?</a>
+                                    <a href="javascript:void(0)" onclick="openOtpModal('menu1','forgot-password-popup')" class="frgt_pass">Forgot your password?</a>
                                 </div>
                                 <p class="terms_cond_sec_new">By signing in, you agree to All Talent <a href="#"> Terms and Conditions & Privacy Policy.</a></p>
                                 <h6 class="new_or_sec">OR</h6>
@@ -125,9 +136,19 @@
                             <form id="registration-form">
                                 @csrf
                                 <div class="tab_inner_cont_des_input new_ipad_hm">
-                                    <div class="tab_inner_cont_des_input_single">
+                                    <!-- <div class="tab_inner_cont_des_input_single">
                                         <i class="fas fa-user-circle"></i>
                                         <input type="text" name="name" placeholder="Name" required="required">
+                                    </div> -->
+                                    <div class="signup_grid_2">
+                                        <div class="tab_inner_cont_des_input_single">
+                                            <i class="fas fa-user-circle"></i>
+                                            <input type="text" name="first_name" placeholder="First Name">
+                                        </div>
+                                        <div class="tab_inner_cont_des_input_single">
+                                            <i class="fas fa-user-circle"></i>
+                                            <input type="text" name="last_name" placeholder="Last Name">
+                                        </div>
                                     </div>
                                     <hr class="spacer20px">
                                     <div class="tab_inner_cont_des_input_single">
@@ -146,22 +167,22 @@
                                     <div class="tab_inner_cont_des_input_single_grid_resend">
                                         <div class="tab_inner_cont_des_input_single_otp_sec">
                                             <div class="otp_single_sec">
-                                                <input type="text" name="user_otp[]" class="otp-input" maxlength="1" required="required" placeholder="*">
+                                                <input type="text" name="user_otp[]" class="otp-input-new" maxlength="1" required="required" placeholder="*">
                                             </div>
                                             <div class="otp_single_sec">
-                                                <input type="text" name="user_otp[]" class="otp-input" maxlength="1" required="required" placeholder="*">
+                                                <input type="text" name="user_otp[]" class="otp-input-new" maxlength="1" required="required" placeholder="*">
                                             </div>
                                             <div class="otp_single_sec">
-                                                <input type="text" name="user_otp[]" class="otp-input" maxlength="1" required="required" placeholder="*">
+                                                <input type="text" name="user_otp[]" class="otp-input-new" maxlength="1" required="required" placeholder="*">
                                             </div>
                                             <div class="otp_single_sec">
-                                                <input type="text" name="user_otp[]" class="otp-input" maxlength="1" required="required" placeholder="*">
+                                                <input type="text" name="user_otp[]" class="otp-input-new" maxlength="1" required="required" placeholder="*">
                                             </div>
                                             <div class="otp_single_sec">
-                                                <input type="text" name="user_otp[]" class="otp-input" maxlength="1" required="required" placeholder="*">
+                                                <input type="text" name="user_otp[]" class="otp-input-new" maxlength="1" required="required" placeholder="*">
                                             </div>
                                             <div class="otp_single_sec">
-                                                <input type="text" name="user_otp[]" class="otp-input" maxlength="1" required="required" placeholder="*">
+                                                <input type="text" name="user_otp[]" class="otp-input-new" maxlength="1" required="required" placeholder="*">
                                             </div>
                                         </div>
                                         <input type="button" name="" value="Resend OTP" onclick="return getOtp()" class="resend_otp_new">
@@ -191,6 +212,13 @@
                 </a>
             </div>
             <ul>
+                @if (!empty(Auth::user()->role_id) && Auth::user()->role_id == 5)
+                    <li><a href="{{route('talent.profile',['slug'=>auth()->user()->slug])}}"><span><img src="{{asset('alltalent_v1/images/icn-user.png')}}">Profile</span><i class="fas fa-chevron-right"></i></a></li>
+                    <li><a href="{{route('talent.settings')}}"><span><img src="{{asset('alltalent_v1/images/icn-user-settings.png')}}">Settings</span><i class="fas fa-chevron-right"></i></a></li>
+                @elseif (!empty(Auth::user()->role_id) && Auth::user()->role_id == 7)
+                    <li><a href="{{route('client.dashboard')}}"><span><img src="{{asset('alltalent_v1/images/icn-dashbord.png')}}">Dashboard</span><i class="fas fa-chevron-right"></i></a></li>
+                    <li><a href="{{route('client.profile.settings')}}"><span><img src="{{asset('alltalent_v1/images/icn-user-settings.png')}}">Profile Settings</span><i class="fas fa-chevron-right"></i></a></li>
+                @endif
                 <!-- <li><a href="#"><span><img src="{{asset('alltalent_v1/images/icn-new-1.png')}}">Log In/Sign Up</span><i class="fas fa-chevron-right"></i></a></li> -->
                 <li><a href="{{route('about-us')}}"><span><img src="{{asset('alltalent_v1/images/icn-new-3.png')}}">About Us</span><i class="fas fa-chevron-right"></i></a></li>
                 <li><a href="{{route('job.list')}}"><span><img src="{{asset('alltalent_v1/images/icn-new-5.png')}}">Jobs</span><i class="fas fa-chevron-right"></i></a></li>
@@ -209,17 +237,17 @@
         <div class="about_company_sec">
             <button type="button" class="close_btn" onclick="hideMenu('menu4');">CLOSE<i class="far fa-times"></i></button>
             <ul class="compny_list">
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Contact Us</a></li>
-                <li><a href="#">Career</a></li>
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="#">Terms & Conditions</a></li>
-                <li><a href="#">Return Policy</a></li>
+                <li><a href="{{route('about-us')}}">About Us</a></li>
+                <li><a href="{{route('frontend.contactus')}}">Contact Us</a></li>
+                <!-- <li><a href="#">Career</a></li> -->
+                <li><a href="{{route('privacy.policy')}}">Privacy Policy</a></li>
+                <li><a href="{{route('privacy.termofuse')}}">Terms & Conditions</a></li>
+                
             </ul>
             <hr class="spacer30px">
             <ul class="about_comp_social">
-                <li><a href="#"><img src="{{asset('alltalent_v1/images/insta-new.png')}}"></a></li>
-                <li><a href="#"><img src="{{asset('alltalent_v1/images/fb-new.png')}}"></a></li>
+                <li><a href="https://www.instagram.com/alltalentagency/"><img src="{{asset('alltalent_v1/images/insta-new.png')}}"></a></li>
+                <li><a href="https://www.facebook.com/alltalentagency"><img src="{{asset('alltalent_v1/images/fb-new.png')}}"></a></li>
             </ul>
         </div>
     </div>
@@ -254,7 +282,7 @@
                             <div class="tab_inner_cont_des_input_single" id="login-with-mobile">
                                 <!-- <input type="tel" id="mobile_number1" class="" name="mobile_number1" value="" placeholder="Enter Mobile Number" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" maxlength="10"> -->
                                 <input type="tel" name="contact_no" value="{{ helper::getCountryCode() }}" class="country_cont"
-                                id="mobile_number1" placeholder="Enter Mobile No." oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" maxlength="10">
+                                id="" placeholder="Enter Mobile No.">
                                 <button type="button" class="verify_btn_new get_otp" id="send_otp" onclick="return sendOtp()">Get OTP</button>
                             </div>
                             <div class="tab_inner_cont_des_input_single" id="login-with-email">
@@ -270,8 +298,40 @@
                         </div>
                     </form>
                     <span id="timer_login"></span>
-                    <a href="javascript:void(0)" class="resend_otp" onclick="return sendOtp()">Resend OTP</a>
+                    <a href="javascript:void(0)" class="resend_otp" onclick="return sendOtp()" style="display:none">Resend OTP</a>
                     <input type="button" name="send_otp" id="login_with_otp_btn" class="sign_btn_linear" value="SIGN IN"  onclick="return LoginWithOtp()" />
+                    <h6 class="new_or_sec">OR</h6>
+                    <hr class="spacer30px">
+                    <a href="#" class="login_button"><img src="{{asset('alltalent_v1/images/login_btn.svg')}}"> Login with Password</a>
+                    <hr class="spacer30px">
+                    <p class="sign_up_here_btn">Don't have an All Talent account ? <a href="javascript:void(0);" onclick="showMenu('menu1','nav-profile-tab')">Signup here</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="forgot-password-popup menu_hide" style="display: none;">
+        <div class="login_sign_new_menu_sec">
+            <div class="login_sign_new_menu_sec_single">
+                <div class="login_sign_new_menu_sec_single_top">
+                    <a href="javascript:void(0);" onclick="hideMenu('login-with-otp-popup');">
+                        <i class="far fa-times"></i>
+                    </a>
+                    <div class="login_sign_new_menu_sec_single_top_tab"></div>
+                </div>
+                <hr class="spacer10px">
+                <div class="tab_inner_cont_des tab_cont_sec_new">
+                    <h3>Reset Password</h3>
+                    <form id="forgot-password-form" method="POST" action="{{ route('password.email') }}">
+                        @csrf
+                        <div class="tab_inner_cont_des_input">
+                            <div class="tab_inner_cont_des_input_single">
+                                <i class="fas fa-envelope"></i>
+                                <input type="text" id="forgor_password_email" type="email" class="@error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" autocomplete="email" autofocus placeholder="Email">
+                            </div>
+                        </div>
+                        <span class="error-msg-ajax"></span>
+                        <input type="button" name="send_otp" onclick="forgotPassword()" id="login_with_otp_btn" class="sign_btn_linear" value="Send Reset Link"/>
+                    </form>
                     <h6 class="new_or_sec">OR</h6>
                     <hr class="spacer30px">
                     <a href="#" class="login_button"><img src="{{asset('alltalent_v1/images/login_btn.svg')}}"> Login with Password</a>
@@ -308,26 +368,37 @@
 <script src="{{asset('js/login-with-otp.js')}}"></script>
 <script src="{{asset('js/frontend/auth/signup.js')}}"></script>
 
-
-<script type="text/javascript">
-/*-------------------------------------
-    OTP Form (Focusing on next input)
-    -------------------------------------*/
-    $(".otp-input").keyup(function () {
-        
-        if (this.value.length == this.maxLength) {
-            //alert($(this).next('.otp-input').val());
-            $(this).next('.otp-input').focus();
+<script>
+    function forgotPassword(){
+        const email = $('#forgor_password_email').val();
+        if(email!=''){
+            var pattern = /^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/;
+            if (pattern.test(email)) {
+                $.ajax({
+                    url : '{{route("check-email-exist")}}',
+                    type : 'POST',
+                    data: {
+                        _token: "{{ csrf_token() }}",
+                        email : email
+                    },
+                    success: function(data) {
+                        if(data==1){
+                            $("#forgot-password-form").submit();
+                        }else{
+                            $('.error-msg-ajax').html('Sorry this email id is not registred with us.');
+                            $('#forgor_password_email').focus();
+                        }
+                    }
+                });
+            }else{
+                $('.error-msg-ajax').html('Please enter a valid email');
+                $('#forgor_password_email').focus();
+            }
+        }else{
+            $('.error-msg-ajax').html('Email Id is required.');
+            $('#forgor_password_email').focus();
         }
-    });
+    }
 
     
-</script>
-
-
-<script> 
-var vids = $("video"); 
-$.each(vids, function(){
-       this.controls = false; 
-}); 
 </script>
