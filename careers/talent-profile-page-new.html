@@ -37,6 +37,8 @@
 <script src="js/jquery.mousewheel.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/2.1.11/jquery.mixitup.min.js"></script>
 
+
+
 </head>
 <body class="inner_body">
 
@@ -761,6 +763,42 @@
                                                             </ul>
                                                         </div>
                                                     </div>
+                                                    <div class="recomm_jobs_body_single_new">
+                                                        <ul>
+                                                            <li>Job ID: <span>762183</span></li>
+                                                            <li>Job Expiry Date: <span>20th May 2021</span></li>
+                                                        </ul>
+                                                        <h6>Male Actor for Web Series for Netflix</h6>
+                                                        <ul>
+                                                            <li>Project Type: <span>Web Series</span></li>
+                                                            <li>Job Type: <span>Remote Job</span></li>
+                                                            <li>Age Range: <span>20-25</span></li>
+                                                        </ul>
+                                                        <ul>
+                                                            <li><i class="fas fa-map-marker-alt"></i> Mumbai, Maharashtra,India</li>
+                                                            <li>Required: <span>Actor | Movie</span></li>
+                                                            <li>Gender: <span>Male</span></li>
+                                                        </ul>
+                                                        <ul>
+                                                            <li>Talent Payment: <span class="new_tal_pay_new">₹10,000</span></li>
+                                                            <li>Audition Required: <span>No</span></li>
+                                                        </ul>
+                                                        <ul class="vac_sec_list">
+                                                            <li>Vacancies: 15</li>
+                                                            <li>Applied: 50</li>
+                                                            <li>Shortlisted: 12</li>
+                                                        </ul>
+                                                        <div class="job_list_body_right_body_single_btn_new">
+                                                            <ul>
+                                                                <li>
+                                                                    <a href="#" class="apply_now_new_sec" data-toggle="modal" data-target="#add_lang_new_popup"><img src="images/apply-now.svg" alt="" title="">Apply Now</a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="#" class="view_details_new_sec" data-toggle="modal" data-target="#"><img src="images/view-details.svg" alt="" title="">View Details</a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -1423,6 +1461,44 @@
     </div>
 </div>
 
+<div class="add_lang_new_popup_sec">
+    <div id="add_lang_new_popup" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal"><img src="images/close-btn.svg"></button>
+                    <div class="add_lang_new_popup_sec_inner">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-3">
+                                <div class="add_lang_new_popup_sec_inner_left">
+                                    <div class="add_lang_new_popup_sec_inner_left_top">
+                                        <img src="images/lang-img.jpg" class="lang_img_main">
+                                        <h6>Rakesh Jhunjhunwala</h6>
+                                        <p><img src="images/location-img.png" class="location_img"> Mumbai, Maharashtra, India</p>
+                                    </div>
+                                    <div class="add_lang_new_popup_sec_inner_left_bottom">
+                                        <img src="images/add-lang-img.png">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-9 col-md-9">
+                                <div class="add_lang_new_popup_sec_inner_right">
+                                    <div class="add_lang_new_popup_sec_inner_right_blue">
+                                        <h6>Languages:</h6>
+                                        <ul>
+                                            <li>English</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <div class="talent_pic_popup_sec">
     <div id="talent_pic_popup" class="modal fade" role="dialog">
         <div class="modal-dialog">
@@ -1432,9 +1508,18 @@
                     <div class="talent_pic_popup_sec_inner">
                         <div class="row">
                             <div class="col-lg-3 col-md-3">
-                                <div class="talent_pic_popup_sec_inner_left">
+                                <div class="talent_pic_popup_sec_inner_left owl-carousel" id="pic_slide">
                                     <div class="talent_pic_popup_sec_inner_left_single">
                                         <img src="images/pic-left-1.png">
+                                    </div>
+                                    <div class="talent_pic_popup_sec_inner_left_single">
+                                        <img src="images/pic-left-2.png">
+                                    </div>
+                                    <div class="talent_pic_popup_sec_inner_left_single">
+                                        <img src="images/pic-left-3.png">
+                                    </div>
+                                    <div class="talent_pic_popup_sec_inner_left_single">
+                                        <img src="images/pic-left-4.png">
                                     </div>
                                 </div>
                             </div>
@@ -1481,6 +1566,42 @@
         </div>
     </div>
 </div>
+
+<script>
+    jQuery("#pic_slide").owlCarousel({
+        loop: true,
+        margin:5,
+        responsiveClass: true,
+        autoplay:false,
+        startPosition: 0,
+        navRewind : true,
+        autoplayHoverPause:true,
+        autoHeight: true,
+        mouseDrag: true,
+        touchDrag: true,
+        smartSpeed: 1000,
+        nav: true,
+        dots:false,
+        responsive: {
+            0: {
+                items: 1
+            },
+
+            600: {
+                items: 1
+            },
+
+            1024: {
+                items: 1
+            },
+
+            1366: {
+                items: 1
+            }
+        }
+    });
+</script>
+
 
 <div class="short_list_popup_sec">
     <div id="short_list_popup" class="modal right fade" role="dialog">
