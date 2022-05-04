@@ -39,11 +39,8 @@
 <body class="inner_body hm_body">
 
 <section class="home_sec_banner">
-    <!-- <video id="myVideo" autoplay="true" loop="true" controls="false" muted="" preload="none"> 
-        <source src="{{asset('alltalent_v1/images/hm-video1.mp4')}}" type="video/mp4">
-    </video> -->
-    <video id="myVideo" autoplay="true" loop="true" controls="false" muted="" preload="none">
-        <source src="images/hm-video.mp4" type="video/mp4"></source>
+    <video id="myVideo" autoplay="true" loop="true" controls="false" muted="" playsinline="" preload="metadata" data-wf-ignore="true" data-object-fit="cover" autobuffer="">
+        <source src="https://www.alltalent.com/alltalent_v1/images/new-updated-new.mp4" type="video/mp4" data-wf-ignore="true">
     </video>
     <div class="home_sec_banner_cont_new">
         <div class="container-fluid">
@@ -52,17 +49,17 @@
                     <div class="home_sec_banner_cont_new_inner_logo">
                         <div class="hm_sec_logo_sec">
                             <a href="#">
-                                <img src="images/logo.png" alt="" title="">
+                                <img src="https://www.alltalent.com/alltalent_v1/images/logo.png" alt="" title="">
                             </a>
                         </div>
                         <div class="home_sec_banner_cont_right">
-                            <ul>
-                                <li>
-                                    <a href="javascript:void(0);" id="showmenu1" onclick="showMenu('menu1')" class="login_btn_new new_remove">Log In</a>
-                                </li>
-                                <li><a href="javascript:void(0);" id="showmenu2" onclick="showMenu('menu2')" class="sign_btn_new new_remove">Sign Up</a></li>
-                                <li><a href="javascript:void(0);" id="showmenu3" onclick="showMenu('menu3')" class="right_arrow_img new_remove"><img src="images/right-arrow.png"></a></li>
-                            </ul>
+                                <ul>
+                                    <li>
+                                        <a href="javascript:void(0);" id="showmenu1" onclick="showMenu('menu1','nav-home-tab')" class="login_btn_new new_remove" style="display: block;">Log In</a>
+                                    </li>
+                                    <li><a href="javascript:void(0);" id="showmenu2" onclick="showMenu('menu1','nav-profile-tab')" class="sign_btn_new new_remove" style="display: block;">Sign Up</a></li>
+                                    <li><a href="javascript:void(0);" id="showmenu3" onclick="showMenu('menu3')" class="right_arrow_img new_remove" style="display: block;"><img src="https://www.alltalent.com/alltalent_v1/images/right-arrow.png" alt=""></a></li>
+                                </ul>
                         </div>
                     </div>
                 </div>
@@ -76,8 +73,8 @@
                     <div class="hm_banner_main_cont_sec">
                         <h1>Got Talent?<br> Get Discovered!</h1>
                         <div class="hm_banner_main_cont_sec_btn">
-                            <a href="#" class="simple_btn_black">Explore New Jobs</a>
-                            <a href="#" class="simple_btn">Explore New Jobs</a>
+                            <a href="https://www.alltalent.com/jobs" class="simple_btn_black">Explore New Jobs</a>
+                            <a href="https://www.alltalent.com/jobs" class="simple_btn">Explore New Jobs</a>
                         </div>
                     </div>
                 </div>
@@ -89,7 +86,7 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12">
                     <div class="home_sec_banner_cont_new_right_inner">
-                        <a href="javascript:void(0);" class="new_remove" id="showmenu4" onclick="showMenu('menu4')">
+                        <a href="javascript:void(0);" class="new_remove" id="showmenu4" onclick="showMenu('menu4')" style="display: block;">
                             <h3>ABOUT COMPANY</h3>
                         </a>
                     </div>
@@ -354,17 +351,17 @@
         <div class="about_company_sec">
             <button type="button" class="close_btn" onclick="hideMenu('menu4');">CLOSE<i class="far fa-times"></i></button>
             <ul class="compny_list">
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Contact Us</a></li>
-                <li><a href="#">Career</a></li>
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="#">Terms & Conditions</a></li>
-                <li><a href="#">Return Policy</a></li>
+                <li><a href="https://www.alltalent.com/about-us">About Us</a></li>
+                <li><a href="https://www.alltalent.com/contact">Contact Us</a></li>
+                <!-- <li><a href="#">Career</a></li> -->
+                <li><a href="https://www.alltalent.com/privacy-policy">Privacy Policy</a></li>
+                <li><a href="https://www.alltalent.com/terms-of-use">Terms &amp; Conditions</a></li>
+                
             </ul>
             <hr class="spacer30px">
             <ul class="about_comp_social">
-                <li><a href="#"><img src="images/insta-new.png"></a></li>
-                <li><a href="#"><img src="images/fb-new.png"></a></li>
+                <li><a href="https://www.instagram.com/alltalentagency/"><img src="https://www.alltalent.com/alltalent_v1/images/insta-new.png" alt=""></a></li>
+                <li><a href="https://www.facebook.com/alltalentagency"><img src="https://www.alltalent.com/alltalent_v1/images/fb-new.png" alt=""></a></li>
             </ul>
         </div>
     </div>
@@ -382,34 +379,74 @@
                 <hr class="spacer10px">
                 <div class="tab_inner_cont_des tab_cont_sec_new">
                     <h3>Log In with OTP</h3>
-                    <div class="tab_inner_cont_des_input">
-                        <div class="tab_inner_cont_des_input_single">
-                            <div class="custom_new_select">
-                                <select>
-                                    <option value="0">Mobile No</option>
-                                    <option value="1">Email</option>
-                                    <option value="2">Mobile No</option>
-                                </select>
+                    <form id="send_otp_form" class="hide">
+                        <input type="hidden" name="_token" value="nhQvFrrmO9bEGr7qHPRQpPjicgFbo4TMlATLnTgQ">                        <div class="tab_inner_cont_des_input">
+                            <div class="tab_inner_cont_des_input_single">
+                                <div class="custom_new_select">
+                                    <select id="choose-login-select">
+                                        <option value="mobile">Mobile No</option>
+                                        <option value="email">Email</option>
+                                        <option value="mobile">Mobile No</option>
+                                    </select>
+                                <div class="select-selected">Mobile No</div><div class="select-items select-hide"><div>Email</div><div>Mobile No</div></div></div>
+                                <input type="hidden" id="choose-login" name="medium" value="mobile">
+                            </div>
+                            <hr class="spacer20px">
+                            <div class="tab_inner_cont_des_input_single" id="login-with-mobile">
+                                <input type="tel" id="mobile_number1" class="" name="mobile_number1" value="" placeholder="Enter Mobile Number" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" maxlength="10">
+                                <button type="button" class="verify_btn_new get_otp" id="send_otp" onclick="return sendOtp()">Get OTP</button>
+                            </div>
+                            <div class="tab_inner_cont_des_input_single" id="login-with-email" style="display: none;">
+                                <i class="fas fa-envelope"></i>
+                                <input type="text" name="email" id="your_name" placeholder="Enter Email" value="" required="">
+                                <button type="button" class="verify_btn_new get_otp" id="send_otp" onclick="return sendOtp()">Get OTP</button>
+                            </div>
+                            <hr class="spacer20px">
+                            <div class="tab_inner_cont_des_input_single">
+                                <img src="https://www.alltalent.com/alltalent_v1/images/otp-btn-img.svg" alt="">
+                                <input type="text" name="user_otp_login" placeholder="OTP">
                             </div>
                         </div>
-                        <hr class="spacer20px">
-                        <div class="tab_inner_cont_des_input_single">
-                            <input type="tel" id="mobile_number1" class="" name="mobile_number1" value="" placeholder="Enter Mobile Number" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" maxlength="10">
-                            <button type="button" class="verify_btn_new">Get OTP</button>
-                        </div>
-                        <hr class="spacer20px">
-                        <div class="tab_inner_cont_des_input_single">
-                            <img src="images/otp-btn-img.svg">
-                            <input type="password" name="" placeholder="OTP">
-                        </div>
-                    </div>
-                    <a href="#" class="resend_otp">Resend OTP</a>
-                    <button type="button" class="sign_btn_linear">SIGN IN</button>
+                    </form>
+                    <span id="timer_login"></span>
+                    <a href="javascript:void(0)" class="resend_otp" onclick="return sendOtp()" style="display:none">Resend OTP</a>
+                    <input type="button" name="send_otp" id="login_with_otp_btn" class="sign_btn_linear" value="SIGN IN" onclick="return LoginWithOtp()">
                     <h6 class="new_or_sec">OR</h6>
                     <hr class="spacer30px">
-                    <a href="#" class="login_button"><img src="images/login_btn.svg"> Login with Password</a>
+                    <a href="#" class="login_button"><img src="https://www.alltalent.com/alltalent_v1/images/login_btn.svg" alt=""> Login with Password</a>
                     <hr class="spacer30px">
-                    <p class="sign_up_here_btn">Don't have an All Talent account ? <a href="#">Signup here</a></p>
+                    <p class="sign_up_here_btn">Don't have an All Talent account ? <a href="javascript:void(0);" onclick="showMenu('menu1','nav-profile-tab')">Signup here</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="forgot-password-popup menu_hide" style="display: none;">
+        <div class="login_sign_new_menu_sec">
+            <div class="login_sign_new_menu_sec_single">
+                <div class="login_sign_new_menu_sec_single_top">
+                    <a href="javascript:void(0);" onclick="hideMenu('login-with-otp-popup');">
+                        <i class="far fa-times"></i>
+                    </a>
+                    <div class="login_sign_new_menu_sec_single_top_tab"></div>
+                </div>
+                <hr class="spacer10px">
+                <div class="tab_inner_cont_des tab_cont_sec_new">
+                    <h3>Reset Password</h3>
+                    <form id="forgot-password-form" method="POST" action="https://www.alltalent.com/password/email">
+                        <input type="hidden" name="_token" value="nhQvFrrmO9bEGr7qHPRQpPjicgFbo4TMlATLnTgQ">                        <div class="tab_inner_cont_des_input">
+                            <div class="tab_inner_cont_des_input_single">
+                                <i class="fas fa-envelope"></i>
+                                <input type="text" id="forgor_password_email" class="" name="email" value="" autocomplete="email" autofocus="" placeholder="Email">
+                            </div>
+                        </div>
+                        <span class="error-msg-ajax"></span>
+                        <input type="button" name="send_otp" onclick="forgotPassword()" id="login_with_otp_btn" class="sign_btn_linear" value="Send Reset Link">
+                    </form>
+                    <h6 class="new_or_sec">OR</h6>
+                    <hr class="spacer30px">
+                    <a href="#" class="login_button"><img src="https://www.alltalent.com/alltalent_v1/images/login_btn.svg" alt=""> Login with Password</a>
+                    <hr class="spacer30px">
+                    <p class="sign_up_here_btn">Don't have an All Talent account ? <a href="javascript:void(0);" onclick="showMenu('menu1','nav-profile-tab')">Signup here</a></p>
                 </div>
             </div>
         </div>
@@ -417,23 +454,23 @@
     <div class="mob_head">  
         <div class="gee_mobile">
           <button class="gee_hamburger"><i class="fas fa-align-right"></i></button>
-          <button class="gee_cross">&#735;</button>
+          <button class="gee_cross" style="display: none;">˟</button>
         </div>
     </div>
-    <div class="gee_menu">
+    <div class="gee_menu" style="display: none;">
         <ul>
             <li><a href="javascript:void(0);" id="showmenu5" onclick="showMenu('menu1')">Login/Sign Up<i class="fas fa-sign-in"></i></a></li>
-            <li><a href="#">Home<i class="fas fa-home"></i></a></li>
-            <li><a href="#">About us<i class="fas fa-address-card"></i></a></li>
-            <li><a href="#">Contact Us<i class="fas fa-address-book"></i></a></li>
-            <li><a href="#">Career<i class="fas fa-scarecrow"></i></a></li>
-            <li><a href="#">Privacy Policy<i class="fas fa-key"></i></a></li>
-            <li><a href="#">Terms & Conditions<i class="fas fa-code-commit"></i></a></li>
-            <li><a href="#">Return Policy<i class="fas fa-user-shield"></i></a></li>
-            <li><a href="#">jobs<i class="fas fa-user-md"></i></a></li>
-            <li><a href="#">Success<i class="fas fa-badge-check"></i></a></li>
-            <li><a href="#">Services<i class="fas fa-concierge-bell"></i></a></li>
-            <li><a href="#">Blog<i class="fas fa-blog"></i></a></li>
+            <li><a href="https://www.alltalent.com">Home<i class="fas fa-home"></i></a></li>
+            <li><a href="https://www.alltalent.com/about-us">About us<i class="fas fa-address-card"></i></a></li>
+            <li><a href="https://www.alltalent.com/contact">Contact Us<i class="fas fa-address-book"></i></a></li>
+            <!-- <li><a href="#">Career<i class="fas fa-scarecrow"></i></a></li> -->
+            <li><a href="https://www.alltalent.com/privacy-policy">Privacy Policy<i class="fas fa-key"></i></a></li>
+            <li><a href="https://www.alltalent.com/terms-of-use">Terms &amp; Conditions<i class="fas fa-code-commit"></i></a></li>
+            <!-- <li><a href="#">Return Policy<i class="fas fa-user-shield"></i></a></li> -->
+            <li><a href="https://www.alltalent.com/jobs">jobs<i class="fas fa-user-md"></i></a></li>
+            <li><a href="https://www.alltalent.com/success-stories">Success<i class="fas fa-badge-check"></i></a></li>
+            <!-- <li><a href="#">Services<i class="fas fa-concierge-bell"></i></a></li>
+            <li><a href="#">Blog<i class="fas fa-blog"></i></a></li> -->
         </ul>
     </div>
 </section>
@@ -457,6 +494,61 @@
     </div>
 </section>
 
+<section class="influencer_sec_main">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12 col-md-12">
+                <div class="featured_jobs_sec_head">
+                    <h2>Influencer Marketing made easy!</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris semper diam at massa porta, at tincidunt leo efficitur.</p>
+                </div>
+                <div class="influencer_sec_main_sec">
+                    <div class="row mt_top_50">
+                        <div class="col-lg-6 col-md-6">
+                            <div class="influencer_sec_main_sec_left">
+                                <h1>Influencer Jobs</h1>
+                                <p>Is your content always creative, trending and aesthetic? Are your followers constantly asking for product suggestions? Then influencer marketing is the role for you! Get a chance to work with the best brands!</p>
+                                <button type="button" class="btns_all_hm"><span><img src="images/influ.png"></span> Sign up as an Influencer now!</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="influencer_sec_main_sec_right">
+                                <img src="images/influencer-img-1.png">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt_top_30">
+                        <div class="col-lg-6 col-md-6">
+                            <div class="influencer_sec_main_sec_right">
+                                <img src="images/influencer-img.png">
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="influencer_sec_main_sec_left">
+                                <h1>My Brand Needs an Influencer!</h1>
+                                <p>Want your brand to find its target audience through influencers? Join the All Talent network and browse through hundreds of Instagram influencers, vloggers, journalists and PR specialists.</p>
+                                <button type="button" class="btns_all_hm"><span><img src="images/influ.png"></span> Hire an Influencer</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <div class="influencer_sec_main_sec_left">
+                                <h1>My Brand Needs an Influencer!</h1>
+                                <button type="button" class="btns_all_hm"><span><img src="images/influ.png"></span> Apply Now</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="influencer_sec_main_sec_right">
+                                <img src="images/influencer-img-2.png">
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 <section class="featured_jobs_sec">
     <div class="container-fluid">
@@ -623,7 +715,7 @@
                     <div class="popular_talent_new_cate_single">
                         <a href="#">
                             <div class="popular_talent_new_cate_single_img">
-                                <img src="images/actor-img.png" alt="" title="">
+                                <img src="images/child-img.png" alt="" title="">
                                 <div class="popular_talent_new_cate_single_img_cont">
                                     <p>Child Artists</p>
                                 </div>
@@ -883,6 +975,43 @@
         </div>
     </div>
 </footer>
+
+
+<script>
+    jQuery("#influence_slide").owlCarousel({
+        loop: true,
+        margin:0,
+        responsiveClass: true,
+        // animateOut: 'fadeOut',
+        // animateIn: 'fadeIn',
+        autoplay:true,
+        // autoplayTimeout:500,
+        autoplayHoverPause:false,
+        autoHeight: true,
+        mouseDrag: true,
+        touchDrag: true,
+        smartSpeed: 1000,
+        nav: false,
+        dots:false,
+        responsive: {
+            0: {
+                items: 1
+            },
+
+            600: {
+                items: 1
+            },
+
+            1024: {
+                items: 1
+            },
+
+            1366: {
+                items: 1
+            }
+        }
+    });
+</script>
 
 <script type="text/javascript">
     $(".toggle-password,.toggle-password1").click(function() {
