@@ -6,7 +6,6 @@
 }
 
 
-
 @media only screen and (min-width:1801px) and (max-width:1900px) {
 .head_sec_left_inner h1{font-size: 55px;}
 .head_sec_left_inner p{font-size: 20px;}
@@ -780,16 +779,78 @@
 .talent_setting_input_display_update #mobile_number1{width: 96% !important;}
 
 .filter_sec_desk{display: none;}
-.new_right_body { padding-right: 0;margin-right: 0;max-height: inherit;}
+.new_right_body { *padding-right: 0;*margin-right: 0;*max-height: inherit;}
 .filter_btn_sec{display: block;}
 .new_sort_sec a:last-child {width: 50%;}
 .sticky{position: relative !important;top: 0 !important;}
 .view_details_pop .modal.right .modal-dialog{max-width: 700px !important;
     width: 700px !important;}
 .circle_sec .circular-chart {max-width: 32%;}
-.new_padd_16 {
-    padding: 0;
-}
+.new_padd_16 {padding: 0;}
+
+.withdraw_request_receipt_info {width: 100%;}
+.withdraw_request_receipt_table{overflow-x: scroll;}
+.withdraw_request_receipt h3{font-size: 30px;}
+.withdraw_request_receipt h3 i{font-size: 25px;}
+.withdraw_request_receipt_info_double h4{font-size: 28px;}
+.withdraw_request_receipt_table table tbody tr td{padding: 22px;}
+.withdraw_request_receipt_table table tbody tr td p{font-size: 20px;}
+
+
+.talent_wallet_sec {padding: 30px 0;}
+.talent_wallet_sec_inner_left_top span i {height: 38px;width: 38px;line-height: 38px;font-size: 16px;}
+.talent_wallet_sec_inner_left_top h5 {margin: 0px 0 0 20px;font-size: 30px;}
+.talent_wallet_sec_inner_right_top h6{font-size: 30px;}
+.talent_wallet_sec_inner_left_profile {margin: 25px 0 0 0;}
+.talent_wallet_sec_inner_left_profile_cont h5 {font-size: 20px;margin: 0 0 10px 0;}
+.talent_wallet_sec_inner_left_profile_cont p{font-size: 14px;}
+.talent_wallet_sec_inner_left_profile {margin: 20px 0 0 0;}
+.talent_wallet_sec_cash {margin: 10px 0 0 0;}
+.talent_cash_new{font-size: 18px;margin: 0px 0 15px 0;}
+.add_money_wal a{font-size: 14px;padding: 8px 16px;}
+.send_mony_btn a{font-size: 12px;padding: 8px 10px;}
+.talent_wallet_sec_cash p {font-size: 22px;margin: 10px 0;}
+.talent_wallet_sec_table {margin: 15px 0 0 0;padding: 5px 10px;}
+.talent_wallet_sec_table tr td {font-size: 14px;padding: 10px 0;}
+.talent_wallet_sec_table tr:last-child td {font-size: 15px;}
+.withdraw_btn_new button {margin: 10px 0 10px 0;font-size: 16px;padding: 6px 20px;}
+.talent_wallet_sec_inner_right {padding-left: 0;}
+.talent_wallet_sec_inner_right_cont_single{padding: 10px;}
+.talent_wallet_sec_inner_right_cont_single_left span.green_btn i{font-size:25px;margin-right: 15px;}
+.talent_wallet_sec_inner_right_cont_single_left_cont h6 {font-size: 16px;margin: 0 0 5px 0;}
+.talent_wallet_sec_inner_right_cont_single_left span.blk_btn i{font-size:25px;margin-right: 15px;}
+.talent_wallet_sec_inner_right_cont_single_left span.red_btn i {font-size:25px;margin-right: 15px;}
+.talent_wallet_sec_inner_right_cont_single_right h6{font-size: 16px;}
+.talent_wallet_sec_inner_right_cont_single_right p{font-size: 10px;}
+.talent_wallet_sec_inner_right_cont {height: 520px;overflow-y: scroll;}
+.add_money_popup_sec_cont {padding: 25px;}
+#add_money .modal-dialog {max-width: 650px;}
+#send_money .modal-dialog {max-width: 650px;}
+.Withdraw_money_popup_sec .modal-dialog {max-width: 650px;}
+.avail_withdraw_pop_sec .modal-dialog {max-width: 650px;}
+.amount_request_pop_sec .modal-dialog {max-width: 650px;}
+.client_to_client_popup .modal-dialog {max-width: 600px;margin: 0px;}
+.account_add_confirm_pop_sec .modal-body {padding: 25px;}
+.account_add_confirm_pop_sec_cont img {width: 110px;}
+.account_add_confirm_pop_sec_cont h5{font-size: 20px;}
+.account_add_confirm_pop_sec .modal-dialog{max-width: 650px;}
+.avail_withdraw_pop_sec_cont{padding: 15px;}
+.avail_withdraw_pop_sec .modal-body{padding: 25px;}
+.avail_withdraw_pop_sec_cont_left h6 {font-size: 18px;margin: 0 0 25px 0;}
+.avail_withdraw_pop_sec_cont_left h5 {font-size: 32px;}
+.avail_withdraw_pop_sec_cont_left {flex: 0 0 130px;}
+.avail_withdraw_pop_sec_cont_right {margin: 0 0 0 15px;padding: 15px;}
+.under_process_sec_cont p{font-size: 15px;}
+.under_process_sec_cont{width: 170px;}
+.Withdraw_money_popup_sec_cont h4{font-size: 28px;}
+.Withdraw_money_popup_sec_cont p{font-size: 16px;}
+.my_projects_sec_right_single_btns_new ul li a {font-size: 14px;padding: 7px 15px;margin: 0 0 10px 0;}
+.green_bg {padding: 7px 25px !important;}
+.comp_list li:first-child{font-size: 40px;}
+.talent_wallet_sec_cash ul li.talent_cash_new{display: block;}
+
+
+
 
 }
 
@@ -874,19 +935,10 @@
 .job_list_body_right_body_single_vac ul{grid-template-columns: 1fr 1fr 1fr;width: 100% !important;}
 .job_list_body_right_body_single_btn ul li { padding-bottom: 20px;text-align: center;display: inline-block;}
 .view_details{text-align: center;margin: 0 auto;}
-.apply_now{margin: 0 auto;width: 120px;
-    height: 40px;
-    font-size: 12px;}
-    .apply_now img {
-    width: 30px;
-}
-.view_details{margin: 0 auto;width: 120px;
-    height: 40px;
-    font-size: 12px;}
- .view_details img {
-    width: 30px;
-}
-
+.apply_now{margin: 0 auto;width: 120px;height: 40px;font-size: 12px;}
+.apply_now img {width: 30px;}
+.view_details{margin: 0 auto;width: 120px;height: 40px;font-size: 12px;}
+ .view_details img {width: 30px;}
 .inner_menu_single h5{font-size:22px;}
 .inner_menu_single ul li{padding-bottom: 14px;}
 .inner_menu_single ul li a{font-size: 18px;}
@@ -895,7 +947,7 @@
 .inner_ftr_copy_sec_single p {font-size: 18px;margin: 0 0 15px 0;}
 .inner_ftr_copy_sec_single:last-child{text-align: center;}
 .inner_ftr_copy_sec_single:first-child{text-align: center;}
-.job_list_body_right_body{height: auto;overflow-y: inherit;max-height: initial;}
+/* .job_list_body_right_body{height: auto;overflow-y: inherit;max-height: initial;} */
 
 .inner_menu_single h5{font-size: 20px;}
 .inner_menu_single ul li{padding-bottom: 14px;}
@@ -909,12 +961,11 @@
 .inner_ftr_copy_sec_single ul li a {font-size: 17px;}
 .inner_ftr_copy_sec_single ul li {padding-left: 10px;}
 .inner_ftr_copy_sec_single ul li:last-child {padding-left: 20px;}
-
 .view_details_pop .modal.right .modal-body{padding: 20px;}
 .view_details_pop .modal.right .modal-dialog{width: 500px !important;max-width: 500px !important;height: 100%;
     overflow-y: scroll;}
 .view_details_pop .close { top: 15px; right: 15px;z-index: 1;}
-.job_list_body_right_body_single_id_new ul li { display: inline-block; padding-right: 10px; font-size: 10px;line-height: 20px;}
+.job_list_body_right_body_single_id_new ul li { display: inline-block; padding-right: 10px; font-size: 13px;line-height: 20px;}
 .job_list_body_right_body_single_btn_popup {margin: 5px 0;}
 .apply_now_popup img {width: 25px;}
 .apply_now_popup {width: 150px;height: 40px;}
@@ -988,7 +1039,7 @@
 .profile_listing_sec{margin: 20px 0 0 0;padding: 20px;}
 .tab_img_sec{ grid-template-columns: 1fr 1fr 1fr;}
 .audio_sec_single_icn{width: 60%;margin: 0 auto;}
-.new_right_body_new{padding-right: 0px;}
+.new_right_body_new{*padding-right: 0px;}
 .language_popup .modal-body{padding: 20px}
 .language_popup_right ul {grid-template-columns: 1fr 1fr 1fr;grid-gap: 10px;margin-bottom: 0px;}
 .language_popup_right ul li{text-align: center;}
@@ -1103,7 +1154,7 @@
 /*.talent_id.show {display: block !important;}*/
 
 .filter_sec_desk{display: none;}
-.new_right_body { padding-right: 0;margin-right: 0;}
+.new_right_body { *padding-right: 0;*margin-right: 0;}
 .filter_btn_sec{display: block;}
 .new_sort_sec a:last-child {width: 50%;}
 
@@ -1118,30 +1169,83 @@
 .std_pic_sec_single img {height: auto !important;}
 .forcleintsubmenu{display: block;}
 
+#success_stories #cust_append { max-width: 100%;display: grid;grid-template-columns: 1fr 1fr;grid-gap: 20px;}
+#success_stories .post h4{font-size: 20px !important;margin: 0 0 5px 0;}
+#success_stories{padding: 0px;}
+.post-content h2 {font-size: 22px !important;}
 
 
-.attendance_sheet_sec{grid-template-columns: 1fr 1fr 1fr;}
+.withdraw_request_receipt_info {width: 100%;}
+.withdraw_request_receipt_table{overflow-x: scroll;}
+.withdraw_request_receipt h3{font-size: 30px;}
+.withdraw_request_receipt h3 i{font-size: 25px;}
+.withdraw_request_receipt_info_double h4{font-size: 28px;}
+.withdraw_request_receipt_table table tbody tr td{padding: 22px;}
+.withdraw_request_receipt_table table tbody tr td p{font-size: 20px;}
+
+.talent_wallet_sec {padding: 30px 0;}
+.talent_wallet_sec_inner_left_top span i {height: 38px;width: 38px;line-height: 38px;font-size: 16px;}
+.talent_wallet_sec_inner_left_top h5 {margin: 0px 0 0 20px;font-size: 30px;}
+.talent_wallet_sec_inner_right_top h6{font-size: 30px;}
+.talent_wallet_sec_inner_left_profile {margin: 25px 0 0 0;}
+.talent_wallet_sec_inner_left_profile_cont h5 {font-size: 20px;margin: 0 0 10px 0;}
+.talent_wallet_sec_inner_left_profile_cont p{font-size: 14px;}
+.talent_wallet_sec_inner_left_profile {margin: 20px 0 0 0;}
+.talent_wallet_sec_cash {margin: 10px 0 0 0;}
+.talent_cash_new{font-size: 18px;margin: 0px 0 15px 0;}
+.add_money_wal a{font-size: 14px;padding: 8px 16px;}
+.send_mony_btn a{font-size: 12px;padding: 8px 10px;}
+.talent_wallet_sec_cash p {font-size: 22px;margin: 10px 0;}
+.talent_wallet_sec_table {margin: 15px 0 0 0;padding: 5px 10px;}
+.talent_wallet_sec_table tr td {font-size: 14px;padding: 10px 0;}
+.talent_wallet_sec_table tr:last-child td {font-size: 15px;}
+.withdraw_btn_new button {margin: 10px 0 10px 0;font-size: 16px;padding: 6px 20px;}
+.talent_wallet_sec_inner_right {padding-left: 0;}
+.talent_wallet_sec_inner_right_cont_single{padding: 10px;}
+.talent_wallet_sec_inner_right_cont_single_left span.green_btn i{font-size:25px;margin-right: 15px;}
+.talent_wallet_sec_inner_right_cont_single_left_cont h6 {font-size: 16px;margin: 0 0 5px 0;}
+.talent_wallet_sec_inner_right_cont_single_left span.blk_btn i{font-size:25px;margin-right: 15px;}
+.talent_wallet_sec_inner_right_cont_single_left span.red_btn i {font-size:25px;margin-right: 15px;}
+.talent_wallet_sec_inner_right_cont_single_right h6{font-size: 16px;}
+.talent_wallet_sec_inner_right_cont_single_right p{font-size: 10px;}
+.talent_wallet_sec_inner_right_cont {height: 520px;overflow-y: scroll;}
+.add_money_popup_sec_cont {padding: 25px;}
+#add_money .modal-dialog {max-width: 650px;}
+#send_money .modal-dialog {max-width: 650px;}
+.Withdraw_money_popup_sec .modal-dialog {max-width: 650px;}
+.avail_withdraw_pop_sec .modal-dialog {max-width: 650px;}
+.amount_request_pop_sec .modal-dialog {max-width: 650px;}
+.client_to_client_popup .modal-dialog {max-width: 600px;margin: 0px;}
+.account_add_confirm_pop_sec .modal-body {padding: 25px;}
+.account_add_confirm_pop_sec_cont img {width: 110px;}
+.account_add_confirm_pop_sec_cont h5{font-size: 20px;}
+.account_add_confirm_pop_sec .modal-dialog{max-width: 650px;}
+.avail_withdraw_pop_sec_cont{padding: 15px;}
+.avail_withdraw_pop_sec .modal-body{padding: 25px;}
+.avail_withdraw_pop_sec_cont_left h6 {font-size: 18px;margin: 0 0 25px 0;}
+.avail_withdraw_pop_sec_cont_left h5 {font-size: 32px;}
+.avail_withdraw_pop_sec_cont_left {flex: 0 0 130px;}
+.avail_withdraw_pop_sec_cont_right {margin: 0 0 0 15px;padding: 15px;}
+.under_process_sec_cont p{font-size: 15px;}
+.under_process_sec_cont{width: 170px;}
+.Withdraw_money_popup_sec_cont h4{font-size: 28px;}
+.Withdraw_money_popup_sec_cont p{font-size: 16px;}
+.my_projects_sec_right_single_btns_new ul li a {font-size: 14px;padding: 7px 15px;margin: 0 0 10px 0;}
+.green_bg {padding: 7px 25px !important;}
+.comp_list li:first-child{font-size: 40px;}
+
+
+
+
+
+
 
 
 
 }
-@media only screen and (min-width:715px) and (max-width:767px) {
-.container {width: 100%;max-width: 100%;}
-.profile_page_main .row .col-lg-3{width: 30%;}
-.profile_page_main .row .col-lg-9{width: 70%;}
-.new_left_sec_nav {grid-template-columns: 1fr 1fr 1fr;}
-	.forcleintsubmenu{display: block;}
 
-	
-
-
-}
-@media only screen and (min-width:450px) and (max-width:767px) {
-	.talent_man_msg{display: flex !important;align-items: center;}
-	.talent_man_msg p{margin: 0 !important;}
-	.forcleintsubmenu{display: block;}
-}
 @media only screen and (max-width:767px) {
+	.percentage{font-size: 12px;}
 .sticky_header {position: fixed !important;top: 0px !important; left: 0; width: 100%;background: #fff;z-index: 99;padding: 15px 0;}
 .all_head_index { position: relative; top: 0;}
 .all_head_main{display: block;}
@@ -1246,8 +1350,8 @@
 .job_list_body_right_search_sec i{font-size: 18px;}
 .view_apply{margin: 0 auto !important;}
 .view_success{margin: 0 auto !important;}
-.new_right_body { padding-right: 0; margin-right: 0;}
-.job_list_body_right_body {height: auto;overflow-y: inherit;padding-right: 0;max-height: inherit;}
+.new_right_body { *padding-right: 0; *margin-right: 0;}
+/*.job_list_body_right_body {height: auto;overflow-y: inherit;padding-right: 0;max-height: inherit;}*/
 .view_details_pop .modal.right .modal-body{padding: 25px 20px;}
 .view_details_pop .modal.right .modal-dialog{width: 290px !important;max-width: 290px !important;height:100%;
     overflow-y: scroll;}
@@ -1411,20 +1515,13 @@
 .video_popup_modal .modal-dialog {max-width: 300px;margin: 40px auto;}
 .video_popup_modal .close {right: 10px;top: -25px;font-size: 30px;}
 .drop_sec{width: 100%;}
-.click_sec {
-    left: 50%;
-    width: 10%;
-    bottom: -250px;
-}
+.click_sec {left: 50%;width: 10%;bottom: -250px;}
 .click_sec a i{font-size: 20px;}
 .lg-actions .lg-next, .lg-actions .lg-prev{top: 45%;}
 .audio_sec_single_music{padding: 0px; width: 100%;margin: 0;}
 .audio_sec_single_lyrics{width: 100%;margin: 10px 0;left: 0px;}
 .ev{font-size: 18px;}
-.audio_sec_single_icn {
-    width: 40%;
-    margin: 10px auto 10px;
-}
+.audio_sec_single_icn {width: 40%;margin: 10px auto 10px;}
 .audio_sec_single_icn img{width: 100%;}
 .profile_listing_sec {border-radius: 20px;padding: 20px 10px;}
 .recommened_job_sec {margin: 10px 0 15px 0;align-items: center;justify-content: center;text-align: center;display: block;}
@@ -1440,7 +1537,6 @@
 .job_list_body_right_body_single_btn{margin: 10px 0 0 0;}
 .apply_now {width: 100%;height: 40px;font-size: 10px;}
 .view_details{width: 100%;height: 40px;font-size: 10px;padding: 0 12px;}
-
 .apply_now img {width: 23px;}
 .view_details img{width: 23px;}
 .status_btn p {margin-bottom: 0;font-size: 12px;}
@@ -1504,7 +1600,6 @@
 .analyse_popup .modal-dialog {max-width: 90%;border-radius: 20px;margin: 50px auto;}
 .analyse_popup_check .container {padding-left: 45px;font-size: 14px;}
 .analyse_popup .modal-body {padding: 20px 15px;}
-
 .connect_pop .close{right: 35px; top: -50px;font-size: 35px;}
 .connect_pop .modal-dialog {max-width: 100%;border-radius: 20px;margin: 70px 0;}
 .connect_pop .modal-body {padding: 20px 15px;}
@@ -1547,9 +1642,7 @@
 .talent_settings_body_single_left h5{font-size: 14px;margin-bottom: 5px;}
 .talent_settings_body_single_right_show{display: block;}
 .talent_settings_body_single_right_show p {margin-bottom: 5px;font-size: 14px;}
-.talent_settings_body_single_right_show a{font-size: 14px;display: flex;
-    align-items: center;
-    justify-content: end;
+.talent_settings_body_single_right_show a{font-size: 14px;display: flex;align-items: center;justify-content: end;
     padding-top: 10px;}
 .talent_settings_body_single_right_hide{display: block;}
 .radio_btn{font-size: 14px;}
@@ -1585,7 +1678,6 @@
 .update_popup_main h6{font-size: 16px;}
 .talent_edit_sec table thead tr td.delete_text{font-size: 12px;}
 
-
 /*Talent Browsing */
 
 .client_talent_brow_bottom {grid-template-columns: 1fr; grid-gap: 10px;margin-top: 20px;}
@@ -1595,7 +1687,6 @@
 .talent_brow_cont_text ul li{font-size: 14px;}
 .talent_brow_cont_text p{font-size: 12px;}
 .talent_brow_cont_heart i{font-size: 14px;}
-
 /*talent Crop*/
 .talent_crop_sec_body{grid-template-columns: 1fr 1fr;}
 .clarify_submit {font-size: 12px;padding: 5px 15px;}
@@ -1661,11 +1752,9 @@
 .thank_you_page_main p{font-size: 25px;}
 .container-fluid { padding-left: 15px; padding-right: 15px;}
 .circle_sec .circular-chart{max-width: 30%;}
-.client_pay {
-    left: -220px !important;
-}
-.apply_now{padding: 0 10px;    height: 35px;font-size: 9px;}
-.view_details{padding: 0 10px;    height: 35px;font-size: 9px;}
+.client_pay {left: -220px !important;}
+.apply_now{padding: 0 10px;height: 35px;font-size: 9px;}
+.view_details{padding: 0 10px;height: 35px;font-size: 9px;}
 #uploadRecordVideo .close{color: #000;top: -5px;right: 10px;}
 .record_popup .modal-header .close{color: #000;top: -5px;right: 10px;}
 .audio_sec_single_music img {width: 50%;margin: 0 auto 20px;}
@@ -1693,15 +1782,259 @@
 .new_talent_sec_popup{grid-template-columns: 1fr;}
 .new_talent_sec_popup .talent_brow_cont_heart { top: 20px; right: 20px;}
 .new_talent_sec_popup{padding-right: 0px;height: auto;min-height: inherit;overflow: auto;}
+.custom-select{font-size: 12px !important;}
+#add-more-cat-subcat .fa-times{font-size: 18px !important;}
+.choices__list--multiple .choices__item {padding: 4px 8px !important;font-size: 8px !important;}
+.choices input {height: 35px !important;font-size: 10px !important;}
+.job_list_body_right_body_single_btn ul {grid-template-columns: 1fr 1fr;}
+
+
+.receipt_head {padding: 15px 0;}
+.receipt_head_main{display: block;}
+.receipt_head_main a img {flex: 0 0 100%;width: 100%;}
+.receipt_head_main p {margin: 5px 0 0 0px;text-align: center;}
+.withdraw_request_receipt {padding-top: 25px;}
+.withdraw_request_receipt h3 i{font-size: 18px;}
+.withdraw_request_receipt h3 {font-size: 20px;margin: 0 0 10px 0;text-align: left;line-height: inherit;}
+.withdraw_request_receipt h6 {font-size: 14px;margin: 0 0 15px 0;}
+.withdraw_request_receipt p {font-size: 16px;text-align: center;}
+.withdraw_request_receipt h5 {font-size: 16px;margin: 10px 0 15px 0;}
+.withdraw_request_receipt_info {grid-template-columns: 1fr;width: 100%;margin: 10px 0 10px 0;}
+.withdraw_request_receipt_info_single h4{font-size: 20px;}
+.withdraw_request_receipt_info_single h2 {font-size: 14px;margin: 0 0 10px 0;}
+.withdraw_request_receipt_info_double h4{font-size: 18px;}
+.withdraw_request_receipt_info_double p {font-size: 16px;margin: 0;}
+.withdraw_request_receipt_table table thead tr td {padding: 10px 10px 10px 20px;font-size: 14px;}
+.withdraw_request_receipt_table {margin: 20px 0 0 0;overflow-x: scroll;}
+.withdraw_request_receipt_table table tbody tr td {padding: 15px;text-align: left;}
+.withdraw_request_receipt_table table tbody tr td span{font-size: 12px;}
+.withdraw_request_receipt_table table tbody tr td p{font-size: 15px;text-align: left;}
+.copy_sec_recipt{padding: 15px 0;}
+.copy_sec_recipt p{font-size: 12px;text-align: center;}
+
+.talent_wallet_sec {padding: 25px 0;}
+.talent_wallet_sec_inner_left_top span i {height: 30px;width: 30px;line-height: 30px;font-size: 15px;}
+.talent_wallet_sec_inner_left_top h5 {margin: 0px 0 0 15px;font-size: 30px;}
+.talent_wallet_sec_inner_left_profile {margin: 25px 0 0 0;}
+.talent_wallet_sec_inner_left_profile span {width: 120px;height: 120px;}
+.talent_wallet_sec_inner_left_profile_cont h5 {font-size: 20px;margin: 0 0 5px 0;}
+.talent_wallet_sec_inner_left_profile_cont p{font-size: 14px;margin: 0px;}
+.talent_wallet_sec_inner_left_profile_cont span i{font-size: 12px;}
+.talent_wallet_sec_cash {margin: 5px 0 0 0;}
+.talent_cash_new{font-size: 16px;}
+.add_money_wal a {font-size: 12px;padding: 8px 15px;}
+.send_mony_btn a {font-size: 12px;padding: 7px 10px;}
+.talent_wallet_sec_cash ul li:first-child{display: block;margin: 0 0 15px 0;}
+.talent_wallet_sec_cash ul {margin: 0 0 12px 0;}
+.talent_wallet_sec_cash p{font-size: 20px;}
+.talent_wallet_sec_table {margin: 10px 0 0 0;padding: 5px 10px;}
+.talent_wallet_sec_table tr td {font-size: 14px;padding: 9px 0;}
+.talent_wallet_sec_table tr:last-child td {font-size: 14px;}
+.withdraw_btn_new button {margin: 5px 0 5px 0;font-size: 14px;padding: 5px 20px;}
+.talent_wallet_sec_inner_right {padding-left: 0;margin: 15px 0 0 0;}
+.talent_wallet_sec_inner_right_top h6 i{font-size: 20px;}
+.talent_wallet_sec_inner_right_top h6 {margin: 0px 0 15px 0px;font-size: 20px;}
+.talent_wallet_sec_inner_right_cont_single{padding: 15px;}
+.talent_wallet_sec_inner_right_cont_single{padding: 10px;}
+.talent_wallet_sec_inner_right_cont_single_left span.green_btn i {font-size: 22px;margin-right: 15px;}
+.talent_wallet_sec_inner_right_cont_single_left_cont h6{font-size: 13px;    margin: 0 0 5px 0;}
+.talent_wallet_sec_inner_right_cont_single_left_cont p{font-size: 9px;}
+.talent_wallet_sec_inner_right_cont_single_right h6{font-size: 12px;}
+.talent_wallet_sec_inner_right_cont_single_left span.blk_btn i{font-size: 22px;margin-right: 15px;}
+.talent_wallet_sec_inner_right_cont_single_left span.red_btn i{font-size: 22px;margin-right: 15px;}
+.talent_wallet_sec_inner_right_cont a{margin-bottom: 10px;}
+.account_add_confirm_pop_sec .modal-body {padding: 20px 10px;}
+.account_add_confirm_pop_sec .close {right: 15px;top: 20px;}
+.account_add_confirm_pop_sec .close {width: 20px;}
+.account_add_confirm_pop_sec_cont img {width: 70px;}
+.account_add_confirm_pop_sec_cont h5 {font-size: 22px;margin: 10px 0;}
+.account_add_confirm_pop_sec_cont button {font-size: 14px;padding: 8px 20px;}
+.avail_withdraw_pop_sec .modal-body {padding: 15px;}
+.avail_withdraw_pop_sec_cont {padding: 20px;margin: 40px 0 0 0;}
+.avail_withdraw_pop_sec_cont {padding: 20px;margin: 40px 0 0 0;}
+.avail_withdraw_pop_sec_cont_left h6 {font-size: 18px;margin: 0 0 25px 0;}
+.avail_withdraw_pop_sec_cont_left h5 {font-size: 32px;}
+.avail_withdraw_pop_sec_cont{display: block;padding: 15px;}
+.avail_withdraw_pop_sec_cont_right {margin: 20px 0 0 0;padding: 15px;}
+.avail_withdraw_pop_sec_cont_right h6 {font-size: 14px;padding-bottom: 5px;margin: 0px 0px 18px 0px;}
+.rs_bg_blue{font-size: 10px;}
+.avail_withdraw_pop_sec_cont_right table.new_table_wal tr td {padding: 10px 0 0 0;font-size: 10px;}
+.avail_withdraw_pop_sec_cont_right table.new_table_wal {margin: 0 0 20px 0;}
+.avail_withdraw_pop_sec_cont{padding: 15px;}
+.sec_table_brdr{overflow-x: scroll;}
+.bank_change_drop button{font-size: 8px;}
+.sec_table_brdr tr td {padding-top: 10px;}
+.change_class{font-size: 8px;}
+.withdraw_money_btn_wal button {width: 100%;height: 40px;font-size: 14px;border-radius: 5px;}
+.withdraw_money_btn_wal {margin: 25px 0 15px 0;}
+.bank_change_drop_cont a {font-size: 10px;padding: 5px 0;}
+.avail_withdraw_pop_sec_cont_right table.new_table_wal tr td .fa-info-circle{font-size: 10px;}
+.under_process_sec_cont{width: 180px;}
+.under_process_sec_cont p{font-size: 14px;}
+.amount_request_pop_sec .modal-body {padding: 20px;}
+.amount_request_pop_sec .close {position: relative; right: 0; top: 0;}
+.amount_request_pop_sec_cont span h4 {flex: 0 0 150px;font-size: 16px;}
+.amount_request_pop_sec_cont span img {width: 25px;margin: 0 0 0 10px;}
+.amount_request_pop_sec_cont h5 {font-size: 15px; margin: 0 0 12px 0;}
+.amount_request_transaction_det {padding: 15px;}
+.amount_request_transaction_det h6 {font-size: 20px;margin: 0 0 5px 0;}
+.withdraw_list {margin: 0 0 12px 0;}
+.withdraw_list li{font-size: 14px;}
+.amount_request_transaction_det_inner_single h6{font-size: 14px;}
+.amount_request_transaction_det_inner_single p {font-size: 12px;margin: 0 0 15px 0;}
+.amount_req_btns li {margin: 0 10px 0 0;}
+.download_copy {font-size: 12px;padding: 10px 22px;}
+.need_help_btn {font-size: 14px;}
+.my_projects_sec_right_single_btns_new ul li a {font-size: 10px;padding: 7px 15px;margin: 3px;}
+.my_projects_sec_right_single_btns_new ul li span{font-size: 12px;}
+.green_bg {padding: 7px 25px !important;}
+.client_to_client_popup .modal-dialog {max-width: 100%;width: 100%;margin: 0;}
+.client_to_client_popup .modal-body {padding: 15px;}
+.client_to_client_popup_cont_inner {width: 100%;margin: 15px auto 0;}
+.client_to_client_popup_cont_inner h6{font-size: 12px;}
+.client_to_client_popup_cont_inner h5 {font-size: 18px;}
+.comp_list li:first-child {font-size: 20px;}
+.comp_list li {margin: 0 10px 0 0;}
+.comp_list li:last-child{font-size: 16px;}
+.client_to_client_popup_cont_inner h4 {margin: 10px 0;font-size: 18px;}
+.client_to_client_popup_cont_inner h4 span {font-size: 20px;padding-left: 12px;}
+.client_to_client_popup_cont_inner p {font-size: 16px;padding-left: 18px;margin: 0 0 10px 0;}
+.client_to_client_popup_cont_inner_tab_main {width: 100%;margin: 10px auto 30px;padding: 10px;}
+.client_to_client_popup_cont_inner_tab h6{font-size: 10px;}
+.client_to_client_popup_cont_inner_tab a {font-size: 10px;}
+.client_to_client_popup_cont_inner_tab_main h5{font-size: 18px;}
+.client_to_client_popup_cont_inner_tab_main h4{margin: 0px 0 10px 0;}
+.client_to_client_popup_cont_inner_tab_main h3 {font-size: 20px;padding: 0 0 5px 0;margin: 0px 0 15px 0;}
+.new_table_wal_clinet thead tr td{font-size: 12px;}
+.new_table_wal_clinet thead tr td i{font-size: 10px;}
+.new_table_wal_clinet tbody tr td{font-size: 18px;}
+.talent_wallet_sec_cash ul li {margin-right: 0;}
+.add_money_popup_sec_cont {padding: 20px;}
+.add_money_popup_sec_cont_top img {margin: 0 10px 0 0;width: 20px;}
+.add_money_popup_sec_cont_top p {font-size: 16px;}
+.add_money_popup_sec_cont_top {padding: 0 0 15px 0;}
+.add_money_popup_sec_cont_btm {padding-top: 15px;}
+.add_money_popup_sec_cont_btm h4 {font-size: 22px;margin: 0 0 15px 0;line-height: inherit;}
+.input_field {height: 45px;font-size: 14px;padding-left: 20px;border: 1px solid #F5F5F5;}
+.nav_tabs_card .nav-link {font-size: 12px;margin: 0 15px 0 0;}
+.other_wallet_sel button {font-size: 12px;background: #fff url(../images/select.png) no-repeat 130% center;
+    width: auto;top: -3px;}
+.nav_tabs_card_cont_main {grid-gap: 15px;width: 100%;}
+.nav_tabs_card_cont_main_single label{font-size: 12px;}
+.nav_tabs_card_cont_main_single input {height: 40px;font-size: 12px;padding-left: 12px;}
+.save_card_next .container {width: 100%;font-size: 10px;}
+.nav_tabs_card_cont {margin: 20px 0 0 0;}
+.Add_money_wallet_sec {margin: 15px 0 0 0;}
+.add_money_wal_btn {font-size: 12px;padding: 12px 15px;}
+.cancel_mon_btn{font-size: 12px;}
+.send_money_popup_sec_cont_sec {padding: 15px;margin: 20px 0 0 0;}
+.white_input_field {height: 40px;font-size: 12px;padding: 0 0 0 14px;}
+.send_money_popup_sec_cont_sec p{font-size: 12px;}
+.wallet_talent_details h6 {font-size: 18px;margin: 0 0 10px 0;}
+.wallet_talent_details_pic{display: block;}
+.wallet_talent_details_pic img {margin: 0 5px 15px 0;}
+.wallet_talent_details_pic_cont p{font-size: 14px;}
+.wallet_talent_details_pic_cont h6{font-size: 17px;}
+.wallet_talent_details_pic_cont h5{font-size: 14px;}
+.Withdraw_money_popup_sec .modal-body {padding: 15px;}
+.Withdraw_money_popup_sec_cont h4 { font-size: 22px;margin: 0 0 5px 0;}
+.Withdraw_money_popup_sec .close {position: relative;right: 0; top: 0;z-index: 1;opacity: 1;
+    display: block;width: 100%;text-align: right;}
+.Withdraw_money_popup_sec_cont p {font-size: 16px;margin: 0 0 14px 0;}
+.Withdraw_money_popup_sec_cont h5 {font-size: 22px;margin: 0 0 15px 0;}
+.Withdraw_money_popup_sec_cont_form {grid-template-columns: 1fr;grid-gap: 15px;}
+.talent_wallet_sec_inner_left_profile_cont {margin: 0 0 0 15px;}
+.account_add_confirm_pop_sec_cont{width: 100%;}
+.other_wallet_drop ul li {padding: 5px 0;text-align: center;}
+.other_wallet_drop {transform: translate3d(-60px, 30px, 0) !important;width: 110px;min-width: 110px;
+    background: #fff;border: 1.5px solid #121212;padding: 10px 15px;}
+.other_wallet_drop ul li a img{width: 70px;}
+.Add_money_wallet_sec ul li { margin: 0 10px 0 0;}
+.add_money_popup_sec_cont_btm h4{font-size: 20px;}
+
+
+
+
+
+
+
 
 }
+@media only screen and (min-width:715px) and (max-width:767px) {
+.container {width: 100% !important;max-width: 100% !important;}
+.profile_page_main .row .col-lg-3{width: 30%;}
+.profile_page_main .row .col-lg-9{width: 70%;}
+.new_left_sec_nav {grid-template-columns: 1fr 1fr 1fr;}
+.forcleintsubmenu{display: block;}
+.talent_settings .container { max-width: 640px !important;}
+.sub_menu li {display: inline-block !important;}
+.job_list_body_right_body_single_vac ul {grid-template-columns: 1fr 1fr 1fr;}
+#success_stories #cust_append {max-width: 100%;margin: 0 auto;display: grid;grid-template-columns: 1fr 1fr;grid-gap: 15px;}
+#success_stories .post h4{font-size: 20px !important;margin: 0 0 5px 0;}
+#success_stories{padding: 0px;}
+.post-content h2 {font-size: 22px !important;}
+.job_list_body_right_body_single_id ul li{display: inline-block;padding-right: 10px !important;}
+.inner_pages .all_head_main .all_head_left { flex: 0 0 30%;}
 
+
+
+.receipt_head_main { display: flex;}
+.receipt_head_main a img {flex: 0 0 250px;width: 250px;}
+.withdraw_request_receipt h3{font-size: 30px;}
+.withdraw_request_receipt h3 i {font-size: 30px;}
+.withdraw_request_receipt h6{font-size: 22px;}
+.withdraw_request_receipt p {font-size: 20px;text-align: left;}
+.withdraw_request_receipt_info {grid-template-columns: 1fr 1fr;width: 90%;}
+.talent_wallet_sec_inner .row .col-lg-5 {-ms-flex: 0 0 41.666667%;flex: 0 0 41.666667%;max-width: 41.666667%;}
+.talent_wallet_sec_inner .row .col-lg-7 {-ms-flex: 0 0 58.333333%;flex: 0 0 58.333333%;max-width: 58.333333%;}
+.talent_wallet_sec_inner_left_profile_cont {margin: 0 0 0 15px;}
+#add_money .modal-dialog {max-width: 650px;}
+#send_money .modal-dialog {max-width: 650px;}
+.Withdraw_money_popup_sec .modal-dialog {max-width: 650px;}
+.avail_withdraw_pop_sec .modal-dialog {max-width: 650px;}
+.amount_request_pop_sec .modal-dialog {max-width: 650px;}
+.client_to_client_popup .modal-dialog {max-width: 380px;}
+.talent_wallet_sec_inner_left_top h5 {font-size: 25px;}
+
+
+
+
+
+
+
+}
+@media only screen and (min-width:450px) and (max-width:767px) {
+.talent_man_msg{display: flex !important;align-items: center;}
+.talent_man_msg p{margin: 0 !important;}
+.forcleintsubmenu{display: block;}
+}
 
 @media only screen and (min-width:250px) and (max-width:319px) {
-	.location_span span {padding: 3px 8px;font-size: 9px;}
-	.forcleintsubmenu{display: block;}
-}
+.location_span span {padding: 3px 8px;font-size: 9px;}
+.forcleintsubmenu{display: block;}
+#add-more-cat-subcat .fa-times{font-size: 18px !important;}
+.choices__list--multiple .choices__item {padding: 4px 8px !important;font-size: 8px !important;}
+.choices input {height: 35px !important;font-size: 10px !important;}
+.nav_height {min-height: 10px !important;}
+.sorry_pop_inner p {font-size: 18px;}
+.job_list_body_right_body_single .client_pay {left: -185px !important;width: 220px;top: 30px;}
+.client_pay table tr td .blue_btn{font-size: 8px;}
+.client_pay table tr td .red_btn{font-size: 8px;}
+.client_pay table tr td{font-size: 10px;}
+.client_pay table tr td{padding: 0 0 5px 0;}
+.marker i{font-size: 16px;}
+.job_list_body_right_body_single_btn ul {grid-template-columns: 1fr 1fr;}
+.ethos_right_img_new{width: auto;}
+#success_stories .post h4{font-size: 20px !important;margin: 0 0 5px 0;}
+#success_stories #cust_append {max-width: 100%;}
+#success_stories{padding: 0px;}
+.post-content h2 {font-size: 20px !important;}
+.talent_setting_input_display {margin-bottom: 10px; display: inline-block;}
 
+
+
+
+}
 
 
 
