@@ -35,7 +35,7 @@
 <script src="js/jquery.mousewheel.min.js"></script>
 </head>
 <body class="inner_body">
-    
+
 <header class="all_head_inner inner_pages">
     <div class="container-fluid">
         <div class="row">
@@ -77,9 +77,6 @@
                             </li>
                             <li>
                                 <a href="#" class="join_btn bold">JOIN</a>
-                            </li>
-                            <li>
-                                <a href="#" class="search_btn"><i class="fas fa-search"></i></a>
                             </li>   
                         </ul>
                     </div>
@@ -137,42 +134,190 @@
     </div>
 </header>
 
-
-
-<section class="talent_crop_sec">
-    <div class="container">
+<section class="client_posting_form_sec">
+    <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-10 col-md-10 mx-auto">
-                <div class="talent_crop_sec_main">
-                    <div class="talent_crop_sec_head">
-                        <p>Select Image for your Profile</p>
+            <div class="col-lg-12 col-md-12">
+                <div class="client_posting_form_sec_main">
+                    <h4 class="post_job">Post a Job</h4>
+                    <div class="client_posting_form_sec_head">
+                        <ul>
+                            <li class="active">Job Details</li>
+                            <li>Preview</li>
+                            <li>Completion</li>
+                        </ul>
                     </div>
-                    <div class="talent_crop_sec_body">
-                        <a href="#" data-toggle="modal" data-target="#crop">
-                            <div class="talent_crop_sec_single">
-                                <img src="images/crop-img.jpg" alt="" title="">
-                                <i class="fas fa-check-circle"></i>
+                    <div class="client_posting_form_sec_body">
+                        <div class="client_posting_form_sec_body_single">
+                            <label>Project Title<i class="fas fa-info-circle"></i></label>
+                            <input type="text" name="" placeholder="Enter Project Title">
+                        </div>
+                        <div class="client_posting_form_sec_body_single">
+                            <label>Project Type<i class="fas fa-info-circle"></i></label>
+                            <div class="custom-select">
+                                <select>
+                                    <option>Select Project Type</option>
+                                    <option>On Location</option>
+                                    <option>Remote Job</option>
+                                    <option>Collaborations</option>
+                                    <option><a href="javascript:void(0);" id="showmenu">Barter</a></option>
+                                    <option>Experience</option>
+                                </select>
                             </div>
-                        </a>
-                        <div class="talent_crop_sec_single">
-                            <img src="images/crop-img.jpg" alt="" title="">
-                            <i class="fas fa-check-circle"></i>
+                            <div class="barter_box_sec">
+                                <h6>Barter</h6>
+                                <textarea placeholder="Enter Details here" rows="3"></textarea>
+                                <button type="button">Submit</button>  
+                            </div>
                         </div>
-                        <div class="talent_crop_sec_single">
-                            <img src="images/crop-img.jpg" alt="" title="">
-                            <i class="fas fa-check-circle"></i>
+                        <div class="client_posting_form_sec_body_single">
+                            <label>Job Title<i class="fas fa-info-circle"></i></label>
+                            <input type="text" name="" placeholder="Enter Project Title">
                         </div>
-                        <div class="talent_crop_sec_single">
-                            <img src="images/crop-img.jpg" alt="" title="">
-                            <i class="fas fa-check-circle"></i>
+                        <div class="client_posting_form_sec_body_single">
+                            <label>Job Type<i class="fas fa-info-circle"></i></label>
+                            <div class="custom-select">
+                                <select>
+                                    <option>Select Project Type</option>
+                                    <option>On Location</option>
+                                    <option>Remote Job</option>
+                                    <option>Collaborations</option>
+                                    <option>Barter</option>
+                                    <option>Experience</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="client_posting_form_sec_body_single">
+                            <label>Job Publish Date<i class="fas fa-info-circle"></i></label>
+                            <input type="text" name="" placeholder="DD / MM / YYYY">
+                        </div>
+                        <div class="client_posting_form_sec_body_single">
+                            <label>Job Expire Date<i class="fas fa-info-circle"></i></label>
+                            <input type="text" name="" placeholder="DD / MM / YYYY">
+                        </div>
+                        <div class="client_posting_form_sec_body_single">
+                            <label>Job Location<i class="fas fa-info-circle"></i></label>
+                            <input type="text" name="" placeholder="Enter Job Location">
+                        </div>
+                        <div class="client_posting_form_sec_body_single">
+                            <label>Job languages<i class="fas fa-info-circle"></i><span>5 Languages</span></label>
+                            <input type="text" name="" placeholder="Enter required job languages">
+                        </div>
+                        <div class="tw_grid_sys">
+                            <div class="client_posting_form_sec_body_single">
+                                <label>Category<i class="fas fa-info-circle"></i></label>
+                                <div class="custom-select">
+                                    <select>
+                                        <option>Select Category Type</option>
+                                        <option>On Location</option>
+                                        <option>Remote Job</option>
+                                        <option>Collaborations</option>
+                                        <option><a href="#"> Barter</a></option>
+                                        <option>Experience</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="client_posting_form_sec_body_single">
+                                <label>Sub Category<i class="fas fa-info-circle"></i></label>
+                                <div class="custom-select">
+                                    <select>
+                                        <option>Select Category Type</option>
+                                        <option>On Location</option>
+                                        <option>Remote Job</option>
+                                        <option>Collaborations</option>
+                                        <option>Barter</option>
+                                        <option>Experience</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tw_grid_sys">
+                            <div class="client_posting_form_sec_body_single">
+                                <label>Gender<i class="fas fa-info-circle"></i></label>
+                                <div class="custom-select">
+                                    <select>
+                                        <option>Select Gender Type</option>
+                                        <option>Male</option>
+                                        <option>Female</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="client_posting_form_sec_body_single">
+                                <label>Age Range<i class="fas fa-info-circle"></i></label>
+                                <div class="">
+                                    <input type="text" name="" placeholder="Minimum |  Maximum">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tw_grid_sys">
+                            <div class="client_posting_form_sec_body_single">
+                                <label>No of Vacany<i class="fas fa-info-circle"></i></label>
+                                <div class="">
+                                    <input type="text" name="" placeholder="Enter number">
+                                </div>
+                            </div>
+                            <div class="client_posting_form_sec_body_single">
+                                <label>Payment Scale<i class="fas fa-info-circle"></i></label>
+                                <div class="">
+                                    <input type="text" name="" placeholder="Enter Amount (per talent)">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tw_grid_sys">
+                            <div class="client_posting_form_sec_body_single">
+                                <label>Audition Required<i class="fas fa-info-circle"></i></label>
+                                <div class="custom-select">
+                                    <input type="text" name="" placeholder="Yes |  No">
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="skip_btn_sec"></div>
+                    <div class="jobs_desc_form">
+                        <div class="on_grid_sys">
+                            <div class="client_posting_form_sec_body_single">
+                                <label>Job Description<i class="fas fa-info-circle"></i></label>
+                                <div class="">
+                                    <textarea placeholder="Enter details here"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="jobs_desc_form">
+                        <div class="on_grid_sys">
+                            <div class="client_posting_form_sec_body_single">
+                                <label>In Exchange<i class="fas fa-info-circle"></i></label>
+                                <div class="">
+                                    <textarea placeholder="Enter details here"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="jobs_desc_form">
+                        <div class="on_grid_sys">
+                            <div class="client_posting_form_sec_body_single">
+                                <label>Shortlisted Message<i class="fas fa-info-circle"></i></label>
+                                <div class="">
+                                    <textarea placeholder="Enter details here"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="job_posting_submit_btn">
+                        <ul>
+                            <li>
+                                <a href="#">Save as Draft</a>
+                            </li>
+                            <li>
+                                <a href="#">Proceed</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
 
 <footer class="inner_ftr">
     <div class="container">
@@ -299,40 +444,97 @@
     </div>
 </div>
 
-<div class="crop_modal">
-    <div id="crop" class="modal fade" role="dialog">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-body">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <div class="crop_modal_img">
-                        <img src="images/crop-img-new.jpg">
-                    </div>
-                    <input id='selectedFile' class="disp-none" type='file' accept=".png, .jpg, .jpeg, .svg">
-                    <button id="upload-aphoto" class="btn-primary btn">Select image</button>
-                    <a href="#" class="crop_btn">Crop</a>
-                    <input class="file-upload hidden" id="fileUpload" type="file">
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 
-<!-- <div class="crop_modal">
-    <div id="crop" class="modal fade" role="dialog">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-body">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <div class="crop_modal_img">
-                        <img src="images/crop-img-new.jpg">
-                    </div>
-                    <a href="#" class="crop_btn">Crop</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div> -->
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#showmenu').click(function() {
+                $('.menu').toggle("slide");
+        });
+    });
+</script>
+
+
+<script>
+var x, i, j, l, ll, selElmnt, a, b, c;
+/*look for any elements with the class "custom-select":*/
+x = document.getElementsByClassName("custom-select");
+l = x.length;
+for (i = 0; i < l; i++) {
+  selElmnt = x[i].getElementsByTagName("select")[0];
+  ll = selElmnt.length;
+  /*for each element, create a new DIV that will act as the selected item:*/
+  a = document.createElement("DIV");
+  a.setAttribute("class", "select-selected");
+  a.innerHTML = selElmnt.options[selElmnt.selectedIndex].innerHTML;
+  x[i].appendChild(a);
+  /*for each element, create a new DIV that will contain the option list:*/
+  b = document.createElement("DIV");
+  b.setAttribute("class", "select-items select-hide");
+  for (j = 1; j < ll; j++) {
+    /*for each option in the original select element,
+    create a new DIV that will act as an option item:*/
+    c = document.createElement("DIV");
+    c.innerHTML = selElmnt.options[j].innerHTML;
+    c.addEventListener("click", function(e) {
+        /*when an item is clicked, update the original select box,
+        and the selected item:*/
+        var y, i, k, s, h, sl, yl;
+        s = this.parentNode.parentNode.getElementsByTagName("select")[0];
+        sl = s.length;
+        h = this.parentNode.previousSibling;
+        for (i = 0; i < sl; i++) {
+          if (s.options[i].innerHTML == this.innerHTML) {
+            s.selectedIndex = i;
+            h.innerHTML = this.innerHTML;
+            y = this.parentNode.getElementsByClassName("same-as-selected");
+            yl = y.length;
+            for (k = 0; k < yl; k++) {
+              y[k].removeAttribute("class");
+            }
+            this.setAttribute("class", "same-as-selected");
+            break;
+          }
+        }
+        h.click();
+    });
+    b.appendChild(c);
+  }
+  x[i].appendChild(b);
+  a.addEventListener("click", function(e) {
+      /*when the select box is clicked, close any other select boxes,
+      and open/close the current select box:*/
+      e.stopPropagation();
+      closeAllSelect(this);
+      this.nextSibling.classList.toggle("select-hide");
+      this.classList.toggle("select-arrow-active");
+    });
+}
+function closeAllSelect(elmnt) {
+  /*a function that will close all select boxes in the document,
+  except the current select box:*/
+  var x, y, i, xl, yl, arrNo = [];
+  x = document.getElementsByClassName("select-items");
+  y = document.getElementsByClassName("select-selected");
+  xl = x.length;
+  yl = y.length;
+  for (i = 0; i < yl; i++) {
+    if (elmnt == y[i]) {
+      arrNo.push(i)
+    } else {
+      y[i].classList.remove("select-arrow-active");
+    }
+  }
+  for (i = 0; i < xl; i++) {
+    if (arrNo.indexOf(i)) {
+      x[i].classList.add("select-hide");
+    }
+  }
+}
+/*if the user clicks anywhere outside the select box,
+then close all select boxes:*/
+document.addEventListener("click", closeAllSelect);
+</script>
+
 
 <script type="text/javascript">
     $(window).on('scroll', function() {

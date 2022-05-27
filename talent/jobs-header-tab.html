@@ -29,9 +29,9 @@
 <script src="js/intlTelInput.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js" defer ></script>
 
-
 </head>
 <body class="inner_body">
+
 <header class="all_head_inner inner_pages">
     <div class="container-fluid">
         <div class="row">
@@ -300,11 +300,72 @@
                                 </div>
                                 <div class="job_list_body_right_body new_right_body">
                                     <div class="job_list_body_right_body_single">
-                                        <div class="job_list_body_right_body_single_id">
+                                        <div class="job_list_body_right_body_single_id social_share_slide_flex">
                                             <ul>
                                                 <li>Job ID :<span> 762183</span></li>
                                                 <li>Job Expiry Date :<span> 20th May 2021</span></li>
                                             </ul>
+                                            <div class="social_share_slide">
+                                                <div class="share_btn_slide new_share_text" id="flip">
+                                                    <button>
+                                                        <i class="fas fa-share-alt" style="color: #1565c0;"></i>
+                                                    </button>
+                                                    <p class="share_link_text">Share Link</p>
+                                                </div>
+                                                <div id="panel">
+                                                    <ul class="social_slide_list">
+                                                        <li>
+                                                                
+                                                            <a href="#">
+                                                                <div class="tooltipp">
+                                                                    <i class="fas fa-copy" style="color: #E01E5A"></i>
+                                                                    <span class="tooltiptextt tooltip-topp">Copied</span>
+                                                                </div>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">
+                                                                <div class="tooltipp">
+                                                                    <i class="fab fa-facebook-f" style="color: #39569c;"></i>
+                                                                    <span class="tooltiptextt tooltip-topp">Fb</span>
+                                                                </div>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">
+                                                                <div class="tooltipp">
+                                                                    <i class="fab fa-twitter" style="color: #1DA1F2;"></i>
+                                                                    <span class="tooltiptextt tooltip-topp">Twitter</span>
+                                                                </div>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">
+                                                                <div class="tooltipp">
+                                                                    <i class="fab fa-linkedin-in" style="color: #0e76a8;"></i>
+                                                                    <span class="tooltiptextt tooltip-topp">Linkedin</span>
+                                                                </div>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">
+                                                                <div class="tooltipp">
+                                                                    <i class="fab fa-whatsapp" style="color: #25d366"></i>
+                                                                    <span class="tooltiptextt tooltip-topp">whatsapp</span>
+                                                                </div>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#">
+                                                                <div class="tooltipp">
+                                                                    <i class="fab fa-instagram" style="color: #C13584;"></i>
+                                                                    <span class="tooltiptextt tooltip-topp">Instagram</span>
+                                                                </div>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
                                         </div>
                                         <h3 class="head_title">Male Actor for Web Series for Netflix</h3>
                                         <div class="job_list_body_right_body_single_id">
@@ -355,6 +416,7 @@
                                             </ul>
                                         </div>
                                     </div>
+
                                     <div class="job_list_body_right_body_single">
                                         <div class="job_list_body_right_body_single_id">
                                             <ul>
@@ -756,6 +818,15 @@
     </div>
 </footer>
 <div class="overlay"></div>
+
+<script> 
+$(document).ready(function(){
+  $("#flip").click(function(){
+    $("#panel").toggle("slow");
+    $(".share_link_text").toggle("slow");
+  });
+});
+</script>
 
 
 <div class="fullScreen">

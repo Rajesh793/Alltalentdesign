@@ -8,7 +8,6 @@
 
 
 
-
 ::selection {
 	background:#0096C7;
 	color:#FFF;
@@ -96,7 +95,7 @@ a{outline:none; border:none;}
 .all_head_left img{width: 100%;}
 .all_head_right{position: relative;padding-right: 15px;}
 .all_head_right ul{position: relative;display: block;}
-.all_head_right ul li{padding: 0 0 0 15px;display: inline-block;color: #fff;position: relative;}
+.all_head_right ul li{padding: 0 0 0 15px;display: inline-block;color: #fff;position: relative;margin: 0;}
 .all_head_right ul li a{font-size: 20px;font-weight: 600;color: #fff;position: relative;}
 .all_head_right ul li button{font-size: 20px;font-weight: 600;color: #fff;position: relative;border: none;background: none;}
 .fbars{padding-left: 50px !important;}
@@ -315,7 +314,7 @@ a{outline:none; border:none;}
 .job_list_body_right_body::-webkit-scrollbar-track { box-shadow: inset 0 0 5px grey;  border-radius: 5px;} 
 .job_list_body_right_body::-webkit-scrollbar-thumb {background: grey; border-radius: 5px;}
 .job_list_body_right_body::-webkit-scrollbar-thumb:hover {background: grey;}
-.job_list_body_right_body_single{position: relative;box-shadow: 0px 10px 10px #00000029;border: 1px solid #D6D6D6;border-radius: 29px;padding: 20px 20px;margin: 0 0 30px 0;}
+.job_list_body_right_body_single{position: relative;box-shadow: 0px 10px 10px #00000029;border: 1px solid #D6D6D6;border-radius: 29px;padding: 30px 20px 40px;margin: 0 0 30px 0;}
 .job_list_body_right_body_single_id{position: relative;padding-bottom: 5px;}
 .job_list_body_right_body_single_id ul{position: relative;display: block;margin: 0px;}
 .job_list_body_right_body_single_id ul li{display: inline-block;padding-right: 15px;font-size: 17px;color: #000000;font-weight: 500;*padding-bottom: 10px;line-height: 30px;}
@@ -404,7 +403,7 @@ div[slider] > input[type=range]::-ms-tooltip { display: none;}
 .all_btn:hover{color: #000}
 .job_list_body_right_body::-webkit-scrollbar-track{/*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);*/border-radius: 0px;
 	background-color: #F5F5F5;border:0.5px solid #9B9B9B;}
-.job_list_body_right_body::-webkit-scrollbar{width: 16px;background-color: #F5F5F5;}
+.job_list_body_right_body::-webkit-scrollbar{width: 15px;background-color: #F5F5F5;}
 .job_list_body_right_body::-webkit-scrollbar-thumb{border-radius: 0px;/*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);*/
 	background-color: #9B9B9B;}
 .new_right_body{padding-right: 20px; margin-right: -50px;}
@@ -1147,7 +1146,7 @@ input:checked + .slider:before {-webkit-transform: translateX(35px);-ms-transfor
 .our_story_sec_right p{font-size: 17px;font-weight: 500;color: #000;}
 .our_story_sec_right ul{display: block;}
 .our_story_sec_right ul li{display: inline-block;margin-bottom: 15px;font-size: 17px;font-weight: 500;color: #000;}
-.our_story_sec .row{align-items: center;}
+.our_story_sec .row{align-items: flex-start;}
 .padd_left{padding-left: 20px;}
 .ethos_right_img{position: relative;margin:0 auto;text-align: center;}
 .ethos_right_img img{*width: 300px;width: 60%;}
@@ -1806,7 +1805,7 @@ select{-webkit-appearance: none;-moz-appearance: none;appearance: none;}
 .save_card_next .container {display: block;position: relative;padding-left: 30px;width: 85%;
     margin: 20px 0 10px 0;cursor: pointer;  font-size: 16px;-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;}
 .save_card_next .container input {position: absolute;opacity: 0;cursor: pointer;height: 0;width: 0;}
-.save_card_next .checkmark {position: absolute;top: 4px;left: 0;height: 16px;width: 16px;background-color: #F2F2F2;}
+.save_card_next .checkmark {position: absolute;top: 2px;left: 0;height: 16px;width: 16px;background-color: #F2F2F2;}
 .save_card_next .container b{color: #007FEB;font-weight: 500;}
 .save_card_next .container:hover input ~ .checkmark {background-color: #F2F2F2;}
 .save_card_next .container input:checked ~ .checkmark {background-color: #F2F2F2;}
@@ -1841,8 +1840,7 @@ select{-webkit-appearance: none;-moz-appearance: none;appearance: none;}
 .wallet_talent_details{position: relative;margin: 15px 0 0 0;}
 .wallet_talent_details h6{position: relative;font-size: 23px;color: #000000;font-weight: 600;margin: 0 0 20px 0;}
 .wallet_talent_details_pic{position: relative;display: flex;align-items: center;}
-.wallet_talent_details_pic img{width: 110px;height: 110px;border-radius: 50%;box-shadow: 0px 5px 15px #00000029;
-    margin: 0 25px 0 0;}
+.wallet_talent_details_pic img{width: 110px;height: 110px;border-radius: 50%;box-shadow: 0px 5px 15px #00000029;margin: 0 25px 0 0;}
 .wallet_talent_details_pic_cont p{position: relative;font-size: 16px;color: #121212;font-weight: 300;margin: 0 0 5px 0;}
 .wallet_talent_details_pic_cont h6{position: relative;color:#242424;font-size: 20px;color: #242424;font-weight: 500;margin: 0 0 8px 0;}
 .wallet_talent_details_pic_cont h5{position: relative;color:#242424;font-size: 18px;color: #242424;font-weight: 500;margin: 0 0 5px 0;}
@@ -2034,6 +2032,22 @@ select{-webkit-appearance: none;-moz-appearance: none;appearance: none;}
 
 
 
+.social_share_slide_flex{display: flex;align-items: center;justify-content: space-between;}
+.social_share_slide{position: relative;display: flex;align-items: center;}
+.share_btn_slide{display: inline-block;}
+.share_btn_slide button{position: relative;font-weight: 400; background: none;border: none;color: #000;margin-right: 5px;}
+.social_share_slide i{color: #000;font-size: 20px;}
+#panel {display: none;}
+.social_slide_list{position: relative;display: inline-block;}
+.social_slide_list li{display: inline-block;margin: 0 5px;padding: 0px !important;line-height: inherit !important;}
+.social_slide_list .tooltipp {position: relative;display: inline-block;opacity: 1;margin: 0;line-height: inherit;}
+.social_slide_list .tooltipp .tooltiptextt {visibility: hidden;position: absolute;width: 80px;background-color: #333;color: #fff;text-align: center; padding: 5px 0;border-radius: 6px; z-index: 1;opacity: 0;transition: opacity .6s;font-size: 12px;}
+.social_slide_list .tooltip-topp {bottom: 125%;left: 100%;margin-left: -50px;}
+.social_slide_list .tooltip-topp::after { content: "";position: absolute;top: 100%;left: 50%;margin-left: -5px;border-width: 5px;border-style: solid;border-color: #333 transparent transparent transparent;}
+.social_slide_list  .tooltipp:hover .tooltiptextt { visibility: visible; opacity: 1;}
+.job_list_body_right_body_single{position: relative;box-shadow: 0px 10px 10px #00000029;border: 1px solid #D6D6D6;border-radius: 29px;padding: 30px 20px 40px;margin: 0 0 30px 0;}
+.share_link_text{position: relative;margin: 0px;font-size: 14px;color: #1967c1;font-weight: 500;cursor: pointer;}
+.new_share_text{display: flex;align-items: center;}
 
 
 
@@ -2043,7 +2057,12 @@ select{-webkit-appearance: none;-moz-appearance: none;appearance: none;}
 
 
 
-    
+
+
+
+
+
+.panel{display: none;}    
 #account_add_confirm{padding: 0px;}
 #avail_withdraw_pop{padding: 0px;}
 
